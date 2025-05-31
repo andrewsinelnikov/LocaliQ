@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         {/* <li><a href="#about">Про нас</a></li> */}
-        <li><a href="#add">Додати виробника</a></li>
+        <li><Link to="/add-producer">Додати виробника</Link></li>
         <li><Link to="/login">Увійти</Link></li>
       </ul>
     </nav>
