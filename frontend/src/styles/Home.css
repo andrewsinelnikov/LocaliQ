@@ -11,51 +11,51 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .storefront-wrapper {
   background: white;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-  padding: 30px 25px;
-  width: 360px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  padding: 50px 40px;
+  width: 90%;
+  text-align: center;
+  max-width: 900px;
   position: relative;
 }
 
 .storefront-wrapper::after {
   content: "";
   position: absolute;
-  bottom: -12px;
-  left: 20px;
-  right: 20px;
-  height: 10px;
-  background: #b0bec5; /* підвіконня */
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  bottom: -14px;
+  left: 40px;
+  right: 40px;
+  height: 12px;
+  background: #b0bec5;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .storefront h1 {
-  font-size: 28px;
+  font-size: 36px;
   color: #0077cc;
-  margin-bottom: 10px;
   font-weight: 700;
-  text-align: center;
+  margin-bottom: 12px;
 }
 
 .tagline {
-  font-size: 16px;
+  font-size: 18px;
   color: #34495e;
-  margin-bottom: 25px;
+  margin-bottom: 36px;
   font-style: italic;
-  text-align: center;
 }
 
 .search-controls {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .search-controls select,
@@ -82,18 +82,57 @@
   background-color: #005fa3;
 }
 
-
-@media (max-width: 600px) {
-  .banner h1 {
-    font-size: 32px;
+/* 📱 Mobile styles */
+@media (max-width: 480px) {
+  .storefront-wrapper {
+    padding: 32px 20px;
+    border-radius: 12px;
   }
 
-  .banner h2 {
-    font-size: 18px;
+  .storefront-wrapper h1 {
+    font-size: 26px;
+  }
+
+  .tagline {
+    font-size: 15px;
+    margin-bottom: 24px;
   }
 
   .search-controls {
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+  }
+
+  .search-controls select,
+  .search-controls button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .storefront-wrapper::after {
+    left: 20px;
+    right: 20px;
+  }
+}
+
+/* 📲 Small tablets */
+@media (max-width: 768px) {
+  .storefront-wrapper {
+    width: 95%;
+  }
+
+  .storefront-wrapper h1 {
+    font-size: 30px;
+  }
+}
+
+/* 💻 Large screens */
+@media (min-width: 1200px) {
+  .storefront-wrapper {
+    max-width: 1000px;
+  }
+
+  .storefront-wrapper h1 {
+    font-size: 42px;
   }
 }
