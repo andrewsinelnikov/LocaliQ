@@ -1,5 +1,8 @@
 @import "leaflet/dist/leaflet.css";
 
+/* -------- Navbar --------- */
+@import url("./Navbar.css");
+
 body {
   margin: 0;
   font-family: sans-serif;
