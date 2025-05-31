@@ -1,70 +1,87 @@
 .home {
-  background-color: #fdfdfd;
+  background-color: #fefefe;
   font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.banner {
-  background: linear-gradient(to right, #e8f5e9, #e3f2fd);
-  padding: 100px 20px 60px;
-  text-align: center;
-  color: #2e3a59;
+.wall {
+  background-color: #e3e6ea; 
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
 }
 
-.banner h1 {
-  font-size: 48px;
+.storefront-wrapper {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  padding: 30px 25px;
+  width: 360px;
+  position: relative;
+}
+
+.storefront-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 20px;
+  right: 20px;
+  height: 10px;
+  background: #b0bec5; /* підвіконня */
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.storefront h1 {
+  font-size: 28px;
+  color: #0077cc;
+  margin-bottom: 10px;
   font-weight: 700;
-  margin-bottom: 20px;
-  color: #1e2d4a;
-}
-
-.banner h2 {
-  font-size: 22px;
-  font-weight: 400;
-  max-width: 640px;
-  margin: 0 auto;
-  color: #4a5a77;
-  line-height: 1.5;
-}
-
-.search-section {
-  padding: 40px 20px;
   text-align: center;
 }
 
-.search-section h3 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #2c3e50;
+.tagline {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 25px;
+  font-style: italic;
+  text-align: center;
 }
 
 .search-controls {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   gap: 12px;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.search-controls select {
-  padding: 10px 16px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+.search-controls select,
+.search-controls button {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccddee;
+  font-family: inherit;
 }
 
 .search-controls button {
-  padding: 10px 20px;
   background-color: #0077cc;
   color: white;
-  font-size: 16px;
+  font-weight: 600;
   border: none;
-  border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background-color 0.2s;
 }
 
 .search-controls button:hover {
   background-color: #005fa3;
 }
+
 
 @media (max-width: 600px) {
   .banner h1 {
