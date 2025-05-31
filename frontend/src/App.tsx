@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router';
+import type { IProducer } from './utils/types';
+
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Map from './components/Map';
 import Sidebar from './components/Sidebar';
 import data from './data/producers.json';
-import type { IProducer } from './utils/types';
+import Login from './components/Login';
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
@@ -66,6 +68,7 @@ const AppContent = () => {
             </div>
           }
         />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );
