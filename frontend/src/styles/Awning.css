@@ -1,0 +1,19 @@
+.awning {
+  display: flex;
+  overflow: hidden;
+  height: 60px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stripe {
+  flex: 1;
+  height: 100%;
+}
+
+.red {
+  background-color: #d32f2f;
+}
+
+.white {
+  background-color: #fff8e1;
+}

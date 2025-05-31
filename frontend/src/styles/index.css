@@ -4,6 +4,8 @@
 @import url("./Navbar.css");
 /* -------- Home --------- */
 @import url("./Home.css");
+/* -------- Awning --------- */
+@import url("./Awning.css");
 
 body {
   margin: 0;
