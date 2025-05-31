@@ -1,4 +1,3 @@
-import './style.css';
 import Map from './components/Map';
 import Sidebar from './components/Sidebar';
 import data from './data/producers.json';
