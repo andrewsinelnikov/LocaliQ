@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Еко-Мед",
+    "category": "Їжа",
+    "description": "Натуральний мед з Карпат",
+    "location": {
+      "lat": 48.847,
+      "lng": 24.022
+    }
+  },
+  {
+    "id": 2,
+    "name": "Handmade Wood",
+    "category": "Декор",
+    "description": "Дерев’яні меблі ручної роботи",
+    "location": {
+      "lat": 49.8397,
+      "lng": 24.0297
+    }
+  }
+]
