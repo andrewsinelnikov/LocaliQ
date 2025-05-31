@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -10,6 +10,20 @@ import type { IProducer } from './utils/types';
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
   const navigate = useNavigate();
+
+  // Встановлюємо реальну висоту (для mobile viewport fix)
+  useEffect(() => {
+    const setAppHeight = () => {
+      document.documentElement.style.setProperty(
+        '--app-height',
+        `${window.innerHeight}px`
+      );
+    };
+
+    setAppHeight();
+    window.addEventListener('resize', setAppHeight);
+    return () => window.removeEventListener('resize', setAppHeight);
+  }, []);
 
   const allProducers: IProducer[] = data;
   const categories = [...new Set(allProducers.map((p) => p.category))];

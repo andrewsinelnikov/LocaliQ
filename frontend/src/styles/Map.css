@@ -6,8 +6,9 @@
 
 .app {
   display: flex;
-  height: calc(100vh - 60px);
+  height: calc(var(--app-height) - 60px);
   overflow: hidden; /* щоб не було скролу, якщо зайвий контент */
+  flex-direction: row;
 }
 
 .map-container {
@@ -53,5 +54,11 @@
     height: 60vh;
     width: 100%;
     border-radius: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
   }
 }
