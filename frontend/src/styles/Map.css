@@ -1,5 +1,45 @@
-.leaflet-control-containerб
+.leaflet-control-container,
 .leaflet-top,
 .leaflet-control-zoom {
   z-index: 500 !important;
+}
+
+/* Контейнер сторінки з картою */
+.map-page {
+  background-color: #fefefe; /* як на home */
+  min-height: 100vh;
+  padding: 80px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Обгортка карти для стилізації */
+.leaflet-container {
+  width: 90%;
+  max-width: 1000px;
+  height: 80vh;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  border: 2px solid #0077cc; /* акцент кольором логотипу */
+  background: white;
+  overflow: hidden;
+}
+
+/* Підписи Leaflet контролів (збільшення/зменшення) */
+.leaflet-control-zoom,
+.leaflet-control-attribution {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Адаптивність */
+@media (max-width: 640px) {
+  .leaflet-container {
+    height: 60vh;
+    width: 100%;
+    border-radius: 12px;
+  }
 }
