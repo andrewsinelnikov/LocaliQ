@@ -35,6 +35,9 @@ const Login = () => {
           </label>
           <button type="submit">Увійти</button>
         </form>
+        <p className="alt-link">
+          Ще не маєш акаунту? <a href="/register">Зареєструватися</a>
+        </p>
       </div>
     </div>
   );
