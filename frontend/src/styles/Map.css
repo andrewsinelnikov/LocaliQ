@@ -7,7 +7,7 @@
 .app {
   display: flex;
   height: calc(var(--app-height) - 60px);
-  overflow: hidden; /* щоб не було скролу, якщо зайвий контент */
+  overflow: hidden;
   flex-direction: row;
 }
 

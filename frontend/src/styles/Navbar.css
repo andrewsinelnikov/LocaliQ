@@ -17,6 +17,11 @@
   color: #0077cc;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
 /* Nav Links */
 .nav-links {
   list-style: none;

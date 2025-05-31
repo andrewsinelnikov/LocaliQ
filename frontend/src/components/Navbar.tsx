@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">LocaliQ</div>
+      <div className="logo"><Link to="/">LocaliQ</Link></div>
 
       <button className="burger" onClick={toggleMenu} aria-label="Меню">
         <span className={isOpen ? 'line open' : 'line'}></span>
