@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Map from './components/Map';
 import Sidebar from './components/Sidebar';
 import data from './data/producers.json';
+import Register from './components/Register';
 import Login from './components/Login';
 
 const AppContent = () => {
@@ -68,6 +69,7 @@ const AppContent = () => {
             </div>
           }
         />
+        <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </>
