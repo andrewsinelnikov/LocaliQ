@@ -6,14 +6,16 @@
 @import url("./Home.css");
 /* -------- Awning --------- */
 @import url("./Awning.css");
-/* -------- Sidebar --------- */
-@import url("./Sidebar.css");
-/* -------- Map --------- */
-@import url("./Map.css");
 /* -------- Register --------- */
 @import url("./Register.css");
 /* -------- Login --------- */
 @import url("./Login.css");
+/* -------- AddProducer --------- */
+@import url("./AddProducer.css");
+/* -------- Sidebar --------- */
+@import url("./Sidebar.css");
+/* -------- Map --------- */
+@import url("./Map.css");
 
 html, body, #root {
   height: 100%; /* щоб 100% висота працювала на корені */

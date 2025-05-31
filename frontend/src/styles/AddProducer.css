@@ -1,0 +1,75 @@
+.add-producer-page {
+  min-height: calc(100dvh - 60px);
+  background-color: #fefefe;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.add-producer-box {
+  background: white;
+  padding: 36px 32px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 600px;
+}
+
+.add-producer-box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0077cc;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.add-producer-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add-producer-box label {
+  font-weight: 500;
+  color: #34495e;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-producer-box input[type='text'],
+.add-producer-box input[type='file'],
+.add-producer-box select,
+.add-producer-box textarea {
+  margin-top: 6px;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1.5px solid #ccddee;
+  border-radius: 10px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.add-producer-box button {
+  background-color: #0077cc;
+  color: white;
+  font-weight: 600;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 8px;
+}
+
+.add-producer-box button:hover {
+  background-color: #005fa3;
+}
+
+.map-wrapper {
+  margin-top: 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

@@ -4,11 +4,15 @@ import type { IProducer } from './utils/types';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Register from './components/Register';
+import Login from './components/Login';
+import AddProducer from './components/AddProducer';
 import Map from './components/Map';
 import Sidebar from './components/Sidebar';
 import data from './data/producers.json';
-import Register from './components/Register';
-import Login from './components/Login';
+
+<Route path="/add-producer" element={<AddProducer />} />
+
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
@@ -71,6 +75,7 @@ const AppContent = () => {
         />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/add-producer" element={<AddProducer />} />
       </Routes>
     </>
   );
