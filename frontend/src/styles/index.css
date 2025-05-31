@@ -10,6 +10,8 @@
 @import url("./Sidebar.css");
 /* -------- Map --------- */
 @import url("./Map.css");
+/* -------- Login --------- */
+@import url("./Login.css");
 
 html, body, #root {
   height: 100%; /* щоб 100% висота працювала на корені */
