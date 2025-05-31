@@ -1,0 +1,72 @@
+.sidebar {
+  width: 280px;
+  padding: 24px 20px;
+  background-color: #f9fbfd;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  color: #34495e;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-right: 1px solid #dde6f0;
+  border-radius: 0 12px 12px 0;
+}
+
+/* Заголовок категорій */
+.sidebar h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0077cc;
+  margin: 0;
+}
+
+/* Список категорій */
+.sidebar select {
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid #ccddee;
+  font-family: inherit;
+  color: #34495e;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background-color: white;
+  outline: none;
+}
+
+/* При фокусі */
+.sidebar select:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 6px #0077ccaa;
+}
+
+/* Опції */
+.sidebar option {
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    border-right: none;
+    border-bottom: 1px solid #dde6f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .sidebar h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .sidebar select {
+    width: auto;
+    flex-grow: 1;
+    max-width: 200px;
+  }
+}
+

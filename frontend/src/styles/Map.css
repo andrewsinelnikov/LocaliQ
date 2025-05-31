@@ -6,15 +6,8 @@
 
 .app {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 60px);
   overflow: hidden; /* щоб не було скролу, якщо зайвий контент */
-}
-
-.sidebar {
-  width: 300px;
-  padding: 20px;
-  background: #f3f3f3;
-  overflow-y: auto;
 }
 
 .map-container {
@@ -22,13 +15,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100%; /* додано */
+  height: 100%; 
 }
 
 /* Контейнер сторінки з картою */
 .map-page {
   background-color: #fefefe; /* як на home */
-  min-height: 100vh;
+  min-height: calc(100vh - 60px);
   /* padding: 80px 20px 40px; */
   display: flex;
   justify-content: center;
