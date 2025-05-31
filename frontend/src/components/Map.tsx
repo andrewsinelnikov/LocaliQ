@@ -1,49 +1,42 @@
-import { useEffect, useRef } from 'react';
-import mapboxgl from 'mapbox-gl';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import type { LatLngExpression } from 'leaflet';
+import { Icon } from 'leaflet';
 import type { IProducer } from '../utils/types';
-import 'mapbox-gl/dist/mapbox-gl.css';
 
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+// Optional: custom marker
+const customIcon = new Icon({
+  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+});
 
 interface MapProps {
   producers: IProducer[];
 }
 
 const Map = ({ producers }: MapProps) => {
-  const mapContainer = useRef<HTMLDivElement>(null);
-  const map = useRef<mapboxgl.Map | null>(null);
+  const center: LatLngExpression = [49.8397, 24.0297]; // Default center (Lviv)
 
-  useEffect(() => {
-    if (!map.current && mapContainer.current) {
-      map.current = new mapboxgl.Map({
-        container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [24.0311, 49.8429],
-        zoom: 6,
-      });
-    }
-
-    // Clear existing markers
-    map.current?.eachLayer((layer) => {
-      if ('id' in layer && layer.id.startsWith('marker')) {
-        map.current?.removeLayer(layer.id);
-        map.current?.removeSource(layer.id);
-      }
-    });
-
-    producers.forEach((producer) => {
-      new mapboxgl.Marker()
-        .setLngLat([producer.location.lng, producer.location.lat])
-        .setPopup(
-          new mapboxgl.Popup().setHTML(
-            `<strong>${producer.name}</strong><p>${producer.description}</p>`
-          )
-        )
-        .addTo(map.current!);
-    });
-  }, [producers]);
-
-  return <div ref={mapContainer} id="map"></div>;
+  return (
+    <MapContainer center={center} zoom={6} scrollWheelZoom={true} className="leaflet-container">
+      <TileLayer
+        attribution='&copy; <a href="https://osm.org">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      {producers.map((producer) => (
+        <Marker
+          key={producer.id}
+          position={[producer.location.lat, producer.location.lng]}
+          icon={customIcon}
+        >
+          <Popup>
+            <strong>{producer.name}</strong>
+            <p>{producer.description}</p>
+          </Popup>
+        </Marker>
+      ))}
+    </MapContainer>
+  );
 };
 
 export default Map;
