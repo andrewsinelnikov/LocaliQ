@@ -1,3 +1,4 @@
+import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import type { LatLngExpression } from 'leaflet';
 import { Icon } from 'leaflet';
@@ -18,24 +19,31 @@ const Map = ({ producers }: MapProps) => {
   const center: LatLngExpression = [49.8397, 24.0297]; // Default center (Lviv)
 
   return (
-    <MapContainer center={center} zoom={6} scrollWheelZoom={true} className="leaflet-container">
-      <TileLayer
-        attribution='&copy; <a href="https://osm.org">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      {producers.map((producer) => (
-        <Marker
-          key={producer.id}
-          position={[producer.location.lat, producer.location.lng]}
-          icon={customIcon}
-        >
-          <Popup>
-            <strong>{producer.name}</strong>
-            <p>{producer.description}</p>
-          </Popup>
-        </Marker>
-      ))}
-    </MapContainer>
+    <div className="map-page">
+      <MapContainer
+        center={center}
+        zoom={6}
+        scrollWheelZoom={true}
+        className="leaflet-container"
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://osm.org">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {producers.map((producer) => (
+          <Marker
+            key={producer.id}
+            position={[producer.location.lat, producer.location.lng]}
+            icon={customIcon}
+          >
+            <Popup>
+              <strong>{producer.name}</strong>
+              <p>{producer.description}</p>
+            </Popup>
+          </Marker>
+        ))}
+      </MapContainer>
+    </div>
   );
 };
 

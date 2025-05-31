@@ -9,30 +9,14 @@
 /* -------- Map --------- */
 @import url("./Map.css");
 
+html, body, #root {
+  height: 100%; /* щоб 100% висота працювала на корені */
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
-}
-
-.app {
-  display: flex;
-  height: 100vh;
-}
-
-.sidebar {
-  width: 300px;
-  padding: 20px;
-  background: #f3f3f3;
-  overflow-y: auto;
-}
-
-.map-container {
-  flex-grow: 1;
-  position: relative;
-}
-
-.leaflet-container {
-  height: 100%;
-  width: 100%;
 }
 
