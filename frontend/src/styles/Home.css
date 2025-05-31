@@ -1,12 +1,25 @@
 .banner {
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  padding: 80px 20px;
   text-align: center;
-  padding: 60px 20px;
-  background-color: #eef4ff;
+  color: #2e3a59;
+  border-bottom: 1px solid #d0d0d0;
 }
 
 .banner h1 {
-  font-size: 32px;
-  margin: 0;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #1e2d4a;
+}
+
+.banner h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #4a5a77;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 .search-block {
