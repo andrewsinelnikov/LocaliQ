@@ -1,0 +1,5 @@
+.leaflet-control-containerб
+.leaflet-top,
+.leaflet-control-zoom {
+  z-index: 500 !important;
+}
