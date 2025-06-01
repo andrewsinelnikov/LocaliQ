@@ -63,6 +63,6 @@ http://localhost:3000
 
 Контакти:
 - 📧 igormarchenko1934@gmail.com
-- 📧 andrewsinelnikov@gmail.com
+- 📧 ansinelnikov@gmail.com
 
 ---
