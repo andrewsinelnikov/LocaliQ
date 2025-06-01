@@ -26,6 +26,9 @@ const Navbar = () => {
     };
   }, [isOpen]);
 
+  // Close the menu when a link is clicked
+  const handleLinkClick = () => setIsOpen(false);
+
   return (
     <nav className="navbar">
       <div className="logo"><Link to="/">LocaliQ</Link></div>
