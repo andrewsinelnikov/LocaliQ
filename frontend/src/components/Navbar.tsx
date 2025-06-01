@@ -30,7 +30,7 @@ const Navbar = () => {
   const handleLinkClick = () => setIsOpen(false);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" ref={menuRef}>
       <div className="logo"><Link to="/">LocaliQ</Link></div>
 
       <button className="burger" onClick={toggleMenu} aria-label="Меню">
@@ -41,8 +41,8 @@ const Navbar = () => {
 
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         {/* <li><a href="#about">Про нас</a></li> */}
-        <li><Link to="/add-producer">Додати виробника</Link></li>
-        <li><Link to="/login">Увійти</Link></li>
+        <li><Link to="/add-producer" onClick={handleLinkClick}>Додати виробника</Link></li>
+        <li><Link to="/login" onClick={handleLinkClick}>Увійти</Link></li>
       </ul>
     </nav>
   );
