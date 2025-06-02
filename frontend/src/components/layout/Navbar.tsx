@@ -50,7 +50,7 @@ const Navbar = () => {
 
         {/* Іконка пошуку для мобільних */}
         <button className="search-icon" aria-label="Пошук">
-          🔍
+          <i className="fas fa-search"></i>
         </button>
         <select className="mobile-lang">
           <option value="uk">UA</option>
