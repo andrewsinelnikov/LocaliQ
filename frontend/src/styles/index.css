@@ -23,6 +23,7 @@
 
 :root {
   --color-primary: #0077cc;
+  --color-hover: #005fa3;
   --color-dark: #34495e;
   --color-bg: #fefefe;
   --color-border: #ccddee;
@@ -60,7 +61,7 @@ button {
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color: var(--color-hover);
 }
 
 form {
@@ -75,4 +76,3 @@ label {
   display: flex;
   flex-direction: column;
 }
-
