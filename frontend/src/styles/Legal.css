@@ -1,7 +1,7 @@
 .legal-page {
   min-height: calc(100dvh - 60px);
   background-color: #fefefe;
-  padding: 60px 20px;
+  padding: 10px 20px;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 .legal-content {
   max-width: 800px;
   background: white;
-  padding: 40px;
+  padding: 10px 40px;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }

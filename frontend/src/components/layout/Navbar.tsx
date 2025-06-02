@@ -2,47 +2,68 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  
-  // Close menu on outside click
+
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setIsOpen(false);
       }
     };
-
     if (isOpen) {
       document.addEventListener('mousedown', handleClickOutside);
-    } else {
-      document.removeEventListener('mousedown', handleClickOutside);
     }
-
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isOpen]);
 
-  // Close the menu when a link is clicked
   const handleLinkClick = () => setIsOpen(false);
 
   return (
     <nav className="navbar" ref={menuRef}>
-      <div className="logo"><Link to="/">LocaliQ</Link></div>
+      {/* Лого */}
+      <div className="logo">
+        <Link to="/">LocaliQ</Link>
+      </div>
 
-      <button className="burger" onClick={toggleMenu} aria-label="Меню">
-        <span className={isOpen ? 'line open' : 'line'}></span>
-        <span className={isOpen ? 'line open' : 'line'}></span>
-        <span className={isOpen ? 'line open' : 'line'}></span>
-      </button>
+      {/* Пошук */}
+      <div className="search-bar">
+        <input type="text" placeholder="Пошук..." />
+      </div>
 
-      <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <li><Link to="/add-producer" onClick={handleLinkClick}>Додати виробника</Link></li>
-        <li><Link to="/login" onClick={handleLinkClick}>Увійти</Link></li>
-      </ul>
+      {/* Навігація справа */}
+      <div className="navbar-right">
+        <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+          <li><Link to="/add-producer" onClick={handleLinkClick}>Додати виробника</Link></li>
+          <li>
+            <select className="lang-select">
+              <option value="uk">UA</option>
+              <option value="en">EN</option>
+            </select>
+          </li>
+          <li><Link to="/login" onClick={handleLinkClick}>Увійти</Link></li>
+        </ul>
+
+        {/* Іконка пошуку для мобільних */}
+        <button className="search-icon" aria-label="Пошук">
+          🔍
+        </button>
+        <select className="mobile-lang">
+          <option value="uk">UA</option>
+          <option value="en">EN</option>
+        </select>
+
+        {/* Бургер */}
+        <button className="burger" onClick={toggleMenu} aria-label="Меню">
+          <span className={isOpen ? 'line open' : 'line'}></span>
+          <span className={isOpen ? 'line open' : 'line'}></span>
+          <span className={isOpen ? 'line open' : 'line'}></span>
+        </button>
+      </div>
     </nav>
   );
 };

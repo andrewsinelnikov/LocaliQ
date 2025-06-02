@@ -8,39 +8,80 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-}
-
-/* Logo */
-.logo {
-  font-weight: 700;
-  font-size: 22px;
-  color: #0077cc;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #0077cc;
+  font-weight: 700;
+  font-size: 22px;
+  color: #0077cc;
+  text-decoration: none;
 }
 
-/* Nav Links */
+/* Центр — пошук */
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccddee;
+  border-radius: 8px;
+  min-width: 220px;
+}
+
+/* Правий блок */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Меню */
 .nav-links {
   list-style: none;
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 
 .nav-links li a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 
 .nav-links li a:hover {
   color: #0077cc;
 }
 
-/* Burger button - hidden on desktop */
+.lang-select, .mobile-lang {
+  padding: 6px 4px;
+  border-radius: 6px;
+  /* border: 1px solid #ccddee; */
+  border: none;
+  background: transparent; 
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.mobile-lang {
+  display: none;
+}
+
+/* Mobile only */
+.search-icon {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
 .burger {
   display: none;
   flex-direction: column;
@@ -50,8 +91,12 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
   z-index: 1100;
+  padding: 0;
+}
+
+.search-icon:hover, .burger:hover {
+  background-color: transparent;
 }
 
 .line {
@@ -61,7 +106,6 @@
   transition: all 0.3s ease;
 }
 
-/* Open state burger animation */
 .line.open:nth-child(1) {
   transform: rotate(45deg) translateY(6px);
 }
@@ -72,28 +116,43 @@
   transform: rotate(-45deg) translateY(-6px);
 }
 
-/* Mobile styles */
-@media (max-width: 640px) {
-  .burger {
-    display: flex;
+/* Responsive */
+@media (max-width: 768px) {
+  .search-bar {
+    display: none;
+  }
+
+  .search-icon {
+    display: block;
+  }
+
+  .lang-select {
+    display: none;
+  }
+
+  .mobile-lang {
+    display: block;
   }
 
   .nav-links {
     position: absolute;
     top: 40px;
-    left: 0;
     right: 0;
-    background-color: white;
+    left: 0;
+    background: white;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 16px 32px;
     gap: 16px;
+    padding: 16px 32px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transform: translateY(-200%);
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
   }
 
   .nav-links.open {
     transform: translateY(0);
+  }
+
+  .burger {
+    display: flex;
   }
 }
