@@ -1,14 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
-import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
-import { Icon } from 'leaflet';
-
-
-const customIcon = new Icon({
-  iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-});
+import { MapContainer, TileLayer } from 'react-leaflet';
+import LocationPicker from '../map/LocationPicker';
 
 interface IProducerForm {
   name: string;
@@ -20,23 +13,6 @@ interface IProducerForm {
 }
 
 const categories = ['Їжа', 'Декор', 'Одяг', 'Послуги', 'Інше'];
-
-const LocationPicker = ({
-  location,
-  onChange,
-}: {
-  location: { lat: number; lng: number };
-  onChange: (lat: number, lng: number) => void;
-}) => {
-  // Вибір точки на карті
-  useMapEvents({
-    click(e) {
-      onChange(e.latlng.lat, e.latlng.lng);
-    },
-  });
-
-  return <Marker position={[location.lat, location.lng]} icon={customIcon} />;
-};
 
 const AddProducerForm = () => {
   const [form, setForm] = useState<IProducerForm>({
