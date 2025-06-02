@@ -8,6 +8,10 @@ import MapPage from './pages/map';
 import AddProducerPage from './pages/AddProducerPage';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
+import TermsPage from './pages/TermsPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import CookiesPolicyPage from './pages/CookiesPolicyPage';
+import AccessibilityPage from './pages/AccessibilityPage';
 import Footer from './components/layout/Footer';
 
 import data from './data/producers.json';
@@ -64,6 +68,10 @@ const AppContent = () => {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
+        <Route path="/terms" element={<TermsPage />} />
+      <Route path="/privacy" element={<PrivacyPolicyPage />} />
+      <Route path="/cookies" element={<CookiesPolicyPage />} />
+      <Route path="/accessibility" element={<AccessibilityPage />} />
       </Routes>
       <Footer />
     </>

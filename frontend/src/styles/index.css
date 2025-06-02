@@ -18,6 +18,8 @@
 @import url("./Sidebar.css");
 /* -------- Map --------- */
 @import url("./Map.css");
+/* -------- Legal --------- */
+@import url("./Legal.css");
 
 :root {
   --color-primary: #0077cc;
