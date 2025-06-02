@@ -8,6 +8,7 @@ import MapPage from './pages/map';
 import AddProducerPage from './pages/AddProducerPage';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
+import Footer from './components/layout/Footer';
 
 import data from './data/producers.json';
 
@@ -64,6 +65,7 @@ const AppContent = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
       </Routes>
+      <Footer />
     </>
   );
 };
