@@ -1,4 +1,5 @@
 import Awning from './Awning';
+import CategorySelect from './CategorySelect';
 
 interface IHomeProps {
   onShowMap: () => void;
@@ -17,12 +18,11 @@ const Home = ({ onShowMap, categories, selected, onSelect }: IHomeProps) => {
             <p className="tagline">Знайди крафтових виробників поруч із собою</p>
 
             <div className="search-controls">
-                <select value={selected} onChange={(e) => onSelect(e.target.value)}>
-                    <option value="Усі">Усі категорії</option>
-                    {categories.map((cat, i) => (
-                    <option key={i} value={cat}>{cat}</option>
-                    ))}
-                </select>
+                <CategorySelect
+                  categories={categories}
+                  selected={selected}
+                  onSelect={onSelect}
+                />
                 <button onClick={onShowMap}>Показати на мапі</button>
             </div>
         </div>
