@@ -1,5 +1,5 @@
-import Map from '../components/Map';
-import Sidebar from '../components/Sidebar';
+import Map from '../components/map/Map';
+import Sidebar from '../components/layout/Sidebar';
 import type { IProducer } from '../utils/types';
 
 interface MapPageProps {

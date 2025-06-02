@@ -1,5 +1,5 @@
-import Awning from './Awning';
-import CategorySelect from './CategorySelect';
+import Awning from './layout/Awning';
+import CategorySelect from './common/CategorySelect';
 
 interface IHomeProps {
   onShowMap: () => void;

@@ -1,4 +1,4 @@
-import CategorySelect from './CategorySelect';
+import CategorySelect from '../common/CategorySelect';
 
 interface SidebarProps {
   categories: string[];

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
 import type { IProducer } from './utils/types';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 import HomePage from './pages';
 import MapPage from './pages/map';
 import AddProducerPage from './pages/AddProducerPage';
