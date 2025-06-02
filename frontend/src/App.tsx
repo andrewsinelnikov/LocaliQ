@@ -4,11 +4,11 @@ import type { IProducer } from './utils/types';
 
 import Navbar from './components/Navbar';
 import HomePage from './pages';
-import Register from './components/Register';
-import Login from './components/Login';
-import AddProducer from './components/AddProducer';
-import Map from './components/Map';
-import Sidebar from './components/Sidebar';
+import MapPage from './pages/map';
+import AddProducerPage from './pages/AddProducerPage';
+import LoginPage from './pages/login';
+import RegisterPage from './pages/register';
+
 import data from './data/producers.json';
 
 const AppContent = () => {
@@ -52,21 +52,17 @@ const AppContent = () => {
         <Route
           path="/map"
           element={
-            <div className="app">
-              <Sidebar
-                categories={categories}
-                selected={selectedCategory}
-                onSelect={setSelectedCategory}
-              />
-              <div className="map-container">
-                <Map producers={filteredProducers} />
-              </div>
-            </div>
+            <MapPage
+              producers={filteredProducers}
+              categories={categories}
+              selected={selectedCategory}
+              onSelect={setSelectedCategory}
+            />
           }
         />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/add-producer" element={<AddProducer />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/add-producer" element={<AddProducerPage />} />
       </Routes>
     </>
   );
