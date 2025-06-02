@@ -38,7 +38,7 @@ const LocationPicker = ({
   return <Marker position={[location.lat, location.lng]} icon={customIcon} />;
 };
 
-const AddProducer = () => {
+const AddProducerForm = () => {
   const [form, setForm] = useState<IProducerForm>({
     name: '',
     category: categories[0],
@@ -148,4 +148,4 @@ const AddProducer = () => {
   );
 };
 
-export default AddProducer;
+export default AddProducerForm;

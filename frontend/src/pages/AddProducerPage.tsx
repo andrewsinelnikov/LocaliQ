@@ -1,7 +1,7 @@
-import AddProducer from '../components/AddProducer';
+import AddProducerForm from '../components/AddProducerForm';
 
 const AddProducerPage = () => {
-  return <AddProducer />;
+  return <AddProducerForm />;
 };
 
 export default AddProducerPage;
