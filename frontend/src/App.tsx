@@ -11,9 +11,6 @@ import Map from './components/Map';
 import Sidebar from './components/Sidebar';
 import data from './data/producers.json';
 
-<Route path="/add-producer" element={<AddProducer />} />
-
-
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
 
