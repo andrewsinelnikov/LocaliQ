@@ -40,7 +40,6 @@ const Navbar = () => {
       </button>
 
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        {/* <li><a href="#about">Про нас</a></li> */}
         <li><Link to="/add-producer" onClick={handleLinkClick}>Додати виробника</Link></li>
         <li><Link to="/login" onClick={handleLinkClick}>Увійти</Link></li>
       </ul>
