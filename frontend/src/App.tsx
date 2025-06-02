@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router';
+import { BrowserRouter as Router, Routes, Route } from 'react-router';
 import type { IProducer } from './utils/types';
 
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import HomePage from './pages';
 import Register from './components/Register';
 import Login from './components/Login';
 import AddProducer from './components/AddProducer';
@@ -16,7 +16,6 @@ import data from './data/producers.json';
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
-  const navigate = useNavigate();
 
   // Встановлюємо реальну висоту (для mobile viewport fix)
   useEffect(() => {
@@ -39,10 +38,6 @@ const AppContent = () => {
       ? allProducers
       : allProducers.filter((p) => p.category === selectedCategory);
 
-  const handleShowMap = () => {
-    navigate('/map');
-  };
-
   return (
     <>
       <Navbar />
@@ -50,8 +45,7 @@ const AppContent = () => {
         <Route
           path="/"
           element={
-            <Home
-              onShowMap={handleShowMap}
+            <HomePage
               categories={categories}
               selected={selectedCategory}
               onSelect={setSelectedCategory}
