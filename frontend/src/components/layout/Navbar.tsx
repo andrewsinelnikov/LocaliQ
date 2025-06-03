@@ -93,6 +93,42 @@ const Navbar = () => {
         <button className="search-icon" aria-label="Пошук">
           <i className="fas fa-search"></i>
         </button>
+        <li className="mobile-lang" style={{ position: 'relative' }}>
+          <span
+            onClick={() => setLangMenuOpen(!langMenuOpen)}
+            style={{ cursor: 'pointer' }}
+          >
+            {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
+            <i className={`fas fa-chevron-down  fa-sm ${langMenuOpen ? 'rotated' : ''}`}></i>
+          </span>
+
+          {langMenuOpen && (
+            <ul className="lang-dropdown" style={{
+              position: 'absolute',
+              top: '75%',
+              right: -40,
+              backgroundColor: 'white',
+              border: '1px solid #ccddee',
+              borderRadius: '12px',
+              padding: '0.5rem',
+              listStyle: 'none',
+              zIndex: 1000
+            }}>
+              {Object.entries(languages).map(([code, name]) => (
+                <li
+                  key={code}
+                  onClick={() => {
+                    i18n.changeLanguage(code);
+                    setLangMenuOpen(false);
+                  }}
+                  style={{ padding: '0.25rem 0.5rem', cursor: 'pointer' }}
+                >
+                  {name}
+                </li>
+              ))}
+            </ul>
+          )}
+        </li>
 
         {/* Бургер */}
         <button className="burger" onClick={toggleMenu} aria-label="Меню">

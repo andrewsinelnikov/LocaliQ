@@ -54,7 +54,11 @@
   font-weight: 500;
 }
 
-.nav-links li a:hover, .lang-select:hover, .lang-dropdown li:hover {
+.nav-links li a:hover, 
+.lang-select:hover, 
+.lang-dropdown li:hover,
+.mobile-lang:hover,
+.search-icon:hover {
   color: var(--color-primary);
 }
 
@@ -69,7 +73,7 @@
   cursor: pointer;
 }
 
-.lang-select i {
+.lang-select i, .mobile-lang i {
   margin-left: 5px;
 }
 
