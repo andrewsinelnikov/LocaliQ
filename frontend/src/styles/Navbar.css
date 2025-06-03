@@ -48,13 +48,13 @@
   align-items: center;
 }
 
-.nav-links li a {
+.nav-links li a, .lang-select, .lang-dropdown li {
   text-decoration: none;
   color: var(--color-dark);
   font-weight: 500;
 }
 
-.nav-links li a:hover {
+.nav-links li a:hover, .lang-select:hover, .lang-dropdown li:hover {
   color: var(--color-primary);
 }
 
@@ -64,9 +64,13 @@
   /* border: 1px solid #ccddee; */
   border: none;
   background: transparent; 
-  font-size: 14px;
+  /* font-size: 14px; */
   font-family: inherit;
   cursor: pointer;
+}
+
+.lang-select i {
+  margin-left: 5px;
 }
 
 .mobile-lang {
