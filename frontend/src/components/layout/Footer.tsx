@@ -1,23 +1,27 @@
+import { useTranslation } from 'react-i18next';
+
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-inner">
         <div className="footer-left">
           <h3>LocaliQ</h3>
-          <p>Платформа для пошуку локальних виробників</p>
+          <p>{t('footer.description')}</p>
         </div>
 
         <div className="footer-links">
-          <h4>Навігація</h4>
+          <h4>{t('footer.navigation')}</h4>
           <ul>
-            <li><a href="/about">Про нас</a></li>
-            <li><a href="/add">Додати виробника</a></li>
-            <li><a href="/contact">Контакти</a></li>
+            <li><a href="/about">{t('footer.about')}</a></li>
+            <li><a href="/add">{t('footer.addProducer')}</a></li>
+            <li><a href="/contact">{t('footer.contact')}</a></li>
           </ul>
         </div>
 
         <div className="footer-social">
-          <h4>Ми в мережі</h4>
+          <h4>{t('footer.social')}</h4>
           <div className="social-icons">
             <a href="#"><i className="fab fa-facebook"></i></a>
             <a href="#"><i className="fab fa-instagram"></i></a>
@@ -27,15 +31,15 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} LocaliQ. Всі права захищено.</p>
+        <p>© {new Date().getFullYear()} LocaliQ. {t('footer.rights')}</p>
         <div className="footer-legal">
-          <a href="/terms">Умови користування</a>
+          <a href="/terms">{t('footer.terms')}</a>
           <span>•</span>
-          <a href="/privacy">Політика конфіденційності</a>
+          <a href="/privacy">{t('footer.privacy')}</a>
           <span>•</span>
-          <a href="/cookies">Політика Cookies</a>
+          <a href="/cookies">{t('footer.cookies')}</a>
           <span>•</span>
-          <a href="/accessibility">Доступність</a>
+          <a href="/accessibility">{t('footer.accessibility')}</a>
         </div>
       </div>
     </footer>
