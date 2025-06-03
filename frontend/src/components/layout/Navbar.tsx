@@ -38,7 +38,7 @@ const Navbar = () => {
       {/* Навігація справа */}
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/add-producer" onClick={handleLinkClick}>Додати виробника</Link></li>
+          <li><Link to="/add-producer" onClick={handleLinkClick}>Приєднатися як виробник</Link></li>
           <li>
             <select className="lang-select">
               <option value="uk">UA</option>
