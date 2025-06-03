@@ -3,65 +3,91 @@ import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+  const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [langMenuOpen, setLangMenuOpen] = useState(false);
+
   const menuRef = useRef<HTMLDivElement | null>(null);
-  const { t, i18n } = useTranslation();
+
+  const shortLanguages = { en: 'EN', uk: 'UA' };
+  const languages = { en: 'English', uk: 'Українська' };
 
   const toggleMenu = () => setIsOpen(!isOpen);
-
-  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    i18n.changeLanguage(e.target.value);
-  };
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setIsOpen(false);
+        setLangMenuOpen(false);
       }
     };
-    if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
-    }
+    document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [isOpen]);
-
-  const handleLinkClick = () => setIsOpen(false);
+  }, []);
 
   return (
     <nav className="navbar" ref={menuRef}>
-      {/* Лого */}
       <div className="logo">
         <Link to="/">LocaliQ</Link>
       </div>
 
-      {/* Пошук */}
       <div className="search-bar">
         <input type="text" placeholder={t('searchPlaceholder')} />
       </div>
 
-      {/* Навігація справа */}
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/add-producer" onClick={handleLinkClick}>{t('joinProducer')}</Link></li>
           <li>
-            <select className="lang-select" onChange={handleLanguageChange} value={i18n.language}>
-              <option value="uk">UA</option>
-              <option value="en">EN</option>
-            </select>
+            <Link to="/add-producer" onClick={() => setIsOpen(false)}>
+              {t('joinProducer')}
+            </Link>
           </li>
-          <li><Link to="/login" onClick={handleLinkClick}>{t('login')}</Link></li>
-        </ul>
 
-        {/* Іконка пошуку для мобільних */}
-        <button className="search-icon" aria-label={t('searchPlaceholder')}>
-          <i className="fas fa-search"></i>
-        </button>
-        <select className="mobile-lang" onChange={handleLanguageChange} value={i18n.language}>
-          <option value="uk">UA</option>
-          <option value="en">EN</option>
-        </select>
+          {/* Блок мовного меню */}
+          <li className="lang-menu" style={{ position: 'relative' }}>
+            <span
+              className="current-lang"
+              onClick={() => setLangMenuOpen(!langMenuOpen)}
+              style={{ cursor: 'pointer' }}
+            >
+              {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
+            </span>
+
+            {langMenuOpen && (
+              <ul className="lang-dropdown" style={{
+                position: 'absolute',
+                top: '100%',
+                left: 0,
+                backgroundColor: 'white',
+                border: '1px solid #ccc',
+                padding: '0.5rem',
+                listStyle: 'none',
+                zIndex: 1000
+              }}>
+                {Object.entries(languages).map(([code, name]) => (
+                  <li
+                    key={code}
+                    onClick={() => {
+                      i18n.changeLanguage(code);
+                      setLangMenuOpen(false);
+                    }}
+                    style={{ padding: '0.25rem 0.5rem', cursor: 'pointer' }}
+                  >
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+
+          <li>
+            <Link to="/login" onClick={() => setIsOpen(false)}>
+              {t('login')}
+            </Link>
+          </li>
+        </ul>
 
         {/* Бургер */}
         <button className="burger" onClick={toggleMenu} aria-label="Меню">
@@ -73,5 +99,6 @@ const Navbar = () => {
     </nav>
   );
 };
+
 
 export default Navbar;
