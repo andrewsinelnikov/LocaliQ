@@ -1,11 +1,17 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
+  const { t, i18n } = useTranslation();
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    i18n.changeLanguage(e.target.value);
+  };
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -32,27 +38,27 @@ const Navbar = () => {
 
       {/* Пошук */}
       <div className="search-bar">
-        <input type="text" placeholder="Пошук..." />
+        <input type="text" placeholder={t('searchPlaceholder')} />
       </div>
 
       {/* Навігація справа */}
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/add-producer" onClick={handleLinkClick}>Приєднатися як виробник</Link></li>
+          <li><Link to="/add-producer" onClick={handleLinkClick}>{t('joinProducer')}</Link></li>
           <li>
-            <select className="lang-select">
+            <select className="lang-select" onChange={handleLanguageChange} value={i18n.language}>
               <option value="uk">UA</option>
               <option value="en">EN</option>
             </select>
           </li>
-          <li><Link to="/login" onClick={handleLinkClick}>Увійти</Link></li>
+          <li><Link to="/login" onClick={handleLinkClick}>{t('login')}</Link></li>
         </ul>
 
         {/* Іконка пошуку для мобільних */}
-        <button className="search-icon" aria-label="Пошук">
+        <button className="search-icon" aria-label={t('searchPlaceholder')}>
           <i className="fas fa-search"></i>
         </button>
-        <select className="mobile-lang">
+        <select className="mobile-lang" onChange={handleLanguageChange} value={i18n.language}>
           <option value="uk">UA</option>
           <option value="en">EN</option>
         </select>

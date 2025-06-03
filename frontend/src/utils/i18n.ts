@@ -14,7 +14,7 @@ const resources = {
     translation: {
       joinProducer: 'Join as a producer',
       searchPlaceholder: 'Search...',
-      login: 'Login',
+      login: 'Sign in',
     },
   },
 };
