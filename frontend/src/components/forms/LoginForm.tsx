@@ -1,14 +1,38 @@
 import { useState } from 'react';
 
 const LoginForm = () => {
-  const [email, setEmail] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Реальна авторизація
-    alert(`Вхід як ${email}`);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const formData = new URLSearchParams();
+  formData.append('username', username);
+  formData.append('password', password);
+
+  try {
+    const response = await fetch('http://localhost:8000/api/auth/token', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: formData.toString(),
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      localStorage.setItem('access_token', data.access_token);
+      alert('Вхід успішний!');
+    } else {
+      const errorData = await response.json();
+      alert(`Помилка: ${errorData.detail || 'невірні дані'}`);
+    }
+  } catch (error) {
+    console.error('Помилка під час входу:', error);
+    alert('Помилка мережі');
+  }
+};
 
   return (
     <div className="login-page">
@@ -16,12 +40,12 @@ const LoginForm = () => {
         <h2>Увійти</h2>
         <form onSubmit={handleSubmit}>
           <label>
-            Email
+            Username
             <input
-              type="email"
-              value={email}
+              type="username"
+              value={username}
               required
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => setUsername(e.target.value)}
             />
           </label>
           <label>

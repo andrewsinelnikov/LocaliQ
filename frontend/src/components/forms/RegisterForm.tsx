@@ -2,17 +2,40 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
 const RegisterForm = () => {
-  const [name, setName] = useState('');
+  const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // TODO: Реєстрація (API або localStorage)
-    alert(`Реєстрація успішна для ${name}`);
-    navigate('/login');
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch('http://localhost:8000/api/auth/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        username,
+        email,
+        password,
+      }),
+    });
+
+    if (response.ok) {
+      alert('Реєстрація успішна!');
+      navigate('/login');
+    } else {
+      const errorData = await response.json();
+      alert(`Помилка: ${errorData.detail || 'невідомо'}`);
+    }
+  } catch (error) {
+    console.error('Помилка під час реєстрації:', error);
+    alert('Помилка мережі');
+  }
+};
+
 
   return (
     <div className="register-page">
@@ -24,8 +47,8 @@ const RegisterForm = () => {
             <input
               type="text"
               required
-              value={name}
-              onChange={(e) => setName(e.target.value)}
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
             />
           </label>
           <label>
