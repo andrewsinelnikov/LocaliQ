@@ -2,21 +2,12 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+import enTranslation from '../data/languages/en.json';
+import ukTranslation from '../data/languages/uk.json';
+
 const resources = {
-  uk: {
-    translation: {
-      joinProducer: 'Приєднатися як виробник',
-      searchPlaceholder: 'Пошук...',
-      login: 'Увійти',
-    },
-  },
-  en: {
-    translation: {
-      joinProducer: 'Join as a producer',
-      searchPlaceholder: 'Search...',
-      login: 'Sign in',
-    },
-  },
+  en: { translation: enTranslation },
+  uk: { translation: ukTranslation },
 };
 
 i18n
