@@ -53,6 +53,7 @@ const Navbar = () => {
               style={{ cursor: 'pointer' }}
             >
               {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
+              <i className={`fas fa-chevron-down ${langMenuOpen ? 'rotated' : ''}`}></i>
             </span>
 
             {langMenuOpen && (

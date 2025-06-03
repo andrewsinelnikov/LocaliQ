@@ -73,6 +73,11 @@
   display: none;
 }
 
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease-in-out;
+}
+
 /* Mobile only */
 .search-icon {
   display: none;
