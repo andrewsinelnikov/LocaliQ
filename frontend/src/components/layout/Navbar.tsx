@@ -34,14 +34,14 @@ const Navbar = () => {
       </div>
 
       <div className="search-bar">
-        <input type="text" placeholder={t('searchPlaceholder')} />
+        <input type="text" placeholder={t('navbar.searchPlaceholder')} />
       </div>
 
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li>
             <Link to="/add-producer" onClick={() => setIsOpen(false)}>
-              {t('joinProducer')}
+              {t('navbar.joinProducer')}
             </Link>
           </li>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
 
           <li>
             <Link to="/login" onClick={() => setIsOpen(false)}>
-              {t('login')}
+              {t('navbar.login')}
             </Link>
           </li>
         </ul>

@@ -1,5 +1,20 @@
 {
-  "joinProducer": "Приєднатися як виробник",
-  "searchPlaceholder": "Пошук...",
-  "login": "Увійти"
+  "navbar": {
+    "joinProducer": "Приєднатися як виробник",
+    "searchPlaceholder": "Пошук...",
+    "login": "Увійти"
+  },
+  "footer": {
+    "description": "Платформа для пошуку локальних виробників",
+    "navigation": "Навігація",
+    "about": "Про нас",
+    "addProducer": "Додати виробника",
+    "contact": "Контакти",
+    "social": "Ми в мережі",
+    "rights": "Всі права захищено.",
+    "terms": "Умови користування",
+    "privacy": "Політика конфіденційності",
+    "cookies": "Політика Cookies",
+    "accessibility": "Доступність"
+  }
 }

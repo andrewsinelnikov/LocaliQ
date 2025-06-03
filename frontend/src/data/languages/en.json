@@ -1,5 +1,20 @@
 {
-  "joinProducer": "Join as a producer",
-  "searchPlaceholder": "Search...",
-  "login": "Login"
+  "navbar": {
+    "joinProducer": "Join as a producer",
+    "searchPlaceholder": "Search...",
+    "login": "Sign in"
+  },
+  "footer": {
+    "description": "Platform for discovering local producers",
+    "navigation": "Navigation",
+    "about": "About us",
+    "addProducer": "Add producer",
+    "contact": "Contact",
+    "social": "We are online",
+    "rights": "All rights reserved.",
+    "terms": "Terms of use",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies policy",
+    "accessibility": "Accessibility"
+  }
 }
