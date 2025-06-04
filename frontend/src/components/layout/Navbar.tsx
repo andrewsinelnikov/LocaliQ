@@ -1,12 +1,16 @@
 import { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router'; // Виправлено імпорт
 import { useTranslation } from 'react-i18next';
 
-const Navbar = () => {
+interface NavbarProps {
+  isAuthenticated: boolean;
+  onLogout: () => void;
+}
+
+const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
-
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   const shortLanguages = { en: 'EN', uk: 'UA' };
@@ -52,21 +56,24 @@ const Navbar = () => {
               style={{ cursor: 'pointer' }}
             >
               {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
-              <i className={`fas fa-chevron-down  fa-sm ${langMenuOpen ? 'rotated' : ''}`}></i>
+              <i className={`fas fa-chevron-down fa-sm ${langMenuOpen ? 'rotated' : ''}`}></i>
             </span>
 
             {langMenuOpen && (
-              <ul className="lang-dropdown" style={{
-                position: 'absolute',
-                top: '160%',
-                right: -40,
-                backgroundColor: 'white',
-                border: '1px solid #ccddee',
-                borderRadius: '12px',
-                padding: '0.5rem',
-                listStyle: 'none',
-                zIndex: 1000
-              }}>
+              <ul
+                className="lang-dropdown"
+                style={{
+                  position: 'absolute',
+                  top: '160%',
+                  right: -40,
+                  backgroundColor: 'white',
+                  border: '1px solid #ccddee',
+                  borderRadius: '12px',
+                  padding: '0.5rem',
+                  listStyle: 'none',
+                  zIndex: 1000,
+                }}
+              >
                 {Object.entries(languages).map(([code, name]) => (
                   <li
                     key={code}
@@ -84,36 +91,44 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="/login" onClick={() => setIsOpen(false)}>
-              {t('navbar.login')}
-            </Link>
+            {isAuthenticated ? (
+              <button onClick={onLogout}>{t('Вийти')}</button>
+            ) : (
+              <Link to="/login" onClick={() => setIsOpen(false)}>
+                {t('navbar.login')}
+              </Link>
+            )}
           </li>
         </ul>
 
         <button className="search-icon" aria-label="Пошук">
           <i className="fas fa-search"></i>
         </button>
+
         <li className="mobile-lang" style={{ position: 'relative' }}>
           <span
             onClick={() => setLangMenuOpen(!langMenuOpen)}
             style={{ cursor: 'pointer' }}
           >
             {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
-            <i className={`fas fa-chevron-down  fa-sm ${langMenuOpen ? 'rotated' : ''}`}></i>
+            <i className={`fas fa-chevron-down fa-sm ${langMenuOpen ? 'rotated' : ''}`}></i>
           </span>
 
           {langMenuOpen && (
-            <ul className="lang-dropdown" style={{
-              position: 'absolute',
-              top: '75%',
-              right: -40,
-              backgroundColor: 'white',
-              border: '1px solid #ccddee',
-              borderRadius: '12px',
-              padding: '0.5rem',
-              listStyle: 'none',
-              zIndex: 1000
-            }}>
+            <ul
+              className="lang-dropdown"
+              style={{
+                position: 'absolute',
+                top: '75%',
+                right: -40,
+                backgroundColor: 'white',
+                border: '1px solid #ccddee',
+                borderRadius: '12px',
+                padding: '0.5rem',
+                listStyle: 'none',
+                zIndex: 1000,
+              }}
+            >
               {Object.entries(languages).map(([code, name]) => (
                 <li
                   key={code}
@@ -140,6 +155,5 @@ const Navbar = () => {
     </nav>
   );
 };
-
 
 export default Navbar;

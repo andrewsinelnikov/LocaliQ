@@ -18,8 +18,9 @@ import data from './data/producers.json';
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  // Встановлюємо реальну висоту (для mobile viewport fix)
+  // Mobile viewport height fix
   useEffect(() => {
     const setAppHeight = () => {
       document.documentElement.style.setProperty(
@@ -33,6 +34,33 @@ const AppContent = () => {
     return () => window.removeEventListener('resize', setAppHeight);
   }, []);
 
+  // Перевірка автентифікації користувача
+  useEffect(() => {
+    const token = localStorage.getItem('access_token');
+
+    if (token) {
+      fetch('http://localhost:8000/api/auth/me', {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log('Користувач:', data);
+          setIsAuthenticated(true); // Якщо запит успішний, користувач авторизований
+        })
+        .catch((err) => {
+          console.error('Помилка при отриманні користувача:', err);
+          setIsAuthenticated(false);
+        });
+    }
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('access_token');
+    setIsAuthenticated(false);
+  };
+
   const allProducers: IProducer[] = data;
   const categories = [...new Set(allProducers.map((p) => p.category))];
   const filteredProducers =
@@ -42,7 +70,7 @@ const AppContent = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar isAuthenticated={isAuthenticated} onLogout={handleLogout} />
       <Routes>
         <Route
           path="/"
@@ -66,12 +94,14 @@ const AppContent = () => {
           }
         />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/login" element={<LoginPage />} />
+        {!isAuthenticated ? (
+          <Route path="/login" element={<LoginPage />} />
+        ) : null}
         <Route path="/add-producer" element={<AddProducerPage />} />
         <Route path="/terms" element={<TermsPage />} />
-      <Route path="/privacy" element={<PrivacyPolicyPage />} />
-      <Route path="/cookies" element={<CookiesPolicyPage />} />
-      <Route path="/accessibility" element={<AccessibilityPage />} />
+        <Route path="/privacy" element={<PrivacyPolicyPage />} />
+        <Route path="/cookies" element={<CookiesPolicyPage />} />
+        <Route path="/accessibility" element={<AccessibilityPage />} />
       </Routes>
       <Footer />
     </>
