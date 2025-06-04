@@ -1,21 +1,31 @@
+import { useTranslation } from 'react-i18next';
+
 const AccessibilityPage = () => {
+  const { t, i18n } = useTranslation();
+
+  // Форматування дати відповідно до поточної мови
+  const formattedDate = new Date().toLocaleDateString(i18n.language);
+
   return (
     <div className="legal-page">
       <div className="legal-content">
-        <h1>Доступність</h1>
-        <p>Останнє оновлення: {new Date().toLocaleDateString('uk-UA')}</p>
+        <h1>{t('accessibility.title')}</h1>
+        <p>{t('accessibility.lastUpdated', { date: formattedDate })}</p>
 
-        <p>Ми прагнемо зробити LocaliQ доступним для всіх користувачів, незалежно від особливостей їхнього сприйняття.</p>
+        <p>{t('accessibility.intro')}</p>
 
-        <h2>Що ми робимо:</h2>
+        <h2>{t('accessibility.whatWeDoTitle')}</h2>
         <ul>
-        <li>Використовуємо читабельні шрифти</li>
-        <li>Контрастні кольори</li>
-        <li>Зрозумілу навігацію</li>
-        <li>Адаптивну верстку</li>
+          <li>{t('accessibility.whatWeDo.readableFonts')}</li>
+          <li>{t('accessibility.whatWeDo.contrastColors')}</li>
+          <li>{t('accessibility.whatWeDo.clearNavigation')}</li>
+          <li>{t('accessibility.whatWeDo.responsiveLayout')}</li>
         </ul>
 
-        <p>Якщо ви стикнулися з проблемою доступності — напишіть нам на <a href="mailto:access@localiq.ua">access@localiq.ua</a></p>
+        <p>
+          {t('accessibility.contactIntro')}{' '}
+          <a href="mailto:access@localiq.ua">access@localiq.ua</a>
+        </p>
       </div>
     </div>
   );
