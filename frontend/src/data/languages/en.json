@@ -4,6 +4,11 @@
     "searchPlaceholder": "Search...",
     "login": "Sign in"
   },
+  "home": {
+    "heading": "Your hub for quality goods",
+    "tagline": "Find local craft producers near you",
+    "showMap": "Show on map"
+  },
   "footer": {
     "description": "Platform for discovering local producers",
     "navigation": "Navigation",

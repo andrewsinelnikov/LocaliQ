@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import Awning from './layout/Awning';
 import CategorySelect from './common/CategorySelect';
 
@@ -9,13 +11,15 @@ interface IHomeProps {
 }
 
 const Home = ({ onShowMap, categories, selected, onSelect }: IHomeProps) => {
+  const { t } = useTranslation();
+  
   return (
     <div className="home">
       <Awning />
       <div className="wall">
         <div className="storefront-wrapper">
-            <h1>Твій хаб якісних речей</h1>
-            <p className="tagline">Знайди крафтових виробників поруч із собою</p>
+            <h1>{t('home.heading')}</h1>
+            <p className="tagline">{t('home.tagline')}</p>
 
             <div className="search-controls">
                 <CategorySelect
@@ -23,7 +27,7 @@ const Home = ({ onShowMap, categories, selected, onSelect }: IHomeProps) => {
                   selected={selected}
                   onSelect={onSelect}
                 />
-                <button onClick={onShowMap}>Показати на мапі</button>
+                <button onClick={onShowMap}>{t('home.showMap')}</button>
             </div>
         </div>
       </div>
