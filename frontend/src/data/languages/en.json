@@ -53,5 +53,28 @@
       "title": "3. How to manage cookies?",
       "content": "You can change cookie settings in your browser or disable them entirely."
     }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: {{date}}",
+    "intro": "LocaliQ respects your privacy. This policy explains how we collect, use, and protect your personal data.",
+    "section1": {
+      "title": "1. Data we collect",
+      "item1": "Name, email, password (during registration)",
+      "item2": "Contact and geolocation data if you add a producer"
+    },
+    "section2": {
+      "title": "2. How we use data",
+      "content": "For registration, authorization, improving platform functionality, and contacting you."
+    },
+    "section3": {
+      "title": "3. Third parties",
+      "content": "We do not share your data with third parties except as required by law."
+    },
+    "section4": {
+      "title": "4. Data protection",
+      "content": "We use modern security measures to protect your data."
+    }
   }
+
 }
