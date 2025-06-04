@@ -21,5 +21,18 @@
     "privacy": "Privacy policy",
     "cookies": "Cookies policy",
     "accessibility": "Accessibility"
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "lastUpdated": "Last updated: {{date}}",
+    "intro": "We strive to make LocaliQ accessible for all users, regardless of their perception differences.",
+    "whatWeDoTitle": "What we do:",
+    "whatWeDo": {
+      "readableFonts": "Use readable fonts",
+      "contrastColors": "High contrast colors",
+      "clearNavigation": "Clear navigation",
+      "responsiveLayout": "Responsive layout"
+    },
+    "contactIntro": "If you experience any accessibility issues — please contact us at"
   }
 }
