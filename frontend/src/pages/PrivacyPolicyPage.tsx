@@ -1,27 +1,31 @@
+import { useTranslation } from 'react-i18next';
+
 const PrivacyPolicyPage = () => {
+  const { t, i18n } = useTranslation();
+  const formattedDate = new Date().toLocaleDateString(i18n.language);
+
   return (
     <div className="legal-page">
       <div className="legal-content">
-        <h1>Політика конфіденційності</h1>
-        <p>Останнє оновлення: {new Date().toLocaleDateString('uk-UA')}</p>
+        <h1>{t('privacy.title')}</h1>
+        <p>{t('privacy.lastUpdated', { date: formattedDate })}</p>
 
-        <p>LocaliQ поважає вашу конфіденційність. У цій політиці пояснюється, як ми збираємо, використовуємо та захищаємо ваші особисті дані.</p>
+        <p>{t('privacy.intro')}</p>
 
-        <h2>1. Дані, які ми збираємо</h2>
+        <h2>{t('privacy.section1.title')}</h2>
         <ul>
-          <li>Ім’я, email, пароль (при реєстрації)</li>
-          <li>Контактні та геолокаційні дані, якщо ви додаєте виробника</li>
+          <li>{t('privacy.section1.item1')}</li>
+          <li>{t('privacy.section1.item2')}</li>
         </ul>
 
-        <h2>2. Як ми використовуємо дані</h2>
-        <p>Для реєстрації, авторизації, покращення роботи платформи та зв'язку з вами.</p>
+        <h2>{t('privacy.section2.title')}</h2>
+        <p>{t('privacy.section2.content')}</p>
 
-        <h2>3. Треті сторони</h2>
-        <p>Ми не передаємо ваші дані третім особам, окрім випадків, передбачених законом.</p>
+        <h2>{t('privacy.section3.title')}</h2>
+        <p>{t('privacy.section3.content')}</p>
 
-        <h2>4. Захист даних</h2>
-        <p>Ми використовуємо сучасні заходи безпеки для захисту ваших даних.</p>
-
+        <h2>{t('privacy.section4.title')}</h2>
+        <p>{t('privacy.section4.content')}</p>
       </div>
     </div>
   );
