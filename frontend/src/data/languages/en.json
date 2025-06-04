@@ -34,5 +34,24 @@
       "responsiveLayout": "Responsive layout"
     },
     "contactIntro": "If you experience any accessibility issues — please contact us at"
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "lastUpdated": "Last updated: {{date}}",
+    "intro": "This site uses cookies to improve user experience.",
+    "section1": {
+      "title": "1. What are cookies?",
+      "content": "These are small text files stored in your browser."
+    },
+    "section2": {
+      "title": "2. Why do we use them?",
+      "use1": "To save settings",
+      "use2": "For traffic analytics",
+      "use3": "To enable interface language functionality"
+    },
+    "section3": {
+      "title": "3. How to manage cookies?",
+      "content": "You can change cookie settings in your browser or disable them entirely."
+    }
   }
 }
