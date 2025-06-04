@@ -24,7 +24,7 @@ const AccessibilityPage = () => {
 
         <p>
           {t('accessibility.contactIntro')}{' '}
-          <a href="mailto:access@localiq.ua">access@localiq.ua</a>
+          <a href="mailto:access@localiq.com">access@localiq.com</a>
         </p>
       </div>
     </div>

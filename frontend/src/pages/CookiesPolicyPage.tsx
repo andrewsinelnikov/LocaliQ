@@ -1,25 +1,29 @@
+import { useTranslation } from 'react-i18next';
+
 const CookiesPolicyPage = () => {
+  const { t, i18n } = useTranslation();
+  const formattedDate = new Date().toLocaleDateString(i18n.language);
+
   return (
     <div className="legal-page">
       <div className="legal-content">
-        <h1>Політика використання Cookies</h1>
-        <p>Останнє оновлення: {new Date().toLocaleDateString('uk-UA')}</p>
+        <h1>{t('cookies.title')}</h1>
+        <p>{t('cookies.lastUpdated', { date: formattedDate })}</p>
 
-        <p>Цей сайт використовує файли cookie для покращення користувацького досвіду.</p>
+        <p>{t('cookies.intro')}</p>
 
-        <h2>1. Що таке cookies?</h2>
-        <p>Це невеликі текстові файли, що зберігаються у вашому браузері.</p>
+        <h2>{t('cookies.section1.title')}</h2>
+        <p>{t('cookies.section1.content')}</p>
 
-        <h2>2. Навіщо ми їх використовуємо?</h2>
+        <h2>{t('cookies.section2.title')}</h2>
         <ul>
-        <li>Для збереження налаштувань</li>
-        <li>Для аналітики відвідуваності</li>
-        <li>Для функціонування мови інтерфейсу</li>
+          <li>{t('cookies.section2.use1')}</li>
+          <li>{t('cookies.section2.use2')}</li>
+          <li>{t('cookies.section2.use3')}</li>
         </ul>
 
-        <h2>3. Як керувати cookies?</h2>
-        <p>Ви можете змінити налаштування cookies у своєму браузері або вимкнути їх повністю.</p>
-
+        <h2>{t('cookies.section3.title')}</h2>
+        <p>{t('cookies.section3.content')}</p>
       </div>
     </div>
   );
