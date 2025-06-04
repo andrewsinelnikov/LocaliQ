@@ -2,7 +2,7 @@ import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import type { LatLngExpression } from 'leaflet';
 import { Icon } from 'leaflet';
-import type { IProducer } from '../utils/types';
+import type { IProducer } from '../../utils/types';
 
 // Optional: custom marker
 const customIcon = new Icon({
