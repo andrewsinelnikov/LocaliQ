@@ -96,5 +96,18 @@
       "title": "4. Changes",
       "content": "We may change these terms without prior notice. The current version is always available on this page."
     }
+  },
+  "ideaForm": {
+    "title": "Share your idea",
+    "subtitle": "This will help us understand where to begin",
+    "idea": "What is your idea?",
+    "product": "What do you want to create or sell?",
+    "customer": "Who is your customer?",
+    "problem": "What problems does your product solve?",
+    "competitors": "Who are your competitors or similar projects?",
+    "motivation": "Your experience or motivation",
+    "optional": "(optional)",
+    "cta": "Start your project",
+    "thankYou": "Thank you! Your idea has been saved."
   }
 }

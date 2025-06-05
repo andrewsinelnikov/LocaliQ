@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const IdeaStartForm = () => {
+  const { t } = useTranslation();
+
   const [form, setForm] = useState({
     idea: '',
     product: '',
@@ -17,20 +20,19 @@ const IdeaStartForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // TODO: API call або localStorage
     console.log('Idea submitted:', form);
-    alert('Дякуємо! Вашу ідею збережено.');
+    alert(t('ideaForm.thankYou'));
   };
 
   return (
     <div className="form-producer-page">
       <div className="form-producer-box">
-        <h2>Поділіться своєю ідеєю</h2>
-        <p className="description">Це допоможе краще зрозуміти, з чого почати</p>
+        <h2>{t('ideaForm.title')}</h2>
+        <p className="description">{t('ideaForm.subtitle')}</p>
 
         <form onSubmit={handleSubmit}>
           <label>
-            Яка у вас ідея?
+            {t('ideaForm.idea')}
             <textarea
               value={form.idea}
               onChange={(e) => handleChange('idea', e.target.value)}
@@ -40,7 +42,7 @@ const IdeaStartForm = () => {
           </label>
 
           <label>
-            Що саме хочете створити або продавати?
+            {t('ideaForm.product')}
             <input
               type="text"
               value={form.product}
@@ -50,7 +52,7 @@ const IdeaStartForm = () => {
           </label>
 
           <label>
-            Хто ваш клієнт?
+            {t('ideaForm.customer')}
             <input
               type="text"
               value={form.customer}
@@ -60,7 +62,7 @@ const IdeaStartForm = () => {
           </label>
 
           <label>
-            Які проблеми вирішує ваш продукт?
+            {t('ideaForm.problem')}
             <textarea
               value={form.problem}
               onChange={(e) => handleChange('problem', e.target.value)}
@@ -70,7 +72,7 @@ const IdeaStartForm = () => {
           </label>
 
           <label>
-            Які є конкуренти або схожі проєкти? <span className="idea-box-optional">(необов’язково)</span>
+            {t('ideaForm.competitors')} <span className="idea-box-optional">{t('ideaForm.optional')}</span>
             <textarea
               value={form.competitors}
               onChange={(e) => handleChange('competitors', e.target.value)}
@@ -79,7 +81,7 @@ const IdeaStartForm = () => {
           </label>
 
           <label>
-            Ваш досвід або мотивація <span className="idea-box-optional">(необов’язково)</span>
+            {t('ideaForm.motivation')} <span className="idea-box-optional">{t('ideaForm.optional')}</span>
             <textarea
               value={form.motivation}
               onChange={(e) => handleChange('motivation', e.target.value)}
@@ -87,7 +89,7 @@ const IdeaStartForm = () => {
             />
           </label>
 
-          <button type="submit">Розпочати проєкт</button>
+          <button type="submit">{t('ideaForm.cta')}</button>
         </form>
       </div>
     </div>
