@@ -109,5 +109,19 @@
     "optional": "(optional)",
     "cta": "Start your project",
     "thankYou": "Thank you! Your idea has been saved."
+  },
+  "startProducer": {
+    "title": "Where do we start?",
+    "subtitle": "Are you already making something or offering services?",
+    "option_existing": {
+      "title": "I already have a business and want to add it to the platform",
+      "description": "Already creating something or offering services? Great! We'll help you become visible to the local community."
+    },
+    "option_idea": {
+      "title": "I have an idea and want to explore possibilities",
+      "description": "Haven’t started yet but thinking about a business? We’ll support you with idea analysis, first steps and resources."
+    },
+    "continue": "Continue",
+    "alert": "Please choose one of the options."
   }
 }

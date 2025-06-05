@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import { useTranslation } from 'react-i18next';
 
 const StartProducerForm = () => {
-  const [choice, setChoice] = useState('existing');
+  const [choice, setChoice] = useState<'existing' | 'idea'>('existing');
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -11,19 +13,17 @@ const StartProducerForm = () => {
     if (choice === 'existing') {
       navigate('/add-producer');
     } else if (choice === 'idea') {
-      navigate('/idea-start'); 
+      navigate('/idea-start');
     } else {
-      alert('Будь ласка, виберіть один із варіантів.');
+      alert(t('startProducer.alert'));
     }
   };
 
   return (
     <div className="form-producer-page">
       <div className="form-producer-box">
-        <h2>З чого починаємо?</h2>
-        <p className="description">
-          Чи ви вже щось виробляєте або надаєте послуги?
-        </p>
+        <h2>{t('startProducer.title')}</h2>
+        <p className="description">{t('startProducer.subtitle')}</p>
 
         <form onSubmit={handleSubmit}>
           <label className="radio-option">
@@ -35,10 +35,10 @@ const StartProducerForm = () => {
               onChange={() => setChoice('existing')}
             />
             <div>
-                <span className="option-title">Я вже маю свій бізнес і хочу додати його на платформу</span>
-                <p className="option-description">
-                    Ви вже щось виробляєте або надаєте послуги? Супер! Ми допоможемо вам стати помітними для локальної спільноти.
-                </p>
+              <span className="option-title">{t('startProducer.option_existing.title')}</span>
+              <p className="option-description">
+                {t('startProducer.option_existing.description')}
+              </p>
             </div>
           </label>
 
@@ -51,14 +51,14 @@ const StartProducerForm = () => {
               onChange={() => setChoice('idea')}
             />
             <div>
-                <span className="option-title">Я маю ідею і хочу дослідити можливості</span>
-                <p className="option-description">
-                    Ще не стартували, але думаєте про власну справу? Ми підтримаємо вас з аналізом ідеї, перших кроків та ресурсами.
-                </p>
+              <span className="option-title">{t('startProducer.option_idea.title')}</span>
+              <p className="option-description">
+                {t('startProducer.option_idea.description')}
+              </p>
             </div>
           </label>
 
-          <button type="submit">Продовжити</button>
+          <button type="submit">{t('startProducer.continue')}</button>
         </form>
       </div>
     </div>
