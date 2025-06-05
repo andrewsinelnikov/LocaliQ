@@ -44,7 +44,7 @@ const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li>
-            <Link to="/add-producer" onClick={() => setIsOpen(false)}>
+            <Link to="/start-producer" onClick={() => setIsOpen(false)}>
               {t('navbar.joinProducer')}
             </Link>
           </li>

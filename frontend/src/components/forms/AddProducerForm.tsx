@@ -39,8 +39,8 @@ const AddProducerForm = () => {
   };
 
   return (
-    <div className="add-producer-page">
-      <div className="add-producer-box">
+    <div className="form-producer-page">
+      <div className="form-producer-box">
         <h2>Додати виробника</h2>
         <form onSubmit={handleSubmit}>
           <label>
