@@ -32,6 +32,7 @@ const AddProducerForm = () => {
 
   const [photoPreview, setPhotoPreview] = useState<string | null>(null);
   const mapRef = useRef<L.Map | null>(null);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
   const navigate = useNavigate();
 
   const handleInputChange = (field: keyof IProducerForm, value: any) => {
@@ -39,6 +40,10 @@ const AddProducerForm = () => {
   };
   
   const handlePhotoChange = (file: File | null) => {
+    if (photoPreview) {
+      URL.revokeObjectURL(photoPreview);
+    }
+
     handleInputChange('photo', file);
     if (file) {
       const previewUrl = URL.createObjectURL(file);
@@ -116,6 +121,7 @@ const AddProducerForm = () => {
             <input
               type="file"
               accept="image/*"
+              ref={fileInputRef}
               onChange={(e) =>
                 handlePhotoChange(e.target.files ? e.target.files[0] : null)
               }
@@ -123,11 +129,28 @@ const AddProducerForm = () => {
           </label>
 
           {photoPreview && (
-            <img
-              src={photoPreview}
-              alt="Фото превʼю"
-              style={{ maxWidth: '100%', marginTop: 10, borderRadius: 10 }}
-            />
+            <div className="photo-preview-wrapper">
+              <img
+                src={photoPreview}
+                alt="Фото превʼю"
+                className="photo-preview"
+              />
+              <button
+                type="button"
+                className="photo-remove-btn"
+                onClick={() => {
+                  setPhotoPreview(null);
+                  handleInputChange('photo', null);
+                  handlePhotoChange(null);
+                  if (fileInputRef.current) {
+                    fileInputRef.current.value = '';
+                  }
+                }}
+                aria-label="Видалити фото"
+              >
+                <i className="fas fa-times"></i>
+              </button>
+            </div>
           )}
 
           <label>
