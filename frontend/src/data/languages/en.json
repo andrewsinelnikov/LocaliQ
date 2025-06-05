@@ -77,24 +77,24 @@
     }
   },
   "terms": {
-    "title": "Умови користування",
-    "lastUpdated": "Останнє оновлення: {{date}}",
-    "intro": "Користуючись платформою LocaliQ, ви погоджуєтеся дотримуватися цих умов. Якщо ви не згодні з ними — не використовуйте наш вебсайт.",
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: {{date}}",
+    "intro": "By using the LocaliQ platform, you agree to comply with these terms. If you do not agree — please do not use our website.",
     "section1": {
-      "title": "1. Призначення",
-      "content": "Платформа надає інформацію про локальних виробників. Ми не несемо відповідальності за точність даних, наданих користувачами."
+      "title": "1. Purpose",
+      "content": "The platform provides information about local producers. We are not responsible for the accuracy of data submitted by users."
     },
     "section2": {
-      "title": "2. Облікові записи",
-      "content": "Ви несете відповідальність за захист своїх облікових даних. Ми маємо право призупинити або видалити обліковий запис у разі порушення умов."
+      "title": "2. Accounts",
+      "content": "You are responsible for protecting your account credentials. We reserve the right to suspend or delete an account in case of violations."
     },
     "section3": {
-      "title": "3. Контент користувача",
-      "content": "Ви гарантуєте, що контент, який ви публікуєте, є правдивим та не порушує права третіх осіб."
+      "title": "3. User content",
+      "content": "You guarantee that any content you post is truthful and does not infringe the rights of third parties."
     },
     "section4": {
-      "title": "4. Зміни",
-      "content": "Ми можемо змінювати ці умови без попереднього повідомлення. Актуальна версія завжди доступна на цій сторінці."
+      "title": "4. Changes",
+      "content": "We may change these terms without prior notice. The current version is always available on this page."
     }
   }
 }
