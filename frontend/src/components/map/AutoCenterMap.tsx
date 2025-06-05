@@ -10,7 +10,7 @@ const AutoCenterMap = ({ lat, lng }: AutoCenterMapProps) => {
   const map = useMap();
 
   useEffect(() => {
-    map.setView([lat, lng], 13);
+    map.setView([lat, lng], 10);
   }, [lat, lng, map]);
 
   return null;

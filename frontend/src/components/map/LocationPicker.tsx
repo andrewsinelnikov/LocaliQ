@@ -1,4 +1,3 @@
-// src/components/map/LocationPicker.tsx
 import { Marker, useMapEvents } from 'react-leaflet';
 import { Icon } from 'leaflet';
 

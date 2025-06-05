@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import LocationPicker from '../map/LocationPicker';
+import AutoCenterMap from '../map/AutoCenterMap';
+import type L from 'leaflet';
 
 interface IProducerForm {
   name: string;
@@ -22,48 +24,40 @@ const AddProducerForm = () => {
     category: categories[0],
     description: '',
     photo: null,
-    location: { lat: 49.8397, lng: 24.0297 }, // Львів
+    location: { lat: 49.8397, lng: 24.0297 }, // Lviv
     contactPhone: '',
     contactEmail: '',
     contactSocial: '',
   });
 
-  const [photoPreview, setPhotoPreview] = useState<string | null>(null);
+  const mapRef = useRef<L.Map | null>(null);
   const navigate = useNavigate();
 
   const handleInputChange = (field: keyof IProducerForm, value: any) => {
     setForm((prev) => ({ ...prev, [field]: value }));
   };
-
-  const handlePhotoChange = (file: File | null) => {
-    handleInputChange('photo', file);
-    if (file) {
-      const previewUrl = URL.createObjectURL(file);
-      setPhotoPreview(previewUrl);
-    } else {
-      setPhotoPreview(null);
-    }
-  };
+  
 
   const handleGeolocation = () => {
-    if (!navigator.geolocation) {
-      alert('Геолокація не підтримується вашим браузером.');
-      return;
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((pos) => {
+        const { latitude, longitude } = pos.coords;
+        handleInputChange('location', { lat: latitude, lng: longitude });
+
+        // Центрувати карту
+        if (mapRef.current) {
+          mapRef.current.setView([latitude, longitude], 13);
+        }
+      });
+    } else {
+      alert('Геолокація недоступна.');
     }
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        handleInputChange('location', {
-          lat: pos.coords.latitude,
-          lng: pos.coords.longitude,
-        });
-      },
-      () => alert('Не вдалося визначити вашу локацію.')
-    );
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: зберегти форму через API/localStorage
+
+    // TODO: API або localStorage
     alert(`Виробник "${form.name}" доданий!`);
     navigate('/');
   };
@@ -90,7 +84,9 @@ const AddProducerForm = () => {
               onChange={(e) => handleInputChange('category', e.target.value)}
             >
               {categories.map((cat) => (
-                <option key={cat} value={cat}>{cat}</option>
+                <option key={cat} value={cat}>
+                  {cat}
+                </option>
               ))}
             </select>
           </label>
@@ -111,44 +107,35 @@ const AddProducerForm = () => {
               type="file"
               accept="image/*"
               onChange={(e) =>
-                handlePhotoChange(e.target.files ? e.target.files[0] : null)
+                handleInputChange('photo', e.target.files ? e.target.files[0] : null)
               }
             />
           </label>
 
-          {photoPreview && (
-            <img
-              src={photoPreview}
-              alt="Фото превʼю"
-              style={{ maxWidth: '100%', marginTop: 10, borderRadius: 10 }}
-            />
-          )}
-
-          <label>Контакти: Телефон
-            <input
-              type="text"
-              value={form.contactPhone}
-              onChange={(e) => handleInputChange('contactPhone', e.target.value)}
-              placeholder="+38..."
-            />
+          <label>
+              Телефон
+              <input
+                type="text"
+                value={form.contactPhone}
+                onChange={(e) => handleInputChange('contactPhone', e.target.value)}
+              />
           </label>
-
-          <label>Контакти: Email
-            <input
-              type="email"
-              value={form.contactEmail}
-              onChange={(e) => handleInputChange('contactEmail', e.target.value)}
-              placeholder="example@email.com"
-            />
+          <label>
+              Email
+              <input
+                type="email"
+                value={form.contactEmail}
+                onChange={(e) => handleInputChange('contactEmail', e.target.value)}
+              />
           </label>
-
-          <label>Контакти: Соцмережі
+          <label>
+              Соцмережі
             <input
-              type="text"
-              value={form.contactSocial}
-              onChange={(e) => handleInputChange('contactSocial', e.target.value)}
-              placeholder="Instagram, Facebook тощо"
-            />
+                type="text"
+                value={form.contactSocial}
+                onChange={(e) => handleInputChange('contactSocial', e.target.value)}
+                placeholder="Instagram, Facebook тощо"
+              />
           </label>
 
           <label>Оберіть локацію на карті</label>
@@ -156,8 +143,9 @@ const AddProducerForm = () => {
             <MapContainer
               center={[form.location.lat, form.location.lng]}
               zoom={13}
-              scrollWheelZoom={false}
-              style={{ height: 250, width: '100%', borderRadius: '12px' }}
+              scrollWheelZoom={true}
+              style={{ height: 250, width: '99%', borderRadius: '12px' }}
+              className="leaflet-container"
             >
               <TileLayer
                 attribution='&copy; <a href="https://osm.org">OpenStreetMap</a> contributors'
@@ -167,11 +155,13 @@ const AddProducerForm = () => {
                 location={form.location}
                 onChange={(lat, lng) => handleInputChange('location', { lat, lng })}
               />
+              <AutoCenterMap lat={form.location.lat} lng={form.location.lng} />
             </MapContainer>
+
           </div>
           <p className="geo-hint">
             <span onClick={handleGeolocation} className="geo-hint-text">
-              Визначити мою локацію автоматично
+              Визначити мою локацію
             </span>
           </p>
 
