@@ -83,6 +83,7 @@ const AddProducerForm = () => {
     <div className="form-producer-page">
       <div className="form-producer-box">
         <h2>{t('addProducer.title')}</h2>
+        <p className="description">{t('addProducer.subtitle')}</p>
         <form onSubmit={handleSubmit}>
           <label>
             {t('addProducer.name')}

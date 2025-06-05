@@ -127,6 +127,7 @@
   "addProducer": {
     "title": "Add Producer",
     "name": "Name / Business name",
+    "subtitle": "Tell us more about your product so locals can find you",
     "category": "Category",
     "description": "Description",
     "photo": "Photo",
