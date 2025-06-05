@@ -2,58 +2,54 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
 const StartProducer = () => {
+  const [choice, setChoice] = useState('');
   const navigate = useNavigate();
-  const [hasBusiness, setHasBusiness] = useState<null | boolean>(null);
 
-  const handleContinue = () => {
-    if (hasBusiness === true) {
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (choice === 'existing') {
       navigate('/add-producer');
-    } else if (hasBusiness === false) {
-      navigate('/idea-start');
+    } else if (choice === 'idea') {
+      navigate('/idea-start'); 
+    } else {
+      alert('Будь ласка, виберіть один із варіантів.');
     }
   };
 
   return (
     <div className="start-producer-page">
-      <div className="start-box">
+      <div className="start-producer-box">
         <h2>З чого починаємо?</h2>
-        <p className="question">Чи ви вже щось виробляєте або надаєте послуги?</p>
+        <p className="description">
+          Чи ви вже щось виробляєте або надаєте послуги?
+        </p>
 
-        <div className="option-list">
-          <label className={`option-card ${hasBusiness === true ? 'selected' : ''}`}>
+        <form onSubmit={handleSubmit}>
+          <label className="radio-option">
             <input
               type="radio"
-              name="producer-stage"
-              checked={hasBusiness === true}
-              onChange={() => setHasBusiness(true)}
+              name="producer-type"
+              value="existing"
+              checked={choice === 'existing'}
+              onChange={() => setChoice('existing')}
             />
-            <div className="option-content">
-              <strong>Так</strong>
-              <span>Я вже маю свій бізнес і хочу додати його на платформу</span>
-            </div>
+            <span>Я вже маю свій бізнес і хочу додати його на платформу</span>
           </label>
 
-          <label className={`option-card ${hasBusiness === false ? 'selected' : ''}`}>
+          <label className="radio-option">
             <input
               type="radio"
-              name="producer-stage"
-              checked={hasBusiness === false}
-              onChange={() => setHasBusiness(false)}
+              name="producer-type"
+              value="idea"
+              checked={choice === 'idea'}
+              onChange={() => setChoice('idea')}
             />
-            <div className="option-content">
-              <strong>Ще ні</strong>
-              <span>Я тільки маю ідею і хочу дослідити можливості</span>
-            </div>
+            <span>Я маю ідею і хочу дослідити можливості</span>
           </label>
-        </div>
 
-        <button
-          onClick={handleContinue}
-          disabled={hasBusiness === null}
-          className="continue-btn"
-        >
-          Продовжити
-        </button>
+          <button type="submit">Продовжити</button>
+        </form>
       </div>
     </div>
   );
