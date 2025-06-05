@@ -8,10 +8,10 @@ import MapPage from './pages/map';
 import AddProducerPage from './pages/AddProducerPage';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
-import TermsPage from './pages/TermsPage';
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
-import CookiesPolicyPage from './pages/CookiesPolicyPage';
-import AccessibilityPage from './pages/AccessibilityPage';
+import TermsPage from './pages/terms';
+import PrivacyPolicyPage from './pages/privacy';
+import CookiesPolicyPage from './pages/cookies';
+import AccessibilityPage from './pages/accessibility';
 import Footer from './components/layout/Footer';
 
 import data from './data/producers.json';
