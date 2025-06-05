@@ -127,3 +127,23 @@
   font-size: 14px;
   margin-left: 4px;
 }
+
+.geo-hint {
+  text-align: right;
+  margin-top: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.geo-hint-text {
+  color: #0077cc;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.geo-hint-text:hover {
+  color: #005fa3;
+}

@@ -9,7 +9,9 @@ interface IProducerForm {
   description: string;
   photo: File | null;
   location: { lat: number; lng: number };
-  contact: string;
+  contactPhone: string;
+  contactEmail: string;
+  contactSocial: string;
 }
 
 const categories = ['Їжа', 'Декор', 'Одяг', 'Послуги', 'Інше'];
@@ -20,20 +22,48 @@ const AddProducerForm = () => {
     category: categories[0],
     description: '',
     photo: null,
-    location: { lat: 49.8397, lng: 24.0297 }, // Lviv за замовчуванням
-    contact: '',
+    location: { lat: 49.8397, lng: 24.0297 }, // Львів
+    contactPhone: '',
+    contactEmail: '',
+    contactSocial: '',
   });
 
+  const [photoPreview, setPhotoPreview] = useState<string | null>(null);
   const navigate = useNavigate();
 
   const handleInputChange = (field: keyof IProducerForm, value: any) => {
     setForm((prev) => ({ ...prev, [field]: value }));
   };
 
+  const handlePhotoChange = (file: File | null) => {
+    handleInputChange('photo', file);
+    if (file) {
+      const previewUrl = URL.createObjectURL(file);
+      setPhotoPreview(previewUrl);
+    } else {
+      setPhotoPreview(null);
+    }
+  };
+
+  const handleGeolocation = () => {
+    if (!navigator.geolocation) {
+      alert('Геолокація не підтримується вашим браузером.');
+      return;
+    }
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        handleInputChange('location', {
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+        });
+      },
+      () => alert('Не вдалося визначити вашу локацію.')
+    );
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    // TODO: Зберегти дані - API, localStorage тощо
+    // TODO: зберегти форму через API/localStorage
     alert(`Виробник "${form.name}" доданий!`);
     navigate('/');
   };
@@ -60,9 +90,7 @@ const AddProducerForm = () => {
               onChange={(e) => handleInputChange('category', e.target.value)}
             >
               {categories.map((cat) => (
-                <option key={cat} value={cat}>
-                  {cat}
-                </option>
+                <option key={cat} value={cat}>{cat}</option>
               ))}
             </select>
           </label>
@@ -83,18 +111,43 @@ const AddProducerForm = () => {
               type="file"
               accept="image/*"
               onChange={(e) =>
-                handleInputChange('photo', e.target.files ? e.target.files[0] : null)
+                handlePhotoChange(e.target.files ? e.target.files[0] : null)
               }
             />
           </label>
 
-          <label>
-            Контакти
+          {photoPreview && (
+            <img
+              src={photoPreview}
+              alt="Фото превʼю"
+              style={{ maxWidth: '100%', marginTop: 10, borderRadius: 10 }}
+            />
+          )}
+
+          <label>Контакти: Телефон
             <input
               type="text"
-              value={form.contact}
-              onChange={(e) => handleInputChange('contact', e.target.value)}
-              placeholder="Телефон, Email, соцмережі"
+              value={form.contactPhone}
+              onChange={(e) => handleInputChange('contactPhone', e.target.value)}
+              placeholder="+38..."
+            />
+          </label>
+
+          <label>Контакти: Email
+            <input
+              type="email"
+              value={form.contactEmail}
+              onChange={(e) => handleInputChange('contactEmail', e.target.value)}
+              placeholder="example@email.com"
+            />
+          </label>
+
+          <label>Контакти: Соцмережі
+            <input
+              type="text"
+              value={form.contactSocial}
+              onChange={(e) => handleInputChange('contactSocial', e.target.value)}
+              placeholder="Instagram, Facebook тощо"
             />
           </label>
 
@@ -116,6 +169,11 @@ const AddProducerForm = () => {
               />
             </MapContainer>
           </div>
+          <p className="geo-hint">
+            <span onClick={handleGeolocation} className="geo-hint-text">
+              Визначити мою локацію автоматично
+            </span>
+          </p>
 
           <button type="submit">Додати виробника</button>
         </form>
