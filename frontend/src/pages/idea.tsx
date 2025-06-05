@@ -23,8 +23,8 @@ const IdeaStart = () => {
   };
 
   return (
-    <div className="idea-page">
-      <div className="idea-box">
+    <div className="form-producer-page">
+      <div className="form-producer-box">
         <h2>Поділіться своєю ідеєю</h2>
         <p className="description">Це допоможе краще зрозуміти, з чого почати</p>
 
@@ -70,7 +70,7 @@ const IdeaStart = () => {
           </label>
 
           <label>
-            Які є конкуренти або схожі проєкти? <span className="optional">(необов’язково)</span>
+            Які є конкуренти або схожі проєкти? <span className="idea-box-optional">(необов’язково)</span>
             <textarea
               value={form.competitors}
               onChange={(e) => handleChange('competitors', e.target.value)}
@@ -79,7 +79,7 @@ const IdeaStart = () => {
           </label>
 
           <label>
-            Ваш досвід або мотивація <span className="optional">(необов’язково)</span>
+            Ваш досвід або мотивація <span className="idea-box-optional">(необов’язково)</span>
             <textarea
               value={form.motivation}
               onChange={(e) => handleChange('motivation', e.target.value)}

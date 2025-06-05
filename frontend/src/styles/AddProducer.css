@@ -119,3 +119,11 @@
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+.idea-box-optional {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  font-size: 14px;
+  margin-left: 4px;
+}

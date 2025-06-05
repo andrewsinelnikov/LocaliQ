@@ -6,6 +6,7 @@ import Navbar from './components/layout/Navbar';
 import HomePage from './pages';
 import MapPage from './pages/map';
 import StartProducer from './pages/start';
+import IdeaStart from './pages/idea';
 import AddProducerPage from './pages/AddProducerPage';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
@@ -99,6 +100,7 @@ const AppContent = () => {
           <Route path="/login" element={<LoginPage />} />
         ) : null}
         <Route path="/start-producer" element={<StartProducer />} />
+        <Route path="/idea-start" element={<IdeaStart />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
