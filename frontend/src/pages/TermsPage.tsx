@@ -1,24 +1,28 @@
+import { useTranslation } from 'react-i18next';
+
 const TermsPage = () => {
+  const { t, i18n } = useTranslation();
+  const formattedDate = new Date().toLocaleDateString(i18n.language);
+
   return (
     <div className="legal-page">
       <div className="legal-content">
-        <h1>Умови користування</h1>
-        <p>Останнє оновлення: {new Date().toLocaleDateString('uk-UA')}</p>
+        <h1>{t('terms.title')}</h1>
+        <p>{t('terms.lastUpdated', { date: formattedDate })}</p>
 
-        <p>Користуючись платформою LocaliQ, ви погоджуєтеся дотримуватися цих умов. Якщо ви не згодні з ними — не використовуйте наш вебсайт.</p>
+        <p>{t('terms.intro')}</p>
 
-        <h2>1. Призначення</h2>
-        <p>Платформа надає інформацію про локальних виробників. Ми не несемо відповідальності за точність даних, наданих користувачами.</p>
+        <h2>{t('terms.section1.title')}</h2>
+        <p>{t('terms.section1.content')}</p>
 
-        <h2>2. Облікові записи</h2>
-        <p>Ви несете відповідальність за захист своїх облікових даних. Ми маємо право призупинити або видалити обліковий запис у разі порушення умов.</p>
+        <h2>{t('terms.section2.title')}</h2>
+        <p>{t('terms.section2.content')}</p>
 
-        <h2>3. Контент користувача</h2>
-        <p>Ви гарантуєте, що контент, який ви публікуєте, є правдивим та не порушує права третіх осіб.</p>
+        <h2>{t('terms.section3.title')}</h2>
+        <p>{t('terms.section3.content')}</p>
 
-        <h2>4. Зміни</h2>
-        <p>Ми можемо змінювати ці умови без попереднього повідомлення. Актуальна версія завжди доступна на цій сторінці.</p>
-
+        <h2>{t('terms.section4.title')}</h2>
+        <p>{t('terms.section4.content')}</p>
       </div>
     </div>
   );
