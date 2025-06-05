@@ -114,7 +114,7 @@
 }
 
 .map-wrapper {
-  margin-top: 8px;
+  margin-top: 4px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -133,6 +133,7 @@
   margin-top: 0;
   font-size: 14px;
   color: #555;
+  margin-bottom: 0;
 }
 
 .geo-hint-text {

@@ -30,6 +30,7 @@ const AddProducerForm = () => {
     contactSocial: '',
   });
 
+  const [photoPreview, setPhotoPreview] = useState<string | null>(null);
   const mapRef = useRef<L.Map | null>(null);
   const navigate = useNavigate();
 
@@ -37,6 +38,15 @@ const AddProducerForm = () => {
     setForm((prev) => ({ ...prev, [field]: value }));
   };
   
+  const handlePhotoChange = (file: File | null) => {
+    handleInputChange('photo', file);
+    if (file) {
+      const previewUrl = URL.createObjectURL(file);
+      setPhotoPreview(previewUrl);
+    } else {
+      setPhotoPreview(null);
+    }
+  };
 
   const handleGeolocation = () => {
     if (navigator.geolocation) {
@@ -107,10 +117,18 @@ const AddProducerForm = () => {
               type="file"
               accept="image/*"
               onChange={(e) =>
-                handleInputChange('photo', e.target.files ? e.target.files[0] : null)
+                handlePhotoChange(e.target.files ? e.target.files[0] : null)
               }
             />
           </label>
+
+          {photoPreview && (
+            <img
+              src={photoPreview}
+              alt="Фото превʼю"
+              style={{ maxWidth: '100%', marginTop: 10, borderRadius: 10 }}
+            />
+          )}
 
           <label>
               Телефон
@@ -139,13 +157,13 @@ const AddProducerForm = () => {
           </label>
 
           <label>Оберіть локацію на карті</label>
-          <div className="map-wrapper">
+          <div className="map-wrapper" style={{ marginTop: '0' }}>
             <MapContainer
               center={[form.location.lat, form.location.lng]}
               zoom={13}
               scrollWheelZoom={true}
               style={{ height: 250, width: '99%', borderRadius: '12px' }}
-              className="leaflet-container"
+              // className="leaflet-container"
             >
               <TileLayer
                 attribution='&copy; <a href="https://osm.org">OpenStreetMap</a> contributors'
