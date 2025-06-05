@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
-const StartProducerPage = () => {
+const StartProducer = () => {
   const navigate = useNavigate();
   const [hasBusiness, setHasBusiness] = useState<null | boolean>(null);
 
@@ -59,4 +59,4 @@ const StartProducerPage = () => {
   );
 };
 
-export default StartProducerPage;
+export default StartProducer;

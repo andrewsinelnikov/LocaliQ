@@ -5,6 +5,7 @@ import type { IProducer } from './utils/types';
 import Navbar from './components/layout/Navbar';
 import HomePage from './pages';
 import MapPage from './pages/map';
+import StartProducer from './pages/start';
 import AddProducerPage from './pages/AddProducerPage';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
@@ -97,6 +98,7 @@ const AppContent = () => {
         {!isAuthenticated ? (
           <Route path="/login" element={<LoginPage />} />
         ) : null}
+        <Route path="/start-producer" element={<StartProducer />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
