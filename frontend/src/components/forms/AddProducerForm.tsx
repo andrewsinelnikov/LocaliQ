@@ -1,9 +1,10 @@
 import { useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router';
 import { MapContainer, TileLayer } from 'react-leaflet';
+import type L from 'leaflet';
 import LocationPicker from '../map/LocationPicker';
 import AutoCenterMap from '../map/AutoCenterMap';
-import type L from 'leaflet';
 
 interface IProducerForm {
   name: string;
@@ -30,6 +31,7 @@ const AddProducerForm = () => {
     contactSocial: '',
   });
 
+  const { t } = useTranslation();
   const [photoPreview, setPhotoPreview] = useState<string | null>(null);
   const mapRef = useRef<L.Map | null>(null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -80,10 +82,10 @@ const AddProducerForm = () => {
   return (
     <div className="form-producer-page">
       <div className="form-producer-box">
-        <h2>Додати виробника</h2>
+        <h2>{t('addProducer.title')}</h2>
         <form onSubmit={handleSubmit}>
           <label>
-            Ім’я / Назва бізнесу
+            {t('addProducer.name')}
             <input
               type="text"
               required
@@ -93,7 +95,7 @@ const AddProducerForm = () => {
           </label>
 
           <label>
-            Категорія
+            {t('addProducer.category')}
             <select
               value={form.category}
               onChange={(e) => handleInputChange('category', e.target.value)}
@@ -107,7 +109,7 @@ const AddProducerForm = () => {
           </label>
 
           <label>
-            Опис
+            {t('addProducer.description')}
             <textarea
               required
               value={form.description}
@@ -117,7 +119,7 @@ const AddProducerForm = () => {
           </label>
 
           <label>
-            Фото
+            {t('addProducer.photo')}
             <input
               type="file"
               accept="image/*"
@@ -132,7 +134,7 @@ const AddProducerForm = () => {
             <div className="photo-preview-wrapper">
               <img
                 src={photoPreview}
-                alt="Фото превʼю"
+                alt={t('addProducer.previewAlt')}
                 className="photo-preview"
               />
               <button
@@ -154,7 +156,7 @@ const AddProducerForm = () => {
           )}
 
           <label>
-              Телефон
+              {t('addProducer.phone')}
               <input
                 type="text"
                 value={form.contactPhone}
@@ -162,7 +164,7 @@ const AddProducerForm = () => {
               />
           </label>
           <label>
-              Email
+              {t('addProducer.email')}
               <input
                 type="email"
                 value={form.contactEmail}
@@ -170,16 +172,16 @@ const AddProducerForm = () => {
               />
           </label>
           <label>
-              Соцмережі
+              {t('addProducer.social')}
             <input
                 type="text"
                 value={form.contactSocial}
                 onChange={(e) => handleInputChange('contactSocial', e.target.value)}
-                placeholder="Instagram, Facebook тощо"
+                placeholder={t('addProducer.placeholderSocial')}
               />
           </label>
 
-          <label>Оберіть локацію на карті</label>
+          <label>{t('addProducer.mapLabel')}</label>
           <div className="map-wrapper" style={{ marginTop: '0' }}>
             <MapContainer
               center={[form.location.lat, form.location.lng]}
@@ -202,11 +204,11 @@ const AddProducerForm = () => {
           </div>
           <p className="geo-hint">
             <span onClick={handleGeolocation} className="geo-hint-text">
-              Визначити мою локацію
+              {t('addProducer.detectLocation')}
             </span>
           </p>
 
-          <button type="submit">Додати виробника</button>
+          <button type="submit">{t('addProducer.submit')}</button>
         </form>
       </div>
     </div>

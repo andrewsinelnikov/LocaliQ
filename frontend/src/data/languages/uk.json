@@ -123,5 +123,20 @@
     },
     "continue": "Продовжити",
     "alert": "Будь ласка, виберіть один із варіантів."
+  },
+  "addProducer": {
+    "title": "Додати виробника",
+    "name": "Ім’я / Назва бізнесу",
+    "category": "Категорія",
+    "description": "Опис",
+    "photo": "Фото",
+    "phone": "Телефон",
+    "email": "Електронна пошта",
+    "social": "Соцмережі",
+    "placeholderSocial": "Instagram, Facebook тощо",
+    "mapLabel": "Оберіть локацію на карті",
+    "detectLocation": "Визначити мою локацію",
+    "submit": "Додати",
+    "previewAlt": "Фото превʼю"
   }
 }

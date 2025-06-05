@@ -123,5 +123,20 @@
     },
     "continue": "Continue",
     "alert": "Please choose one of the options."
+  },
+  "addProducer": {
+    "title": "Add Producer",
+    "name": "Name / Business name",
+    "category": "Category",
+    "description": "Description",
+    "photo": "Photo",
+    "phone": "Phone",
+    "email": "Email",
+    "social": "Social media",
+    "placeholderSocial": "Instagram, Facebook etc.",
+    "mapLabel": "Select location on map",
+    "detectLocation": "Detect my location",
+    "submit": "Add",
+    "previewAlt": "Photo preview"
   }
 }
