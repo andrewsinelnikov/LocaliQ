@@ -4,6 +4,18 @@
     "searchPlaceholder": "Search...",
     "login": "Sign in"
   },
+  "register": {
+    "title": "Register",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Register",
+    "loginPrompt": "Already have an account?",
+    "loginLink": "Login",
+    "success": "Registration successful!",
+    "error": "Error:",
+    "networkError": "Network error"
+  },
   "home": {
     "heading": "Your hub for quality goods",
     "tagline": "Find local craft producers near you",

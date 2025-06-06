@@ -5,16 +5,16 @@
     "login": "Увійти"
   },
   "register": {
-    "title": "Register",
-    "name": "Name",
-    "email": "Email",
-    "password": "Password",
-    "submit": "Register",
-    "loginPrompt": "Already have an account?",
-    "loginLink": "Login",
-    "success": "Registration successful!",
-    "error": "Error:",
-    "networkError": "Network error"
+    "title": "Зареєструватися",
+    "name": "Ім’я",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "submit": "Зареєструватися",
+    "loginPrompt": "Вже є акаунт?",
+    "loginLink": "Увійти",
+    "success": "Реєстрація успішна!",
+    "error": "Помилка:",
+    "networkError": "Помилка мережі"
   },
   "home": {
     "heading": "Твій хаб якісних речей",
