@@ -42,10 +42,10 @@ const RegisterForm = () => {
   return (
     <div className="register-page">
       <div className="register-box">
-        <h2>Зареєструватися</h2>
+        <h2>{t('register.title')}</h2>
         <form onSubmit={handleSubmit}>
           <label>
-            Ім’я
+            {t('register.name')}
             <input
               type="text"
               required
@@ -54,7 +54,7 @@ const RegisterForm = () => {
             />
           </label>
           <label>
-            Електронна пошта
+            {t('register.email')}
             <input
               type="email"
               required
@@ -63,7 +63,7 @@ const RegisterForm = () => {
             />
           </label>
           <label>
-            Пароль
+            {t('register.password')}
             <input
               type="password"
               required
@@ -71,10 +71,10 @@ const RegisterForm = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </label>
-          <button type="submit">Зареєструватися</button>
+          <button type="submit">{t('register.submit')}</button>
         </form>
         <p className="alt-link">
-          Вже є акаунт? <a href="/login">Увійти</a>
+          {t('register.loginPrompt')} <a href="/login">{t('register.loginLink')}</a>
         </p>
       </div>
     </div>
