@@ -1,17 +1,19 @@
 interface ICategoryStandProps {
   name: string;
-  image: string;
+  imageUrl: string;
   isSelected: boolean;
   onClick: () => void;
 }
 
-const CategoryStand = ({ name, image, isSelected, onClick }: ICategoryStandProps) => {
+const CategoryStand = ({ name, imageUrl, isSelected, onClick }: ICategoryStandProps) => {
   return (
     <div
       className={`category-stand ${isSelected ? 'selected' : ''}`}
       onClick={onClick}
     >
-      <div className="image">{image}</div>
+      <div className="image-wrapper">
+        <img src={imageUrl} alt={name} />
+      </div>
       <div className="name">{name}</div>
     </div>
   );
