@@ -27,3 +27,8 @@
   border-color: #f29b4e;
   background: #fff3da;
 }
+
+.category-stand .image {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
