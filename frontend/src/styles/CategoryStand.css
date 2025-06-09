@@ -22,3 +22,8 @@
   background: #fff0d0;
   transform: translateY(-2px);
 }
+
+.category-stand.selected {
+  border-color: #f29b4e;
+  background: #fff3da;
+}
