@@ -1,0 +1,7 @@
+.category-stands-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
