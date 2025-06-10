@@ -167,6 +167,14 @@
     z-index: 999;
   }
 
+  .mobile-search-bar input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccddee;
+    border-radius: 8px;
+  }
+
   .lang-select {
     display: none;
   }
