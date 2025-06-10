@@ -10,6 +10,7 @@ interface NavbarProps {
 const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
@@ -36,6 +37,15 @@ const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
       <div className="logo">
         <Link to="/">LocaliQ</Link>
       </div>
+      {mobileSearchOpen && (
+        <div className="mobile-search-bar">
+          <input
+            type="text"
+            placeholder={t('navbar.searchPlaceholder')}
+            onBlur={() => setMobileSearchOpen(false)}
+          />
+        </div>
+      )}
 
       <div className="search-bar">
         <input type="text" placeholder={t('navbar.searchPlaceholder')} />
@@ -101,7 +111,14 @@ const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
           </li>
         </ul>
 
-        <button className="search-icon" aria-label="Пошук">
+        {/* <button className="search-icon" aria-label="Пошук">
+          <i className="fas fa-search"></i>
+        </button> */}
+        <button
+          className="search-icon"
+          aria-label="Пошук"
+          onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
+        >
           <i className="fas fa-search"></i>
         </button>
 
