@@ -12,12 +12,19 @@ const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   const shortLanguages = { en: 'EN', uk: 'UA' };
   const languages = { en: 'English', uk: 'Українська' };
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    if (mobileSearchOpen && searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, [mobileSearchOpen]);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -37,15 +44,15 @@ const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
       <div className="logo">
         <Link to="/">LocaliQ</Link>
       </div>
-      {mobileSearchOpen && (
-        <div className="mobile-search-bar">
-          <input
-            type="text"
-            placeholder={t('navbar.searchPlaceholder')}
-            onBlur={() => setMobileSearchOpen(false)}
-          />
-        </div>
-      )}
+
+      <div className={`mobile-search-bar ${mobileSearchOpen ? 'open' : ''}`}>
+        <input
+          type="text"
+          placeholder={t('navbar.searchPlaceholder')}
+          ref={searchInputRef}
+          onBlur={() => setMobileSearchOpen(false)}
+        />
+      </div>
 
       <div className="search-bar">
         <input type="text" placeholder={t('navbar.searchPlaceholder')} />
