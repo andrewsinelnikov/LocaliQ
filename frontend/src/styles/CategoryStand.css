@@ -66,3 +66,17 @@
     height: 100px;
   }
 }
+
+@media (max-width: 360px) {
+  .storefront-wrapper {
+    padding: 0 8px;
+  }
+
+  .category-stand {
+    min-width: 140px;
+  }
+
+  .category-stand-name {
+    font-size: 13px;
+  }
+}
