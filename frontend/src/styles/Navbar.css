@@ -23,7 +23,6 @@
   text-decoration: none;
 }
 
-/* Центр — пошук */
 .search-bar {
   flex-grow: 1;
   display: flex;
@@ -31,11 +30,12 @@
 }
 
 .search-bar input {
+  width: 100%;
+  max-width: 480px;
   padding: 8px 12px;
   font-size: 14px;
   border: 1px solid #ccddee;
   border-radius: 8px;
-  min-width: 220px;
 }
 
 /* Правий блок */
