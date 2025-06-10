@@ -9,6 +9,11 @@
   top: 0;
   z-index: 1000;
   font-family: 'Segoe UI', sans-serif;
+  gap: 16px;
+}
+
+.logo {
+  flex-shrink: 0;
 }
 
 .logo a {
@@ -23,7 +28,6 @@
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  margin-left: 6px;
 }
 
 .search-bar input {
@@ -137,7 +141,7 @@
 }
 
 /* Responsive */
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .search-bar {
     display: none;
   }

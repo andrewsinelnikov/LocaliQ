@@ -35,10 +35,14 @@
   --shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
 
-html, body, #root {
-  height: 100%; /* щоб 100% висота працювала на корені */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%; /* щоб 100% висота працювала на корені */
 }
 
 body {
