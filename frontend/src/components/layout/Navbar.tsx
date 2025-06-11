@@ -132,19 +132,25 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                   <i className={`fas fa-chevron-down fa-sm ${profileMenuOpen ? 'rotated' : ''}`}></i>
                 </span>
 
-                {isOpen && (
+                {profileMenuOpen && (
                   <ul className="profile-dropdown" style={{
                     position: 'absolute',
                     top: '160%',
                     right: 0,
-                    background: '#fff',
-                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
-                    borderRadius: '8px',
+                    backgroundColor: 'white',
                     padding: '0.5rem',
+                    border: '1px solid #ccddee',
+                    borderRadius: '12px',
                     listStyle: 'none'
                   }}>
-                    {/* <li><Link to="/profile"><FontAwesomeIcon icon={faUser} /> {t('navbar.myProfile')}</Link></li> */}
-                    {/* інші пункти */}
+                    <li><Link to="/profile">{t('navbar.myProfile')}</Link></li>
+                    {userRole === 'producer' ? (
+                      <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
+                    ) : null}
+                    {userRole === 'ideator' ? (
+                      <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
+                    ) : null}
+                    <li><Link to="/messages">{t('navbar.messages')}</Link></li>
                     <li><button onClick={onLogout}>
                       {t('navbar.logout')}
                     </button></li>

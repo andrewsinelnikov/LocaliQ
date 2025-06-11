@@ -4,8 +4,10 @@
     "map": "Map",
     "myOrders": "My orders",
     "joinProducer": "Join as a producer",
+    "myProfile": "My profile",
     "myBusiness": "My business",
     "myIdeas": "My ideas",
+    "messages": "Messages",
     "login": "Sign in",
     "logout": "Sign out"
   },
