@@ -2,12 +2,13 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router'; 
 import { useTranslation } from 'react-i18next';
 
-interface NavbarProps {
+interface INavbarProps {
   isAuthenticated: boolean;
+  userRole: 'guest' | 'consumer' | 'producer' | 'ideator' | 'hybrid';
   onLogout: () => void;
 }
 
-const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
+const Navbar = ({ isAuthenticated, onLogout }: INavbarProps) => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
