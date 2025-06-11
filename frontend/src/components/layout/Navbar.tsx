@@ -8,7 +8,7 @@ interface INavbarProps {
   onLogout: () => void;
 }
 
-const Navbar = ({ isAuthenticated, onLogout }: INavbarProps) => {
+const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
@@ -65,12 +65,14 @@ const Navbar = ({ isAuthenticated, onLogout }: INavbarProps) => {
           {isAuthenticated && (
             <li><Link to="/orders" onClick={() => setIsOpen(false)}>{t('navbar.myOrders')}</Link></li>
           )}
-          <li>
-            <Link to="/start-producer" onClick={() => setIsOpen(false)}>
-              {t('navbar.joinProducer')}
-            </Link>
-          </li>
-
+          {userRole === 'guest' || userRole === 'consumer' ? (
+            <li>
+              <Link to="/start-producer" onClick={() => setIsOpen(false)}>
+                {t('navbar.joinProducer')}
+              </Link>
+            </li>
+          ) : null}
+          
           {/* Блок мовного меню */}
           <li className="lang-select" style={{ position: 'relative' }}>
             <span
