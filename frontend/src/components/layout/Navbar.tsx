@@ -20,7 +20,11 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
   const shortLanguages = { en: 'En', uk: 'Укр' };
   const languages = { en: 'English', uk: 'Українська' };
 
-  const toggleMenu = () => setIsOpen(!isOpen);
+  const toggleMenu = () => {
+   setIsOpen(!isOpen); 
+   setLangMenuOpen(false);
+   setProfileMenuOpen(false);
+  }
 
   useEffect(() => {
     if (mobileSearchOpen && searchInputRef.current) {
@@ -185,7 +189,10 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
 
         <li className="mobile-lang" style={{ position: 'relative' }}>
           <span
-            onClick={() => setLangMenuOpen(!langMenuOpen)}
+            onClick={() => {
+              setLangMenuOpen(!langMenuOpen);
+              setIsOpen(false); 
+            }}
             style={{ cursor: 'pointer' }}
           >
             {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
