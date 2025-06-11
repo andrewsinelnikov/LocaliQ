@@ -2,6 +2,7 @@
   "navbar": {
     "joinProducer": "Приєднатися як виробник",
     "searchPlaceholder": "Пошук...",
+    "map": "Мапа",
     "login": "Увійти"
   },
   "register": {

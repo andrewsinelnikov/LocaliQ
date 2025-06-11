@@ -61,6 +61,7 @@ const Navbar = ({ isAuthenticated, onLogout }: INavbarProps) => {
 
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+          <li><Link to="/map" onClick={() => setIsOpen(false)}>{t('navbar.map')}</Link></li>
           <li>
             <Link to="/start-producer" onClick={() => setIsOpen(false)}>
               {t('navbar.joinProducer')}

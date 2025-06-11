@@ -2,6 +2,7 @@
   "navbar": {
     "joinProducer": "Join as a producer",
     "searchPlaceholder": "Search...",
+    "map": "Map",
     "login": "Sign in"
   },
   "register": {
