@@ -72,6 +72,9 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
               </Link>
             </li>
           ) : null}
+          {userRole === 'producer' || userRole === 'hybrid' ? (
+            <li><Link to="/my-business" onClick={() => setIsOpen(false)}>{t('navbar.myBusiness')}</Link></li>
+          ) : null}
           
           {/* Блок мовного меню */}
           <li className="lang-select" style={{ position: 'relative' }}>
