@@ -95,7 +95,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                 className="lang-dropdown"
                 style={{
                   position: 'absolute',
-                  top: '160%',
+                  top: '150%',
                   right: -40,
                   backgroundColor: 'white',
                   border: '1px solid #ccddee',
@@ -112,7 +112,6 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                       i18n.changeLanguage(code);
                       setLangMenuOpen(false);
                     }}
-                    style={{ padding: '0.25rem 0.5rem', cursor: 'pointer' }}
                   >
                     {name}
                   </li>
@@ -135,8 +134,8 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                 {profileMenuOpen && (
                   <ul className="profile-dropdown" style={{
                     position: 'absolute',
-                    top: '160%',
-                    right: 0,
+                    top: '150%',
+                    right: -20,
                     backgroundColor: 'white',
                     padding: '0.5rem',
                     border: '1px solid #ccddee',
@@ -151,7 +150,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                       <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
                     ) : null}
                     <li><Link to="/messages">{t('navbar.messages')}</Link></li>
-                    <li><button onClick={onLogout}>
+                    <li><button className='btn-transparent' onClick={onLogout}>
                       {t('navbar.logout')}
                     </button></li>
                   </ul>

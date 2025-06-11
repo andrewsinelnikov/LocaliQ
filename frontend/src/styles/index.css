@@ -72,6 +72,19 @@ button:hover {
   background-color: var(--color-hover);
 }
 
+.btn-transparent {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  background-color: transparent;
+  color: var(--color-dark);
+}
+
+.btn-transparent:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
 form {
   display: flex;
   flex-direction: column;
