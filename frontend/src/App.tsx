@@ -21,6 +21,7 @@ import data from './data/producers.json';
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('guest');
 
   // Mobile viewport height fix
   useEffect(() => {
@@ -49,12 +50,19 @@ const AppContent = () => {
         .then((res) => res.json())
         .then((data) => {
           console.log('Користувач:', data);
-          setIsAuthenticated(true); // Якщо запит успішний, користувач авторизований
+          setIsAuthenticated(true);
+
+          // 🔹 Присвоюємо роль, fallback — consumer
+          const roleFromBackend = data.role || 'consumer';
+          setUserRole(roleFromBackend);
         })
         .catch((err) => {
           console.error('Помилка при отриманні користувача:', err);
           setIsAuthenticated(false);
+          setUserRole('guest');
         });
+    } else {
+      setUserRole('guest');
     }
   }, []);
 
@@ -72,7 +80,7 @@ const AppContent = () => {
 
   return (
     <>
-      <Navbar isAuthenticated={isAuthenticated} onLogout={handleLogout} />
+      <Navbar isAuthenticated={isAuthenticated} userRole={userRole} onLogout={handleLogout} />
       <Routes>
         <Route
           path="/"
