@@ -33,6 +33,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setIsOpen(false);
         setLangMenuOpen(false);
+        setProfileMenuOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -83,7 +84,10 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           {/* Блок мовного меню */}
           <li className="lang-select" style={{ position: 'relative' }}>
             <span
-              onClick={() => setLangMenuOpen(!langMenuOpen)}
+              onClick={() => {
+                setLangMenuOpen(!langMenuOpen);
+                setProfileMenuOpen(false); 
+              }}
               style={{ cursor: 'pointer' }}
             >
               {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
@@ -124,7 +128,10 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
             {isAuthenticated ? (
               <li className="profile-menu" style={{ position: 'relative' }}>
                 <span
-                  onClick={() => setProfileMenuOpen(!profileMenuOpen)}
+                  onClick={() => {
+                    setProfileMenuOpen(!profileMenuOpen);
+                    setLangMenuOpen(false);
+                  }}
                   style={{ cursor: 'pointer' }}
                 >
                   <i className="fa-regular fa-user"></i>
@@ -150,13 +157,13 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                       <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
                     ) : null}
                     <li><Link to="/messages">{t('navbar.messages')}</Link></li>
+                    <hr />
                     <li><button className='btn-transparent' onClick={onLogout}>
                       {t('navbar.logout')}
                     </button></li>
                   </ul>
                 )}
               </li>
-              // <button onClick={onLogout}>{t('Вийти')}</button>
             ) : (
               <Link to="/login" onClick={() => setIsOpen(false)}>
                 {t('navbar.login')}

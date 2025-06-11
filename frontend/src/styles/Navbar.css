@@ -119,6 +119,13 @@
   margin-left: 5px;
 }
 
+.profile-dropdown hr {
+  margin: 0.5rem 0;
+  border: 0;
+  height: 1px;
+  background-color: #ccddee;
+}
+
 .mobile-lang {
   display: none;
 }
