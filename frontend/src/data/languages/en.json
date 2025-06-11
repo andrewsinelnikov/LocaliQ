@@ -6,7 +6,8 @@
     "joinProducer": "Join as a producer",
     "myBusiness": "My business",
     "myIdeas": "My ideas",
-    "login": "Sign in"
+    "login": "Sign in",
+    "logout": "Sign out"
   },
   "register": {
     "title": "Register",

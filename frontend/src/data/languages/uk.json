@@ -6,7 +6,8 @@
     "joinProducer": "Приєднатися як виробник",
     "myBusiness": "Мій бізнес",
     "myIdeas": "Мої ідеї",
-    "login": "Увійти"
+    "login": "Увійти",
+    "logout": "Вийти"
   },
   "register": {
     "title": "Зареєструватися",

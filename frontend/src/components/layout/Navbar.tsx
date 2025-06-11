@@ -123,7 +123,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
 
           <li>
             {isAuthenticated ? (
-              <div className="profile-menu" style={{ position: 'relative' }}>
+              <li className="profile-menu" style={{ position: 'relative' }}>
                 <span
                   onClick={() => setProfileMenuOpen(!profileMenuOpen)}
                   style={{ cursor: 'pointer' }}
@@ -131,7 +131,26 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                   <i className="fa-regular fa-user"></i>
                   <i className={`fas fa-chevron-down fa-sm ${profileMenuOpen ? 'rotated' : ''}`}></i>
                 </span>
-              </div>
+
+                {isOpen && (
+                  <ul className="profile-dropdown" style={{
+                    position: 'absolute',
+                    top: '160%',
+                    right: 0,
+                    background: '#fff',
+                    boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+                    borderRadius: '8px',
+                    padding: '0.5rem',
+                    listStyle: 'none'
+                  }}>
+                    {/* <li><Link to="/profile"><FontAwesomeIcon icon={faUser} /> {t('navbar.myProfile')}</Link></li> */}
+                    {/* інші пункти */}
+                    <li><button onClick={onLogout}>
+                      {t('navbar.logout')}
+                    </button></li>
+                  </ul>
+                )}
+              </li>
               // <button onClick={onLogout}>{t('Вийти')}</button>
             ) : (
               <Link to="/login" onClick={() => setIsOpen(false)}>
