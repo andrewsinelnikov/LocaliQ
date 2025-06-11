@@ -12,6 +12,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+  const [profileMenuOpen, setProfileMenuOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
@@ -122,7 +123,16 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
 
           <li>
             {isAuthenticated ? (
-              <button onClick={onLogout}>{t('Вийти')}</button>
+              <div className="profile-menu" style={{ position: 'relative' }}>
+                <span
+                  onClick={() => setProfileMenuOpen(!profileMenuOpen)}
+                  style={{ cursor: 'pointer' }}
+                >
+                  <i className="fa-regular fa-user"></i>
+                  <i className={`fas fa-chevron-down fa-sm ${profileMenuOpen ? 'rotated' : ''}`}></i>
+                </span>
+              </div>
+              // <button onClick={onLogout}>{t('Вийти')}</button>
             ) : (
               <Link to="/login" onClick={() => setIsOpen(false)}>
                 {t('navbar.login')}
