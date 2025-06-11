@@ -72,8 +72,11 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
               </Link>
             </li>
           ) : null}
-          {userRole === 'producer' || userRole === 'hybrid' ? (
+          {userRole === 'producer' ? (
             <li><Link to="/my-business" onClick={() => setIsOpen(false)}>{t('navbar.myBusiness')}</Link></li>
+          ) : null}
+          {userRole === 'ideator' ? (
+            <li><Link to="/my-ideas" onClick={() => setIsOpen(false)}>{t('navbar.myIdeas')}</Link></li>
           ) : null}
           
           {/* Блок мовного меню */}
