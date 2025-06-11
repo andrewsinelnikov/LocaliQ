@@ -16,7 +16,7 @@ const Navbar = ({ isAuthenticated, onLogout }: INavbarProps) => {
   const searchInputRef = useRef<HTMLInputElement | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
-  const shortLanguages = { en: 'EN', uk: 'UA' };
+  const shortLanguages = { en: 'En', uk: 'Укр' };
   const languages = { en: 'English', uk: 'Українська' };
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -62,6 +62,9 @@ const Navbar = ({ isAuthenticated, onLogout }: INavbarProps) => {
       <div className="navbar-right">
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><Link to="/map" onClick={() => setIsOpen(false)}>{t('navbar.map')}</Link></li>
+          {isAuthenticated && (
+            <li><Link to="/orders" onClick={() => setIsOpen(false)}>{t('navbar.myOrders')}</Link></li>
+          )}
           <li>
             <Link to="/start-producer" onClick={() => setIsOpen(false)}>
               {t('navbar.joinProducer')}

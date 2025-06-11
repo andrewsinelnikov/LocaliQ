@@ -1,8 +1,9 @@
 {
   "navbar": {
-    "joinProducer": "Join as a producer",
     "searchPlaceholder": "Search...",
     "map": "Map",
+    "myOrders": "My orders",
+    "joinProducer": "Join as a producer",
     "login": "Sign in"
   },
   "register": {

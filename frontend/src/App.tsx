@@ -69,6 +69,7 @@ const AppContent = () => {
   const handleLogout = () => {
     localStorage.removeItem('access_token');
     setIsAuthenticated(false);
+    setUserRole('guest');
   };
 
   const allProducers: IProducer[] = data;

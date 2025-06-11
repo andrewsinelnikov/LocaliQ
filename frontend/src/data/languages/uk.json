@@ -1,8 +1,9 @@
 {
   "navbar": {
-    "joinProducer": "Приєднатися як виробник",
     "searchPlaceholder": "Пошук...",
     "map": "Мапа",
+    "myOrders": "Мої замовлення",
+    "joinProducer": "Приєднатися як виробник",
     "login": "Увійти"
   },
   "register": {
