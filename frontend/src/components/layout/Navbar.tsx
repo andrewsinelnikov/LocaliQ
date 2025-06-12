@@ -122,6 +122,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                 onClick={() => {
                   setProfileMenuOpen(!profileMenuOpen);
                   setLangMenuOpen(false);
+                  setIsOpen(false);
                 }}
                 style={{ cursor: 'pointer' }}
               >
