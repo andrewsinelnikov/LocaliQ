@@ -84,6 +84,18 @@
   align-items: center;
 }
 
+.lang-dropdown {
+  position: absolute;
+  top: 140%;
+  right: -40px;
+  background-color: white;
+  border: 1px solid #ccddee;
+  border-radius: 12px;
+  padding: 0.5rem;
+  list-style: none;
+  z-index: 1000;
+}
+
 .nav-links li a, .lang-select, .profile-menu, .lang-dropdown li, .profile-menu, .profile-dropdown li {
   text-decoration: none;
   color: var(--color-dark);
@@ -226,6 +238,11 @@
 
   .mobile-lang {
     display: block;
+  }
+
+  .lang-dropdown {
+    top: 130%;
+    right: -30px;
   }
 
   .nav-links {

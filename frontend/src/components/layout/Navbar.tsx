@@ -99,20 +99,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
             </span>
 
             {langMenuOpen && (
-              <ul
-                className="lang-dropdown"
-                style={{
-                  position: 'absolute',
-                  top: '150%',
-                  right: -40,
-                  backgroundColor: 'white',
-                  border: '1px solid #ccddee',
-                  borderRadius: '12px',
-                  padding: '0.5rem',
-                  listStyle: 'none',
-                  zIndex: 1000,
-                }}
-              >
+              <ul className="lang-dropdown">
                 {Object.entries(languages).map(([code, name]) => (
                   <li
                     key={code}
@@ -200,20 +187,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           </span>
 
           {langMenuOpen && (
-            <ul
-              className="lang-dropdown"
-              style={{
-                position: 'absolute',
-                top: '75%',
-                right: -40,
-                backgroundColor: 'white',
-                border: '1px solid #ccddee',
-                borderRadius: '12px',
-                padding: '0.5rem',
-                listStyle: 'none',
-                zIndex: 1000,
-              }}
-            >
+            <ul className="lang-dropdown">
               {Object.entries(languages).map(([code, name]) => (
                 <li
                   key={code}
