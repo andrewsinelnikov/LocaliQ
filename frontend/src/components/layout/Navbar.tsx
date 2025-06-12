@@ -115,8 +115,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
             )}
           </li>
 
-          <li>
-            {isAuthenticated ? (
+          {isAuthenticated ? (
               <li className="profile-menu" style={{ position: 'relative' }}>
                 <span
                   onClick={() => {
@@ -130,16 +129,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                 </span>
 
                 {profileMenuOpen && (
-                  <ul className="profile-dropdown" style={{
-                    position: 'absolute',
-                    top: '150%',
-                    right: -20,
-                    backgroundColor: 'white',
-                    padding: '0.5rem',
-                    border: '1px solid #ccddee',
-                    borderRadius: '12px',
-                    listStyle: 'none'
-                  }}>
+                  <ul className="profile-dropdown">
                     <li><Link to="/profile">{t('navbar.myProfile')}</Link></li>
                     {userRole === 'producer' ? (
                       <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
@@ -160,7 +150,6 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                 {t('navbar.login')}
               </Link>
             )}
-          </li>
         </ul>
 
         {/* <button className="search-icon" aria-label="Пошук">

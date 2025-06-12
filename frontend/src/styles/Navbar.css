@@ -84,7 +84,7 @@
   align-items: center;
 }
 
-.lang-dropdown {
+.lang-dropdown, .profile-dropdown {
   position: absolute;
   top: 140%;
   right: -40px;
@@ -94,6 +94,10 @@
   padding: 0.5rem;
   list-style: none;
   z-index: 1000;
+}
+
+.profile-dropdown {
+  right: -20px;
 }
 
 .nav-links li a, .lang-select, .profile-menu, .lang-dropdown li, .profile-menu, .profile-dropdown li {
