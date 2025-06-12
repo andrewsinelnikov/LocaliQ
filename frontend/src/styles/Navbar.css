@@ -100,7 +100,12 @@
   right: -20px;
 }
 
-.nav-links li a, .lang-select, .profile-menu, .lang-dropdown li, .profile-menu, .profile-dropdown li {
+.nav-links li a, 
+.lang-select, 
+.profile-menu, 
+.lang-dropdown li, 
+.mobile-profile, 
+.profile-dropdown li a {
   text-decoration: none;
   color: var(--color-dark);
   font-weight: 500;

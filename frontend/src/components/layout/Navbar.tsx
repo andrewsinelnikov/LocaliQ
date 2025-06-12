@@ -19,23 +19,23 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
 
   const shortLanguages = { en: 'En', uk: 'Укр' };
   const languages = { en: 'English', uk: 'Українська' };
-
+  
+  const toggleLangMenu = () => {
+    setLangMenuOpen(!langMenuOpen);
+    setIsOpen(false)
+    setProfileMenuOpen(false); 
+  }
+  
+  const toggleProfileMenu = () => {
+    setProfileMenuOpen(!profileMenuOpen);
+    setLangMenuOpen(false);
+    setIsOpen(false);
+  }
+  
   const toggleMenu = () => {
    setIsOpen(!isOpen); 
    setLangMenuOpen(false);
    setProfileMenuOpen(false);
-  }
-
-  const toggleLangMenu = () => {
-   setLangMenuOpen(!langMenuOpen);
-   setIsOpen(false)
-   setProfileMenuOpen(false); 
-  }
-
-  const toggleProfileMenu = () => {
-   setProfileMenuOpen(!profileMenuOpen);
-   setLangMenuOpen(false);
-   setIsOpen(false);
   }
 
   useEffect(() => {
@@ -100,7 +100,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           {/* Блок мовного меню */}
           <li className="lang-select" style={{ position: 'relative' }}>
             <span
-              onClick={() => { toggleLangMenu }}
+              onClick={ toggleLangMenu }
               style={{ cursor: 'pointer' }}
             >
               {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
@@ -127,7 +127,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           {isAuthenticated ? (
             <li className="profile-menu" style={{ position: 'relative' }}>
               <span
-                onClick={() => { toggleProfileMenu }}
+                onClick={ toggleProfileMenu }
                 style={{ cursor: 'pointer' }}
               >
                 <i className="fa-regular fa-user"></i>
@@ -171,7 +171,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
 
         <li className="mobile-lang" style={{ position: 'relative' }}>
           <span
-            onClick={() => { toggleLangMenu }}
+            onClick={ toggleLangMenu }
             style={{ cursor: 'pointer' }}
           >
             {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
@@ -199,7 +199,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
         {isAuthenticated ? (
             <li className="mobile-profile" style={{ position: 'relative' }}>
               <span
-                onClick={() => { toggleProfileMenu }}
+                onClick={ toggleProfileMenu }
                 style={{ cursor: 'pointer' }}
               >
                 <i className="fa-regular fa-user"></i>
