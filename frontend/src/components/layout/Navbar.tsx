@@ -116,40 +116,40 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           </li>
 
           {isAuthenticated ? (
-              <li className="profile-menu" style={{ position: 'relative' }}>
-                <span
-                  onClick={() => {
-                    setProfileMenuOpen(!profileMenuOpen);
-                    setLangMenuOpen(false);
-                  }}
-                  style={{ cursor: 'pointer' }}
-                >
-                  <i className="fa-regular fa-user"></i>
-                  <i className={`fas fa-chevron-down fa-sm ${profileMenuOpen ? 'rotated' : ''}`}></i>
-                </span>
+            <li className="profile-menu" style={{ position: 'relative' }}>
+              <span
+                onClick={() => {
+                  setProfileMenuOpen(!profileMenuOpen);
+                  setLangMenuOpen(false);
+                }}
+                style={{ cursor: 'pointer' }}
+              >
+                <i className="fa-regular fa-user"></i>
+                <i className={`fas fa-chevron-down fa-sm ${profileMenuOpen ? 'rotated' : ''}`}></i>
+              </span>
 
-                {profileMenuOpen && (
-                  <ul className="profile-dropdown">
-                    <li><Link to="/profile">{t('navbar.myProfile')}</Link></li>
-                    {userRole === 'producer' ? (
-                      <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
-                    ) : null}
-                    {userRole === 'ideator' ? (
-                      <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
-                    ) : null}
-                    <li><Link to="/messages">{t('navbar.messages')}</Link></li>
-                    <hr />
-                    <li><button className='btn-transparent' onClick={onLogout}>
-                      {t('navbar.logout')}
-                    </button></li>
-                  </ul>
-                )}
+              {profileMenuOpen && (
+                <ul className="profile-dropdown">
+                  <li><Link to="/profile">{t('navbar.myProfile')}</Link></li>
+                  {userRole === 'producer' ? (
+                    <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
+                  ) : null}
+                  {userRole === 'ideator' ? (
+                    <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
+                  ) : null}
+                  <li><Link to="/messages">{t('navbar.messages')}</Link></li>
+                  <hr />
+                  <li><button className='btn-transparent' onClick={onLogout}>
+                    {t('navbar.logout')}
+                  </button></li>
+                </ul>
+              )}
               </li>
             ) : (
               <Link to="/login" onClick={() => setIsOpen(false)}>
                 {t('navbar.login')}
               </Link>
-            )}
+          )}
         </ul>
 
         {/* <button className="search-icon" aria-label="Пошук">
@@ -192,6 +192,42 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
             </ul>
           )}
         </li>
+
+        {isAuthenticated ? (
+            <li className="mobile-profile" style={{ position: 'relative' }}>
+              <span
+                onClick={() => {
+                  setProfileMenuOpen(!profileMenuOpen);
+                  setLangMenuOpen(false);
+                }}
+                style={{ cursor: 'pointer' }}
+              >
+                <i className="fa-regular fa-user"></i>
+                <i className={`fas fa-chevron-down fa-sm ${profileMenuOpen ? 'rotated' : ''}`}></i>
+              </span>
+
+              {profileMenuOpen && (
+                <ul className="profile-dropdown">
+                  <li><Link to="/profile">{t('navbar.myProfile')}</Link></li>
+                  {userRole === 'producer' ? (
+                    <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
+                  ) : null}
+                  {userRole === 'ideator' ? (
+                    <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
+                  ) : null}
+                  <li><Link to="/messages">{t('navbar.messages')}</Link></li>
+                  <hr />
+                  <li><button className='btn-transparent' onClick={onLogout}>
+                    {t('navbar.logout')}
+                  </button></li>
+                </ul>
+              )}
+              </li>
+            ) : (
+              <Link to="/login" onClick={() => setIsOpen(false)}>
+                {t('navbar.login')}
+              </Link>
+        )}
 
         {/* Бургер */}
         <button className="burger" onClick={toggleMenu} aria-label="Меню">
