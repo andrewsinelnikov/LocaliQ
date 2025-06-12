@@ -32,6 +32,12 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
    setProfileMenuOpen(false); 
   }
 
+  const toggleProfileMenu = () => {
+   setProfileMenuOpen(!profileMenuOpen);
+   setLangMenuOpen(false);
+   setIsOpen(false);
+  }
+
   useEffect(() => {
     if (mobileSearchOpen && searchInputRef.current) {
       searchInputRef.current.focus();
@@ -121,11 +127,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           {isAuthenticated ? (
             <li className="profile-menu" style={{ position: 'relative' }}>
               <span
-                onClick={() => {
-                  setProfileMenuOpen(!profileMenuOpen);
-                  setLangMenuOpen(false);
-                  setIsOpen(false);
-                }}
+                onClick={() => { toggleProfileMenu }}
                 style={{ cursor: 'pointer' }}
               >
                 <i className="fa-regular fa-user"></i>
@@ -197,11 +199,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
         {isAuthenticated ? (
             <li className="mobile-profile" style={{ position: 'relative' }}>
               <span
-                onClick={() => {
-                  setProfileMenuOpen(!profileMenuOpen);
-                  setLangMenuOpen(false);
-                  setIsOpen(false)
-                }}
+                onClick={() => { toggleProfileMenu }}
                 style={{ cursor: 'pointer' }}
               >
                 <i className="fa-regular fa-user"></i>
