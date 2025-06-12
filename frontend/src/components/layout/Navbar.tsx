@@ -26,6 +26,12 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
    setProfileMenuOpen(false);
   }
 
+  const toggleLangMenu = () => {
+   setLangMenuOpen(!langMenuOpen);
+   setIsOpen(false)
+   setProfileMenuOpen(false); 
+  }
+
   useEffect(() => {
     if (mobileSearchOpen && searchInputRef.current) {
       searchInputRef.current.focus();
@@ -88,11 +94,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           {/* Блок мовного меню */}
           <li className="lang-select" style={{ position: 'relative' }}>
             <span
-              onClick={() => {
-                setLangMenuOpen(!langMenuOpen);
-                setIsOpen(false)
-                setProfileMenuOpen(false); 
-              }}
+              onClick={() => { toggleLangMenu }}
               style={{ cursor: 'pointer' }}
             >
               {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
@@ -167,11 +169,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
 
         <li className="mobile-lang" style={{ position: 'relative' }}>
           <span
-            onClick={() => {
-              setLangMenuOpen(!langMenuOpen);
-              setIsOpen(false);
-              setProfileMenuOpen(false)
-            }}
+            onClick={() => { toggleLangMenu }}
             style={{ cursor: 'pointer' }}
           >
             {shortLanguages[i18n.language as keyof typeof shortLanguages] || i18n.language}
@@ -234,7 +232,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
         )}
 
         {/* Бургер */}
-        <button className="burger" onClick={toggleMenu} aria-label="Меню">
+        <button className="burger" onClick={ toggleMenu } aria-label="Меню">
           <span className={isOpen ? 'line open' : 'line'}></span>
           <span className={isOpen ? 'line open' : 'line'}></span>
           <span className={isOpen ? 'line open' : 'line'}></span>
