@@ -118,7 +118,7 @@
 .profile-dropdown li:hover,
 .mobile-lang:hover,
 .mobile-profile:hover,
-.markers:hover {
+.search-ico:hover {
   color: var(--color-primary);
 }
 
@@ -161,7 +161,7 @@
 }
 
 /* Mobile only */
-.markers {
+.search-ico {
   display: none;
   background: none;
   /* border: none; */
@@ -184,7 +184,7 @@
   padding: 0;
 }
 
-.markers:hover, .burger:hover {
+.search-ico:hover, .burger:hover {
   background-color: transparent;
 }
 
@@ -217,7 +217,7 @@
     display: none;
   }
 
-  .markers {
+  .search-ico {
     display: block;
   }
 

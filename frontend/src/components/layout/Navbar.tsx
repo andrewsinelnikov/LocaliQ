@@ -140,7 +140,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                   {userRole === 'producer' ? (
                     <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
                   ) : null}
-                  {userRole === 'ideator' ? (
+                  {userRole === 'ideator' || userRole === 'producer' ? (
                     <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
                   ) : null}
                   <li><Link to="/messages">{t('navbar.messages')}</Link></li>
@@ -162,7 +162,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           <i className="fas fa-search"></i>
         </button> */}
         <button
-          className="search-icon"
+          className="search-ico"
           aria-label="Пошук"
           onClick={() => setMobileSearchOpen(!mobileSearchOpen)}
         >
@@ -212,7 +212,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                   {userRole === 'producer' ? (
                     <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
                   ) : null}
-                  {userRole === 'ideator' ? (
+                  {userRole === 'ideator' || userRole === 'producer' ? (
                     <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
                   ) : null}
                   <li><Link to="/messages">{t('navbar.messages')}</Link></li>
