@@ -109,6 +109,7 @@
   text-decoration: none;
   color: var(--color-dark);
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .nav-links li a:hover, 
