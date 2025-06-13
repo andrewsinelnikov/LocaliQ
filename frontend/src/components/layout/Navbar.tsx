@@ -169,7 +169,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           <i className="fas fa-search"></i>
         </button>
 
-        <li className="mobile-lang" style={{ position: 'relative' }}>
+        <div className="mobile-lang" style={{ position: 'relative' }}>
           <span
             onClick={ toggleLangMenu }
             style={{ cursor: 'pointer' }}
@@ -194,10 +194,10 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
               ))}
             </ul>
           )}
-        </li>
+        </div>
 
         {isAuthenticated ? (
-            <li className="mobile-profile" style={{ position: 'relative' }}>
+            <div className="mobile-profile" style={{ position: 'relative' }}>
               <span
                 onClick={ toggleProfileMenu }
                 style={{ cursor: 'pointer' }}
@@ -222,11 +222,11 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                   </button></li>
                 </ul>
               )}
-              </li>
-            ) : (
-              <Link to="/login" onClick={() => setIsOpen(false)}>
+            </div>
+          ) : (
+            <Link to="/login" onClick={() => setIsOpen(false)}>
                 {t('navbar.login')}
-              </Link>
+            </Link>
         )}
 
         {/* Бургер */}
