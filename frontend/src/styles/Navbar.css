@@ -171,10 +171,6 @@
   cursor: pointer;
 }
 
-.search-icon {
-  color: var(--color-hover);
-}
-
 .burger {
   display: none;
   flex-direction: column;
