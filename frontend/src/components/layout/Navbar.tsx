@@ -230,7 +230,13 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
         )}
 
         {/* Бургер */}
-        <button className="burger" onClick={ toggleMenu } aria-label="Меню">
+        <button 
+          className="burger"
+          onClick={toggleMenu}
+          aria-label="Menu"
+          aria-expanded={isOpen}
+          aria-controls="main-nav-links"
+        >
           <span className={isOpen ? 'line open' : 'line'}></span>
           <span className={isOpen ? 'line open' : 'line'}></span>
           <span className={isOpen ? 'line open' : 'line'}></span>
