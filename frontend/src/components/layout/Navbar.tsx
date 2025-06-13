@@ -169,10 +169,6 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           <i className="fas fa-search"></i>
         </button>
 
-        <li>
-          <Link to="/map"><i className="fa-solid fa-location-dot" /></Link>
-        </li>
-
         <li className="mobile-lang" style={{ position: 'relative' }}>
           <span
             onClick={ toggleLangMenu }
