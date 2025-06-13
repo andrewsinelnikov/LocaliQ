@@ -137,12 +137,12 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
               {profileMenuOpen && (
                 <ul className="profile-dropdown">
                   <li><Link to="/profile">{t('navbar.myProfile')}</Link></li>
-                  {userRole === 'producer' ? (
+                  {/* {userRole === 'producer' ? (
                     <li><Link to="/my-business">{t('navbar.myBusiness')}</Link></li>
                   ) : null}
                   {userRole === 'ideator' || userRole === 'producer' ? (
                     <li><Link to="/my-ideas">{t('navbar.myIdeas')}</Link></li>
-                  ) : null}
+                  ) : null} */}
                   <li><Link to="/messages">{t('navbar.messages')}</Link></li>
                   <hr />
                   <li><button className='btn-transparent' onClick={onLogout}>
