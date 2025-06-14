@@ -23,6 +23,18 @@
     "error": "Error:",
     "networkError": "Network error"
   },
+  "login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Login",
+    "no_account": "Don't have an account?",
+    "register": "Register",
+    "success": "Login successful!",
+    "error": "Error",
+    "invalid_credentials": "Invalid credentials",
+    "network_error": "Network error"
+  },
   "home": {
     "heading": "Your hub for quality goods",
     "tagline": "Find local craft producers near you",
