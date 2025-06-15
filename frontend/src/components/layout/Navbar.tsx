@@ -196,7 +196,7 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
           )}
         </div>
 
-        {isAuthenticated ? (
+        {isAuthenticated && (
             <div className="mobile-profile" style={{ position: 'relative' }}>
               <span
                 onClick={ toggleProfileMenu }
@@ -223,10 +223,6 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
                 </ul>
               )}
             </div>
-          ) : (
-            <Link to="/login" onClick={() => setIsOpen(false)}>
-                {t('navbar.login')}
-            </Link>
         )}
 
         {/* Бургер */}
