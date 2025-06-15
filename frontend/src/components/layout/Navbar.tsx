@@ -152,9 +152,11 @@ const Navbar = ({ isAuthenticated, userRole, onLogout }: INavbarProps) => {
               )}
               </li>
             ) : (
-              <Link to="/login" onClick={() => setIsOpen(false)}>
-                {t('navbar.login')}
-              </Link>
+              <li>
+                <Link to="/login" className='' onClick={() => setIsOpen(false)}>
+                  {t('navbar.login')}
+                </Link>
+              </li>
           )}
         </ul>
 
