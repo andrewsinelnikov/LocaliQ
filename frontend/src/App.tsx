@@ -20,8 +20,8 @@ import data from './data/producers.json';
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
-  const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('ideator');
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('guest');
 
   // Mobile viewport height fix
   useEffect(() => {
