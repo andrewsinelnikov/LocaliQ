@@ -66,5 +66,21 @@ export const categories: ICategory[] = [
       { name: 'Artisan Stationery', emoji: '✉️📓', description: 'Handmade paper, journals, cards' }
     ]
   },
+  {
+    id: 'wellness-care',
+    title: 'Wellness & Care',
+    emoji: '🧼',
+    description: 'Natural healing, self-care, and thoughtful personal services.',
+    imageUrl: '/images/categories/wellness.jpg',
+    subcategories: [
+        { name: 'Wellness Sessions', emoji: '💆‍♀️🕯️', description: 'Massage, reiki, herbal consults' },
+        { name: 'Natural Skincare & Bodycare', emoji: '🧴🌿', description: 'Handmade lotions, balms, soaps' },
+        { name: 'Herbal Products & Remedies', emoji: '🍵🌱', description: 'Teas, tinctures, salves, tonics' },
+        { name: 'Aromatherapy & Candles', emoji: '🕯️🌸', description: 'Essential oils, scented candles' },
+        { name: 'Mental Wellness & Coaching', emoji: '🧠💬', description: 'Counseling, life coaching, mindfulness' },
+        { name: 'Movement & Bodywork', emoji: '🧘‍♀️🕉️', description: 'Yoga, breathwork, posture training' },
+        { name: 'Childcare & Learning', emoji: '👶📚', description: 'Babysitting, tutoring, playgroups' }
+    ]
+  },
   
 ]
