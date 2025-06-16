@@ -45,4 +45,26 @@ export const categories: ICategory[] = [
       { name: 'Sweet Treats', emoji: '🍰🍫', description: 'Cakes, chocolate, candies' }
     ]
   },
+  {
+    id: 'handmade-crafted',
+    title: 'Handmade & Crafted',
+    emoji: '🎨',
+    description: 'Goods made by local hands — useful, beautiful, and sustainable.',
+    imageUrl: '/images/categories/handmade.jpg',
+    subcategories: [
+      { name: 'Woodcrafts', emoji: '🪵🪑', description: 'Furniture, spoons, toys' },
+      { name: 'Leather Goods', emoji: '👞👜', description: 'Bags, belts, accessories' },
+      { name: 'Metalwork & Tools', emoji: '🔧⚒️', description: 'Knives, custom tools, sculpture' },
+      { name: 'Natural Dyes & Fibers', emoji: '🧶🌱', description: 'Hand-dyed yarn, cloth, basketry' },
+      { name: 'Printed Materials', emoji: '🖨️📚', description: 'Zines, cards, calendars' },
+      { name: 'Upcycled Products', emoji: '🔁🧺', description: 'Reclaimed fabric, wood, metal' },
+      { name: 'Pottery & Ceramics', emoji: '🏺', description: 'Mugs, plates, decorative objects' },
+      { name: 'Textiles & Weaving', emoji: '🧵🧣', description: 'Scarves, wall art, table linens' },
+      { name: 'Fine Art & Prints', emoji: '🎨🖼️', description: 'Paintings, block prints, digital art' },
+      { name: 'Jewelry', emoji: '💍', description: 'Handmade metal, beads, natural stones' },
+      { name: 'Music & Media', emoji: '🎶📀', description: 'CDs, vinyl, local labels, online releases' },
+      { name: 'Artisan Stationery', emoji: '✉️📓', description: 'Handmade paper, journals, cards' }
+    ]
+  },
+  
 ]
