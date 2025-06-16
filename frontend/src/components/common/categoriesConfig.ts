@@ -82,5 +82,21 @@ export const categories: ICategory[] = [
         { name: 'Childcare & Learning', emoji: '👶📚', description: 'Babysitting, tutoring, playgroups' }
     ]
   },
-  
+  {
+    id: 'local-services',
+    title: 'Local Services',
+    emoji: '🧰',
+    description: 'Skilled neighbors offering help, repairs, learning, and life support.',
+    imageUrl: '/images/categories/services.jpg',
+    subcategories: [
+        { name: 'Tailoring & Repairs', emoji: '🧵🧥', description: 'Clothing fixes, custom garments' },
+        { name: 'Creative Workshops', emoji: '🎨🧑‍🏫', description: 'Pottery, painting, kids’ classes' },
+        { name: 'Tech Help & Setup', emoji: '💻🔌', description: 'Device setup, repairs, tutoring' },
+        { name: 'Garden & Home Help', emoji: '🌻🧹', description: 'Home services, yard work, handyman' },
+        { name: 'Pet Care & Walking', emoji: '🐕🦴', description: 'Dog walking, sitting, grooming' },
+        { name: 'Local Tours & Experiences', emoji: '🗺️🚶', description: 'Neighborhood tours, cultural walks, tastings' },
+        { name: 'Delivery & Errands', emoji: '🚲📦', description: 'Courier services, personal shopping' },
+        { name: 'Event Hosting & Rentals', emoji: '🏕️🎤', description: 'Tents, decor, music, small venue spaces' }
+    ]
+  }
 ]
