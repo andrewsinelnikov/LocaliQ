@@ -29,4 +29,20 @@ export const categories: ICategory[] = [
       { name: 'Herbs & Flowers', emoji: '🌿💐', description: 'Culinary herbs, teas, edible flowers' }
     ]
   },
+  {
+    id: 'from-the-kitchen',
+    title: 'From the Kitchen',
+    emoji: '🍞',
+    description: 'Homemade foods, preserves, drinks, and delicious creations.',
+    imageUrl: '/images/categories/kitchen.jpg',
+    subcategories: [
+      { name: 'Baked Goods', emoji: '🥖🍪', description: 'Bread, pastries, cookies' },
+      { name: 'Jams & Preserves', emoji: '🍓🥫', description: 'Fruit spreads, pickles, fermented goods' },
+      { name: 'Ferments & Vinegars', emoji: '🧂🍶', description: 'Kombucha, sauerkraut, apple cider vinegar' },
+      { name: 'Homemade Meals', emoji: '🍲', description: 'Soups, frozen meals, lunch kits' },
+      { name: 'Beverages', emoji: '☕🍷', description: 'Tea, coffee, juices, local wine/beer' },
+      { name: 'Cheese & Cured Meats', emoji: '🧀🥓', description: 'Artisan cheese, sausages, salami' },
+      { name: 'Sweet Treats', emoji: '🍰🍫', description: 'Cakes, chocolate, candies' }
+    ]
+  },
 ]
