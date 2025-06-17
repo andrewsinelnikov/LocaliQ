@@ -8,6 +8,7 @@ import MapPage from './pages/map';
 import StartProducer from './pages/start';
 import IdeaStart from './pages/idea';
 import AddProducerPage from './pages/AddProducerPage';
+import CategoriesPage from './pages/categories';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
 import TermsPage from './pages/terms';
@@ -111,6 +112,7 @@ const AppContent = () => {
         <Route path="/start-producer" element={<StartProducer />} />
         <Route path="/idea-start" element={<IdeaStart />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
+        <Route path="/categories" element={<CategoriesPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
         <Route path="/cookies" element={<CookiesPolicyPage />} />
