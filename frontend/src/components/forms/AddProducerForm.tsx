@@ -71,13 +71,39 @@ const AddProducerForm = () => {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    // TODO: API або localStorage
-    alert(`Виробник "${form.name}" доданий!`);
-    navigate('/');
+  // Prepare payload for backend
+  const payload = {
+    name: form.name,
+    description: form.description,
+    category: form.category,
+    latitude: form.location.lat,
+    longitude: form.location.lng,
+    city: '', // You can add a city field to your form if needed
+    contact: [form.contactPhone, form.contactEmail, form.contactSocial].filter(Boolean).join(', ')
   };
+
+  try {
+    const response = await fetch('http://localhost:8000/api/producers/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    });
+
+    if (response.ok) {
+      alert(`Виробник "${form.name}" доданий!`);
+      navigate('/');
+    } else {
+      alert('Помилка при додаванні виробника');
+    }
+  } catch (error) {
+    alert('Помилка мережі');
+  }
+};
 
   return (
     <div className="form-producer-page">
