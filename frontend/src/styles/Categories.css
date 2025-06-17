@@ -1,0 +1,90 @@
+.categories-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.categories-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.categories-subtitle {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 32px;
+}
+
+.category-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.category-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  background: white;
+}
+
+.card-top {
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  cursor: pointer;
+  position: relative;
+  height: 220px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.overlay h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.overlay p {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.emoji {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.subcategories-list {
+  padding: 16px;
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.subcategory-item {
+  margin-bottom: 12px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid #eee;
+}
+
+.sub-emoji {
+  font-size: 20px;
+}

@@ -78,7 +78,7 @@ export const categories: ICategory[] = [
         { name: 'Herbal Products & Remedies', emoji: '🍵🌱', description: 'Teas, tinctures, salves, tonics' },
         { name: 'Aromatherapy & Candles', emoji: '🕯️🌸', description: 'Essential oils, scented candles' },
         { name: 'Mental Wellness & Coaching', emoji: '🧠💬', description: 'Counseling, life coaching, mindfulness' },
-        { name: 'Movement & Bodywork', emoji: '🧘‍♀️🕉️', description: 'Yoga, breathwork, posture training' },
+        { name: 'Movement & Bodywork', emoji: '', description: 'Posture training' },
         { name: 'Childcare & Learning', emoji: '👶📚', description: 'Babysitting, tutoring, playgroups' }
     ]
   },
