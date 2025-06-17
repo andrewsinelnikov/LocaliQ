@@ -1,4 +1,4 @@
-const Categories = () => {
+const CategoriesList = () => {
   return (
     <div>
         <h2>Categories</h2>
@@ -6,4 +6,4 @@ const Categories = () => {
   )
 }
 
-export default Categories
+export default CategoriesList

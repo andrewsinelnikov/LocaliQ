@@ -1,11 +1,7 @@
-import React from 'react'
+import CategoriesList from '../components/common/CategoriesList';
 
 const CategoriesPage = () => {
-  return (
-    <div>
-        <h2>CategoriesPage</h2>
-    </div>
-  )
+  return <CategoriesList />;
 }
 
 export default CategoriesPage
