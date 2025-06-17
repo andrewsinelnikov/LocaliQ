@@ -1,12 +1,49 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Link } from 'react-router';
 import { categories } from '../common/categoriesConfig';
 
+const FADE_DURATION = 300; // ms
+
 const CategoryNav = () => {
   const [activeCategoryId, setActiveCategoryId] = useState<string | null>(null);
+  const [isFadingOut, setIsFadingOut] = useState(false);
+  const closeTimeoutRef = useRef<number | null>(null);
 
-  const handleMouseLeave = () => {
-    setActiveCategoryId(null);
+  const clearCloseTimeout = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+      closeTimeoutRef.current = null;
+    }
+  };
+
+  const handleMouseEnterTab = (id: string) => {
+    clearCloseTimeout();
+    setIsFadingOut(false);
+    setActiveCategoryId(id);
+  };
+
+  const startFadeOut = () => {
+    setIsFadingOut(true);
+    closeTimeoutRef.current = window.setTimeout(() => {
+      setActiveCategoryId(null);
+      setIsFadingOut(false);
+    }, FADE_DURATION);
+  };
+
+  const handleMouseLeaveTab = () => {
+    // Delay hiding to detect if user is going to another tab
+    closeTimeoutRef.current = window.setTimeout(() => {
+      startFadeOut();
+    }, 50);
+  };
+
+  const handleMouseEnterPopup = () => {
+    clearCloseTimeout();
+    setIsFadingOut(false);
+  };
+
+  const handleMouseLeavePopup = () => {
+    startFadeOut();
   };
 
   return (
@@ -16,7 +53,8 @@ const CategoryNav = () => {
           <div
             key={cat.id}
             className="category-tab"
-            onMouseEnter={() => setActiveCategoryId(cat.id)}
+            onMouseEnter={() => handleMouseEnterTab(cat.id)}
+            onMouseLeave={handleMouseLeaveTab}
           >
             <span className="category-tab-label">
               <span className="emoji">{cat.emoji}</span> {cat.title}
@@ -25,8 +63,12 @@ const CategoryNav = () => {
         ))}
       </nav>
 
-      {activeCategoryId && (
-        <div className="category-popup" onMouseLeave={handleMouseLeave}>
+      {(activeCategoryId || isFadingOut) && (
+        <div
+          className={`category-popup ${isFadingOut ? 'fade-out' : 'fade-in'}`}
+          onMouseEnter={handleMouseEnterPopup}
+          onMouseLeave={handleMouseLeavePopup}
+        >
           <div className="popup-inner">
             {categories
               .find((cat) => cat.id === activeCategoryId)

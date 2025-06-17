@@ -24,6 +24,10 @@
   background: #eaf4fc;
 }
 
+.category-tab.active {
+  background-color: #eaf4fc;
+}
+
 .category-tab-label {
   white-space: nowrap;
   font-size: 15px;
@@ -39,13 +43,25 @@
 /* FULL WIDTH POPUP */
 .category-popup {
   position: absolute;
-  top: 100%; /* directly under category bar */
+  top: 100%;
   left: 0;
   width: 100%;
   background-color: white;
   box-shadow: 0 10px 16px rgba(0, 0, 0, 0.08);
   border-top: 1px solid #ddd;
   z-index: 10;
+  opacity: 1;
+  transition: opacity 300ms ease;
+  pointer-events: auto;
+}
+
+.category-popup.fade-in {
+  opacity: 1;
+}
+
+.category-popup.fade-out {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .popup-inner {
