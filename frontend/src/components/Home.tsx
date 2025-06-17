@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
+import CategoryNav from './layout/CategoryNav';
 import Awning from './layout/Awning';
 import CategoryStand from './common/CategoryStand';
 
@@ -25,6 +26,7 @@ const Home = ({ onShowMap, categories, selected, onSelect }: IHomeProps) => {
 
   return (
     <div className="home">
+      <CategoryNav />
       <Awning />
       <div className="wall">
         <div className="storefront-wrapper">

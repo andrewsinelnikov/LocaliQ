@@ -2,12 +2,16 @@
 
 /* -------- Navbar --------- */
 @import url("./Navbar.css");
+/* -------- CategoryNav --------- */
+@import url("./CategoryNav.css");
 /* -------- Footer --------- */
 @import url("./Footer.css");
 /* -------- Home --------- */
 @import url("./Home.css");
 /* -------- Awning --------- */
 @import url("./Awning.css");
+/* -------- Categories --------- */
+@import url("./Categories.css");
 /* -------- CategoryStand --------- */
 @import url("./CategoryStand.css");
 /* -------- Register --------- */
