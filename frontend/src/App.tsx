@@ -39,33 +39,33 @@ const AppContent = () => {
   }, []);
 
   // Перевірка автентифікації користувача
-  // useEffect(() => {
-  //   const token = localStorage.getItem('access_token');
+  useEffect(() => {
+    const token = localStorage.getItem('access_token');
 
-  //   if (token) {
-  //     fetch('http://localhost:8000/api/auth/me', {
-  //       headers: {
-  //         Authorization: `Bearer ${token}`,
-  //       },
-  //     })
-  //       .then((res) => res.json())
-  //       .then((data) => {
-  //         console.log('Користувач:', data);
-  //         setIsAuthenticated(true);
+    if (token) {
+      fetch('http://localhost:8000/api/auth/me', {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log('Користувач:', data);
+          setIsAuthenticated(true);
 
-  //         // 🔹 Присвоюємо роль, fallback — consumer
-  //         const roleFromBackend = data.role || 'consumer';
-  //         setUserRole(roleFromBackend);
-  //       })
-  //       .catch((err) => {
-  //         console.error('Помилка при отриманні користувача:', err);
-  //         setIsAuthenticated(false);
-  //         setUserRole('guest');
-  //       });
-  //   } else {
-  //     setUserRole('guest');
-  //   }
-  // }, []);
+          // 🔹 Присвоюємо роль, fallback — consumer
+          const roleFromBackend = data.role || 'consumer';
+          setUserRole(roleFromBackend);
+        })
+        .catch((err) => {
+          console.error('Помилка при отриманні користувача:', err);
+          setIsAuthenticated(false);
+          setUserRole('guest');
+        });
+    } else {
+      setUserRole('guest');
+    }
+  }, []);
 
   const handleLogout = () => {
     localStorage.removeItem('access_token');
