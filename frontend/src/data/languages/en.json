@@ -40,6 +40,62 @@
     "tagline": "Find local craft producers near you",
     "showMap": "Show on map"
   },
+  "category": {
+    "farm": {
+      "title": "Fresh from the Farm",
+      "description": "Seasonal produce, eggs, honey, and other farm-grown essentials.",
+      "sub": {
+        "vegetables": {
+          "name": "Fresh Vegetables",
+          "description": "Seasonal greens, root crops, tomatoes"
+        },
+        "fruits": {
+          "name": "Fresh Fruits",
+          "description": "Apples, berries, melons, stone fruits"
+        },
+        "honey": {
+          "name": "Honey & Beekeeping",
+          "description": "Local honey, wax, propolis"
+        },
+        "eggs": {
+          "name": "Eggs & Poultry",
+          "description": "Farm eggs, chicken, ducks"
+        },
+        "redMeat": {
+          "name": "Red Meat",
+          "description": "Local beef, pork, lamb, and goat"
+        },
+        "fish": {
+          "name": "Fish & Seafood",
+          "description": "Fresh or smoked fish, shellfish"
+        },
+        "game": {
+          "name": "Game Meats",
+          "description": "Venison, rabbit, boar, and wild fowl"
+        },
+        "dairy": {
+          "name": "Dairy",
+          "description": "Milk, cheese, yogurt"
+        },
+        "grains": {
+          "name": "Grains & Legumes",
+          "description": "Wheat, oats, beans, lentils"
+        },
+        "seedlings": {
+          "name": "Seedlings & Starts",
+          "description": "Starter plants, garden seeds"
+        },
+        "foraged": {
+          "name": "Foraged Goods",
+          "description": "Wild herbs, berries, mushrooms"
+        },
+        "herbs": {
+          "name": "Herbs & Flowers",
+          "description": "Culinary herbs, teas, edible flowers"
+        }
+      }
+    }
+  },
   "footer": {
     "description": "Platform for discovering local producers",
     "navigation": "Navigation",
