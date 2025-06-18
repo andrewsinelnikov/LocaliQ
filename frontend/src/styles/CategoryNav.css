@@ -29,17 +29,18 @@
   transition: background 0.2s ease;
   user-select: none;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .category-tab.active,
 .category-tab:hover {
-  background: #eaf4fc;
+  color: var(--color-primary);
+  /* background: #eaf4fc; */
 }
 
 .category-tab-label {
   white-space: nowrap;
-  font-size: 15px;
+  font-size: 1em;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -71,6 +72,7 @@
 
 .popup-inner {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;

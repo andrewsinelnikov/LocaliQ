@@ -23,7 +23,6 @@ export const categories: ICategory[] = [
       { name: 'Fresh Fruits', emoji: '🍎', description: 'Apples, berries, melons, stone fruits' },
       { name: 'Honey & Beekeeping', emoji: '🍯', description: 'Local honey, wax, propolis' },
       { name: 'Eggs & Poultry', emoji: '🥚🐓', description: 'Farm eggs, chicken, ducks' },
-      { name: 'Eggs & Poultry', emoji: '🥚🐓', description: 'Farm eggs, chicken, ducks' },
       { name: 'Red Meat', emoji: '🥩🐄', description: 'Local beef, pork, lamb, and goat' },
       { name: 'Fish & Seafood', emoji: '🐟🦐', description: 'Fresh or smoked fish, shellfish' },
       { name: 'Game Meats', emoji: '🦌🐇', description: 'Venison, rabbit, boar, and wild fowl' },
