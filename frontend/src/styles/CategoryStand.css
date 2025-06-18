@@ -68,10 +68,6 @@
 }
 
 @media (max-width: 360px) {
-  .storefront-wrapper {
-    padding: 0 8px;
-  }
-
   .category-stand {
     min-width: 140px;
   }
