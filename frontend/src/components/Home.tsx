@@ -47,7 +47,7 @@ const Home = ({ onShowMap, categories, selected, onSelect }: IHomeProps) => {
             ))}
           </div>
           <div className="more-link-wrapper">
-            <a href="/categories" className="more-categories-link">Показати ще</a>
+            <a href="/categories" className="more-categories-link">{t('home.showCategories')}</a>
           </div>
 
           <button onClick={onShowMap}>{t('home.showMap')}</button>
