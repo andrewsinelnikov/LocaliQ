@@ -60,7 +60,7 @@ const CategoryNav = () => {
             onClick={() => handleClickTab(cat.id)}
           >
             <span className="category-tab-label">
-              <span className="emoji">{cat.emoji}</span>
+              {/* <span className="emoji">{cat.emoji}</span> */}
               {t(cat.title)}
             </span>
           </div>

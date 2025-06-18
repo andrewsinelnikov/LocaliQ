@@ -214,6 +214,10 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    font-size: 14px;
+  }
+
   .search-bar {
     display: none;
   }

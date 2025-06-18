@@ -5,13 +5,14 @@
 
 .category-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 16px;
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   padding: 1px 12px;
+  margin: 0 12px;
   background-color: #fdfdfd;
   border-bottom: 1px solid #eee;
 }
@@ -29,7 +30,7 @@
   transition: background 0.2s ease;
   user-select: none;
   white-space: nowrap;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .category-tab.active,
@@ -40,7 +41,7 @@
 
 .category-tab-label {
   white-space: nowrap;
-  font-size: 1em;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   gap: 6px;
