@@ -24,7 +24,7 @@
     "networkError": "Помилка мережі"
   },
   "login": {
-    "login": "Увійти",
+    "title": "Увійти",
     "username": "Ім'я користувача",
     "password": "Пароль",
     "submit": "Увійти",

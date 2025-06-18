@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const LoginForm = () => {
+  const { t } = useTranslation();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -37,10 +39,10 @@ const LoginForm = () => {
   return (
     <div className="login-page">
       <div className="login-box">
-        <h2>Увійти</h2>
+        <h2>{t('login.title')}</h2>
         <form onSubmit={handleSubmit}>
           <label>
-            Username
+            {t('login.username')}
             <input
               type="username"
               value={username}
@@ -49,7 +51,7 @@ const LoginForm = () => {
             />
           </label>
           <label>
-            Пароль
+            {t('login.password')}
             <input
               type="password"
               value={password}
@@ -57,10 +59,10 @@ const LoginForm = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </label>
-          <button type="submit">Увійти</button>
+          <button type="submit">{t('login.submit')}</button>
         </form>
         <p className="alt-link">
-          Ще не маєш акаунту? <a href="/register">Зареєструватися</a>
+          {t('login.no_account')} <a href="/register">{t('login.register')}</a>
         </p>
       </div>
     </div>

@@ -24,7 +24,7 @@
     "networkError": "Network error"
   },
   "login": {
-    "login": "Login",
+    "title": "Sign in",
     "username": "Username",
     "password": "Password",
     "submit": "Login",
