@@ -101,3 +101,10 @@ label {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 600px) {
+  input, select, textarea, button {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
