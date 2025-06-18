@@ -1,8 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router';
+import { useTranslation } from 'react-i18next';
 import { categories } from '../common/categoriesConfig';
 
 const CategoryNav = () => {
+  const { t } = useTranslation();
   const [activeCategoryId, setActiveCategoryId] = useState<string | null>(null);
   const closeTimeoutRef = useRef<number | null>(null);
 
@@ -58,8 +60,8 @@ const CategoryNav = () => {
             onClick={() => handleClickTab(cat.id)}
           >
             <span className="category-tab-label">
-              {/* <span className="emoji">{cat.emoji}</span>  */}
-              {cat.title}
+              <span className="emoji">{cat.emoji}</span>
+              {t(cat.title)}
             </span>
           </div>
         ))}
@@ -77,14 +79,14 @@ const CategoryNav = () => {
               .find((cat) => cat.id === activeCategoryId)
               ?.subcategories.map((sub) => (
                 <Link
-                  key={sub.name}
-                  to={`/category/${activeCategoryId}/${sub.name.toLowerCase().replace(/\s+/g, '-')}`}
+                  key={sub.slug}
+                  to={`/category/${activeCategoryId}/${sub.slug}`}
                   className="subcategory-item"
                 >
                   <div className="subcategory-icon">{sub.emoji}</div>
                   <div className="subcategory-text">
-                    <div className="subcategory-title">{sub.name}</div>
-                    <div className="subcategory-description">{sub.description}</div>
+                    <div className="subcategory-title">{t(sub.name)}</div>
+                    <div className="subcategory-description">{t(sub.description)}</div>
                   </div>
                 </Link>
               ))}
@@ -99,14 +101,14 @@ const CategoryNav = () => {
             .find((cat) => cat.id === activeCategoryId)
             ?.subcategories.map((sub) => (
               <Link
-                key={sub.name}
-                to={`/category/${activeCategoryId}/${sub.name.toLowerCase().replace(/\s+/g, '-')}`}
+                key={sub.slug}
+                to={`/category/${activeCategoryId}/${sub.slug}`}
                 className="subcategory-item"
               >
                 <div className="subcategory-icon">{sub.emoji}</div>
                 <div className="subcategory-text">
-                  <div className="subcategory-title">{sub.name}</div>
-                  <div className="subcategory-description">{sub.description}</div>
+                  <div className="subcategory-title">{t(sub.name)}</div>
+                  <div className="subcategory-description">{t(sub.description)}</div>
                 </div>
               </Link>
             ))}

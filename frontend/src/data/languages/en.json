@@ -40,36 +40,36 @@
     "tagline": "Find local craft producers near you",
     "showMap": "Show on map"
   },
-  "category": {
-    "farm": {
+  "categories": {
+    "fresh-from-the-farm": {
       "title": "Fresh from the Farm",
       "description": "Seasonal produce, eggs, honey, and other farm-grown essentials.",
-      "sub": {
-        "vegetables": {
+      "subcategories": {
+        "fresh-vegetables": {
           "name": "Fresh Vegetables",
           "description": "Seasonal greens, root crops, tomatoes"
         },
-        "fruits": {
+        "fresh-fruits": {
           "name": "Fresh Fruits",
           "description": "Apples, berries, melons, stone fruits"
         },
-        "honey": {
+        "honey-beekeeping": {
           "name": "Honey & Beekeeping",
           "description": "Local honey, wax, propolis"
         },
-        "eggs": {
+        "eggs-poultry": {
           "name": "Eggs & Poultry",
           "description": "Farm eggs, chicken, ducks"
         },
-        "redMeat": {
+        "red-meat": {
           "name": "Red Meat",
           "description": "Local beef, pork, lamb, and goat"
         },
-        "fish": {
+        "fish-seafood": {
           "name": "Fish & Seafood",
           "description": "Fresh or smoked fish, shellfish"
         },
-        "game": {
+        "game-meats": {
           "name": "Game Meats",
           "description": "Venison, rabbit, boar, and wild fowl"
         },
@@ -77,21 +77,213 @@
           "name": "Dairy",
           "description": "Milk, cheese, yogurt"
         },
-        "grains": {
+        "grains-legumes": {
           "name": "Grains & Legumes",
           "description": "Wheat, oats, beans, lentils"
         },
-        "seedlings": {
+        "seedlings-starts": {
           "name": "Seedlings & Starts",
           "description": "Starter plants, garden seeds"
         },
-        "foraged": {
+        "foraged-goods": {
           "name": "Foraged Goods",
           "description": "Wild herbs, berries, mushrooms"
         },
-        "herbs": {
+        "herbs-flowers": {
           "name": "Herbs & Flowers",
           "description": "Culinary herbs, teas, edible flowers"
+        }
+      }
+    },
+    "from-the-kitchen": {
+      "title": "From the Kitchen",
+      "description": "Homemade foods, preserves, drinks, and delicious creations.",
+      "subcategories": {
+        "baked-goods": {
+          "name": "Baked Goods",
+          "description": "Bread, pastries, cookies"
+        },
+        "savory-spreads-sauces": {
+          "name": "Savory Spreads & Sauces",
+          "description": "Dips, pestos, hot sauces"
+        },
+        "pasta-grains": {
+          "name": "Pasta & Grains",
+          "description": "Homemade pasta, grain blends"
+        },
+        "jams-preserves": {
+          "name": "Jams & Preserves",
+          "description": "Fruit spreads, pickles, fermented goods"
+        },
+        "ferments-vinegars": {
+          "name": "Ferments & Vinegars",
+          "description": "Kombucha, sauerkraut, apple cider vinegar"
+        },
+        "homemade-meals": {
+          "name": "Homemade Meals",
+          "description": "Soups, frozen meals, lunch kits"
+        },
+        "beverages": {
+          "name": "Beverages",
+          "description": "Tea, coffee, juices, local wine/beer"
+        },
+        "cheese-cured-meats": {
+          "name": "Cheese & Cured Meats",
+          "description": "Artisan cheese, sausages, salami"
+        },
+        "sweet-treats": {
+          "name": "Sweet Treats",
+          "description": "Cakes, chocolate, candies"
+        }
+      }
+    },
+    "handmade-crafted": {
+      "title": "Handmade & Crafted",
+      "description": "Goods made by local hands — useful, beautiful, and sustainable.",
+      "subcategories": {
+        "woodcrafts": {
+          "name": "Woodcrafts",
+          "description": "Furniture, spoons, toys"
+        },
+        "leather-goods": {
+          "name": "Leather Goods",
+          "description": "Bags, belts, accessories"
+        },
+        "metalwork-tools": {
+          "name": "Metalwork & Tools",
+          "description": "Knives, custom tools, sculpture"
+        },
+        "natural-dyes-fibers": {
+          "name": "Natural Dyes & Fibers",
+          "description": "Hand-dyed yarn, cloth, basketry"
+        },
+        "printed-materials": {
+          "name": "Printed Materials",
+          "description": "Zines, cards, calendars"
+        },
+        "upcycled-products": {
+          "name": "Upcycled Products",
+          "description": "Reclaimed fabric, wood, metal"
+        },
+        "pottery-ceramics": {
+          "name": "Pottery & Ceramics",
+          "description": "Mugs, plates, decorative objects"
+        },
+        "textiles-weaving": {
+          "name": "Textiles & Weaving",
+          "description": "Scarves, wall art, table linens"
+        },
+        "fine-art-prints": {
+          "name": "Fine Art & Prints",
+          "description": "Paintings, block prints, digital art"
+        },
+        "jewelry": {
+          "name": "Jewelry",
+          "description": "Handmade metal, beads, natural stones"
+        },
+        "music-media": {
+          "name": "Music & Media",
+          "description": "CDs, vinyl, local labels, online releases"
+        },
+        "artisan-stationery": {
+          "name": "Artisan Stationery",
+          "description": "Handmade paper, journals, cards"
+        }
+      }
+    },
+    "wellness-care": {
+      "title": "Wellness & Care",
+      "description": "Natural healing, self-care, and thoughtful personal services.",
+      "subcategories": {
+        "wellness-sessions": {
+          "name": "Wellness Sessions",
+          "description": "Massage, reiki, herbal consults"
+        },
+        "natural-skincare-bodycare": {
+          "name": "Natural Skincare & Bodycare",
+          "description": "Handmade lotions, balms, soaps"
+        },
+        "herbal-products-remedies": {
+          "name": "Herbal Products & Remedies",
+          "description": "Teas, tinctures, salves, tonics"
+        },
+        "aromatherapy-candles": {
+          "name": "Aromatherapy & Candles",
+          "description": "Essential oils, scented candles"
+        },
+        "mental-wellness-coaching": {
+          "name": "Mental Wellness & Coaching",
+          "description": "Counseling, life coaching, mindfulness"
+        },
+        "movement-bodywork": {
+          "name": "Movement & Bodywork",
+          "description": "Posture training, dance & movement classes"
+        },
+        "fitness-training": {
+          "name": "Fitness & Training",
+          "description": "Strength, endurance, group workouts"
+        },
+        "nutrition-meal-planning": {
+          "name": "Nutrition & Meal Planning",
+          "description": "Diet support, holistic eating"
+        },
+        "childcare-learning": {
+          "name": "Childcare & Learning",
+          "description": "Babysitting, tutoring, playgroups"
+        }
+      }
+    },
+    "local-services": {
+      "title": "Local Services",
+      "description": "Skilled neighbors offering help, repairs, learning, and life support.",
+      "subcategories": {
+        "tailoring-repairs": {
+          "name": "Tailoring & Repairs",
+          "description": "Clothing fixes, custom garments"
+        },
+        "creative-workshops": {
+          "name": "Creative Workshops",
+          "description": "Pottery, painting, kids’ classes"
+        },
+        "tech-help-setup": {
+          "name": "Tech Help & Setup",
+          "description": "Device setup, repairs, tutoring"
+        },
+        "garden-home-help": {
+          "name": "Garden & Home Help",
+          "description": "Home services, yard work, handyman"
+        },
+        "pet-care-walking": {
+          "name": "Pet Care & Walking",
+          "description": "Dog walking, sitting, grooming"
+        },
+        "local-tours-experiences": {
+          "name": "Local Tours & Experiences",
+          "description": "Neighborhood tours, cultural walks, tastings"
+        },
+        "delivery-errands": {
+          "name": "Delivery & Errands",
+          "description": "Courier services, personal shopping"
+        },
+        "event-hosting-rentals": {
+          "name": "Event Hosting & Rentals",
+          "description": "Tents, decor, music, small venue spaces"
+        },
+        "vehicle-help-repairs": {
+          "name": "Vehicle Help & Repairs",
+          "description": "Bikes, cars, mobile repairs"
+        },
+        "photography-media": {
+          "name": "Photography & Media",
+          "description": "Portraits, events, local filmmakers"
+        },
+        "financial-legal-help": {
+          "name": "Financial & Legal Help",
+          "description": "Taxes, contracts, budgeting help"
+        },
+        "language-translation": {
+          "name": "Language & Translation",
+          "description": "ESL tutors, document help"
         }
       }
     }
