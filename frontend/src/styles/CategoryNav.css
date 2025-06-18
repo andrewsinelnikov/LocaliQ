@@ -11,7 +11,7 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  padding: 10px 12px;
+  padding: 1px 12px;
   background-color: #fdfdfd;
   border-bottom: 1px solid #eee;
 }
