@@ -7,11 +7,11 @@
 
 .wall {
   background-color: #e3e6ea; 
-  height: calc(100vh - 60px);
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 .storefront-wrapper {
@@ -124,6 +124,10 @@
 
   .storefront-wrapper h1 {
     font-size: 30px;
+  }
+
+  .wall {
+    padding: 15px 0 25px;
   }
 }
 
