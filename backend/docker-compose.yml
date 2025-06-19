@@ -23,7 +23,7 @@ services:
     depends_on:
       - db
     environment:
-      - DATABASE_URL=postgresql://postgres:xVnQzOtaozxSDEygTIQGwkgquGstUCCM@centerbeam.proxy.rlwy.net:19547/railway
+      - DATABASE_URL=postgresql://postgres:eIzwIhdbNvbYBMtaeTWHvnLfgSkvwABu@postgres-ucf.railway.internal:5432/railway
 
 volumes:
   postgres_data:
