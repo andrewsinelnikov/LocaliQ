@@ -16,6 +16,7 @@ import PrivacyPolicyPage from './pages/privacy';
 import CookiesPolicyPage from './pages/cookies';
 import AccessibilityPage from './pages/accessibility';
 import Footer from './components/layout/Footer';
+import NotFoundPage from './pages/notFound';
 
 import data from './data/producers.json';
 
@@ -117,6 +118,7 @@ const AppContent = () => {
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
         <Route path="/cookies" element={<CookiesPolicyPage />} />
         <Route path="/accessibility" element={<AccessibilityPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </>
