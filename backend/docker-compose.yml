@@ -23,7 +23,7 @@ services:
     depends_on:
       - db
     environment:
-      - DATABASE_URL=postgresql://user:password@db:5432/producers_db
+      - DATABASE_URL=postgresql://postgres:xVnQzOtaozxSDEygTIQGwkgquGstUCCM@centerbeam.proxy.rlwy.net:19547/railway
 
 volumes:
   postgres_data:
