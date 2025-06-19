@@ -21,7 +21,7 @@ const CategorySuggestions = () => {
 
   return (
     <div className="suggested-categories">
-      <h2>{t('notFound.suggestions', 'Але в нас є дещо смачне та цікаве для вас:')}</h2>
+      <h2>{t('notFound.suggestions', 'Також в нас є дещо смачне та цікаве для вас:')}</h2>
       <div className="category-stands-grid">
         {popularCategories.map((category) => (
           <CategoryStand
