@@ -23,7 +23,7 @@ services:
     depends_on:
       - db
     environment:
-      - DATABASE_URL=postgresql://postgres:eIzwIhdbNvbYBMtaeTWHvnLfgSkvwABu@postgres-ucf.railway.internal:5432/railway
+      - DATABASE_URL=postgresql://user:password@db:5432/producers_db
 
 volumes:
   postgres_data:
