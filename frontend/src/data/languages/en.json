@@ -419,5 +419,12 @@
     "detectLocation": "Detect my location",
     "submit": "Add",
     "previewAlt": "Photo preview"
+  },
+  "notFound": {
+    "title": "Oops! This little path leads nowhere",
+    "message": "Looks like this page doesn't grow here. But local goodness is just around the corner!",
+    "goHome": "Back to main storefront",
+    "showMap": "Show producers map",
+    "suggestions": "Here’s something tasty and interesting for you:"
   }
 }
