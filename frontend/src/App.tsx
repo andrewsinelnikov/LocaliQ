@@ -26,7 +26,7 @@ const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('guest');
-
+console.log('Категорії:', producers);
   // Mobile viewport height fix
   useEffect(() => {
     const setAppHeight = () => {

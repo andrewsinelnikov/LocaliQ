@@ -4,29 +4,29 @@
     "products": [
       {
         "id": 1,
-        "name": "Молоко козине, 1л",
-        "imageUrl": "/images/goat-milk.jpg",
+        "name": "Мигдаль, 1кг",
+        "imageUrl": "/images/almonds.jpg",
         "price": "50 грн",
         "producer": "Ферма 'Зелений гай'"
       },
       {
         "id": 2,
-        "name": "Яйця домашні, 10 шт",
-        "imageUrl": "/images/eggs.jpg",
+        "name": "Яблука, 1 кг",
+        "imageUrl": "/images/apples.jpg",
         "price": "40 грн",
         "producer": "Господарство Пані Олени"
       },
       {
         "id": 3,
-        "name": "Томати рожеві, 1 кг",
-        "imageUrl": "/images/tomatoes.jpg",
+        "name": "Абрикоси, 1 кг",
+        "imageUrl": "/images/apricots.jpg",
         "price": "35 грн",
         "producer": "Фермер Андрій"
       },
       {
         "id": 4,
-        "name": "Огірки ґрунтові, 1 кг",
-        "imageUrl": "/images/cucumbers.jpg",
+        "name": "Лохина, 1 кг",
+        "imageUrl": "/images/blueberries.jpg",
         "price": "30 грн",
         "producer": "ЕКО-Сад"
       }

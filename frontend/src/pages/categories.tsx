@@ -1,7 +1,11 @@
 import Categories from "../components/category/Categories";
 
-const CategoriesPage = ({ data }: any) => {
-  return <Categories categories={data} />;
+interface CategoriesPageProps {
+  categories: any[];
+}
+
+const CategoriesPage = ({ categories }: CategoriesPageProps) => {
+  return <Categories categories={categories} />;
 };
 
 export default CategoriesPage
