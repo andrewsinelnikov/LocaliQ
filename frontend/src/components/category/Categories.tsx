@@ -7,6 +7,8 @@ import CategorySection from './CategorySection';
 interface ICategoriesProps {
   categories: {
     name: string;
+    title: string;
+    subtitle: string;
     products: { id: number; name: string; imageUrl: string; price: string, producer: string }[];
   }[];
 }
@@ -24,7 +26,13 @@ const Categories = ({ categories }: ICategoriesProps) => {
           <p className="tagline">{t('categories.tagline', 'Свіжі товари та послуги від місцевих виробників')}</p>
 
           {categories.map((cat) => (
-            <CategorySection key={cat.name} category={cat.name} products={cat.products} />
+            <CategorySection 
+                key={cat.name} 
+                category={cat.name} 
+                title={cat.title} 
+                subtitle={cat.subtitle} 
+                products={cat.products} 
+            />
           ))}
         </div>
       </div>

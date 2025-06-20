@@ -1,30 +1,46 @@
 [
   {
     "name": "Свіже з ферми",
+    "title": "Смак справжнього села",
+    "subtitle": "Купуй свіже молоко, овочі та фрукти напряму від фермерів",
     "products": [
       {
         "id": 1,
+        "name": "Домашній сир, 1кг",
+        "imageUrl": "/images/cheese.jpg",
+        "price": "120 грн",
+        "producer": "Ферма 'Зелений гай'"
+      },
+      {
+        "id": 2,
+        "name": "Мед, 1кг",
+        "imageUrl": "/images/honey.png",
+        "price": "200 грн",
+        "producer": "Дідова пасіка"
+      },
+      {
+        "id": 3,
         "name": "Мигдаль, 1кг",
         "imageUrl": "/images/almonds.jpg",
         "price": "50 грн",
         "producer": "Ферма 'Зелений гай'"
       },
       {
-        "id": 2,
+        "id": 4,
         "name": "Яблука, 1 кг",
         "imageUrl": "/images/apples.jpg",
         "price": "40 грн",
         "producer": "Господарство Пані Олени"
       },
       {
-        "id": 3,
+        "id": 5,
         "name": "Абрикоси, 1 кг",
         "imageUrl": "/images/apricots.jpg",
         "price": "35 грн",
         "producer": "Фермер Андрій"
       },
       {
-        "id": 4,
+        "id": 6,
         "name": "Лохина, 1 кг",
         "imageUrl": "/images/blueberries.jpg",
         "price": "30 грн",
@@ -34,6 +50,8 @@
   },
   {
     "name": "З кухні",
+    "title": "Домашній смак",
+    "subtitle": "Скуштуй хліб, варення й страви, приготовані з любов’ю",
     "products": [
       {
         "id": 5,
@@ -67,6 +85,8 @@
   },
   {
     "name": "Ручна робота та ремесла",
+    "title": "Культура в деталях",
+    "subtitle": "Обирай унікальні речі ручної роботи від місцевих майстрів",
     "products": [
       {
         "id": 9,
@@ -99,7 +119,44 @@
     ]
   },
   {
+    "name": "Здоров’я та догляд",
+    "title": "Турбота природним шляхом",
+    "subtitle": "Натуральна косметика, догляд та здоров’я від місцевих майстрів",
+    "products": [
+      {
+        "id": 17,
+        "name": "Натуральне мило з ромашкою",
+        "imageUrl": "/images/chamomile-soap.jpg",
+        "price": "60 грн",
+        "producer": "Майстерня 'Чиста Крапля'"
+      },
+      {
+        "id": 18,
+        "name": "Бальзам для губ з бджолиним воском",
+        "imageUrl": "/images/lip-balm.jpg",
+        "price": "45 грн",
+        "producer": "EcoHerbs"
+      },
+      {
+        "id": 19,
+        "name": "Трав’яний збір для заспокоєння",
+        "imageUrl": "/images/herbal-tea.jpg",
+        "price": "75 грн",
+        "producer": "ФітоЛавка"
+      },
+      {
+        "id": 20,
+        "name": "Масло ши косметичне, 100 мл",
+        "imageUrl": "/images/shea-butter.jpg",
+        "price": "110 грн",
+        "producer": "Botanica"
+      }
+    ]
+  },
+  {
     "name": "Місцеві послуги",
+    "title": "Допомога поруч",
+    "subtitle": "Скористайся побутовими чи навчальними послугами від сусідів",
     "products": [
       {
         "id": 13,

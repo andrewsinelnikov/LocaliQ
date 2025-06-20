@@ -2,6 +2,8 @@ import ProductCard from './ProductCard';
 
 interface ICategorySectionProps {
   category: string;
+  title: string;
+  subtitle: string;
   products: {
     id: number;
     name: string;
@@ -11,10 +13,11 @@ interface ICategorySectionProps {
   }[];
 }
 
-const CategorySection = ({ category, products }: ICategorySectionProps) => {
+const CategorySection = ({ category, title, subtitle, products }: ICategorySectionProps) => {
   return (
     <div className="category-section">
-      <h2 className="category-title">{category}</h2>
+      <h2 className="category-title">{category}. {title}</h2>
+      <p className="subtitle">{subtitle}</p>
       <div className="category-stands-grid">
         {products.map((product) => (
           <ProductCard

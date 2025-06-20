@@ -19,14 +19,13 @@ import Footer from './components/layout/Footer';
 import NotFoundPage from './pages/notFound';
 
 import data from './data/producers.json';
-import producers from './data/data.json';
-
+import categoriesData from './data/data.json';
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('guest');
-console.log('Категорії:', producers);
+
   // Mobile viewport height fix
   useEffect(() => {
     const setAppHeight = () => {
@@ -115,7 +114,7 @@ console.log('Категорії:', producers);
         <Route path="/start-producer" element={<StartProducer />} />
         <Route path="/idea-start" element={<IdeaStart />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
-        <Route path="/categories" element={<CategoriesPage categories={producers} />} />
+        <Route path="/categories" element={<CategoriesPage categories={categoriesData} />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
         <Route path="/cookies" element={<CookiesPolicyPage />} />
