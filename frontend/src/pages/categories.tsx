@@ -1,4 +1,4 @@
-import CategoriesList from '../components/category/Categories';
+import Categories from "../components/category/Categories";
 
 const CategoriesPage = ({ data }: any) => {
   return <Categories categories={data} />;
