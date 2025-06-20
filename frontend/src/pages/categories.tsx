@@ -1,7 +1,7 @@
-import CategoriesList from '../components/common/CategoriesList';
+import CategoriesList from '../components/category/Categories';
 
-const CategoriesPage = () => {
-  return <CategoriesList />;
-}
+const CategoriesPage = ({ data }: any) => {
+  return <Categories categories={data} />;
+};
 
 export default CategoriesPage
