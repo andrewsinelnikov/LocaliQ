@@ -19,6 +19,14 @@
   margin-bottom: 32px;
 }
 
+.category-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 40px 0 16px;
+  text-align: left;
+  color: #34495e;
+}
+
 .category-grid {
   display: grid;
   gap: 24px;
