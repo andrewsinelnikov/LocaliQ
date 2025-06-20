@@ -7,7 +7,7 @@ import CategorySection from './CategorySection';
 interface ICategoriesProps {
   categories: {
     name: string;
-    products: { id: number; name: string; imageUrl: string; price: string }[];
+    products: { id: number; name: string; imageUrl: string; price: string, producer: string }[];
   }[];
 }
 

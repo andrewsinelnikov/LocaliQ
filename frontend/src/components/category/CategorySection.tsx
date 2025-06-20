@@ -7,6 +7,7 @@ interface ICategorySectionProps {
     name: string;
     imageUrl: string;
     price: string;
+    producer: string;
   }[];
 }
 
@@ -21,6 +22,7 @@ const CategorySection = ({ category, products }: ICategorySectionProps) => {
             name={product.name}
             imageUrl={product.imageUrl}
             price={product.price}
+            producer={product.producer}
           />
         ))}
       </div>
