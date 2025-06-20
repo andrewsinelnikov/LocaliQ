@@ -5,6 +5,10 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+.category-section {
+  margin-bottom: 30px;
+}
+
 .categories-title {
   text-align: center;
   font-size: 32px;
@@ -12,20 +16,29 @@
   color: #333;
 }
 
-.categories-subtitle {
-  text-align: center;
-  color: #666;
-  font-style: italic;
-  margin-bottom: 32px;
-}
-
 .category-title {
   font-size: 22px;
   font-weight: 700;
-  margin: 40px 0 16px;
+  margin: 24px 0 8px;
   text-align: left;
   color: #34495e;
 }
+
+.category-title span {
+  color: var(--color-primary);
+}
+
+.category-title:first-child {
+  margin-top: 0;
+}
+
+.category-subtitle {
+  text-align: left;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
 
 .category-grid {
   display: grid;

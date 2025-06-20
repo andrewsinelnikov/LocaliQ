@@ -16,8 +16,10 @@ interface ICategorySectionProps {
 const CategorySection = ({ category, title, subtitle, products }: ICategorySectionProps) => {
   return (
     <div className="category-section">
-      <h2 className="category-title">{category}. {title}</h2>
-      <p className="subtitle">{subtitle}</p>
+      <h2 className="category-title">
+        <span>{category}.</span>  {title}
+      </h2>
+      <p className="category-subtitle">{subtitle}</p>
       <div className="category-stands-grid">
         {products.map((product) => (
           <ProductCard

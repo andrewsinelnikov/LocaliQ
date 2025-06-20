@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 
 import CategoryNav from '../layout/CategoryNav';
 import Awning from '../layout/Awning';
@@ -14,7 +14,6 @@ interface ICategoriesProps {
 }
 
 const Categories = ({ categories }: ICategoriesProps) => {
-  const { t } = useTranslation();
 
   return (
     <div className="home">
@@ -22,9 +21,6 @@ const Categories = ({ categories }: ICategoriesProps) => {
       <Awning />
       <div className="wall">
         <div className="storefront-wrapper">
-          <h1>{t('categories.heading', 'Оберіть найкраще поруч')}</h1>
-          <p className="tagline">{t('categories.tagline', 'Свіжі товари та послуги від місцевих виробників')}</p>
-
           {categories.map((cat) => (
             <CategorySection 
                 key={cat.name} 
