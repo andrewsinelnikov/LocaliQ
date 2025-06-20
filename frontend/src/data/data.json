@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Свіже з ферми",
+    "products": [
+      {
+        "id": 1,
+        "name": "Молоко козине, 1л",
+        "imageUrl": "/images/goat-milk.jpg",
+        "price": "50 грн",
+        "producer": "Ферма 'Зелений гай'"
+      },
+      {
+        "id": 2,
+        "name": "Яйця домашні, 10 шт",
+        "imageUrl": "/images/eggs.jpg",
+        "price": "40 грн",
+        "producer": "Господарство Пані Олени"
+      },
+      {
+        "id": 3,
+        "name": "Томати рожеві, 1 кг",
+        "imageUrl": "/images/tomatoes.jpg",
+        "price": "35 грн",
+        "producer": "Фермер Андрій"
+      },
+      {
+        "id": 4,
+        "name": "Огірки ґрунтові, 1 кг",
+        "imageUrl": "/images/cucumbers.jpg",
+        "price": "30 грн",
+        "producer": "ЕКО-Сад"
+      }
+    ]
+  },
+  {
+    "name": "З кухні",
+    "products": [
+      {
+        "id": 5,
+        "name": "Варення з полуниці, 0.5 л",
+        "imageUrl": "/images/strawberry-jam.jpg",
+        "price": "60 грн",
+        "producer": "Бабусині рецепти"
+      },
+      {
+        "id": 6,
+        "name": "Хліб житній на заквасці",
+        "imageUrl": "/images/rye-bread.jpg",
+        "price": "45 грн",
+        "producer": "Пекарня 'Добрий Хліб'"
+      },
+      {
+        "id": 7,
+        "name": "Пельмені домашні, 0.5 кг",
+        "imageUrl": "/images/dumplings.jpg",
+        "price": "70 грн",
+        "producer": "Кухня Тетяни"
+      },
+      {
+        "id": 8,
+        "name": "Пиріжки з капустою, 5 шт",
+        "imageUrl": "/images/pies.jpg",
+        "price": "55 грн",
+        "producer": "Домашня кухня 'Смакота'"
+      }
+    ]
+  },
+  {
+    "name": "Ручна робота та ремесла",
+    "products": [
+      {
+        "id": 9,
+        "name": "Глиняна чашка ручної роботи",
+        "imageUrl": "/images/clay-cup.jpg",
+        "price": "120 грн",
+        "producer": "Майстер Ярослав"
+      },
+      {
+        "id": 10,
+        "name": "Лляна торба з вишивкою",
+        "imageUrl": "/images/linen-bag.jpg",
+        "price": "250 грн",
+        "producer": "Майстриня Марічка"
+      },
+      {
+        "id": 11,
+        "name": "Свічка з вощини",
+        "imageUrl": "/images/beeswax-candle.jpg",
+        "price": "80 грн",
+        "producer": "Студія 'Світло'"
+      },
+      {
+        "id": 12,
+        "name": "Сережки з бісеру",
+        "imageUrl": "/images/beaded-earrings.jpg",
+        "price": "90 грн",
+        "producer": "BeadMagic"
+      }
+    ]
+  },
+  {
+    "name": "Місцеві послуги",
+    "products": [
+      {
+        "id": 13,
+        "name": "Прибирання квартир",
+        "imageUrl": "/images/cleaning.jpg",
+        "price": "від 300 грн",
+        "producer": "CleanCity Львів"
+      },
+      {
+        "id": 14,
+        "name": "Доставка овочевих наборів",
+        "imageUrl": "/images/veggie-box.jpg",
+        "price": "від 150 грн",
+        "producer": "FreshBox"
+      },
+      {
+        "id": 15,
+        "name": "Майстер на годину",
+        "imageUrl": "/images/handyman.jpg",
+        "price": "від 200 грн/год",
+        "producer": "Майстер Станіслав"
+      },
+      {
+        "id": 16,
+        "name": "Репетитор англійської (онлайн)",
+        "imageUrl": "/images/english-tutor.jpg",
+        "price": "від 180 грн/год",
+        "producer": "Англійська з Іриною"
+      }
+    ]
+  }
+]
