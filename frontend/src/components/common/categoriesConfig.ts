@@ -140,9 +140,40 @@ export const categories: ICategory[] = [
           { name: 'Горох', imageUrl: '/images/products/peas.jpg', description: 'Сушений або свіжий зелений' }
         ]
       },
-      { name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', slug: 'seedlings-starts', emoji: '🌱🪴', description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description' },
-      { name: 'categories.fresh-from-the-farm.subcategories.foraged-goods.name', slug: 'foraged-goods', emoji: '🍄🌲', description: 'categories.fresh-from-the-farm.subcategories.foraged-goods.description' },
-      { name: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.name', slug: 'herbs-flowers', emoji: '🌿💐', description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description' },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', 
+        slug: 'seedlings-starts', 
+        emoji: '🌱🪴', 
+        description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description',
+        items: [
+          { name: 'Розсада помідорів', imageUrl: '/images/products/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
+          { name: 'Саджанці полуниці', imageUrl: '/images/products/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
+          { name: 'Саджанці малини', imageUrl: '/images/products/raspberry-seedling.jpg', description: 'Малина безколючкова' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.foraged-goods.name', 
+        slug: 'foraged-goods', 
+        emoji: '🍄🌲', 
+        description: 'categories.fresh-from-the-farm.subcategories.foraged-goods.description',
+        items: [
+          { name: 'Білі гриби', imageUrl: '/images/products/porcini.jpg', description: 'Свіжі або сушені, з екологічних лісів' },
+          { name: 'Лисички', imageUrl: '/images/products/chanterelle.jpg', description: 'Сезонні гриби — з липня по вересень' },
+          { name: 'Чорниці', imageUrl: '/images/products/blueberries.jpg', description: 'Ягоди, зібрані в карпатських лісах' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.name', 
+        slug: 'herbs-flowers', 
+        emoji: '🌿💐', 
+        description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description',
+        items: [
+          { name: 'Базилік', imageUrl: '/images/products/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
+          { name: 'Мʼята', imageUrl: '/images/products/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
+          { name: 'Їстівні квіти', imageUrl: '/images/products/edible-flowers.jpg', description: 'Для декору і гастрономії' },
+          { name: 'Квіти польові', imageUrl: '/images/products/wildflowers.jpg', description: 'Сезонні букети' }
+        ]
+      },
     ],
   },
   {
