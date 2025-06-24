@@ -93,8 +93,29 @@ export const categories: ICategory[] = [
           { name: 'Баранина', imageUrl: '/images/products/lamb.jpg', description: 'Пахуче мʼясо молодих ягнят' }
         ]
       },
-      { name: 'categories.fresh-from-the-farm.subcategories.fish-seafood.name', slug: 'fish-seafood', emoji: '🐟🦐', description: 'categories.fresh-from-the-farm.subcategories.fish-seafood.description' },
-      { name: 'categories.fresh-from-the-farm.subcategories.game-meats.name', slug: 'game-meats', emoji: '🦌🐇', description: 'categories.fresh-from-the-farm.subcategories.game-meats.description' },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.fish-seafood.name', 
+        slug: 'fish-seafood', 
+        emoji: '🐟🦐', 
+        description: 'categories.fresh-from-the-farm.subcategories.fish-seafood.description',
+        items: [
+          { name: 'Форель', imageUrl: '/images/products/trout.jpg', description: 'Свіжа або копчена форель' },
+          { name: 'Короп', imageUrl: '/images/products/carp.jpg', description: 'Популярна риба на свята і будні' },
+          { name: 'Судак', imageUrl: '/images/products/pikeperch.jpg', description: 'Мʼясо з білим філе, без кісток' },
+          { name: 'Раки', imageUrl: '/images/products/crayfish.jpg', description: 'Свіжі або варені, для гурманів' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.game-meats.name', 
+        slug: 'game-meats', 
+        emoji: '🦌🐇', 
+        description: 'categories.fresh-from-the-farm.subcategories.game-meats.description',
+        items: [
+          { name: 'Оленина', imageUrl: '/images/products/venison.jpg', description: 'Мʼясо дикого оленя з лісу' },
+          { name: 'Фазан', imageUrl: '/images/products/pheasant.jpg', description: 'Птах з ніжним мʼясом' },
+          { name: 'Заяча тушка', imageUrl: '/images/products/hare.jpg', description: 'Для тушкування чи запікання' }
+        ]
+      },
       { name: 'categories.fresh-from-the-farm.subcategories.dairy.name', slug: 'dairy', emoji: '🧀', description: 'categories.fresh-from-the-farm.subcategories.dairy.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.grains-legumes.name', slug: 'grains-legumes', emoji: '🌾', description: 'categories.fresh-from-the-farm.subcategories.grains-legumes.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', slug: 'seedlings-starts', emoji: '🌱🪴', description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description' },
