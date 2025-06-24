@@ -300,19 +300,129 @@ export const categories: ICategory[] = [
     description: 'categories.handmade-crafted.description',
     imageUrl: '/images/categories/handmade.jpg',
     subcategories: [
-      { name: 'categories.handmade-crafted.subcategories.woodcrafts.name', slug: 'woodcrafts', emoji: '🪵🪑', description: 'categories.handmade-crafted.subcategories.woodcrafts.description' },
-      { name: 'categories.handmade-crafted.subcategories.leather-goods.name', slug: 'leather-goods', emoji: '👞👜', description: 'categories.handmade-crafted.subcategories.leather-goods.description' },
-      { name: 'categories.handmade-crafted.subcategories.metalwork-tools.name', slug: 'metalwork-tools', emoji: '🔧⚒️', description: 'categories.handmade-crafted.subcategories.metalwork-tools.description' },
-      { name: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.name', slug: 'natural-dyes-fibers', emoji: '🧶🌱', description: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.description' },
-      { name: 'categories.handmade-crafted.subcategories.printed-materials.name', slug: 'printed-materials', emoji: '🖨️📚', description: 'categories.handmade-crafted.subcategories.printed-materials.description' },
-      { name: 'categories.handmade-crafted.subcategories.upcycled-products.name', slug: 'upcycled-products', emoji: '🔁🧺', description: 'categories.handmade-crafted.subcategories.upcycled-products.description' },
-      { name: 'categories.handmade-crafted.subcategories.pottery-ceramics.name', slug: 'pottery-ceramics', emoji: '🏺', description: 'categories.handmade-crafted.subcategories.pottery-ceramics.description' },
-      { name: 'categories.handmade-crafted.subcategories.textiles-weaving.name', slug: 'textiles-weaving', emoji: '🧵🧣', description: 'categories.handmade-crafted.subcategories.textiles-weaving.description' },
-      { name: 'categories.handmade-crafted.subcategories.fine-art-prints.name', slug: 'fine-art-prints', emoji: '🎨🖼️', description: 'categories.handmade-crafted.subcategories.fine-art-prints.description' },
-      { name: 'categories.handmade-crafted.subcategories.jewelry.name', slug: 'jewelry', emoji: '💍', description: 'categories.handmade-crafted.subcategories.jewelry.description' },
-      { name: 'categories.handmade-crafted.subcategories.music-media.name', slug: 'music-media', emoji: '🎶📀', description: 'categories.handmade-crafted.subcategories.music-media.description' },
-      { name: 'categories.handmade-crafted.subcategories.artisan-stationery.name', slug: 'artisan-stationery', emoji: '✉️📓', description: 'categories.handmade-crafted.subcategories.artisan-stationery.description' },
-    ],
+      {
+        name: 'categories.handmade-crafted.subcategories.woodcrafts.name',
+        slug: 'woodcrafts',
+        emoji: '🪵🪑',
+        description: 'categories.handmade-crafted.subcategories.woodcrafts.description',
+        items: [
+          { name: 'Деревʼяні ложки', imageUrl: '/images/products/wooden-spoons.jpg', description: 'Ручна різьба, з вільхи або бука' },
+          { name: 'Обробні дошки', imageUrl: '/images/products/cutting-board.jpg', description: 'Натуральне дерево, покриття олією' },
+          { name: 'Табурети ручної роботи', imageUrl: '/images/products/wooden-stool.jpg', description: 'Невеликі меблі з естетикою ручного виробництва' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.leather-goods.name',
+        slug: 'leather-goods',
+        emoji: '👞👜',
+        description: 'categories.handmade-crafted.subcategories.leather-goods.description',
+        items: [
+          { name: 'Шкіряні гаманці', imageUrl: '/images/products/leather-wallet.jpg', description: 'Компактні гаманці з натуральної шкіри' },
+          { name: 'Ремені ручної роботи', imageUrl: '/images/products/leather-belt.jpg', description: 'Міцні і стильні аксесуари' },
+          { name: 'Сумки через плече', imageUrl: '/images/products/leather-bag.jpg', description: 'Шкіряні сумки з мінімалістичним дизайном' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.metalwork-tools.name',
+        slug: 'metalwork-tools',
+        emoji: '🔧⚒️',
+        description: 'categories.handmade-crafted.subcategories.metalwork-tools.description',
+        items: [
+          { name: 'Ножі з дамаску', imageUrl: '/images/products/damascus-knife.jpg', description: 'Кухонні чи туристичні ножі ручного кування' },
+          { name: 'Сокири з гравіюванням', imageUrl: '/images/products/engraved-axe.jpg', description: 'Функціональні та декоративні' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.name',
+        slug: 'natural-dyes-fibers',
+        emoji: '🧶🌱',
+        description: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.description',
+        items: [
+          { name: 'Пряжа з кропиви', imageUrl: '/images/products/nettle-yarn.jpg', description: 'Екологічна альтернатива синтетичним волокнам' },
+          { name: 'Тканини, фарбовані вручну', imageUrl: '/images/products/natural-dyed-fabric.jpg', description: 'Унікальні кольори за допомогою рослинних барвників' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.printed-materials.name',
+        slug: 'printed-materials',
+        emoji: '🖨️📚',
+        description: 'categories.handmade-crafted.subcategories.printed-materials.description',
+        items: [
+          { name: 'Авторські збірки', imageUrl: '/images/products/collection.jpg', description: 'Малі тиражі, локальні автори' },
+          { name: 'Ручна ліногравюра', imageUrl: '/images/products/linocut-print.jpg', description: 'Оригінальні принти на папері або тканині' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.upcycled-products.name',
+        slug: 'upcycled-products',
+        emoji: '🔁🧺',
+        description: 'categories.handmade-crafted.subcategories.upcycled-products.description',
+        items: [
+          { name: 'Сумки з банерів', imageUrl: '/images/products/upcycled-bag.jpg', description: 'Стильні аксесуари з перероблених матеріалів' },
+          { name: 'Декор з винних пробок', imageUrl: '/images/products/cork-decor.jpg', description: 'Креативне перевикористання' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.pottery-ceramics.name',
+        slug: 'pottery-ceramics',
+        emoji: '🏺',
+        description: 'categories.handmade-crafted.subcategories.pottery-ceramics.description',
+        items: [
+          { name: 'Чашки гончарні', imageUrl: '/images/products/ceramic-cup.jpg', description: 'Кожна — унікальна' },
+          { name: 'Глечики для води', imageUrl: '/images/products/ceramic-jug.jpg', description: 'Функціональний і декоративний посуд' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.textiles-weaving.name',
+        slug: 'textiles-weaving',
+        emoji: '🧵🧣',
+        description: 'categories.handmade-crafted.subcategories.textiles-weaving.description',
+        items: [
+          { name: 'Плетені серветки', imageUrl: '/images/products/woven-napkin.jpg', description: 'З льону або бавовни' },
+          { name: 'Шарфи ручного ткацтва', imageUrl: '/images/products/woven-scarf.jpg', description: 'Теплі й стильні' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.fine-art-prints.name',
+        slug: 'fine-art-prints',
+        emoji: '🎨🖼️',
+        description: 'categories.handmade-crafted.subcategories.fine-art-prints.description',
+        items: [
+          { name: 'Арт-принти з авторських ілюстрацій', imageUrl: '/images/products/art-print.jpg', description: 'Друк обмеженим тиражем' },
+          { name: 'Графіка аквареллю', imageUrl: '/images/products/watercolor.jpg', description: 'Оригінальні роботи місцевих митців' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.jewelry.name',
+        slug: 'jewelry',
+        emoji: '💍',
+        description: 'categories.handmade-crafted.subcategories.jewelry.description',
+        items: [
+          { name: 'Сережки з полімерної глини', imageUrl: '/images/products/polymer-earrings.jpg', description: 'Легкі та яскраві прикраси' },
+          { name: 'Браслети з натурального каменю', imageUrl: '/images/products/stone-bracelet.jpg', description: 'Енергетичні аксесуари' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.music-media.name',
+        slug: 'music-media',
+        emoji: '🎶📀',
+        description: 'categories.handmade-crafted.subcategories.music-media.description',
+        items: [
+          { name: 'Касети з гуртами', imageUrl: '/images/products/cassette.jpg', description: 'Альтернативна музика на фізичних носіях' },
+          { name: 'Вініли з локальними записями', imageUrl: '/images/products/vinyl.jpg', description: 'Музика місцевих виконавців' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.artisan-stationery.name',
+        slug: 'artisan-stationery',
+        emoji: '✉️📓',
+        description: 'categories.handmade-crafted.subcategories.artisan-stationery.description',
+        items: [
+          { name: 'Записники з переробленого паперу', imageUrl: '/images/products/recycled-notebook.jpg', description: 'Крафтові обкладинки, ручна збірка' },
+          { name: 'Листівки аквареллю', imageUrl: '/images/products/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' }
+        ]
+      }
+    ]
   },
   {
     id: 'wellness-care',
