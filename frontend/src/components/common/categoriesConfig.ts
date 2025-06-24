@@ -183,16 +183,115 @@ export const categories: ICategory[] = [
     description: 'categories.from-the-kitchen.description',
     imageUrl: '/images/categories/kitchen.jpg',
     subcategories: [
-      { name: 'categories.from-the-kitchen.subcategories.baked-goods.name', slug: 'baked-goods', emoji: '🥖🍪', description: 'categories.from-the-kitchen.subcategories.baked-goods.description' },
-      { name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name', slug: 'savory-spreads-sauces', emoji: '🧄🫙', description: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.description' },
-      { name: 'categories.from-the-kitchen.subcategories.pasta-grains.name', slug: 'pasta-grains', emoji: '🍝🌾', description: 'categories.from-the-kitchen.subcategories.pasta-grains.description' },
-      { name: 'categories.from-the-kitchen.subcategories.jams-preserves.name', slug: 'jams-preserves', emoji: '🍓🥫', description: 'categories.from-the-kitchen.subcategories.jams-preserves.description' },
-      { name: 'categories.from-the-kitchen.subcategories.ferments-vinegars.name', slug: 'ferments-vinegars', emoji: '🧂🍶', description: 'categories.from-the-kitchen.subcategories.ferments-vinegars.description' },
-      { name: 'categories.from-the-kitchen.subcategories.homemade-meals.name', slug: 'homemade-meals', emoji: '🍲', description: 'categories.from-the-kitchen.subcategories.homemade-meals.description' },
-      { name: 'categories.from-the-kitchen.subcategories.beverages.name', slug: 'beverages', emoji: '☕🍷', description: 'categories.from-the-kitchen.subcategories.beverages.description' },
-      { name: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.name', slug: 'cheese-cured-meats', emoji: '🧀🥓', description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description' },
-      { name: 'categories.from-the-kitchen.subcategories.sweet-treats.name', slug: 'sweet-treats', emoji: '🍰🍫', description: 'categories.from-the-kitchen.subcategories.sweet-treats.description' },
-    ],
+      {
+        name: 'categories.from-the-kitchen.subcategories.baked-goods.name',
+        slug: 'baked-goods',
+        emoji: '🥖🍪',
+        description: 'categories.from-the-kitchen.subcategories.baked-goods.description',
+        items: [
+          { name: 'Житній хліб на заквасці', imageUrl: '/images/products/rye-bread.jpg', description: 'Ароматний хліб із натуральної закваски' },
+          { name: 'Булочки з маком', imageUrl: '/images/products/poppy-rolls.jpg', description: 'Мʼякі й солодкі, ідеальні до чаю' },
+          { name: 'Печиво з медом', imageUrl: '/images/products/honey-cookies.jpg', description: 'Домашнє печиво з натурального меду' },
+          { name: 'Пиріжки з вишнею', imageUrl: '/images/products/cherry-pie.jpg', description: 'Пухкі пиріжки з кисло-солодкою начинкою' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
+        slug: 'savory-spreads-sauces',
+        emoji: '🧄🫙',
+        description: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.description',
+        items: [
+          { name: 'Песто з базиліку', imageUrl: '/images/products/pesto.jpg', description: 'Свіжий зелений соус з домашнього базиліку' },
+          { name: 'Хумус', imageUrl: '/images/products/hummus.jpg', description: 'Ніжна паста з нуту, з оливковою олією' },
+          { name: 'Часникова паста', imageUrl: '/images/products/garlic-spread.jpg', description: 'Гострий намаз для м’яса або хліба' },
+          { name: 'Аджика', imageUrl: '/images/products/adjika.jpg', description: 'Гострий соус за домашнім рецептом' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.pasta-grains.name',
+        slug: 'pasta-grains',
+        emoji: '🍝🌾',
+        description: 'categories.from-the-kitchen.subcategories.pasta-grains.description',
+        items: [
+          { name: 'Домашня локшина', imageUrl: '/images/products/egg-noodles.jpg', description: 'З твердих сортів пшениці або з яйцем' },
+          { name: 'Кус-кус', imageUrl: '/images/products/couscous.jpg', description: 'Дрібна крупа для швидких страв' },
+          { name: 'Булгур', imageUrl: '/images/products/bulgur.jpg', description: 'Корисна крупа з пшениці' },
+          { name: 'Паста з полби', imageUrl: '/images/products/spelt-pasta.jpg', description: 'Цільнозернова паста ручної роботи' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.jams-preserves.name',
+        slug: 'jams-preserves',
+        emoji: '🍓🥫',
+        description: 'categories.from-the-kitchen.subcategories.jams-preserves.description',
+        items: [
+          { name: 'Варення з полуниці', imageUrl: '/images/products/strawberry-jam.jpg', description: 'Класичне варення з літніх ягід' },
+          { name: 'Чорнослив у сиропі', imageUrl: '/images/products/prunes.jpg', description: 'Домашня консервація' },
+          { name: 'Малинове варення', imageUrl: '/images/products/raspberry-jam.jpg', description: 'Ідеальне до млинців і чаю' },
+          { name: 'Конфітюр із яблук з корицею', imageUrl: '/images/products/apple-cinnamon.jpg', description: 'Смак дитинства' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.ferments-vinegars.name',
+        slug: 'ferments-vinegars',
+        emoji: '🧂🍶',
+        description: 'categories.from-the-kitchen.subcategories.ferments-vinegars.description',
+        items: [
+          { name: 'Квашена капуста', imageUrl: '/images/products/sauerkraut.jpg', description: 'З ферментованої капусти без оцту' },
+          { name: 'Огірки квашені', imageUrl: '/images/products/pickles.jpg', description: 'З натуральним бродінням' },
+          { name: 'Яблучний оцет', imageUrl: '/images/products/apple-vinegar.jpg', description: 'Домашній, нефільтрований оцет' },
+          { name: 'Кімчі', imageUrl: '/images/products/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.homemade-meals.name',
+        slug: 'homemade-meals',
+        emoji: '🍲',
+        description: 'categories.from-the-kitchen.subcategories.homemade-meals.description',
+        items: [
+          { name: 'Борщ у банці', imageUrl: '/images/products/borscht-jar.jpg', description: 'Готова перша страва — просто розігріти' },
+          { name: 'Голубці', imageUrl: '/images/products/holubtsi.jpg', description: 'Капуста, начинена рисом і мʼясом' },
+          { name: 'Пельмені домашні', imageUrl: '/images/products/dumplings.jpg', description: 'Заморожені або охолоджені' },
+          { name: 'Запіканка сирна', imageUrl: '/images/products/cheese-casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.beverages.name',
+        slug: 'beverages',
+        emoji: '☕🍷',
+        description: 'categories.from-the-kitchen.subcategories.beverages.description',
+        items: [
+          { name: 'Компот з сухофруктів', imageUrl: '/images/products/kompot.jpg', description: 'Напій без консервантів' },
+          { name: 'Домашній квас', imageUrl: '/images/products/kvas.jpg', description: 'Справжній хлібний квас' },
+          { name: 'Травʼяний чай', imageUrl: '/images/products/herbal-tea.jpg', description: 'Мʼята, меліса, чебрець — купажі власного збору' },
+          { name: 'Ягідний морс', imageUrl: '/images/products/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.name',
+        slug: 'cheese-cured-meats',
+        emoji: '🧀🥓',
+        description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description',
+        items: [
+          { name: 'Сир бринза', imageUrl: '/images/products/brynza.jpg', description: 'Солоний овечий сир' },
+          { name: 'Сир косичка', imageUrl: '/images/products/cheese-string.jpg', description: 'Копчений твердий сир ручної роботи' },
+          { name: 'Домашній бекон', imageUrl: '/images/products/bacon.jpg', description: 'Солений, копчений або варено-копчений' },
+          { name: 'Ковбаса з індички', imageUrl: '/images/products/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.sweet-treats.name',
+        slug: 'sweet-treats',
+        emoji: '🍰🍫',
+        description: 'categories.from-the-kitchen.subcategories.sweet-treats.description',
+        items: [
+          { name: 'Медівник', imageUrl: '/images/products/medivnyk.jpg', description: 'Мʼякий пиріг на меду' },
+          { name: 'Цукерки з фініків', imageUrl: '/images/products/date-candies.jpg', description: 'Корисні солодощі без цукру' },
+          { name: 'Шоколад ручної роботи', imageUrl: '/images/products/handmade-chocolate.jpg', description: 'Темний, з горіхами або ягодами' },
+          { name: 'Пастила фруктова', imageUrl: '/images/products/fruit-leather.jpg', description: 'Натуральний перекус із сушених фруктів' }
+        ]
+      }
+    ]
   },
   {
     id: 'handmade-crafted',
