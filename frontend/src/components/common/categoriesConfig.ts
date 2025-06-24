@@ -69,8 +69,30 @@ export const categories: ICategory[] = [
           { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' }
         ]
       },
-      { name: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.name', slug: 'eggs-poultry', emoji: '🥚🐓', description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description' },
-      { name: 'categories.fresh-from-the-farm.subcategories.red-meat.name', slug: 'red-meat', emoji: '🥩🐄', description: 'categories.fresh-from-the-farm.subcategories.red-meat.description' },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.name', 
+        slug: 'eggs-poultry', 
+        emoji: '🥚🐓', 
+        description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description',
+        items: [
+          { name: 'Курячі яйця', imageUrl: '/images/products/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
+          { name: 'Качині яйця', imageUrl: '/images/products/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
+          { name: 'Домашні кури', imageUrl: '/images/products/chicken.jpg', description: 'Живі або охолоджені, вирощені без антибіотиків' },
+          { name: 'Індичка', imageUrl: '/images/products/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.red-meat.name', 
+        slug: 'red-meat', 
+        emoji: '🥩🐄', 
+        description: 'categories.fresh-from-the-farm.subcategories.red-meat.description',
+        items: [
+          { name: 'Яловичина', imageUrl: '/images/products/beef.jpg', description: 'Мармурове мʼясо з ферми' },
+          { name: 'Свинина', imageUrl: '/images/products/pork.jpg', description: 'Домашнє мʼясо для смаження і запікання' },
+          { name: 'Телятина', imageUrl: '/images/products/veal.jpg', description: 'Ніжне дієтичне мʼясо' },
+          { name: 'Баранина', imageUrl: '/images/products/lamb.jpg', description: 'Пахуче мʼясо молодих ягнят' }
+        ]
+      },
       { name: 'categories.fresh-from-the-farm.subcategories.fish-seafood.name', slug: 'fish-seafood', emoji: '🐟🦐', description: 'categories.fresh-from-the-farm.subcategories.fish-seafood.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.game-meats.name', slug: 'game-meats', emoji: '🦌🐇', description: 'categories.fresh-from-the-farm.subcategories.game-meats.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.dairy.name', slug: 'dairy', emoji: '🧀', description: 'categories.fresh-from-the-farm.subcategories.dairy.description' },
