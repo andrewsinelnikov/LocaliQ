@@ -116,8 +116,30 @@ export const categories: ICategory[] = [
           { name: 'Заяча тушка', imageUrl: '/images/products/hare.jpg', description: 'Для тушкування чи запікання' }
         ]
       },
-      { name: 'categories.fresh-from-the-farm.subcategories.dairy.name', slug: 'dairy', emoji: '🧀', description: 'categories.fresh-from-the-farm.subcategories.dairy.description' },
-      { name: 'categories.fresh-from-the-farm.subcategories.grains-legumes.name', slug: 'grains-legumes', emoji: '🌾', description: 'categories.fresh-from-the-farm.subcategories.grains-legumes.description' },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.dairy.name', 
+        slug: 'dairy', 
+        emoji: '🧀', 
+        description: 'categories.fresh-from-the-farm.subcategories.dairy.description',
+        items: [
+          { name: 'Молоко', imageUrl: '/images/products/milk.jpg', description: 'Свіже молоко, не пастеризоване' },
+          { name: 'Сметана', imageUrl: '/images/products/sour-cream.jpg', description: 'Домашня сметана жирністю 20%' },
+          { name: 'Домашній сир', imageUrl: '/images/products/cottage-cheese.jpg', description: 'Мʼякий сир для випічки й сніданків' },
+          { name: 'Сир', imageUrl: '/images/products/cheese.jpg', description: 'Мʼякі й твердi сири — з зеленню, перцем або класичні' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.grains-legumes.name', 
+        slug: 'grains-legumes', 
+        emoji: '🌾', 
+        description: 'categories.fresh-from-the-farm.subcategories.grains-legumes.description',
+        items: [
+          { name: 'Пшениця', imageUrl: '/images/products/wheat.jpg', description: 'Зерно для помелу або пророщування' },
+          { name: 'Кукурудза', imageUrl: '/images/products/corn.jpg', description: 'Солодка кукурудза в качанах' },
+          { name: 'Квасоля', imageUrl: '/images/products/beans.jpg', description: 'Різнокольорова квасоля: червона, біла' },
+          { name: 'Горох', imageUrl: '/images/products/peas.jpg', description: 'Сушений або свіжий зелений' }
+        ]
+      },
       { name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', slug: 'seedlings-starts', emoji: '🌱🪴', description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.foraged-goods.name', slug: 'foraged-goods', emoji: '🍄🌲', description: 'categories.fresh-from-the-farm.subcategories.foraged-goods.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.name', slug: 'herbs-flowers', emoji: '🌿💐', description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description' },
