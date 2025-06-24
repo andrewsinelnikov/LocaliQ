@@ -20,7 +20,20 @@ export const categories: ICategory[] = [
     description: 'categories.fresh-from-the-farm.description',
     imageUrl: '/images/categories/farm.jpg',
     subcategories: [
-      { name: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.name', slug: 'fresh-vegetables', emoji: '🥬', description: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.description' },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.name', 
+        slug: 'fresh-vegetables', 
+        emoji: '🥬', 
+        description: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.description',
+        items: [
+          { name: 'Морква', imageUrl: '/images/products/carrot.jpg', description: 'Молода морква з органічного городу', season: 'весна-осінь' },
+          { name: 'Капуста', imageUrl: '/images/products/cabbage.jpg', description: 'Білокачанна капуста для салатів і квашення', season: 'літо-осінь' },
+          { name: 'Помідори рожеві', imageUrl: '/images/products/tomato.jpg', description: 'Солодкі помідори домашнього сорту', season: 'літо' },
+          { name: 'Огірки', imageUrl: '/images/products/cucumber.jpg', description: 'Хрумкі огірки для салатів та маринування', season: 'літо' },
+          { name: 'Цибуля', imageUrl: '/images/products/onion.jpg', description: 'Ароматна ріпчаста цибуля', season: 'літо-осінь' },
+          { name: 'Буряк', imageUrl: '/images/products/beetroot.jpg', description: 'Соковитий буряк для борщу та салатів', season: 'все літо' }
+        ]
+      },
       { name: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.name', slug: 'fresh-fruits', emoji: '🍎', description: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.name', slug: 'honey-beekeeping', emoji: '🍯', description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description' },
       { name: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.name', slug: 'eggs-poultry', emoji: '🥚🐓', description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description' },
