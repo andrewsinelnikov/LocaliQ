@@ -1,3 +1,10 @@
+export interface ISubcategoryItem {
+  name: string;
+  imageUrl: string;
+  description?: string;
+  season?: string;
+}
+
 export interface ICategory {
   id: string;
   title: string;
@@ -9,6 +16,7 @@ export interface ICategory {
     slug: string;
     emoji: string;
     description: string;
+    items?: ISubcategoryItem[];
   }[];
 }
 
