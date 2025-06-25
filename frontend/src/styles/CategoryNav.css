@@ -79,6 +79,31 @@
   margin: 0 auto;
   padding: 20px 24px;
   gap: 20px;
+  position: relative;
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 5px;
+  right: -30px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--color-bg);
+  z-index: 1;
+  transition: color 0.2s ease;
+  padding: 6px;
+}
+
+.popup-close-button:hover {
+  border-radius: 50%;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+.popup-close-button svg {
+  display: block;
 }
 
 .subcategory-item {
