@@ -6,6 +6,8 @@ import { categories } from '../common/categoriesConfig';
 const CategoryNav = () => {
   const { t } = useTranslation();
   const [activeCategoryId, setActiveCategoryId] = useState<string | null>(null);
+  const [activeSubcategorySlug, setActiveSubcategorySlug] = useState<string | null>(null);
+
   const closeTimeoutRef = useRef<number | null>(null);
 
   // Detect if the screen is mobile-sized
@@ -48,6 +50,11 @@ const CategoryNav = () => {
     setActiveCategoryId(null);
   };
 
+  const handleMouseEnterSubcategory = (slug: string) => {
+  setActiveSubcategorySlug(slug);
+};
+
+
   return (
     <div className="category-bar-container">
       <nav className="category-bar">
@@ -68,7 +75,7 @@ const CategoryNav = () => {
       </nav>
 
       {/* Desktop hover popup */}
-      {!isMobile && activeCategoryId && (
+      {/* {!isMobile && activeCategoryId && (
         <div
           className="category-popup"
           onMouseEnter={handleMouseEnterPopup}
@@ -92,7 +99,51 @@ const CategoryNav = () => {
               ))}
           </div>
         </div>
+      )} */}
+      {!isMobile && activeCategoryId && (
+        <div
+          className="category-popup"
+          onMouseEnter={handleMouseEnterPopup}
+          onMouseLeave={handleMouseLeavePopup}
+        >
+          <div className="popup-inner two-panel">
+            {/* Subcategory list (left panel) */}
+            <div className="subcategory-list-panel">
+              {categories
+                .find((cat) => cat.id === activeCategoryId)
+                ?.subcategories.map((sub) => (
+                  <div
+                    key={sub.slug}
+                    className={`subcategory-item side-list ${activeSubcategorySlug === sub.slug ? 'active' : ''}`}
+                    onMouseEnter={() => handleMouseEnterSubcategory(sub.slug)}
+                    onClick={() => setActiveSubcategorySlug(sub.slug)}
+                  >
+                    <div className="subcategory-icon">{sub.emoji}</div>
+                    <div className="subcategory-title">{t(sub.name)}</div>
+                  </div>
+                ))}
+            </div>
+
+            {/* Product list (right panel) */}
+            <div className="subcategory-products-panel">
+              {categories
+                .find((cat) => cat.id === activeCategoryId)
+                ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)
+                ?.items?.map((item, idx) => (
+                  <div key={idx} className="product-item">
+                    <img src={item.imageUrl} alt={item.name} className="product-image" />
+                    <div className="product-info">
+                      <div className="product-name">{item.name}</div>
+                      <div className="product-description">{item.description}</div>
+                      {item.season && <div className="product-season">📅 {item.season}</div>}
+                    </div>
+                  </div>
+                ))}
+            </div>
+          </div>
+        </div>
       )}
+
 
       {/* Mobile dropdown list */}
       {isMobile && activeCategoryId && (
