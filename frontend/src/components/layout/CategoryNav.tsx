@@ -139,7 +139,7 @@ const CategoryNav = () => {
             </div>
 
             {/* Product list (right panel) */}
-            <div className="subcategory-products-panel">
+            <div className="subcategory-products-panel animated">
               {categories
                 .find((cat) => cat.id === activeCategoryId)
                 ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)
