@@ -149,7 +149,7 @@ const CategoryNav = () => {
             </div>
 
             {/* Product list (right panel) */}
-            <div className="subcategory-products-panel animated">
+            <div className={`subcategory-products-panel ${animateProductGrid ? 'fade-in' : ''}`}>
               {categories
                 .find((cat) => cat.id === activeCategoryId)
                 ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)
