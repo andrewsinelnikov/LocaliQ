@@ -143,6 +143,7 @@ const CategoryNav = () => {
                       className={`subcategory-nav-item ${
                         activeSubcategorySlug === sub.slug ? 'active' : ''
                       }`}
+                      onMouseEnter={() => handleMouseEnterSubcategory(sub.slug)}
                       onClick={() => setActiveSubcategorySlug(sub.slug)}
                     >
                       <div className="subcategory-icon">{sub.emoji}</div>

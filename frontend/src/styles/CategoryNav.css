@@ -137,7 +137,12 @@
   overflow-y: auto;
   padding-right: 8px;
   border-right: 1px solid #eee;
-  scrollbar-width: thin;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.subcategory-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
 }
 
 .subcategory-list {
