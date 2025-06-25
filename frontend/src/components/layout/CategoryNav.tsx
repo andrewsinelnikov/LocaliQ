@@ -132,22 +132,24 @@ const CategoryNav = () => {
           onMouseLeave={handleMouseLeavePopup}
         >
           <Awning />
-          <div className="popup-inner two-panel">
-            {/* Subcategory list (left panel) */}
-            <div className="subcategory-list-panel">
-              {categories
-                .find((cat) => cat.id === activeCategoryId)
-                ?.subcategories.map((sub) => (
-                  <div
-                    key={sub.slug}
-                    className={`subcategory-item side-list ${activeSubcategorySlug === sub.slug ? 'active' : ''}`}
-                    onMouseEnter={() => handleMouseEnterSubcategory(sub.slug)}
-                    onClick={() => setActiveSubcategorySlug(sub.slug)}
-                  >
-                    <div className="subcategory-icon">{sub.emoji}</div>
-                    <div className="subcategory-title">{t(sub.name)}</div>
-                  </div>
-                ))}
+          <div className="popup-inner">
+            <div className="subcategory-scroll-container">
+              <div className="subcategory-list">
+                {categories
+                  .find((cat) => cat.id === activeCategoryId)
+                  ?.subcategories.map((sub) => (
+                    <div
+                      key={sub.slug}
+                      className={`subcategory-nav-item ${
+                        activeSubcategorySlug === sub.slug ? 'active' : ''
+                      }`}
+                      onClick={() => setActiveSubcategorySlug(sub.slug)}
+                    >
+                      <div className="subcategory-icon">{sub.emoji}</div>
+                      <div className="subcategory-label">{t(sub.name)}</div>
+                    </div>
+                  ))}
+              </div>
             </div>
 
             {/* Product list (right panel) */}
