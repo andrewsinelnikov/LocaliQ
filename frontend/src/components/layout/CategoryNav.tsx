@@ -7,6 +7,7 @@ const CategoryNav = () => {
   const { t } = useTranslation();
   const [activeCategoryId, setActiveCategoryId] = useState<string | null>(null);
   const [activeSubcategorySlug, setActiveSubcategorySlug] = useState<string | null>(null);
+  const [animateProductGrid, setAnimateProductGrid] = useState(false);
 
   const closeTimeoutRef = useRef<number | null>(null);
 
@@ -31,6 +32,15 @@ const CategoryNav = () => {
       }
     }
   }, [activeCategoryId, isMobile]);
+
+  useEffect(() => {
+    if (!activeSubcategorySlug) return;
+
+    setAnimateProductGrid(false); // reset first to retrigger
+    requestAnimationFrame(() => {
+      setAnimateProductGrid(true);
+    });
+  }, [activeSubcategorySlug]);
 
   const handleClickTab = (id: string) => {
     setActiveCategoryId((prev) => (prev === id ? null : id));
