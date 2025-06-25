@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 import { categories } from '../common/categoriesConfig';
+import Awning from './Awning';
 
 const CategoryNav = () => {
   const { t } = useTranslation();
@@ -130,6 +131,7 @@ const CategoryNav = () => {
           onMouseEnter={handleMouseEnterPopup}
           onMouseLeave={handleMouseLeavePopup}
         >
+          <Awning />
           <div className="popup-inner two-panel">
             {/* Subcategory list (left panel) */}
             <div className="subcategory-list-panel">
