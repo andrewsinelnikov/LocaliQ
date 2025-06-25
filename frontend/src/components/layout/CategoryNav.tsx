@@ -19,6 +19,19 @@ const CategoryNav = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
+  useEffect(() => {
+    if (!isMobile && activeCategoryId) {
+      const category = categories.find((cat) => cat.id === activeCategoryId);
+      if (category && category.subcategories.length > 0) {
+        setActiveSubcategorySlug((prev) => {
+          // Don't reset if already viewing something in the same category
+          const stillInCategory = category.subcategories.some((sub) => sub.slug === prev);
+          return stillInCategory ? prev : category.subcategories[0].slug;
+        });
+      }
+    }
+  }, [activeCategoryId, isMobile]);
+
   const handleClickTab = (id: string) => {
     setActiveCategoryId((prev) => (prev === id ? null : id));
   };
@@ -48,6 +61,7 @@ const CategoryNav = () => {
   const handleMouseLeavePopup = () => {
     if (isMobile) return;
     setActiveCategoryId(null);
+    setActiveSubcategorySlug(null);
   };
 
   const handleMouseEnterSubcategory = (slug: string) => {
