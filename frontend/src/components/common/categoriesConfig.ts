@@ -69,7 +69,11 @@ export const categories: ICategory[] = [
           { name: 'Ожина', imageUrl: '/images/products/farm/fruits/blackberry.jpg', description: 'Соковита дика ожина', season: 'серпень' },
           { name: 'Смородина', imageUrl: '/images/products/farm/fruits/currant.jpg', description: 'Червона та чорна смородина з куща', season: 'липень-серпень' },
           { name: 'Диня', imageUrl: '/images/products/farm/fruits/melon.jpg', description: 'Солодка диня з насиченим ароматом', season: 'серпень' },
-          { name: 'Кавун', imageUrl: '/images/products/farm/fruits/watermelon.jpg', description: 'Освіжаючий кавун для літньої спеки', season: 'серпень' }
+          { name: 'Кавун', imageUrl: '/images/products/farm/fruits/watermelon.jpg', description: 'Освіжаючий кавун для літньої спеки', season: 'серпень' },
+          { name: 'Вишня', imageUrl: '/images/products/farm/fruits/sour-cherry.jpg', description: 'Соковита кисло-солодка вишня', season: 'червень-липень' },
+          { name: 'Порічка', imageUrl: '/images/products/farm/fruits/red-currant.jpg', description: 'Яскрава порічка з приємною кислинкою', season: 'липень' },
+          { name: 'Нектарин', imageUrl: '/images/products/farm/fruits/nectarine.jpg', description: 'Солодкий нектарин без пухнастої шкірки', season: 'липень-серпень' },
+          { name: 'Інжир', imageUrl: '/images/products/farm/fruits/fig.jpg', description: 'Свіжий інжир з медовим смаком', season: 'серпень-вересень' }
         ]
       },
       { 
