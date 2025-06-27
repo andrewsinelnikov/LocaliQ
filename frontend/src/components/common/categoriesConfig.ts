@@ -57,12 +57,19 @@ export const categories: ICategory[] = [
         emoji: '🍎', 
         description: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.description',
         items: [
-          { name: 'Яблука', imageUrl: '/images/products/apple.jpg', description: 'Соковиті яблука різних сортів', season: 'серпень-жовтень' },
-          { name: 'Груші', imageUrl: '/images/products/pear.jpg', description: 'Солодкі домашні груші', season: 'вересень' },
-          { name: 'Полуниця', imageUrl: '/images/products/strawberry.jpg', description: 'Ароматна ягода з грядки', season: 'червень' },
-          { name: 'Малина', imageUrl: '/images/products/raspberry.jpg', description: 'Свіжа малина для десертів та заморозки', season: 'липень' },
-          { name: 'Слива', imageUrl: '/images/products/plum.jpg', description: 'Домашні сливи для варення та їжі', season: 'серпень' },
-          { name: 'Черешня', imageUrl: '/images/products/cherry.jpg', description: 'Солодка черешня', season: 'червень-липень' }
+          { name: 'Яблука', imageUrl: '/images/products/farm/fruits/apple.jpg', description: 'Соковиті яблука різних сортів', season: 'серпень-жовтень' },
+          { name: 'Груші', imageUrl: '/images/products/farm/fruits/pear.jpg', description: 'Солодкі домашні груші', season: 'вересень' },
+          { name: 'Полуниця', imageUrl: '/images/products/farm/fruits/strawberry.jpg', description: 'Ароматна ягода з грядки', season: 'червень' },
+          { name: 'Малина', imageUrl: '/images/products/farm/fruits/raspberry.jpg', description: 'Свіжа малина для десертів та заморозки', season: 'липень' },
+          { name: 'Слива', imageUrl: '/images/products/farm/fruits/plum.jpg', description: 'Домашні сливи для варення та їжі', season: 'серпень' },
+          { name: 'Черешня', imageUrl: '/images/products/farm/fruits/cherry.jpg', description: 'Солодка черешня', season: 'червень-липень' },
+          { name: 'Абрикоси', imageUrl: '/images/products/farm/fruits/apricot.jpg', description: 'Соковиті абрикоси з ніжною м’якоттю', season: 'липень' },
+          { name: 'Персики', imageUrl: '/images/products/farm/fruits/peach.jpg', description: 'Запашні персики з оксамитовою шкіркою', season: 'липень-серпень' },
+          { name: 'Виноград', imageUrl: '/images/products/farm/fruits/grape.jpg', description: 'Стиглий виноград, солодкий і соковитий', season: 'вересень-жовтень' },
+          { name: 'Ожина', imageUrl: '/images/products/farm/fruits/blackberry.jpg', description: 'Соковита дика ожина', season: 'серпень' },
+          { name: 'Смородина', imageUrl: '/images/products/farm/fruits/currant.jpg', description: 'Червона та чорна смородина з куща', season: 'липень-серпень' },
+          { name: 'Диня', imageUrl: '/images/products/farm/fruits/melon.jpg', description: 'Солодка диня з насиченим ароматом', season: 'серпень' },
+          { name: 'Кавун', imageUrl: '/images/products/farm/fruits/watermelon.jpg', description: 'Освіжаючий кавун для літньої спеки', season: 'серпень' }
         ]
       },
       { 
@@ -84,7 +91,7 @@ export const categories: ICategory[] = [
         emoji: '🥚🐓', 
         description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description',
         items: [
-          { name: 'Курячі яйця', imageUrl: '/images/products/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
+          { name: 'Курячі яйця', imageUrl: '/images/products/farm/eggs-poultry/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
           { name: 'Качині яйця', imageUrl: '/images/products/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
           { name: 'Домашні кури', imageUrl: '/images/products/chicken.jpg', description: 'Живі або охолоджені, вирощені без антибіотиків' },
           { name: 'Індичка', imageUrl: '/images/products/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' }
