@@ -15,6 +15,7 @@ export interface ICategory {
     name: string;
     slug: string;
     emoji: string;
+    imageUrl?: string,
     description: string;
     items?: ISubcategoryItem[];
   }[];
@@ -32,6 +33,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.name', 
         slug: 'fresh-vegetables', 
         emoji: '🥬', 
+        imageUrl: '/images/subcategories/fresh-vegetables.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.description',
         items: [
           { name: 'Морква', imageUrl: '/images/products/farm/vegetables/carrot.jpg', description: 'Молода морква з органічного городу', season: 'весна-осінь' },

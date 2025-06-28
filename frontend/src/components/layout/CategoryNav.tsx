@@ -173,7 +173,10 @@ const CategoryNav = () => {
                       onMouseEnter={() => handleMouseEnterSubcategory(sub.slug)}
                       onClick={() => setActiveSubcategorySlug(sub.slug)}
                     >
-                      <div className="subcategory-icon">{sub.emoji}</div>
+                      {/* <div className="subcategory-icon">{sub.emoji}</div> */}
+                      <div className="subcategory-icon">
+                        <img src={sub.imageUrl} alt={t(sub.name)} className="subcategory-image" />
+                      </div> 
                       <div className="subcategory-label">{t(sub.name)}</div>
                     </div>
                   ))}
@@ -212,7 +215,10 @@ const CategoryNav = () => {
                 to={`/category/${activeCategoryId}/${sub.slug}`}
                 className="subcategory-item"
               >
-                <div className="subcategory-icon">{sub.emoji}</div>
+                {/* <div className="subcategory-icon">{sub.emoji}</div> */}
+                <div className="subcategory-icon">
+                  <img src={sub.imageUrl} alt={t(sub.name)} className="subcategory-image" />
+                </div> 
                 <div className="subcategory-text">
                   <div className="subcategory-title">{t(sub.name)}</div>
                   <div className="subcategory-description">{t(sub.description)}</div>
