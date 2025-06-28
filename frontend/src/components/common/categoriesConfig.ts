@@ -198,7 +198,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.name', 
         slug: 'herbs-flowers', 
         emoji: '🌿💐', 
-        imageUrl: '/images/subcategories/farm/foraged-goods.jpg',
+        imageUrl: '/images/subcategories/farm/herbs-flowers.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description',
         items: [
           { name: 'Базилік', imageUrl: '/images/products/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
