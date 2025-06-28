@@ -83,6 +83,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.name', 
         slug: 'honey-beekeeping', 
         emoji: '🍯', 
+        imageUrl: '/images/subcategories/honey-beekeeping.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description',
         items: [
           { name: 'Мед акацієвий', imageUrl: '/images/products/honey-acacia.jpg', description: 'Світлий і ароматний мед з акації', season: 'травень-червень' },
