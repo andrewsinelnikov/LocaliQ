@@ -174,6 +174,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', 
         slug: 'seedlings-starts', 
         emoji: '🌱🪴', 
+        imageUrl: '/images/subcategories/farm/seedlings-starts.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description',
         items: [
           { name: 'Розсада помідорів', imageUrl: '/images/products/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
@@ -185,6 +186,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.foraged-goods.name', 
         slug: 'foraged-goods', 
         emoji: '🍄🌲', 
+        imageUrl: '/images/subcategories/farm/foraged-goods.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.foraged-goods.description',
         items: [
           { name: 'Білі гриби', imageUrl: '/images/products/porcini.jpg', description: 'Свіжі або сушені, з екологічних лісів' },
@@ -196,6 +198,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.name', 
         slug: 'herbs-flowers', 
         emoji: '🌿💐', 
+        imageUrl: '/images/subcategories/farm/foraged-goods.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description',
         items: [
           { name: 'Базилік', imageUrl: '/images/products/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
@@ -693,6 +696,7 @@ export const categories: ICategory[] = [
         name: 'categories.local-services.subcategories.language-translation.name',
         slug: 'language-translation',
         emoji: '🗣️📘',
+
         description: 'categories.local-services.subcategories.language-translation.description',
         items: [
           { name: 'Письмовий переклад', imageUrl: '/images/products/written-translation.jpg', description: 'Переклад документів різних тем' },
