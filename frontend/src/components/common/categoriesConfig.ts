@@ -148,6 +148,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.dairy.name', 
         slug: 'dairy', 
         emoji: '🧀', 
+        imageUrl: '/images/subcategories/farm/dairy.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.dairy.description',
         items: [
           { name: 'Молоко', imageUrl: '/images/products/milk.jpg', description: 'Свіже молоко, не пастеризоване' },
@@ -160,6 +161,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.grains-legumes.name', 
         slug: 'grains-legumes', 
         emoji: '🌾', 
+        imageUrl: '/images/subcategories/farm/grains-legumes.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.grains-legumes.description',
         items: [
           { name: 'Пшениця', imageUrl: '/images/products/wheat.jpg', description: 'Зерно для помелу або пророщування' },
