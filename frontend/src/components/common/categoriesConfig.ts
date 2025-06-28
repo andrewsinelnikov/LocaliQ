@@ -97,6 +97,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.name', 
         slug: 'eggs-poultry', 
         emoji: '🥚🐓', 
+        imageUrl: '/images/subcategories/eggs-poultry.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description',
         items: [
           { name: 'Курячі яйця', imageUrl: '/images/products/farm/eggs-poultry/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
