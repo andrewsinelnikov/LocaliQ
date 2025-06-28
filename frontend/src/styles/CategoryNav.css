@@ -212,6 +212,11 @@
   object-fit: cover;
 }
 
+.subcategory-nav-item:hover .subcategory-image {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
 .subcategory-text {
   display: flex;
   flex-direction: column;
