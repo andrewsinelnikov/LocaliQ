@@ -57,6 +57,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.name', 
         slug: 'fresh-fruits', 
         emoji: '🍎', 
+        imageUrl: '/images/subcategories/fresh-fruits.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.description',
         items: [
           { name: 'Яблука', imageUrl: '/images/products/farm/fruits/apple.jpg', description: 'Соковиті яблука різних сортів', season: 'серпень-жовтень' },
