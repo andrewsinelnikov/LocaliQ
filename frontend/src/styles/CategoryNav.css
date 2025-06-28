@@ -157,7 +157,7 @@
   align-items: center;
   background-color: var(--color-bg);
   border-left: 3px solid transparent;
-  padding: 1px;
+  padding: 2px;
   /* padding-left: 6px; */
   border-radius: 6px;
   transition: border-color 0.2s ease;
