@@ -33,7 +33,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.name', 
         slug: 'fresh-vegetables', 
         emoji: '🥬', 
-        imageUrl: '/images/subcategories/fresh-vegetables.jpg',
+        imageUrl: '/images/subcategories/farm/fresh-vegetables.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.fresh-vegetables.description',
         items: [
           { name: 'Морква', imageUrl: '/images/products/farm/vegetables/carrot.jpg', description: 'Молода морква з органічного городу', season: 'весна-осінь' },
@@ -57,7 +57,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.name', 
         slug: 'fresh-fruits', 
         emoji: '🍎', 
-        imageUrl: '/images/subcategories/fresh-fruits.jpg',
+        imageUrl: '/images/subcategories/farm/fresh-fruits.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.fresh-fruits.description',
         items: [
           { name: 'Яблука', imageUrl: '/images/products/farm/fruits/apple.jpg', description: 'Соковиті яблука різних сортів', season: 'серпень-жовтень' },
@@ -83,7 +83,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.name', 
         slug: 'honey-beekeeping', 
         emoji: '🍯', 
-        imageUrl: '/images/subcategories/honey-beekeeping.jpg',
+        imageUrl: '/images/subcategories/farm/honey-beekeeping.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description',
         items: [
           { name: 'Мед акацієвий', imageUrl: '/images/products/honey-acacia.jpg', description: 'Світлий і ароматний мед з акації', season: 'травень-червень' },
@@ -97,7 +97,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.name', 
         slug: 'eggs-poultry', 
         emoji: '🥚🐓', 
-        imageUrl: '/images/subcategories/eggs-poultry.jpg',
+        imageUrl: '/images/subcategories/farm/eggs-poultry.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description',
         items: [
           { name: 'Курячі яйця', imageUrl: '/images/products/farm/eggs-poultry/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
@@ -110,7 +110,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.red-meat.name', 
         slug: 'red-meat', 
         emoji: '🥩🐄', 
-        imageUrl: '/images/subcategories/meat.jpg',
+        imageUrl: '/images/subcategories/farm/meat.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.red-meat.description',
         items: [
           { name: 'Яловичина', imageUrl: '/images/products/beef.jpg', description: 'Мармурове мʼясо з ферми' },
@@ -123,6 +123,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.fish-seafood.name', 
         slug: 'fish-seafood', 
         emoji: '🐟🦐', 
+        imageUrl: '/images/subcategories/farm/fish-seafood.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.fish-seafood.description',
         items: [
           { name: 'Форель', imageUrl: '/images/products/trout.jpg', description: 'Свіжа або копчена форель' },
@@ -135,6 +136,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.game-meats.name', 
         slug: 'game-meats', 
         emoji: '🦌🐇', 
+        imageUrl: '/images/subcategories/farm/game-meats.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.game-meats.description',
         items: [
           { name: 'Оленина', imageUrl: '/images/products/venison.jpg', description: 'Мʼясо дикого оленя з лісу' },
