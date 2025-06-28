@@ -110,6 +110,7 @@ export const categories: ICategory[] = [
         name: 'categories.fresh-from-the-farm.subcategories.red-meat.name', 
         slug: 'red-meat', 
         emoji: '🥩🐄', 
+        imageUrl: '/images/subcategories/meat.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.red-meat.description',
         items: [
           { name: 'Яловичина', imageUrl: '/images/products/beef.jpg', description: 'Мармурове мʼясо з ферми' },
