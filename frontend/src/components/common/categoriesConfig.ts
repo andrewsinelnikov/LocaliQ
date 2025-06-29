@@ -38,7 +38,7 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Морква', imageUrl: '/images/products/farm/vegetables/carrot.jpg', description: 'Молода морква з органічного городу', season: 'весна-осінь' },
           { name: 'Капуста', imageUrl: '/images/products/farm/vegetables/cabbage.jpg', description: 'Білокачанна капуста для салатів і квашення', season: 'літо-осінь' },
-          { name: 'Помідори рожеві', imageUrl: '/images/products/farm/vegetables/tomato.jpg', description: 'Солодкі помідори домашнього сорту', season: 'літо' },
+          { name: 'Помідори', imageUrl: '/images/products/farm/vegetables/tomato.jpg', description: 'Солодкі помідори домашнього сорту', season: 'літо' },
           { name: 'Огірки', imageUrl: '/images/products/farm/vegetables/cucumber.jpg', description: 'Хрумкі огірки для салатів та маринування', season: 'літо' },
           { name: 'Цибуля', imageUrl: '/images/products/farm/vegetables/onion.jpg', description: 'Ароматна ріпчаста цибуля', season: 'літо-осінь' },
           { name: 'Буряк', imageUrl: '/images/products/farm/vegetables/beetroot.jpg', description: 'Соковитий буряк для борщу та салатів', season: 'все літо' },

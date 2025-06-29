@@ -193,8 +193,8 @@ const CategoryNav = () => {
                     <img src={item.imageUrl} alt={item.name} className="product-image" />
                     <div className="product-info">
                       <div className="product-name">{item.name}</div>
-                      <div className="product-description">{item.description}</div>
-                      {item.season && <div className="product-season">📅 {item.season}</div>}
+                      {/* <div className="product-description">{item.description}</div>
+                      {item.season && <div className="product-season">📅 {item.season}</div>} */}
                     </div>
                   </div>
                 ))}
