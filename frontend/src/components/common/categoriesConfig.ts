@@ -220,6 +220,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.baked-goods.name',
         slug: 'baked-goods',
         emoji: '🥖🍪',
+        imageUrl: '/images/subcategories/kitchen/baked-goods.jpg',
         description: 'categories.from-the-kitchen.subcategories.baked-goods.description',
         items: [
           { name: 'Житній хліб на заквасці', imageUrl: '/images/products/rye-bread.jpg', description: 'Ароматний хліб із натуральної закваски' },
@@ -232,6 +233,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
         slug: 'savory-spreads-sauces',
         emoji: '🧄🫙',
+        imageUrl: '/images/subcategories/kitchen/savory-spreads-sauces.jpg',
         description: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.description',
         items: [
           { name: 'Песто з базиліку', imageUrl: '/images/products/pesto.jpg', description: 'Свіжий зелений соус з домашнього базиліку' },
@@ -244,6 +246,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.pasta-grains.name',
         slug: 'pasta-grains',
         emoji: '🍝🌾',
+        imageUrl: '/images/subcategories/kitchen/pasta-grains.jpg',
         description: 'categories.from-the-kitchen.subcategories.pasta-grains.description',
         items: [
           { name: 'Домашня локшина', imageUrl: '/images/products/egg-noodles.jpg', description: 'З твердих сортів пшениці або з яйцем' },
@@ -256,6 +259,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.jams-preserves.name',
         slug: 'jams-preserves',
         emoji: '🍓🥫',
+        imageUrl: '/images/subcategories/kitchen/jams-preserves.jpg',
         description: 'categories.from-the-kitchen.subcategories.jams-preserves.description',
         items: [
           { name: 'Варення з полуниці', imageUrl: '/images/products/strawberry-jam.jpg', description: 'Класичне варення з літніх ягід' },
@@ -268,6 +272,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.ferments-vinegars.name',
         slug: 'ferments-vinegars',
         emoji: '🧂🍶',
+        imageUrl: '/images/subcategories/kitchen/ferments-vinegars.jpg',
         description: 'categories.from-the-kitchen.subcategories.ferments-vinegars.description',
         items: [
           { name: 'Квашена капуста', imageUrl: '/images/products/sauerkraut.jpg', description: 'З ферментованої капусти без оцту' },
@@ -280,6 +285,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.homemade-meals.name',
         slug: 'homemade-meals',
         emoji: '🍲',
+        imageUrl: '/images/subcategories/kitchen/homemade-meals.jpg',
         description: 'categories.from-the-kitchen.subcategories.homemade-meals.description',
         items: [
           { name: 'Борщ у банці', imageUrl: '/images/products/borscht-jar.jpg', description: 'Готова перша страва — просто розігріти' },
@@ -292,6 +298,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.beverages.name',
         slug: 'beverages',
         emoji: '☕🍷',
+        imageUrl: '/images/subcategories/kitchen/beverages.jpg',
         description: 'categories.from-the-kitchen.subcategories.beverages.description',
         items: [
           { name: 'Компот з сухофруктів', imageUrl: '/images/products/kompot.jpg', description: 'Напій без консервантів' },
@@ -304,6 +311,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.name',
         slug: 'cheese-cured-meats',
         emoji: '🧀🥓',
+        imageUrl: '/images/subcategories/kitchen/cheese-cured-meats.jpg',
         description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description',
         items: [
           { name: 'Сир бринза', imageUrl: '/images/products/brynza.jpg', description: 'Солоний овечий сир' },
@@ -316,6 +324,7 @@ export const categories: ICategory[] = [
         name: 'categories.from-the-kitchen.subcategories.sweet-treats.name',
         slug: 'sweet-treats',
         emoji: '🍰🍫',
+        imageUrl: '/images/subcategories/kitchen/sweet-treats.jpg',
         description: 'categories.from-the-kitchen.subcategories.sweet-treats.description',
         items: [
           { name: 'Медівник', imageUrl: '/images/products/medivnyk.jpg', description: 'Мʼякий пиріг на меду' },
