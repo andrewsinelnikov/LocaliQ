@@ -109,7 +109,7 @@
   border: none;
   font-size: 20px;
   cursor: pointer;
-  color: var(--color-bg);
+  color: var(--color-dark);
   z-index: 1;
   transition: color 0.2s ease;
   padding: 6px;
@@ -117,8 +117,9 @@
 
 .popup-close-button:hover {
   border-radius: 50%;
-  background: rgba(254, 254, 254, 0.8);
-  color: var(--color-primary);
+  color: var(--color-bg);
+  background: var(--color-primary);
+  /* color: var(--color-primary); */
   backdrop-filter: blur(10px);
 }
 
@@ -168,6 +169,7 @@
   transition: border-color 0.2s ease;
   font-weight: 600;
   max-width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* .subcategory-nav-item:hover,
