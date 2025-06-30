@@ -289,7 +289,7 @@ const CategoryNav = () => {
           ) : (
             // Show items list for selected subcategory
             <div className="mobile-subcategory-items">
-              <button
+              {/* <button
                 className="back-button"
                 onClick={() => {
                   setViewingSubcategoryItemsMobile(false);
@@ -297,7 +297,27 @@ const CategoryNav = () => {
                 }}
               >
                 ← {t('Back')}
-              </button>
+              </button> */}
+              <div className="mobile-back-header">
+                <button
+                  className="back-button"
+                  onClick={() => {
+                    setViewingSubcategoryItemsMobile(false);
+                    setActiveSubcategorySlug(null);
+                  }}
+                >
+                  ← {t('Back')}
+                </button>
+                {activeCategoryId && activeSubcategorySlug && (
+                  <span className="subcategory-title">
+                    {t(
+                      categories
+                        .find((cat) => cat.id === activeCategoryId)
+                        ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)?.name || ''
+                    )}
+                  </span>
+                )}
+              </div>
 
               <div className={`subcategory-products-panel ${animateProductGrid ? 'fade-in' : ''}`}>
                 {categories
