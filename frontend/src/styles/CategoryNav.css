@@ -328,6 +328,21 @@
   animation: fadeSlideIn 300ms ease-out;
 }
 
+.mobile-category-view {
+  padding: 10px 16px;
+  background-color: #fdfdfd;
+}
+
+.mobile-category-view .back-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--color-primary);
+  font-weight: bold;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
 @keyframes fadeSlideIn {
   from {
     opacity: 0;
