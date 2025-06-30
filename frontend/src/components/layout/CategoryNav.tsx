@@ -58,8 +58,26 @@ const CategoryNav = () => {
     });
   }, [activeSubcategorySlug]);
 
+  // const handleClickTab = (id: string) => {
+  //   setActiveCategoryId((prev) => (prev === id ? null : id));
+  // };
+
   const handleClickTab = (id: string) => {
-    setActiveCategoryId((prev) => (prev === id ? null : id));
+    setActiveCategoryId((prev) => {
+      const isClosing = prev === id;
+
+      if (isClosing) {
+        // Reset all state when closing
+        setActiveSubcategorySlug(null);
+        setViewingSubcategoryItemsMobile(false);
+        return null;
+      } else {
+        // Switching to a new category: also reset mobile state
+        setActiveSubcategorySlug(null);
+        setViewingSubcategoryItemsMobile(false);
+        return id;
+      }
+    });
   };
 
   const handleMouseEnterTab = (id: string) => {
