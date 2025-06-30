@@ -15,12 +15,26 @@ const CategoryNav = () => {
   // Detect if the screen is mobile-sized
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    // const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    // checkMobile();
+    // window.addEventListener('resize', checkMobile);
+    // return () => window.removeEventListener('resize', checkMobile);
+    const checkMobile = () => {
+      const nowMobile = window.innerWidth <= 768;
+      if (isMobile && !nowMobile) {
+        // just switched from mobile to desktop
+        setActiveCategoryId(null);
+        setActiveSubcategorySlug(null);
+      }
+      setIsMobile(nowMobile);
+    };
+
     checkMobile();
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
-  }, []);
+  }, [isMobile]);
 
+  
   useEffect(() => {
     if (!isMobile && activeCategoryId) {
       const category = categories.find((cat) => cat.id === activeCategoryId);
