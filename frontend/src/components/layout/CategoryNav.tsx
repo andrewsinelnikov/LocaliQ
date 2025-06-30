@@ -264,7 +264,7 @@ const CategoryNav = () => {
         <div className="mobile-category-view">
           {!viewingSubcategoryItemsMobile ? (
             // Show subcategories list
-            <div className="mobile-subcategory-list">
+            <div className="mobile-subcategory-list mobile-fade-slide">
               {categories
                 .find((cat) => cat.id === activeCategoryId)
                 ?.subcategories.map((sub) => (
@@ -288,16 +288,7 @@ const CategoryNav = () => {
             </div>
           ) : (
             // Show items list for selected subcategory
-            <div className="mobile-subcategory-items">
-              {/* <button
-                className="back-button"
-                onClick={() => {
-                  setViewingSubcategoryItemsMobile(false);
-                  setActiveSubcategorySlug(null);
-                }}
-              >
-                ← {t('Back')}
-              </button> */}
+            <div className="mobile-subcategory-items mobile-fade-slide">
               <div className="mobile-back-header">
                 <button
                   className="back-button"

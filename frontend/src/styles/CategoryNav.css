@@ -365,6 +365,20 @@
   padding-bottom: 4px; 
 }
 
+.mobile-fade-slide {
+  animation: fadeSlideInMobile 300ms ease-out;
+}
+
+@keyframes fadeSlideInMobile {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
 @keyframes fadeSlideIn {
   from {
