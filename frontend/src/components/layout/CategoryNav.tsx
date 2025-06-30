@@ -8,6 +8,7 @@ const CategoryNav = () => {
   const { t } = useTranslation();
   const [activeCategoryId, setActiveCategoryId] = useState<string | null>(null);
   const [activeSubcategorySlug, setActiveSubcategorySlug] = useState<string | null>(null);
+  const [viewingSubcategoryItemsMobile, setViewingSubcategoryItemsMobile] = useState(false);
   const [animateProductGrid, setAnimateProductGrid] = useState(false);
 
   const closeTimeoutRef = useRef<number | null>(null);
@@ -74,7 +75,7 @@ const CategoryNav = () => {
     if (isMobile) return;
     closeTimeoutRef.current = window.setTimeout(() => {
       setActiveCategoryId(null);
-    }, 50);
+    }, 150);
   };
 
   const handleMouseEnterPopup = () => {
@@ -219,7 +220,7 @@ const CategoryNav = () => {
 
 
       {/* Mobile dropdown list */}
-      {isMobile && activeCategoryId && (
+      {/* {isMobile && activeCategoryId && (
         <div className="mobile-subcategory-list">
           {categories
             .find((cat) => cat.id === activeCategoryId)
@@ -229,7 +230,7 @@ const CategoryNav = () => {
                 to={`/category/${activeCategoryId}/${sub.slug}`}
                 className="subcategory-item"
               >
-                {/* <div className="subcategory-icon">{sub.emoji}</div> */}
+                
                 <div className="subcategory-icon">
                   <img src={sub.imageUrl} alt={t(sub.name)} className="subcategory-image" />
                 </div> 
@@ -240,7 +241,64 @@ const CategoryNav = () => {
               </Link>
             ))}
         </div>
+      )} */}
+      {isMobile && activeCategoryId && (
+        <div className="mobile-category-view">
+          {!viewingSubcategoryItemsMobile ? (
+            // Show subcategories list
+            <div className="mobile-subcategory-list">
+              {categories
+                .find((cat) => cat.id === activeCategoryId)
+                ?.subcategories.map((sub) => (
+                  <div
+                    key={sub.slug}
+                    className="subcategory-item"
+                    onClick={() => {
+                      setActiveSubcategorySlug(sub.slug);
+                      setViewingSubcategoryItemsMobile(true);
+                    }}
+                  >
+                    <div className="subcategory-icon">
+                      <img src={sub.imageUrl} alt={t(sub.name)} className="subcategory-image" />
+                    </div>
+                    <div className="subcategory-text">
+                      <div className="subcategory-title">{t(sub.name)}</div>
+                      <div className="subcategory-description">{t(sub.description)}</div>
+                    </div>
+                  </div>
+                ))}
+            </div>
+          ) : (
+            // Show items list for selected subcategory
+            <div className="mobile-subcategory-items">
+              <button
+                className="back-button"
+                onClick={() => {
+                  setViewingSubcategoryItemsMobile(false);
+                  setActiveSubcategorySlug(null);
+                }}
+              >
+                ← {t('Back')}
+              </button>
+
+              <div className={`subcategory-products-panel ${animateProductGrid ? 'fade-in' : ''}`}>
+                {categories
+                  .find((cat) => cat.id === activeCategoryId)
+                  ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)
+                  ?.items?.map((item, idx) => (
+                    <div key={idx} className="product-item">
+                      <img src={item.imageUrl} alt={item.name} className="product-image" />
+                      <div className="product-info">
+                        <div className="product-name">{item.name}</div>
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          )}
+        </div>
       )}
+
     </div>
   );
 };
