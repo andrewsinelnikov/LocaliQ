@@ -28,6 +28,11 @@ const CategoryNav = () => {
     }
   });
 
+  useEffect(() => {
+    if (viewingSubcategoryItemsMobile && productViewRef.current) {
+      productViewRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [viewingSubcategoryItemsMobile]);
 
   // Detect if the screen is mobile-sized
   const [isMobile, setIsMobile] = useState(false);
