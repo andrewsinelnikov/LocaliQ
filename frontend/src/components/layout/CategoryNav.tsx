@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { categories } from '../common/categoriesConfig';
 import Awning from './Awning';
+import { useSwipe } from '../../utils/useSwipe';
 
 const CategoryNav = () => {
   const { t } = useTranslation();
@@ -12,6 +13,21 @@ const CategoryNav = () => {
   const [animateProductGrid, setAnimateProductGrid] = useState(false);
 
   const closeTimeoutRef = useRef<number | null>(null);
+
+  const productViewRef = useRef<HTMLDivElement>(null);
+
+  const [transitionDirection, setTransitionDirection] = useState<'forward' | 'backward' | null>(null);
+
+  useSwipe(productViewRef, {
+    onSwipeRight: () => {
+      if (viewingSubcategoryItemsMobile) {
+        setTransitionDirection('backward');
+        setViewingSubcategoryItemsMobile(false);
+        setActiveSubcategorySlug(null);
+      }
+    }
+  });
+
 
   // Detect if the screen is mobile-sized
   const [isMobile, setIsMobile] = useState(false);
@@ -272,6 +288,7 @@ const CategoryNav = () => {
                     key={sub.slug}
                     className="subcategory-item"
                     onClick={() => {
+                      setTransitionDirection('forward'); 
                       setActiveSubcategorySlug(sub.slug);
                       setViewingSubcategoryItemsMobile(true);
                     }}
@@ -288,11 +305,21 @@ const CategoryNav = () => {
             </div>
           ) : (
             // Show items list for selected subcategory
-            <div className="mobile-subcategory-items mobile-fade-slide">
+            <div
+              className={`mobile-subcategory-items mobile-fade-slide ${
+                transitionDirection === 'forward'
+                  ? 'slide-forward'
+                  : transitionDirection === 'backward'
+                  ? 'slide-backward'
+                  : ''
+              }`}
+              ref={productViewRef}
+            >
               <div className="mobile-back-header">
                 <button
                   className="back-button"
                   onClick={() => {
+                    setTransitionDirection('backward');
                     setViewingSubcategoryItemsMobile(false);
                     setActiveSubcategorySlug(null);
                   }}
