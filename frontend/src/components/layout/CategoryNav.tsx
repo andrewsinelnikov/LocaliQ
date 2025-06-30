@@ -308,15 +308,13 @@ const CategoryNav = () => {
                 >
                   ← {t('Back')}
                 </button>
-                {activeCategoryId && activeSubcategorySlug && (
-                  <span className="subcategory-title">
-                    {t(
-                      categories
-                        .find((cat) => cat.id === activeCategoryId)
-                        ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)?.name || ''
-                    )}
-                  </span>
-                )}
+                <div className="subcategory-title">
+                  {t(
+                    categories
+                      .find((cat) => cat.id === activeCategoryId)
+                      ?.subcategories.find((sub) => sub.slug === activeSubcategorySlug)?.name || ''
+                  )}
+                </div>
               </div>
 
               <div className={`subcategory-products-panel ${animateProductGrid ? 'fade-in' : ''}`}>

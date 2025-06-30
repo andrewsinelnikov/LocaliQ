@@ -349,15 +349,20 @@
   cursor: pointer;
   line-height: 1;
   padding: 0;
+  margin-bottom: 6px;
 }
 
 .mobile-back-header .subcategory-title {
   font-weight: bold;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.4; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70%;
   padding-left: 1rem;
-  /* padding-top: 2px; */
-  margin-top: 2px;
+  padding-top: 2px;
+  padding-bottom: 4px; 
 }
 
 
