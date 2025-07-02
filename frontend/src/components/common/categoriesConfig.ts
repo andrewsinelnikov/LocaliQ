@@ -381,6 +381,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.name',
         slug: 'natural-dyes-fibers',
         emoji: '🧶🌱',
+        imageUrl: '/images/subcategories/handmade/natural-dyes-fibers.jpg',
         description: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.description',
         items: [
           { name: 'Пряжа з кропиви', imageUrl: '/images/products/nettle-yarn.jpg', description: 'Екологічна альтернатива синтетичним волокнам' },
