@@ -392,6 +392,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.printed-materials.name',
         slug: 'printed-materials',
         emoji: '🖨️📚',
+        imageUrl: '/images/subcategories/handmade/printed-materials.jpg',
         description: 'categories.handmade-crafted.subcategories.printed-materials.description',
         items: [
           { name: 'Авторські збірки', imageUrl: '/images/products/collection.jpg', description: 'Малі тиражі, локальні автори' },
