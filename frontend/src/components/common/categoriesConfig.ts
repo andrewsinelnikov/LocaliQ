@@ -370,6 +370,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.metalwork-tools.name',
         slug: 'metalwork-tools',
         emoji: '🔧⚒️',
+        imageUrl: '/images/subcategories/handmade/metalwork-tools.jpg',
         description: 'categories.handmade-crafted.subcategories.metalwork-tools.description',
         items: [
           { name: 'Ножі з дамаску', imageUrl: '/images/products/damascus-knife.jpg', description: 'Кухонні чи туристичні ножі ручного кування' },
