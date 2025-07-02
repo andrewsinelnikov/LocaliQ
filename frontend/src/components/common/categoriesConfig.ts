@@ -358,6 +358,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.leather-goods.name',
         slug: 'leather-goods',
         emoji: '👞👜',
+        imageUrl: '/images/subcategories/handmade/leather-goods.jpg',
         description: 'categories.handmade-crafted.subcategories.leather-goods.description',
         items: [
           { name: 'Шкіряні гаманці', imageUrl: '/images/products/leather-wallet.jpg', description: 'Компактні гаманці з натуральної шкіри' },
