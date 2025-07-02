@@ -346,6 +346,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.woodcrafts.name',
         slug: 'woodcrafts',
         emoji: '🪵🪑',
+        imageUrl: '/images/subcategories/handmade/woodcrafts.jpg',
         description: 'categories.handmade-crafted.subcategories.woodcrafts.description',
         items: [
           { name: 'Деревʼяні ложки', imageUrl: '/images/products/wooden-spoons.jpg', description: 'Ручна різьба, з вільхи або бука' },
