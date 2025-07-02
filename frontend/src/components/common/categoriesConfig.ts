@@ -403,6 +403,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.upcycled-products.name',
         slug: 'upcycled-products',
         emoji: '🔁🧺',
+        imageUrl: '/images/subcategories/handmade/upcycled-products.jpg',
         description: 'categories.handmade-crafted.subcategories.upcycled-products.description',
         items: [
           { name: 'Сумки з банерів', imageUrl: '/images/products/upcycled-bag.jpg', description: 'Стильні аксесуари з перероблених матеріалів' },
@@ -413,6 +414,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.pottery-ceramics.name',
         slug: 'pottery-ceramics',
         emoji: '🏺',
+        imageUrl: '/images/subcategories/handmade/pottery-ceramics.jpg',
         description: 'categories.handmade-crafted.subcategories.pottery-ceramics.description',
         items: [
           { name: 'Чашки гончарні', imageUrl: '/images/products/ceramic-cup.jpg', description: 'Кожна — унікальна' },
