@@ -436,6 +436,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.fine-art-prints.name',
         slug: 'fine-art-prints',
         emoji: '🎨🖼️',
+        imageUrl: '/images/subcategories/handmade/fine-art-prints.jpg',
         description: 'categories.handmade-crafted.subcategories.fine-art-prints.description',
         items: [
           { name: 'Арт-принти з авторських ілюстрацій', imageUrl: '/images/products/art-print.jpg', description: 'Друк обмеженим тиражем' },
