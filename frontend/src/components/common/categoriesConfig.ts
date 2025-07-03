@@ -425,6 +425,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.textiles-weaving.name',
         slug: 'textiles-weaving',
         emoji: '🧵🧣',
+        imageUrl: '/images/subcategories/handmade/textiles-weaving.jpg',
         description: 'categories.handmade-crafted.subcategories.textiles-weaving.description',
         items: [
           { name: 'Плетені серветки', imageUrl: '/images/products/woven-napkin.jpg', description: 'З льону або бавовни' },
