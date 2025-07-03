@@ -447,6 +447,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.jewelry.name',
         slug: 'jewelry',
         emoji: '💍',
+        imageUrl: '/images/subcategories/handmade/jewelry.jpg',
         description: 'categories.handmade-crafted.subcategories.jewelry.description',
         items: [
           { name: 'Сережки з полімерної глини', imageUrl: '/images/products/polymer-earrings.jpg', description: 'Легкі та яскраві прикраси' },
