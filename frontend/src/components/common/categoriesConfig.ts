@@ -469,6 +469,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.artisan-stationery.name',
         slug: 'artisan-stationery',
         emoji: '✉️📓',
+        imageUrl: '/images/subcategories/handmade/artisan-stationery.jpg',
         description: 'categories.handmade-crafted.subcategories.artisan-stationery.description',
         items: [
           { name: 'Записники з переробленого паперу', imageUrl: '/images/products/recycled-notebook.jpg', description: 'Крафтові обкладинки, ручна збірка' },
