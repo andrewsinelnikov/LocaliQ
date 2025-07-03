@@ -458,6 +458,7 @@ export const categories: ICategory[] = [
         name: 'categories.handmade-crafted.subcategories.music-media.name',
         slug: 'music-media',
         emoji: '🎶📀',
+        imageUrl: '/images/subcategories/handmade/music-media.jpg',
         description: 'categories.handmade-crafted.subcategories.music-media.description',
         items: [
           { name: 'Касети з гуртами', imageUrl: '/images/products/cassette.jpg', description: 'Альтернативна музика на фізичних носіях' },
