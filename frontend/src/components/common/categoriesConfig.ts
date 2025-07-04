@@ -489,6 +489,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.wellness-sessions.name',
         slug: 'wellness-sessions',
         emoji: '💆‍♀️🕯️',
+        imageUrl: '/images/subcategories/handmade/wellness-sessions.jpg',
         description: 'categories.wellness-care.subcategories.wellness-sessions.description',
         items: [
           { name: 'Релакс масаж', imageUrl: '/images/products/relax-massage.jpg', description: 'Професійний масаж для зняття напруги' },
