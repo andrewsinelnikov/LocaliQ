@@ -501,6 +501,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.natural-skincare-bodycare.name',
         slug: 'natural-skincare-bodycare',
         emoji: '🧴🌿',
+        imageUrl: '/images/subcategories/handmade/natural-skincare-bodycare.jpg',
         description: 'categories.wellness-care.subcategories.natural-skincare-bodycare.description',
         items: [
           { name: 'Органічні креми', imageUrl: '/images/products/organic-cream.jpg', description: 'Зволожуючі засоби без синтетики' },
