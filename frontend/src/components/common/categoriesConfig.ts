@@ -513,6 +513,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.herbal-products-remedies.name',
         slug: 'herbal-products-remedies',
         emoji: '🍵🌱',
+        imageUrl: '/images/subcategories/handmade/herbal-products-remedies.jpg',
         description: 'categories.wellness-care.subcategories.herbal-products-remedies.description',
         items: [
           { name: 'Трав’яні чаї', imageUrl: '/images/products/herbal-tea.jpg', description: 'Зміцнюють імунітет і підтримують здоров’я' },
