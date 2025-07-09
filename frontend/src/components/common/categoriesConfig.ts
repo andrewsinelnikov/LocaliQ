@@ -494,13 +494,20 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Релакс масаж', imageUrl: '/images/products/relax-massage.jpg', description: 'Професійний масаж для зняття напруги' },
           { name: 'СПА-процедури', imageUrl: '/images/products/spa-treatments.jpg', description: 'Комплексний догляд за тілом' },
+          { name: 'Терапевтичний масаж', imageUrl: '/images/products/therapeutic-massage.jpg', description: 'Масаж для зменшення болю та поліпшення рухливості' },
+          { name: 'Фізіотерапія', imageUrl: '/images/products/physiotherapy.jpg', description: 'Відновлення після травм або хронічного болю' },
+          { name: 'Сеанси релаксації', imageUrl: '/images/products/relaxation-session.jpg', description: 'Індивідуальні сесії для зниження рівня стресу' },
+          { name: 'Сауна та інфрачервона терапія', imageUrl: '/images/products/infrared-sauna.jpg', description: "Очищення тіла та зниження м'язового напруження" },
+          { name: 'Гідромасаж', imageUrl: '/images/products/hydro-massage.jpg', description: 'Водні процедури для глибокого розслаблення' },
+          { name: 'Міофасціальний реліз', imageUrl: '/images/products/myofascial-release.jpg', description: "Мануальна техніка для зменшення напруги в м'язах" },
+          { name: 'Кріотерапія', imageUrl: '/images/products/cryotherapy.jpg', description: 'Охолоджувальні процедури для зменшення запалення' }
         ],
       },
       {
         name: 'categories.wellness-care.subcategories.natural-skincare-bodycare.name',
         slug: 'natural-skincare-bodycare',
         emoji: '🧴🌿',
-        imageUrl: '/images/subcategories/handmade/skincare-bodycare.jpg',
+        imageUrl: '/images/subcategories/wellness/skincare-bodycare.jpg',
         description: 'categories.wellness-care.subcategories.natural-skincare-bodycare.description',
         items: [
           { name: 'Органічні креми', imageUrl: '/images/products/organic-cream.jpg', description: 'Зволожуючі засоби без синтетики' },
