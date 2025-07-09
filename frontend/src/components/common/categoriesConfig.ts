@@ -489,19 +489,18 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.wellness-sessions.name',
         slug: 'wellness-sessions',
         emoji: '💆‍♀️🕯️',
-        imageUrl: '/images/subcategories/handmade/wellness-sessions.jpg',
+        imageUrl: '/images/subcategories/wellness/wellness-sessions.jpg',
         description: 'categories.wellness-care.subcategories.wellness-sessions.description',
         items: [
           { name: 'Релакс масаж', imageUrl: '/images/products/relax-massage.jpg', description: 'Професійний масаж для зняття напруги' },
           { name: 'СПА-процедури', imageUrl: '/images/products/spa-treatments.jpg', description: 'Комплексний догляд за тілом' },
-          { name: 'Стоун-терапія', imageUrl: '/images/products/stone-therapy.jpg', description: 'Масаж гарячими каменями для глибокого розслаблення' },
         ],
       },
       {
         name: 'categories.wellness-care.subcategories.natural-skincare-bodycare.name',
         slug: 'natural-skincare-bodycare',
         emoji: '🧴🌿',
-        imageUrl: '/images/subcategories/handmade/natural-skincare-bodycare.jpg',
+        imageUrl: '/images/subcategories/handmade/skincare-bodycare.jpg',
         description: 'categories.wellness-care.subcategories.natural-skincare-bodycare.description',
         items: [
           { name: 'Органічні креми', imageUrl: '/images/products/organic-cream.jpg', description: 'Зволожуючі засоби без синтетики' },
