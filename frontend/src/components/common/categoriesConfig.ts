@@ -588,6 +588,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.movement-bodywork.name',
         slug: 'movement-bodywork',
         emoji: '🏃‍♀️💃',
+        imageUrl: '/images/subcategories/wellness/movement-bodywork.jpg',
         description: 'categories.wellness-care.subcategories.movement-bodywork.description',
         items: [
           { name: 'Пілатес', imageUrl: '/images/products/pilates.jpg', description: 'Плавна робота з тілом для гнучкості та зміцнення м’язів' },
