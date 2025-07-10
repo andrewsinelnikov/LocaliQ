@@ -530,7 +530,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.herbal-products-remedies.name',
         slug: 'herbal-products-remedies',
         emoji: '🍵🌱',
-        imageUrl: '/images/subcategories/handmade/herbal-products-remedies.jpg',
+        imageUrl: '/images/subcategories/wellness/herbal-remedies.jpg',
         description: 'categories.wellness-care.subcategories.herbal-products-remedies.description',
         items: [
           { name: 'Трав’яні чаї', imageUrl: '/images/products/herbal-tea.jpg', description: 'Суміші лікарських трав для підтримки здоров’я' },
@@ -551,6 +551,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.aromatherapy-candles.name',
         slug: 'aromatherapy-candles',
         emoji: '🕯️🌸',
+        imageUrl: '/images/subcategories/wellness/herbal-remedies.jpg',
         description: 'categories.wellness-care.subcategories.aromatherapy-candles.description',
         items: [
           { name: 'Натуральні свічки', imageUrl: '/images/products/soy-candle.jpg', description: 'Екологічні свічки з натуральним ароматом' },
