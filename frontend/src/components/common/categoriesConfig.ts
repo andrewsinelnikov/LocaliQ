@@ -533,9 +533,18 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/herbal-products-remedies.jpg',
         description: 'categories.wellness-care.subcategories.herbal-products-remedies.description',
         items: [
-          { name: 'Трав’яні чаї', imageUrl: '/images/products/herbal-tea.jpg', description: 'Зміцнюють імунітет і підтримують здоров’я' },
-          { name: 'Настоянки з трав', imageUrl: '/images/products/herbal-tincture.jpg', description: 'Природні екстракти для лікування' },
-          { name: 'Мазі та компреси', imageUrl: '/images/products/herbal-ointment.jpg', description: 'Заспокійливі засоби з лікарських трав' },
+          { name: 'Трав’яні чаї', imageUrl: '/images/products/herbal-tea.jpg', description: 'Суміші лікарських трав для підтримки здоров’я' },
+          { name: 'Настоянки', imageUrl: '/images/products/herbal-tincture.jpg', description: 'Концентрований рослинний екстракт для внутрішнього застосування' },
+          { name: 'Мазі', imageUrl: '/images/products/herbal-salve.jpg', description: 'Місцеве застосування для загоєння шкіри та зняття запалень' },
+          { name: 'Сиропи від кашлю', imageUrl: '/images/products/herbal-syrup.jpg', description: 'Натуральні сиропи з трав для підтримки дихальної системи' },
+          { name: 'Олії з травами', imageUrl: '/images/products/herbal-oil.jpg', description: 'Настої олій з лікарськими рослинами для масажу або догляду за шкірою' },
+          { name: 'Лікарські трави', imageUrl: '/images/products/dried-herbs.jpg', description: 'Збір трав для самостійного приготування чаїв та настоїв' },
+          { name: 'Компреси', imageUrl: '/images/products/herbal-compress.jpg', description: 'Трав’яні пакети для зняття м’язової напруги та болю' },
+          { name: 'Засоби для інгаляцій', imageUrl: '/images/products/herbal-inhalation.jpg', description: 'Трав’яні суміші для полегшення дихання' },
+          { name: 'Трав’яні ванни', imageUrl: '/images/products/herbal-bath.jpg', description: 'Суміші для ванн з заспокійливим та антисептичним ефектом' },
+          { name: 'Бальзами', imageUrl: '/images/products/herbal-balm.jpg', description: 'Бальзами з ефірними оліями для зменшення болю і запалення' },
+          { name: 'Трав’яні подушки', imageUrl: '/images/products/herbal-pillow.jpg', description: 'Аромаподушки з лікарськими травами для сну та розслаблення' },
+          { name: 'Зубні порошки', imageUrl: '/images/products/herbal-tooth-powder.jpg', description: 'Натуральна альтернатива пастам на основі м’яти, шавлії та гвоздики' }
         ],
       },
       {
