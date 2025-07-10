@@ -497,7 +497,7 @@ export const categories: ICategory[] = [
           { name: 'Терапевтичний масаж', imageUrl: '/images/products/therapeutic-massage.jpg', description: 'Масаж для зменшення болю та поліпшення рухливості' },
           { name: 'Фізіотерапія', imageUrl: '/images/products/physiotherapy.jpg', description: 'Відновлення після травм або хронічного болю' },
           { name: 'Сеанси релаксації', imageUrl: '/images/products/relaxation-session.jpg', description: 'Індивідуальні сесії для зниження рівня стресу' },
-          { name: 'Сауна та інфрачервона терапія', imageUrl: '/images/products/infrared-sauna.jpg', description: "Очищення тіла та зниження м'язового напруження" },
+          { name: 'Сауна та ІЧ-терапія', imageUrl: '/images/products/infrared-sauna.jpg', description: "Очищення тіла та зниження м'язового напруження" },
           { name: 'Гідромасаж', imageUrl: '/images/products/hydro-massage.jpg', description: 'Водні процедури для глибокого розслаблення' },
           { name: 'Міофасціальний реліз', imageUrl: '/images/products/myofascial-release.jpg', description: "Мануальна техніка для зменшення напруги в м'язах" },
           { name: 'Кріотерапія', imageUrl: '/images/products/cryotherapy.jpg', description: 'Охолоджувальні процедури для зменшення запалення' }
@@ -511,8 +511,16 @@ export const categories: ICategory[] = [
         description: 'categories.wellness-care.subcategories.natural-skincare-bodycare.description',
         items: [
           { name: 'Органічні креми', imageUrl: '/images/products/organic-cream.jpg', description: 'Зволожуючі засоби без синтетики' },
-          { name: 'Скраби для тіла', imageUrl: '/images/products/body-scrub.jpg', description: 'Натуральне очищення та відлущування' },
-          { name: 'Масла для тіла', imageUrl: '/images/products/body-oil.jpg', description: 'Поживні олії для здорової шкіри' },
+          { name: 'Мило ручної роботи', imageUrl: '/images/products/handmade-soap.jpg', description: 'Ніжне очищення з рослинними оліями' },
+          { name: 'Натуральні шампуні', imageUrl: '/images/products/natural-shampoo.jpg', description: 'Безсульфатні формули для щоденного використання' },
+          { name: 'Дезодоранти', imageUrl: '/images/products/natural-deodorant.jpg', description: 'Безпечний захист без алюмінію та парабенів' },
+          { name: 'Засоби після гоління', imageUrl: '/images/products/aftershave.jpg', description: 'Заспокійливі формули без спирту' },
+          { name: 'Скраби', imageUrl: '/images/products/body-scrub.jpg', description: 'Натуральне очищення та відлущування' },
+          { name: 'Масла та олії', imageUrl: '/images/products/body-oil.jpg', description: 'Поживні олії для здорової шкіри' },
+          { name: 'Бальзами', imageUrl: '/images/products/lip-balm.jpg', description: 'Захист та догляд за губами на основі натуральних інгредієнтів' },
+          { name: 'Тоніки та лосьйони', imageUrl: '/images/products/face-toner.jpg', description: 'Очищення та відновлення балансу шкіри' },
+          { name: 'Маски', imageUrl: '/images/products/face-mask.jpg', description: 'Натуральне живлення для сяйва шкіри' },
+          { name: 'Бомбочки для ванни', imageUrl: '/images/products/bath-bombs.jpg', description: 'Релакс і догляд під час прийняття ванни' },
         ],
       },
       {
