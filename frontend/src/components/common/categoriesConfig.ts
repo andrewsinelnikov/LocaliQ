@@ -501,7 +501,7 @@ export const categories: ICategory[] = [
           { name: 'Апітерапія', imageUrl: '/images/products/apitherapy.jpg', description: 'Оздоровчі процедури з використанням продуктів бджільництва' },
           { name: 'Гідромасаж', imageUrl: '/images/products/hydro-massage.jpg', description: 'Водні процедури для глибокого розслаблення' },
           { name: 'Іпотерапія', imageUrl: '/images/products/hippotherapy.jpg', description: 'Терапія з конем для покращення емоційного та фізичного стану' },
-          { name: 'Міофасціальний реліз', imageUrl: '/images/products/myofascial-release.jpg', description: "Мануальна техніка для зменшення напруги в м'язах" },
+          { name: 'Фасціальний реліз', imageUrl: '/images/products/myofascial-release.jpg', description: "Мануальна техніка для зменшення напруги в м'язах" },
           { name: 'Соляна кімната', imageUrl: '/images/products/salt-room.jpg', description: 'Інгаляції мінеральною сіллю для дихальної системи' },
           { name: 'Кріотерапія', imageUrl: '/images/products/cryotherapy.jpg', description: 'Охолоджувальні процедури для зменшення запалення' }
         ],
@@ -551,12 +551,12 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.aromatherapy-candles.name',
         slug: 'aromatherapy-candles',
         emoji: '🕯️🌸',
-        imageUrl: '/images/subcategories/wellness/herbal-remedies.jpg',
+        imageUrl: '/images/subcategories/wellness/aromatherapy-candles.jpg',
         description: 'categories.wellness-care.subcategories.aromatherapy-candles.description',
         items: [
           { name: 'Натуральні свічки', imageUrl: '/images/products/soy-candle.jpg', description: 'Екологічні свічки з натуральним ароматом' },
           { name: 'Аромасвічки', imageUrl: '/images/products/aroma-candle.jpg', description: 'Свічки з натурального воску з ефірними оліями' },
-          { name: 'Набори для ароматерапії', imageUrl: '/images/products/aroma-kit.jpg', description: 'Комплекти з аромамаслами, свічками та дифузорами' },
+          { name: 'Аромакомплект', imageUrl: '/images/products/aroma-kit.jpg', description: 'Комплекти з аромамаслами, свічками та дифузорами' },
           { name: 'Ефірні олії', imageUrl: '/images/products/essential-oils.jpg', description: 'Натуральні олії для масажу, інгаляцій або дифузорів' },
           { name: 'Саше з травами', imageUrl: '/images/products/herbal-sachet.jpg', description: 'Ароматичні мішечки для білизни, шаф або подушок' },
           { name: 'Воскові мілти', imageUrl: '/images/products/wax-melts.jpg', description: 'Ароматичний віск для плавлення у аромалампах' },
