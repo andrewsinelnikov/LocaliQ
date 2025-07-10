@@ -553,9 +553,14 @@ export const categories: ICategory[] = [
         emoji: '🕯️🌸',
         description: 'categories.wellness-care.subcategories.aromatherapy-candles.description',
         items: [
-          { name: 'Ефірні олії', imageUrl: '/images/products/essential-oils.jpg', description: 'Чисті масла для ароматерапії' },
+          { name: 'Натуральні свічки', imageUrl: '/images/products/soy-candle.jpg', description: 'Екологічні свічки з натуральним ароматом' },
           { name: 'Аромасвічки', imageUrl: '/images/products/aroma-candle.jpg', description: 'Свічки з натурального воску з ефірними оліями' },
-          { name: 'Аромадифузори', imageUrl: '/images/products/aroma-diffuser.jpg', description: 'Пристрої для розповсюдження ароматів у приміщенні' },
+          { name: 'Набори для ароматерапії', imageUrl: '/images/products/aroma-kit.jpg', description: 'Комплекти з аромамаслами, свічками та дифузорами' },
+          { name: 'Ефірні олії', imageUrl: '/images/products/essential-oils.jpg', description: 'Натуральні олії для масажу, інгаляцій або дифузорів' },
+          { name: 'Саше з травами', imageUrl: '/images/products/herbal-sachet.jpg', description: 'Ароматичні мішечки для білизни, шаф або подушок' },
+          { name: 'Воскові мілти', imageUrl: '/images/products/wax-melts.jpg', description: 'Ароматичний віск для плавлення у аромалампах' },
+          { name: 'Масажні свічки', imageUrl: '/images/products/massage-candle.jpg', description: 'Свічки, які перетворюються на теплу масажну олію' },
+          { name: 'Спреї для кімнати', imageUrl: '/images/products/room-spray.jpg', description: 'Освіжувачі повітря на основі натуральних ароматів' },
         ],
       },
       {
