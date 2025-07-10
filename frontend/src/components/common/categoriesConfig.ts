@@ -568,10 +568,20 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.mental-wellness-coaching.name',
         slug: 'mental-wellness-coaching',
         emoji: '🧠💬',
+        imageUrl: '/images/subcategories/wellness/mental-wellness-coaching.jpg',
         description: 'categories.wellness-care.subcategories.mental-wellness-coaching.description',
         items: [
-          { name: 'Коучинг зі стрес-менеджменту', imageUrl: '/images/products/stress-coaching.jpg', description: 'Підтримка у знятті стресу та тривоги' },
-          { name: 'Психологічні консультації', imageUrl: '/images/products/psych-consultation.jpg', description: 'Професійна допомога для покращення настрою' },
+          { name: 'Стрес-менеджмент', imageUrl: '/images/products/stress-coaching.jpg', description: 'Підтримка у знятті стресу та тривоги' },
+          { name: 'Консультації психолога', imageUrl: '/images/products/psych-consultation.jpg', description: 'Професійна допомога для покращення настрою та  подолання життєвих труднощів' },
+          { name: 'Сімейна терапія', imageUrl: '/images/products/family-therapy.jpg', description: 'Покращення взаєморозуміння та комунікації в родині' },
+          { name: 'Коучинг-сесії', imageUrl: '/images/products/coaching-session.jpg', description: 'Допомога у досягненні цілей і розкритті потенціалу' },
+          { name: 'Коучинг лідерства', imageUrl: '/images/products/leadership-coaching.jpg', description: 'Розвиток управлінських навичок та впевненості' },
+          { name: 'Групова терапія', imageUrl: '/images/products/group-therapy.jpg', description: 'Спільна робота над емоціями в підтримуючому колі' },
+          { name: 'Для дітей і підлітків', imageUrl: '/images/products/child-therapy.jpg', description: 'Делікатна допомога дітям у вирішенні емоційних питань' },
+          { name: 'Кар’єрний коучинг', imageUrl: '/images/products/career-coaching.jpg', description: 'Підтримка у виборі професійного шляху та розвитку кар’єри' },
+          { name: 'Емоційного інтелекту', imageUrl: '/images/products/emotional-intelligence.jpg', description: 'Розвиток навичок розпізнавання та керування емоціями' },
+          { name: 'Коучинг для бізнесу', imageUrl: '/images/products/business-coaching.jpg', description: 'Підтримка підприємців у розвитку проектів та команд' },          
+          { name: 'Кризова допомога', imageUrl: '/images/products/crisis-support.jpg', description: 'Невідкладна підтримка у важких емоційних станах' }
         ],
       },
       {
