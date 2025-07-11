@@ -44,13 +44,18 @@ export const categories: ICategory[] = [
           { name: 'Буряк', imageUrl: '/images/products/farm/vegetables/beetroot.jpg', description: 'Соковитий буряк для борщу та салатів', season: 'все літо' },
           { name: 'Редиска', imageUrl: '/images/products/farm/vegetables/radish.jpg', description: 'Соковита весняна редиска, чудова для салатів', season: 'весна' },
           { name: 'Цвітна капуста', imageUrl: '/images/products/farm/vegetables/cauliflower.jpg', description: 'Ніжна цвітна капуста, багата вітамінами', season: 'літо-осінь' },
+          { name: 'Брокколі', imageUrl: '/images/products/farm/vegetables/broccoli.jpg', description: 'Хрустка брокколі, багата на вітаміни', season: 'літо-осінь' },
           { name: 'Паприка', imageUrl: '/images/products/farm/vegetables/paprika.jpg', description: 'Солодка паприка яскравого кольору', season: 'літо' },
           { name: 'Зелений горошок', imageUrl: '/images/products/farm/vegetables/peas.jpg', description: 'Свіжозібраний зелений горошок', season: 'весна-початок літа' },
           { name: 'Червоний перець', imageUrl: '/images/products/farm/vegetables/red-pepper.jpg', description: 'Соковитий солодкий перець', season: 'літо' },
           { name: 'Кукурудза', imageUrl: '/images/products/farm/vegetables/corn.jpg', description: 'Солодка кукурудза, ідеальна для варіння та грилю', season: 'літо' },
           { name: 'Картопля', imageUrl: '/images/products/farm/vegetables/potato.jpg', description: 'Домашня картопля, універсальна для приготування', season: 'літо-осінь' },
           { name: 'Листя салату', imageUrl: '/images/products/farm/vegetables/lettuce.jpg', description: 'Свіже зелене листя для салатів', season: 'весна-літо' },
-          { name: 'Спаржа', imageUrl: '/images/products/farm/vegetables/asparagus.jpg', description: 'Соковита зелена спаржа — делікатес весни', season: 'весна' }
+          { name: 'Спаржа', imageUrl: '/images/products/farm/vegetables/asparagus.jpg', description: 'Соковита зелена спаржа — делікатес весни', season: 'весна' },
+          { name: 'Кабачки', imageUrl: '/images/products/farm/vegetables/zucchini.jpg', description: 'Соковиті кабачки для тушкування та запікання', season: 'літо-осінь' },
+          { name: 'Часник', imageUrl: '/images/products/farm/vegetables/garlic.jpg', description: 'Ароматний молодий часник', season: 'весна-літо' },
+          { name: 'Баклажани', imageUrl: '/images/products/farm/vegetables/eggplant.jpg', description: 'Смачні баклажани для різних страв', season: 'літо-осінь' },
+          { name: 'Зелень', imageUrl: '/images/products/farm/vegetables/greens.jpg', description: 'Петрушка, кріп та інша свіжа зелень для приправ', season: 'весна-осінь' }
         ]
       },
       { 
