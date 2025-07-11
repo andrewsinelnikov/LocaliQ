@@ -651,6 +651,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.childcare-learning.name',
         slug: 'childcare-learning',
         emoji: '👶📚',
+        imageUrl: '/images/subcategories/wellness/childcare.jpg',
         description: 'categories.wellness-care.subcategories.childcare-learning.description',
         items: [
           { name: 'Дитячий садок', imageUrl: '/images/products/kindergarten.jpg', description: 'Безпечний простір для догляду та розвитку дітей' },
