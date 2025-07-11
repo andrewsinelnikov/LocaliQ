@@ -609,6 +609,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.fitness-training.name',
         slug: 'fitness-training',
         emoji: '💪🏃‍♀️',
+        imageUrl: '/images/subcategories/wellness/fitness-training.jpg',
         description: 'categories.wellness-care.subcategories.fitness-training.description',
         items: [
           { name: 'Тренування 1-на-1', imageUrl: '/images/products/personal-training.jpg', description: 'Індивідуальні заняття з сертифікованим тренером' },
