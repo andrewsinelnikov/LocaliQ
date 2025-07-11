@@ -630,6 +630,7 @@ export const categories: ICategory[] = [
         name: 'categories.wellness-care.subcategories.nutrition-meal-planning.name',
         slug: 'nutrition-meal-planning',
         emoji: '🥗📋',
+        imageUrl: '/images/subcategories/wellness/nutrition.jpg',
         description: 'categories.wellness-care.subcategories.nutrition-meal-planning.description',
         items: [
           { name: 'Поради нутриціолога', imageUrl: '/images/products/nutrition-consultation.jpg', description: 'Індивідуальні рекомендації щодо харчування для здоров’я' },
