@@ -52,7 +52,7 @@ export const categories: ICategory[] = [
           { name: 'Картопля', imageUrl: '/images/products/farm/vegetables/potato.jpg', description: 'Домашня картопля, універсальна для приготування', season: 'літо-осінь' },
           { name: 'Салат, шпинат', imageUrl: '/images/products/farm/vegetables/lettuce.jpg', description: 'Свіже зелене листя для салатів', season: 'весна-літо' },
           { name: 'Спаржа', imageUrl: '/images/products/farm/vegetables/asparagus.jpg', description: 'Соковита зелена спаржа — делікатес весни', season: 'весна' },
-          { name: 'Кабачки', imageUrl: '/images/products/farm/vegetables/zucchini.jpg', description: 'Соковиті кабачки для тушкування та запікання', season: 'літо-осінь' },
+          { name: 'Кабачки, гарбузи', imageUrl: '/images/products/farm/vegetables/zucchini.jpg', description: 'Соковиті кабачки для тушкування та запікання', season: 'літо-осінь' },
           { name: 'Часник', imageUrl: '/images/products/farm/vegetables/garlic.jpg', description: 'Ароматний молодий часник', season: 'весна-літо' },
           { name: 'Баклажани', imageUrl: '/images/products/farm/vegetables/eggplant.jpg', description: 'Смачні баклажани для різних страв', season: 'літо-осінь' },
           { name: 'Зелень', imageUrl: '/images/products/farm/vegetables/greens.jpg', description: 'Петрушка, кріп та інша свіжа зелень для приправ', season: 'весна-осінь' }
