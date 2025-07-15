@@ -46,13 +46,12 @@ export const categories: ICategory[] = [
           { name: 'Цвітна капуста', imageUrl: '/images/products/farm/vegetables/cauliflower.jpg', description: 'Ніжна цвітна капуста, багата вітамінами', season: 'літо-осінь' },
           { name: 'Брокколі', imageUrl: '/images/products/farm/vegetables/broccoli.jpg', description: 'Хрустка брокколі, багата на вітаміни', season: 'літо-осінь' },
           { name: 'Паприка', imageUrl: '/images/products/farm/vegetables/paprika.jpg', description: 'Солодка паприка яскравого кольору', season: 'літо' },
-          { name: 'Горошок, фасоля', imageUrl: '/images/products/farm/vegetables/peas.jpg', description: 'Свіжозібраний зелений горошок', season: 'весна-початок літа' },
           { name: 'Червоний перець', imageUrl: '/images/products/farm/vegetables/red-pepper.jpg', description: 'Соковитий солодкий перець', season: 'літо' },
-          { name: 'Кукурудза', imageUrl: '/images/products/farm/vegetables/corn.jpg', description: 'Солодка кукурудза, ідеальна для варіння та грилю', season: 'літо' },
           { name: 'Картопля', imageUrl: '/images/products/farm/vegetables/potato.jpg', description: 'Домашня картопля, універсальна для приготування', season: 'літо-осінь' },
           { name: 'Салат, шпинат', imageUrl: '/images/products/farm/vegetables/lettuce.jpg', description: 'Свіже зелене листя для салатів', season: 'весна-літо' },
           { name: 'Спаржа', imageUrl: '/images/products/farm/vegetables/asparagus.jpg', description: 'Соковита зелена спаржа — делікатес весни', season: 'весна' },
-          { name: 'Кабачки, гарбузи', imageUrl: '/images/products/farm/vegetables/zucchini.jpg', description: 'Соковиті кабачки для тушкування та запікання', season: 'літо-осінь' },
+          { name: 'Кабачки', imageUrl: '/images/products/farm/vegetables/zucchini.jpg', description: 'Соковиті кабачки для тушкування та запікання', season: 'літо-осінь' },
+          { name: 'Гарбуз', imageUrl: '/images/products/farm/vegetables/pumpkin.jpg', description: 'Солодкий гарбуз для супів, каш і запікання', season: 'осінь' },
           { name: 'Часник', imageUrl: '/images/products/farm/vegetables/garlic.jpg', description: 'Ароматний молодий часник', season: 'весна-літо' },
           { name: 'Баклажани', imageUrl: '/images/products/farm/vegetables/eggplant.jpg', description: 'Смачні баклажани для різних страв', season: 'літо-осінь' },
           { name: 'Зелень', imageUrl: '/images/products/farm/vegetables/greens.jpg', description: 'Петрушка, кріп та інша свіжа зелень для приправ', season: 'весна-осінь' }
@@ -170,9 +169,9 @@ export const categories: ICategory[] = [
         description: 'categories.fresh-from-the-farm.subcategories.grains-legumes.description',
         items: [
           { name: 'Пшениця', imageUrl: '/images/products/wheat.jpg', description: 'Зерно для помелу або пророщування' },
-          { name: 'Кукурудза', imageUrl: '/images/products/corn.jpg', description: 'Солодка кукурудза в качанах' },
+          { name: 'Кукурудза', imageUrl: '/images/products/farm/grains-legumes/corn.jpg', description: 'Солодка кукурудза, ідеальна для варіння та грилю', season: 'літо' },
           { name: 'Квасоля', imageUrl: '/images/products/beans.jpg', description: 'Різнокольорова квасоля: червона, біла' },
-          { name: 'Горох', imageUrl: '/images/products/peas.jpg', description: 'Сушений або свіжий зелений' }
+          { name: 'Горошок', imageUrl: '/images/products/farm/vegetables/peas.jpg', description: 'Свіжозібраний зелений горошок', season: 'весна-початок літа' },
         ]
       },
       { 
