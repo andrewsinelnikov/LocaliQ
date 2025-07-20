@@ -101,11 +101,18 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/farm/honey-beekeeping.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description',
         items: [
-          { name: 'Мед акацієвий', imageUrl: '/images/products/honey-acacia.jpg', description: 'Світлий і ароматний мед з акації', season: 'травень-червень' },
-          { name: 'Мед липовий', imageUrl: '/images/products/honey-linden.jpg', description: 'Мед із цвіту липи — для чаю та здоровʼя', season: 'червень-липень' },
+          { name: 'Мед', imageUrl: '/images/products/honey.jpg', description: 'Світлий і ароматний мед з акації', season: 'травень-червень' },
           { name: 'Прополіс', imageUrl: '/images/products/propolis.jpg', description: 'Натуральний антисептик з вулика' },
           { name: 'Бджолиний віск', imageUrl: '/images/products/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
-          { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' }
+          { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
+          { name: 'Маточне молочко', imageUrl: '/images/products/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
+          { name: 'Пилок (обніжжя)', imageUrl: '/images/products/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },
+          { name: 'Перга (бджолиний хліб)', imageUrl: '/images/products/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
+          { name: 'Медові пасти', imageUrl: '/images/products/honey-paste.jpg', description: 'Мед з додаванням ягід, горіхів або спецій', season: 'цілорічно' },
+          { name: 'Апітерапевтичні набори', imageUrl: '/images/products/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
+          { name: 'Крем-мед', imageUrl: '/images/products/creamed-honey.jpg', description: 'Збитий мед з ніжною текстурою та різними смаками', season: 'цілорічно' },
+          { name: 'Подарункові набори з медом', imageUrl: '/images/products/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
+          { name: 'Косметика на основі меду', imageUrl: '/images/products/honey-cosmetics.jpg', description: 'Креми, бальзами та маски на основі меду і прополісу', season: 'цілорічно' }
         ]
       },
       { 
