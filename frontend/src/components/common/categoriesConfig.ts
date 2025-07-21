@@ -108,6 +108,8 @@ export const categories: ICategory[] = [
           { name: 'Каштановий мед',imageUrl: '/images/products/chestnut-honey.jpg', description: 'Темний мед з гірчинкою, має антибактеріальні властивості', season: 'червень-липень' },
           { name: 'Різнотрав’я (польовий мед)',imageUrl: '/images/products/wildflower-honey.jpg', description: 'Мед зі збору нектару з лугових та польових квітів, універсальний для щоденного вживання', season: 'червень-серпень' },
           { name: 'Гірський мед',imageUrl: '/images/products/mountain-honey.jpg', description: 'Мед з нектару високогірних рослин, має складний смак і аромат', season: 'липень-серпень' },
+          { name: 'Лісовий мед', imageUrl: '/images/products/forest-honey.jpg', description: 'Насичений мед з нектару лісових трав, дерев і кущів — має темний колір та глибокий аромат', season: 'липень-вересень' },
+          
           { name: 'Прополіс', imageUrl: '/images/products/propolis.jpg', description: 'Натуральний антисептик з вулика' },
           { name: 'Бджолиний віск', imageUrl: '/images/products/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
           { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
