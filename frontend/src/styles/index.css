@@ -38,12 +38,14 @@
   --color-secondary-summer: #ffed4d;
   --color-primary-autumn: #c00000;
   --color-secondary-autumn: #f4a261;
-  --color-hover: #005fa3;
+  --color-hover-winter: #005fa3;
+  --color-hover-spring: #006400;
+  --color-hover-summer: #b35f00;
+  --color-hover-autumn: #990000;
   --color-dark: #34495e;
   --color-crimson: #e63946;
   --color-coral-red: #ff4d4d;
   --color-bg: #fefefe;
-  --color-border: #ccddee;
   --radius: 12px;
   --shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
@@ -64,6 +66,30 @@ body {
   color: var(--color-dark);
 }
 
+body.spring {
+  --bg: var(--color-primary-spring);
+  --bg-hover: var(--color-hover-spring);
+  --color-border: #b3ddb3;
+}
+
+body.summer {
+  --bg: var(--color-primary-summer);
+  --bg-hover: var(--color-hover-summer);
+  --color-border: #f0c998;
+}
+
+body.autumn {
+  --bg: var(--color-primary-autumn);
+  --bg-hover: var(--color-hover-autumn);
+  --color-border: #e6b8b8;
+}
+
+body.winter {
+  --bg: var(--color-primary-winter);
+  --bg-hover: var(--color-hover-winter);
+  --color-border: #ccddee;
+}
+
 input, select, textarea, button {
   font-family: inherit;
   font-size: 15px;
@@ -74,31 +100,15 @@ input, select, textarea, button {
 }
 
 button {
-  background-color: var(--color-primary);
+  background-color: var(--bg);
   color: white;
   font-weight: 600;
   border: none;
   cursor: pointer;
 }
 
-body.spring button {
-  background-color: var(--color-primary-spring);
-}
-
-body.summer button {
-  background-color: var(--color-primary-summer);
-}
-
-body.autumn button {
-  background-color: var(--color-primary-autumn);
-}
-
-body.winter button {
-  background-color: var(--color-primary-winter);
-}
-
 button:hover {
-  background-color: var(--color-hover);
+  background-color: var(--bg-hover);
 }
 
 .btn-transparent {
