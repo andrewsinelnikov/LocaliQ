@@ -30,8 +30,14 @@
 @import url("./Legal.css");
 
 :root {
-  --color-primary: #0077cc;
-  --color-secondary: #eaf4fc;
+  --color-primary-winter: #0077cc;
+  --color-secondary-winter: #eaf4fc;
+  --color-primary-spring: #008000;
+  --color-secondary-spring: #6eff6e;
+  --color-primary-summer: #df7b01;
+  --color-secondary-summer: #ffed4d;
+  --color-primary-autumn: #c00000;
+  --color-secondary-autumn: #f4a261;
   --color-hover: #005fa3;
   --color-dark: #34495e;
   --color-crimson: #e63946;

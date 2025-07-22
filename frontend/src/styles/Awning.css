@@ -21,20 +21,20 @@
 } */
 
 /* Winter */
-.winter .stripe1 { background-color: #0077cc; }
-.winter .stripe2 { background-color: #eaf4fc; }
+.winter .stripe1 { background-color: var(--color-primary-winter); }
+.winter .stripe2 { background-color: var(--color-secondary-winter); }
 
 /* Spring */
-.spring .stripe1 { background-color: #008000; }
-.spring .stripe2 { background-color: #6eff6e; } 
+.spring .stripe1 { background-color: var(--color-primary-spring); }
+.spring .stripe2 { background-color: var(--color-secondary-spring); } 
 
 /* Summer */
-.summer .stripe1 { background-color: #ff8c00; }
-.summer .stripe2 { background-color: #ffed50; }
+.summer .stripe1 { background-color: var(--color-primary-summer); }
+.summer .stripe2 { background-color: var(--color-secondary-summer); }
 
 /* Autumn */
-.autumn .stripe1 { background-color: #c00000; }
-.autumn .stripe2 { background-color: #f4a261; }
+.autumn .stripe1 { background-color: var(--color-primary-autumn); }
+.autumn .stripe2 { background-color: var(--color-secondary-autumn); }
 
 .awning::after {
   content: "";
