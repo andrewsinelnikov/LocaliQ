@@ -21,11 +21,27 @@ import NotFoundPage from './pages/notFound';
 import data from './data/producers.json';
 import categoriesData from './data/data.json';
 
+const getSeason = () => {
+  const month = new Date().getMonth();
+  if (month <= 1 || month === 11) return "winter";
+  if (month <= 4) return "spring";
+  if (month <= 7) return "summer";
+  return "autumn";
+};
+
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('guest');
 
+  useEffect(() => {
+    const season = getSeason();
+    document.body.classList.add(season);
+    return () => {
+      document.body.classList.remove("winter", "spring", "summer", "autumn");
+    };
+  }, []);
+  
   // Mobile viewport height fix
   useEffect(() => {
     const setAppHeight = () => {

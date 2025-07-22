@@ -81,6 +81,22 @@ button {
   cursor: pointer;
 }
 
+body.spring button {
+  background-color: var(--color-primary-spring);
+}
+
+body.summer button {
+  background-color: var(--color-primary-summer);
+}
+
+body.autumn button {
+  background-color: var(--color-primary-autumn);
+}
+
+body.winter button {
+  background-color: var(--color-primary-winter);
+}
+
 button:hover {
   background-color: var(--color-hover);
 }
