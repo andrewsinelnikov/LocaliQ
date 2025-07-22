@@ -30,10 +30,10 @@
 
 /* Summer */
 .summer .stripe1 { background-color: #ff8c00; }
-.summer .stripe2 { background-color: #ffdb4d; }
+.summer .stripe2 { background-color: #ffee59; }
 
 /* Autumn */
-.autumn .stripe1 { background-color: #d2691e; }
+.autumn .stripe1 { background-color: #c00000; }
 .autumn .stripe2 { background-color: #f4a261; }
 
 .awning::after {
