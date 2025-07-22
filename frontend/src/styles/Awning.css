@@ -25,12 +25,12 @@
 .winter .stripe2 { background-color: #eaf4fc; }
 
 /* Spring */
-.spring .stripe1 { background-color: #2e7d32; }
-.spring .stripe2 { background-color: #dcedc8; } 
+.spring .stripe1 { background-color: #008000; }
+.spring .stripe2 { background-color: #6eff6e; } 
 
 /* Summer */
-.summer .stripe1 { background-color: #ff6f61; }
-.summer .stripe2 { background-color: #ffe66d; }
+.summer .stripe1 { background-color: #ff8c00; }
+.summer .stripe2 { background-color: #ffdb4d; }
 
 /* Autumn */
 .autumn .stripe1 { background-color: #d2691e; }
