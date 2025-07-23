@@ -45,7 +45,7 @@
   --color-dark: #34495e;
   --color-crimson: #e63946;
   --color-coral-red: #ff4d4d;
-  --color-bg: #fefefe;
+  --color-bg-light: #fefefe;
   --radius: 12px;
   --shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
@@ -67,26 +67,26 @@ body {
 }
 
 body.spring {
-  --bg: var(--color-primary-spring);
-  --bg-hover: var(--color-hover-spring);
+  --color-primary: var(--color-primary-spring);
+  --color-primary-hover: var(--color-hover-spring);
   --color-border: #b3ddb3;
 }
 
 body.summer {
-  --bg: var(--color-primary-summer);
-  --bg-hover: var(--color-hover-summer);
+  --color-primary: var(--color-primary-summer);
+  --color-primary-hover: var(--color-hover-summer);
   --color-border: #f0c998;
 }
 
 body.autumn {
-  --bg: var(--color-primary-autumn);
-  --bg-hover: var(--color-hover-autumn);
+  --color-primary: var(--color-primary-autumn);
+  --color-primary-hover: var(--color-hover-autumn);
   --color-border: #e6b8b8;
 }
 
 body.winter {
-  --bg: var(--color-primary-winter);
-  --bg-hover: var(--color-hover-winter);
+  --color-primary: var(--color-primary-winter);
+  --color-primary-hover: var(--color-hover-winter);
   --color-border: #ccddee;
 }
 

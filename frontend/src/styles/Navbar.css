@@ -19,7 +19,7 @@
 .logo a {
   font-weight: 700;
   font-size: 22px;
-  color: var(--bg);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@
 
 .search-bar input:focus {
   outline: none;
-  border: 1px solid var(--bg);
+  border: 1px solid var(--color-primary);
 }
 
 .mobile-search-bar {
@@ -65,7 +65,7 @@
 }
 
 .mobile-search-bar input:focus {
-  border: 1px solid var(--bg);
+  border: 1px solid var(--color-primary);
 }
 
 .search-bar input {
@@ -129,7 +129,7 @@
 .mobile-lang:hover,
 .mobile-profile:hover,
 .search-ico:hover {
-  color: var(--bg);
+  color: var(--color-primary);
 }
 
 .lang-select, .mobile-lang, .profile-menu, .mobile-profile {

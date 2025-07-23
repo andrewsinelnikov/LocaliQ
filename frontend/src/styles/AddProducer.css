@@ -1,6 +1,6 @@
 .form-producer-page {
   /* min-height: calc(100dvh - 60px); */
-  background-color: #fefefe;
+  background-color: var(--color-bg-light);
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
