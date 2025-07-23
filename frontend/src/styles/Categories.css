@@ -21,7 +21,7 @@
   font-weight: 700;
   margin: 24px 0 8px;
   text-align: left;
-  color: #34495e;
+  color: var(--color-dark);
 }
 
 .category-title span {
@@ -91,7 +91,7 @@
 
 .subcategories-list {
   padding: 16px;
-  background: #f9f9f9;
+  background: var(--color-background);
   border-top: 1px solid #ddd;
 }
 
