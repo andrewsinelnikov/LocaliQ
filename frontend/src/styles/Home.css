@@ -1,12 +1,12 @@
 .home {
-  background-color: #fefefe;
+  background-color: var(--color-background-neutral);
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .wall {
-  background-color: #e3e6ea; 
+  background-color: var(--color-background);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@
   left: 40px;
   right: 40px;
   height: 12px;
-  background: #b0bec5;
+  background: var(--color-shadow);
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
