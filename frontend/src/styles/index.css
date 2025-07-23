@@ -46,6 +46,10 @@
   --color-dark-spring: #2e4d2c;
   --color-dark-summer: #5c3300;
   --color-dark-autumn: #6e1e1e;
+  --color-font-winter: #2c3e50;
+  --color-font-spring: #1e3b22;
+  --color-font-summer: #402a12;
+  --color-font-autumn: #3a1f1f;
   --color-crimson: #e63946;
   --color-coral-red: #ff4d4d;
   --color-bg-light: #fefefe;
@@ -74,6 +78,7 @@ body.spring {
   --color-primary-hover: var(--color-hover-spring);
   --color-border: #b3ddb3;
   --color-dark: var(--color-dark-spring);
+  --color-font: var(--color-font-spring);
 }
 
 body.summer {
@@ -81,6 +86,7 @@ body.summer {
   --color-primary-hover: var(--color-hover-summer);
   --color-border: #f0c998;
   --color-dark: var(--color-dark-summer);
+  --color-font: var(--color-font-summer);
 }
 
 body.autumn {
@@ -88,6 +94,7 @@ body.autumn {
   --color-primary-hover: var(--color-hover-autumn);
   --color-border: #e6b8b8;
   --color-dark: var(--color-dark-autumn);
+  --color-font: var(--color-font-autumn);
 }
 
 body.winter {
@@ -95,6 +102,7 @@ body.winter {
   --color-primary-hover: var(--color-hover-winter);
   --color-border: #ccddee;
   --color-dark: var(--color-dark-winter);
+  --color-font: var(--color-font-winter);
 }
 
 input, select, textarea, button {
