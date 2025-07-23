@@ -214,7 +214,7 @@ const AddProducerForm = () => {
               center={[form.location.lat, form.location.lng]}
               zoom={13}
               scrollWheelZoom={true}
-              style={{ height: 250, width: '99%', borderRadius: '12px' }}
+              style={{ height: 250, width: '99%', borderRadius: '12px', border: '2px solid var(--color-border)' }}
               // className="leaflet-container"
             >
               <TileLayer
