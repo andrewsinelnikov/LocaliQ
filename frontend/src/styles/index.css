@@ -50,6 +50,11 @@
   --color-font-spring: #1e3b22;
   --color-font-summer: #402a12;
   --color-font-autumn: #3a1f1f;
+  --color-font-light-winter: #5c6b78;
+  --color-font-light-spring: #5d735f;
+  --color-font-light-summer: #a67d54;
+  --color-font-light-autumn: #8c5f5f;
+  --color-font-light-neutral: #888;
   --color-crimson: #e63946;
   --color-coral-red: #ff4d4d;
   --color-bg-light: #fefefe;
@@ -79,6 +84,7 @@ body.spring {
   --color-border: #b3ddb3;
   --color-dark: var(--color-dark-spring);
   --color-font: var(--color-font-spring);
+  --color-font-light: var(--color-font-light-spring);
 }
 
 body.summer {
@@ -87,6 +93,7 @@ body.summer {
   --color-border: #f0c998;
   --color-dark: var(--color-dark-summer);
   --color-font: var(--color-font-summer);
+  --color-font-light: var(--color-font-light-summer);
 }
 
 body.autumn {
@@ -95,6 +102,7 @@ body.autumn {
   --color-border: #e6b8b8;
   --color-dark: var(--color-dark-autumn);
   --color-font: var(--color-font-autumn);
+  --color-font-light: var(--color-font-light-autumn);
 }
 
 body.winter {
@@ -103,6 +111,7 @@ body.winter {
   --color-border: #ccddee;
   --color-dark: var(--color-dark-winter);
   --color-font: var(--color-font-winter);
+  --color-font-light: var(--color-font-light-winter);
 }
 
 input, select, textarea, button {
