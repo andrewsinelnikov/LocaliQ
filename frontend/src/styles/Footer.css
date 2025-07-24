@@ -65,7 +65,7 @@
 }
 
 .footer-bottom {
-  background-color: #f1f5f9; 
+  background-color: var(--color-footer-bg2); 
   color: var(--color-footer-text);
   font-size: 13px;
   padding: 16px 24px;

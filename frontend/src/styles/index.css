@@ -72,6 +72,10 @@
   --color-footer-bg-spring: #f6fdf6;
   --color-footer-bg-summer: #fff8f0;
   --color-footer-bg-autumn: #fdf6f6;
+  --color-footer-bg2-winter: #f1f5f9;
+  --color-footer-bg2-spring: #f1f7f1;
+  --color-footer-bg2-summer: #fff7f0;
+  --color-footer-bg2-autumn: #f9f2f2;
   --color-footer-text-winter: #003b66;
   --color-footer-text-spring: #003300;
   --color-footer-text-summer: #5a2e00;
@@ -110,6 +114,7 @@ body.spring {
   --color-shadow: var(--color-shadow-spring);
   --box-shadow: var(--box-shadow-spring);
   --color-footer-bg: var(--color-footer-bg-spring);
+  --color-footer-bg2: var(--color-footer-bg2-spring);
   --color-footer-text: var(--color-footer-text-spring);
 }
 
@@ -125,6 +130,7 @@ body.summer {
   --color-shadow: var(--color-shadow-summer);
   --color-box-shadow: var(--box-shadow-summer);
   --color-footer-bg: var(--color-footer-bg-summer);
+  --color-footer-bg2: var(--color-footer-bg2-summer);
   --color-footer-text: var(--color-footer-text-summer);
 }
 
@@ -140,6 +146,7 @@ body.autumn {
   --color-shadow: var(--color-shadow-autumn);
   --color-box-shadow: var(--box-shadow-autumn);
   --color-footer-bg: var(--color-footer-bg-autumn);
+  --color-footer-bg2: var(--color-footer-bg2-autumn);
   --color-footer-text: var(--color-footer-text-autumn);
 }
 
@@ -155,6 +162,7 @@ body.winter {
   --color-shadow: var(--color-shadow-winter);
   --color-box-shadow: var(--box-shadow-winter);
   --color-footer-bg: var(--color-footer-bg-winter);
+  --color-footer-bg2: var(--color-footer-bg2-winter);
   --color-footer-text: var(--color-footer-text-winter);
 }
 
