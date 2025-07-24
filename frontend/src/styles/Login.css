@@ -1,6 +1,6 @@
 .login-page {
-  /* min-height: calc(100dvh - 60px); */
-  background-color: #fefefe;
+  min-height: calc(100dvh - 60px);
+  background-color: var(--color-bg-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
 
 .login-box h2 {
   font-size: 28px;
-  color: #0077cc;
+  color: var(--color-primary);
   margin-bottom: 24px;
   text-align: center;
 }
@@ -32,7 +32,7 @@
 
 .login-box label {
   font-weight: 500;
-  color: #34495e;
+  color: var(--color-dark);
   font-size: 15px;
   display: flex;
   flex-direction: column;
