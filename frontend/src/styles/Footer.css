@@ -69,7 +69,7 @@
   color: var(--color-footer-text);
   font-size: 13px;
   padding: 16px 24px;
-  border-top: 2px solid #dde6f0;
+  border-top: 2px solid var(--color-shadow);
   display: flex;
   justify-content: space-between;
   align-items: center;

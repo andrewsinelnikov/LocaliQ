@@ -115,6 +115,7 @@ body.spring {
 
 body.summer {
   --color-primary: var(--color-primary-summer);
+  --color-secondary: var(--color-secondary-summer);
   --color-primary-hover: var(--color-hover-summer);
   --color-border: #f0c998;
   --color-dark: var(--color-dark-summer);
@@ -129,6 +130,7 @@ body.summer {
 
 body.autumn {
   --color-primary: var(--color-primary-autumn);
+  --color-secondary: var(--color-secondary-autumn);
   --color-primary-hover: var(--color-hover-autumn);
   --color-border: #e6b8b8;
   --color-dark: var(--color-dark-autumn);
@@ -143,6 +145,7 @@ body.autumn {
 
 body.winter {
   --color-primary: var(--color-primary-winter);
+  --color-secondary: var(--color-secondary-winter);
   --color-primary-hover: var(--color-hover-winter);
   --color-border: #ccddee;
   --color-dark: var(--color-dark-winter);
