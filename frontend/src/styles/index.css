@@ -112,7 +112,7 @@ body.spring {
   --color-font-light: var(--color-font-light-spring);
   --color-background: var(--color-background-spring);
   --color-shadow: var(--color-shadow-spring);
-  --box-shadow: var(--box-shadow-spring);
+  --color-box-shadow: var(--box-shadow-spring);
   --color-footer-bg: var(--color-footer-bg-spring);
   --color-footer-bg2: var(--color-footer-bg2-spring);
   --color-footer-text: var(--color-footer-text-spring);
@@ -162,7 +162,7 @@ body.winter {
   --color-shadow: var(--color-shadow-winter);
   --color-box-shadow: var(--box-shadow-winter);
   --color-footer-bg: var(--color-footer-bg-winter);
-  --color-footer-bg2: var(--color-footer-bg2-winter);
+  --color-footer-bg2: var(--color-footer-bg2-spring);
   --color-footer-text: var(--color-footer-text-winter);
 }
 
