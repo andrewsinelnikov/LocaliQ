@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-background);
+  background-color: var(--color-footer-bg);
   border-top: 1px solid var(--color-border);
   font-family: 'Segoe UI', sans-serif;
   color: var(--color-dark);
@@ -65,11 +65,11 @@
 }
 
 .footer-bottom {
-  background-color: var(--color-background); 
+  background-color: #f1f5f9; 
   color: #445566;
   font-size: 13px;
   padding: 16px 24px;
-  /* border-top: 2px solid #dde6f0; */
+  border-top: 2px solid #dde6f0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,14 +88,14 @@
 }
 
 .footer-bottom .footer-legal a {
-  color: #0077cc; 
+  color: var(--color-primary); 
   text-decoration: none;
   transition: color 0.2s ease;
   font-size: 13px;
 }
 
 .footer-bottom .footer-legal a:hover {
-  color: #005fa3;
+  color: var(--color-hover);
 }
 
 .footer-legal-bottom span {

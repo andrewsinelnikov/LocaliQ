@@ -68,6 +68,10 @@
   --box-shadow-spring: rgba(0, 128, 0, 0.15);
   --box-shadow-summer: rgba(223, 123, 1, 0.15);
   --box-shadow-autumn: rgba(192, 0, 0, 0.15);
+  --color-footer-bg-winter: #f9fbfd;
+  --color-footer-bg-spring: #f6fdf6;
+  --color-footer-bg-summer: #fff8f0;
+  --color-footer-bg-autumn: #fdf6f6;
   --color-crimson: #e63946;
   --color-coral-red: #ff4d4d;
   --color-bg-light: #fefefe;
@@ -101,6 +105,7 @@ body.spring {
   --color-background: var(--color-background-spring);
   --color-shadow: var(--color-shadow-spring);
   --box-shadow: var(--box-shadow-spring);
+  --color-footer-bg: var(--color-footer-bg-spring);
 }
 
 body.summer {
@@ -113,6 +118,7 @@ body.summer {
   --color-background: var(--color-background-summer);
   --color-shadow: var(--color-shadow-summer);
   --color-box-shadow: var(--box-shadow-summer);
+  --color-footer-bg: var(--color-footer-bg-summer);
 }
 
 body.autumn {
@@ -125,6 +131,7 @@ body.autumn {
   --color-background: var(--color-background-autumn);
   --color-shadow: var(--color-shadow-autumn);
   --color-box-shadow: var(--box-shadow-autumn);
+  --color-footer-bg: var(--color-footer-bg-autumn);
 }
 
 body.winter {
@@ -137,6 +144,7 @@ body.winter {
   --color-background: var(--color-background-winter);
   --color-shadow: var(--color-shadow-winter);
   --color-box-shadow: var(--box-shadow-winter);
+  --color-footer-bg: var(--color-footer-bg-winter);
 }
 
 input, select, textarea, button {
