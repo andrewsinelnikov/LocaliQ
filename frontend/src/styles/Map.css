@@ -9,6 +9,8 @@
   height: calc(var(--app-height) - 60px);
   overflow: hidden;
   flex-direction: row;
+  margin: 1rem;
+  margin-left: 0;
 }
 
 .map-container {
