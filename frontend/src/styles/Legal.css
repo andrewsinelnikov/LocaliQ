@@ -26,3 +26,11 @@
   font-size: 16px;
   line-height: 1.6;
 }
+
+.legal-content p a {
+  color: var(--color-primary);
+}
+
+.legal-content p a:hover {
+  color: var(--color-primary-hover);
+}
