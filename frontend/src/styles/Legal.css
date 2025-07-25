@@ -1,6 +1,6 @@
 .legal-page {
   min-height: calc(100dvh - 60px);
-  background-color: var(--color-background);
+  background-color: var(--color-bg-light);
   padding: 10px 20px;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
