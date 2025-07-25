@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 40px 0;
-  background-color: var(--color-background);
+  background-color: var(--color-bg-light);
   min-height: calc(var(--app-height, 100vh) - 100px);
 }
 
@@ -19,14 +19,14 @@
 .notfound-wrapper h2 {
   font-size: 28px;
   font-weight: 700;
-  color: #0077cc;
+  color: var(--color-primary);
   margin-bottom: 24px;
   text-align: center;
 }
 
 .notfound-wrapper p {
   font-size: 16px;
-  color: #34495e;
+  color: var(--color-dark);
   margin-bottom: 24px;
   text-align: center;
   font-style: italic;
@@ -34,7 +34,7 @@
 
 .notfound-link {
   text-decoration: none;
-  background-color: #0077cc;
+  background-color: var(--color-primary);
   color: white;
   font-weight: 600;
   padding: 14px;
@@ -46,7 +46,7 @@
 }
 
 .notfound-link:hover {
-  background-color: #005fa3;
+  background-color: var(--color-primary-hover);
 }
 
 .suggested-categories h2 {
@@ -64,7 +64,7 @@
 }
 
 .notfound-map-btn {
-  background-color: #f57c00;
+  background-color: var(--color-primary);
   color: white;
   padding: 12px 24px;
   font-weight: 600;
@@ -75,7 +75,7 @@
 }
 
 .notfound-map-btn:hover {
-  background-color: #ef6c00;
+  background-color: var(--color-primary-hover);
 }
 
 
