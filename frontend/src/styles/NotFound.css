@@ -13,7 +13,7 @@
   max-width: 900px;
   width: 90%;
   text-align: center;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 28px var(--color-box-shadow);
 }
 
 .notfound-wrapper h2 {
