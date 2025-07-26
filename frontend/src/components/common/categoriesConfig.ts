@@ -101,7 +101,7 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/farm/honey-beekeeping.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description',
         items: [
-          { name: 'Акацієвий мед', imageUrl:'/images/products/acacia-honey.jpg', description: 'Світлий, ніжний мед з акації, довго не кристалізується', season: 'травень-червень' },
+          { name: 'Акацієвий мед', imageUrl:'/images/products/farm/honey-beekeeping/acacia-honey.jpg', description: 'Світлий, ніжний мед з акації, довго не кристалізується', season: 'травень-червень' },
           { name: 'Липовий мед',imageUrl: '/images/products/linden-honey.jpg', description: 'Ароматний мед із квітів липи, має виражену антисептичну дію', season: 'червень-липень' },
           { name: 'Гречаний мед',imageUrl: '/images/products/buckwheat-honey.jpg', description: 'Темний, насичений мед з сильним смаком і високим вмістом заліза', season: 'липень-серпень' },
           { name: 'Соняшниковий мед',imageUrl: '/images/products/sunflower-honey.jpg', description: 'Яскравий жовтий мед з легким смаком, швидко кристалізується', season: 'серпень-вересень' },
