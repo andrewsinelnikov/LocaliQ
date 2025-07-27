@@ -106,7 +106,7 @@ export const categories: ICategory[] = [
           { name: 'Гречаний мед',imageUrl: '/images/products/farm/honey-beekeeping/buckwheat-honey.jpg', description: 'Темний, насичений мед з сильним смаком і високим вмістом заліза', season: 'липень-серпень' },
           { name: 'Соняшниковий мед',imageUrl: '/images/products/sunflower-honey.jpg', description: 'Яскравий жовтий мед з легким смаком, швидко кристалізується', season: 'серпень-вересень' },
           { name: 'Каштановий мед',imageUrl: '/images/products/chestnut-honey.jpg', description: 'Темний мед з гірчинкою, має антибактеріальні властивості', season: 'червень-липень' },
-          { name: 'Різнотрав’я (польовий мед)',imageUrl: '/images/products/wildflower-honey.jpg', description: 'Мед зі збору нектару з лугових та польових квітів, універсальний для щоденного вживання', season: 'червень-серпень' },
+          { name: 'Різнотрав’я (польовий мед)',imageUrl: '/images/products/farm/honey-beekeeping/wildflower-honey.jpg', description: 'Мед зі збору нектару з лугових та польових квітів, універсальний для щоденного вживання', season: 'червень-серпень' },
           { name: 'Гірський мед',imageUrl: '/images/products/mountain-honey.jpg', description: 'Мед з нектару високогірних рослин, має складний смак і аромат', season: 'липень-серпень' },
           { name: 'Лісовий мед', imageUrl: '/images/products/forest-honey.jpg', description: 'Насичений мед з нектару лісових трав, дерев і кущів — має темний колір та глибокий аромат', season: 'липень-вересень' },
           { name: 'Енергетичний мед', imageUrl: '/images/products/energy-honey.jpg', description: 'Мед з додаванням пилку, перги, прополісу або женьшеню — природне джерело енергії та імунної підтримки', season: 'цілорічно' },
