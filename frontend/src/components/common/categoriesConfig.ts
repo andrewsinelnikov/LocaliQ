@@ -103,7 +103,7 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Акацієвий мед', imageUrl:'/images/products/farm/honey-beekeeping/acacia-honey.jpg', description: 'Світлий, ніжний мед з акації, довго не кристалізується', season: 'травень-червень' },
           { name: 'Липовий мед',imageUrl: '/images/products/linden-honey.jpg', description: 'Ароматний мед із квітів липи, має виражену антисептичну дію', season: 'червень-липень' },
-          { name: 'Гречаний мед',imageUrl: '/images/products/buckwheat-honey.jpg', description: 'Темний, насичений мед з сильним смаком і високим вмістом заліза', season: 'липень-серпень' },
+          { name: 'Гречаний мед',imageUrl: '/images/products/farm/honey-beekeeping/buckwheat-honey.jpg', description: 'Темний, насичений мед з сильним смаком і високим вмістом заліза', season: 'липень-серпень' },
           { name: 'Соняшниковий мед',imageUrl: '/images/products/sunflower-honey.jpg', description: 'Яскравий жовтий мед з легким смаком, швидко кристалізується', season: 'серпень-вересень' },
           { name: 'Каштановий мед',imageUrl: '/images/products/chestnut-honey.jpg', description: 'Темний мед з гірчинкою, має антибактеріальні властивості', season: 'червень-липень' },
           { name: 'Різнотрав’я (польовий мед)',imageUrl: '/images/products/wildflower-honey.jpg', description: 'Мед зі збору нектару з лугових та польових квітів, універсальний для щоденного вживання', season: 'червень-серпень' },
