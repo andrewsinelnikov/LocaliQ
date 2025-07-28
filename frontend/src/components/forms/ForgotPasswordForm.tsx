@@ -31,8 +31,8 @@ const ForgotPasswordForm = () => {
   };
 
   return (
-    <div className="forgot-page">
-      <div className="forgot-box">
+    <div className="auth-page">
+      <div className="auth-box">
         <h2>{t('forgot.title')}</h2>
         {submitted ? (
           <p className="success">{t('forgot.success')}</p>

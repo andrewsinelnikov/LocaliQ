@@ -37,8 +37,8 @@ const LoginForm = () => {
 };
 
   return (
-    <div className="login-page">
-      <div className="login-box">
+    <div className="auth-page">
+      <div className="auth-box">
         <h2>{t('login.title')}</h2>
         <form onSubmit={handleSubmit}>
           <label>

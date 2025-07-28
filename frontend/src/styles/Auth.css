@@ -1,4 +1,4 @@
-.login-page {
+.auth-page {
   min-height: calc(100dvh - 60px);
   background-color: var(--color-bg-light);
   display: flex;
@@ -15,6 +15,7 @@
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
   width: 100%;
   max-width: 400px;
+  text-align: center;
 }
 
 .login-box h2 {
