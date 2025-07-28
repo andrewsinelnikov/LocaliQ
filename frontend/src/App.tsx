@@ -10,6 +10,7 @@ import IdeaStart from './pages/idea';
 import AddProducerPage from './pages/AddProducerPage';
 import CategoriesPage from './pages/categories';
 import LoginPage from './pages/login';
+import ForgotPasswordPage from './pages/forgotPassword';
 import RegisterPage from './pages/register';
 import TermsPage from './pages/terms';
 import PrivacyPolicyPage from './pages/privacy';
@@ -127,6 +128,7 @@ const AppContent = () => {
         {!isAuthenticated ? (
           <Route path="/login" element={<LoginPage />} />
         ) : null}
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
         <Route path="/start-producer" element={<StartProducer />} />
         <Route path="/idea-start" element={<IdeaStart />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
