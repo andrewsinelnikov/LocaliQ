@@ -59,6 +59,9 @@ const LoginForm = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </label>
+          <div className="forgot-password">
+            <a href="/forgot-password">{t('login.forgot_password')}</a>
+          </div>
           <button type="submit">{t('login.submit')}</button>
         </form>
         <p className="alt-link">
