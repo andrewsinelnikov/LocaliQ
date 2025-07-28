@@ -8,7 +8,7 @@
   padding: 40px 20px;
 }
 
-.login-box {
+.auth-box {
   background: white;
   padding: 40px 32px;
   border-radius: 16px;
@@ -18,20 +18,20 @@
   text-align: center;
 }
 
-.login-box h2 {
+.auth-box h2 {
   font-size: 28px;
   color: var(--color-primary);
   margin-bottom: 24px;
-  text-align: center;
 }
 
-.login-box form {
+.auth-box form {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  text-align: left;
 }
 
-.login-box label {
+.auth-box label {
   font-weight: 500;
   color: var(--color-dark);
   font-size: 15px;
@@ -39,7 +39,7 @@
   flex-direction: column;
 }
 
-.login-box input {
+.auth-box input {
   padding: 10px 14px;
   border: 1px solid var(--color-border);
   border-radius: 8px;
@@ -62,7 +62,7 @@
   text-decoration: underline;
 }
 
-.login-box button {
+.auth-box button {
   background-color: var(--color-primary);
   color: white;
   padding: 12px;
@@ -73,6 +73,17 @@
   transition: background-color 0.2s ease;
 }
 
-.login-box button:hover {
+.auth-box button:hover {
   background-color: var(--color-primary-hover);
+}
+
+.auth-box .success {
+  color: green;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.alt-link {
+  font-size: 14px;
+  margin-top: 16px;
 }
