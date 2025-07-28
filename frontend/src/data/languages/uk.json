@@ -30,6 +30,7 @@
     "submit": "Увійти",
     "no_account": "Ще не маєш акаунту?",
     "register": "Зареєструватися",
+    "forgot_password": "Забули пароль?",
     "success": "Вхід успішний!",
     "error": "Помилка",
     "invalid_credentials": "невірні дані",
