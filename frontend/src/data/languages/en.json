@@ -36,6 +36,13 @@
     "invalid_credentials": "Invalid credentials",
     "network_error": "Network error"
   },
+  "forgot": {
+    "title": "Forgot Password",
+    "email": "Email address",
+    "submit": "Send reset link",
+    "success": "If the email exists, a reset link has been sent.",
+    "back_to_login": "Back to login"
+  },
   "home": {
     "heading": "Your hub for quality goods",
     "tagline": "Find local craft producers near you",
