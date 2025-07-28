@@ -30,6 +30,7 @@
     "submit": "Login",
     "no_account": "Don't have an account?",
     "register": "Register",
+    "forgot_password": "Forgot password?",
     "success": "Login successful!",
     "error": "Error",
     "invalid_credentials": "Invalid credentials",
