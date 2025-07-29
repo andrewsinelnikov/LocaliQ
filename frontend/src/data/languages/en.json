@@ -417,6 +417,7 @@
     "name": "Name / Brand",
     "subtitle": "Tell us more about your product so locals can find you",
     "category": "Category",
+    "subcategory": "Subcategory",
     "description": "Description",
     "photo": "Photo",
     "phone": "Phone",
