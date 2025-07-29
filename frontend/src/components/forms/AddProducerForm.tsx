@@ -3,12 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import type L from 'leaflet';
+
+import { categories } from '../common/categoriesConfig';
 import LocationPicker from '../map/LocationPicker';
 import AutoCenterMap from '../map/AutoCenterMap';
 
 interface IProducerForm {
   name: string;
-  category: string;
+  categoryId: string;
   description: string;
   photo: File | null;
   location: { lat: number; lng: number };
@@ -17,12 +19,12 @@ interface IProducerForm {
   contactSocial: string;
 }
 
-const categories = ['Їжа', 'Декор', 'Одяг', 'Послуги', 'Інше'];
+// const categories = ['Їжа', 'Декор', 'Одяг', 'Послуги', 'Інше'];
 
 const AddProducerForm = () => {
   const [form, setForm] = useState<IProducerForm>({
     name: '',
-    category: categories[0],
+    categoryId: categories[0].id,
     description: '',
     photo: null,
     location: { lat: 49.8397, lng: 24.0297 }, // Lviv
@@ -78,7 +80,7 @@ const AddProducerForm = () => {
   const payload = {
     name: form.name,
     description: form.description,
-    category: form.category,
+    category: form.categoryId,
     latitude: form.location.lat,
     longitude: form.location.lng,
     city: '', // You can add a city field to your form if needed
@@ -123,13 +125,23 @@ const AddProducerForm = () => {
 
           <label>
             {t('addProducer.category')}
-            <select
+            {/* <select
               value={form.category}
               onChange={(e) => handleInputChange('category', e.target.value)}
             >
               {categories.map((cat) => (
                 <option key={cat} value={cat}>
                   {cat}
+                </option>
+              ))}
+            </select> */}
+            <select
+              value={form.categoryId}
+              onChange={(e) => handleInputChange('categoryId', e.target.value)}
+            >
+              {categories.map((cat) => (
+                <option key={cat.id} value={cat.id}>
+                  {t(cat.title)}
                 </option>
               ))}
             </select>
