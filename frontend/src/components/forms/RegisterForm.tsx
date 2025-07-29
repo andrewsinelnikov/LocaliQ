@@ -40,8 +40,8 @@ const RegisterForm = () => {
 
 
   return (
-    <div className="register-page">
-      <div className="register-box">
+    <div className="auth-page">
+      <div className="auth-box">
         <h2>{t('register.title')}</h2>
         <form onSubmit={handleSubmit}>
           <label>
