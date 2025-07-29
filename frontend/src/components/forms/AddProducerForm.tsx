@@ -11,6 +11,7 @@ import AutoCenterMap from '../map/AutoCenterMap';
 interface IProducerForm {
   name: string;
   categoryId: string;
+  subcategorySlug: string;
   description: string;
   photo: File | null;
   location: { lat: number; lng: number };
@@ -23,6 +24,7 @@ const AddProducerForm = () => {
   const [form, setForm] = useState<IProducerForm>({
     name: '',
     categoryId: categories[0].id,
+    subcategorySlug:  categories[0].subcategories?.[0]?.slug || '',
     description: '',
     photo: null,
     location: { lat: 49.8397, lng: 24.0297 }, // Lviv
@@ -38,7 +40,17 @@ const AddProducerForm = () => {
   const navigate = useNavigate();
 
   const handleInputChange = (field: keyof IProducerForm, value: any) => {
-    setForm((prev) => ({ ...prev, [field]: value }));
+    if (field === 'categoryId') {
+      const selectedCat = categories.find((cat) => cat.id === value);
+      const firstSubcat = selectedCat?.subcategories?.[0]?.slug || '';
+      setForm((prev) => ({
+        ...prev,
+        categoryId: value,
+        subcategorySlug: firstSubcat,
+      }));
+    } else {
+      setForm((prev) => ({ ...prev, [field]: value }));
+    }
   };
   
   const handlePhotoChange = (file: File | null) => {
