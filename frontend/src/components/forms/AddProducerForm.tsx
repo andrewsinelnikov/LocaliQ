@@ -19,8 +19,6 @@ interface IProducerForm {
   contactSocial: string;
 }
 
-// const categories = ['Їжа', 'Декор', 'Одяг', 'Послуги', 'Інше'];
-
 const AddProducerForm = () => {
   const [form, setForm] = useState<IProducerForm>({
     name: '',
@@ -125,16 +123,6 @@ const AddProducerForm = () => {
 
           <label>
             {t('addProducer.category')}
-            {/* <select
-              value={form.category}
-              onChange={(e) => handleInputChange('category', e.target.value)}
-            >
-              {categories.map((cat) => (
-                <option key={cat} value={cat}>
-                  {cat}
-                </option>
-              ))}
-            </select> */}
             <select
               value={form.categoryId}
               onChange={(e) => handleInputChange('categoryId', e.target.value)}

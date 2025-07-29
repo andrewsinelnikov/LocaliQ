@@ -1,6 +1,6 @@
 import { useState } from 'react';
+import { Link, useNavigate } from 'react-router';
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router';
 
 const RegisterForm = () => {
   const { t } = useTranslation();
@@ -74,7 +74,7 @@ const RegisterForm = () => {
           <button type="submit">{t('register.submit')}</button>
         </form>
         <p className="alt-link">
-          {t('register.loginPrompt')} <a href="/login">{t('register.loginLink')}</a>
+          {t('register.loginPrompt')} <Link to="/login">{t('register.loginLink')}</Link>
         </p>
       </div>
     </div>

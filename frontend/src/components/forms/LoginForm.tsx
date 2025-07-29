@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 
 const LoginForm = () => {
@@ -60,12 +61,12 @@ const LoginForm = () => {
             />
           </label>
           <div className="forgot-password">
-            <a href="/forgot-password">{t('login.forgot_password')}</a>
+            <Link to="/forgot-password">{t('login.forgot_password')}</Link>
           </div>
           <button type="submit">{t('login.submit')}</button>
         </form>
         <p className="alt-link">
-          {t('login.no_account')} <a href="/register">{t('login.register')}</a>
+          {t('login.no_account')} <Link to="/register">{t('login.register')}</Link>
         </p>
       </div>
     </div>
