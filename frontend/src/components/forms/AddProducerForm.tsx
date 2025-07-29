@@ -91,6 +91,7 @@ const AddProducerForm = () => {
     name: form.name,
     description: form.description,
     category: form.categoryId,
+    subcategory: form.subcategorySlug || null,
     latitude: form.location.lat,
     longitude: form.location.lng,
     city: '', // You can add a city field to your form if needed
@@ -146,6 +147,25 @@ const AddProducerForm = () => {
               ))}
             </select>
           </label>
+
+          {(categories.find((cat) => cat.id === form.categoryId)?.subcategories?.length ?? 0) > 0 && (
+            <label>
+              {t('addProducer.subcategory')}
+              <select
+                value={form.subcategorySlug}
+                onChange={(e) => handleInputChange('subcategorySlug', e.target.value)}
+              >
+                {categories
+                  .find((cat) => cat.id === form.categoryId)
+                  ?.subcategories?.map((subcat) => (
+                    <option key={subcat.slug} value={subcat.slug}>
+                      {subcat.emoji} {t(subcat.name)}
+                    </option>
+                  ))}
+              </select>
+            </label>
+          )}
+
 
           <label>
             {t('addProducer.description')}
