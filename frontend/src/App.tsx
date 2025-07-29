@@ -7,7 +7,7 @@ import HomePage from './pages';
 import MapPage from './pages/map';
 import StartProducer from './pages/start';
 import IdeaStart from './pages/idea';
-import AddProducerPage from './pages/AddProducerPage';
+import AddProducerPage from './pages/addProducer';
 import CategoriesPage from './pages/categories';
 import LoginPage from './pages/login';
 import ForgotPasswordPage from './pages/forgotPassword';

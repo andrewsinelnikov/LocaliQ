@@ -1,0 +1,69 @@
+import { useState } from 'react';
+import { useNavigate } from 'react-router';
+
+import AddProducerForm from '../components/forms/AddProducerForm';
+import type { IProducerForm } from '../utils/types';
+import StepBasicInfo from '../components/forms/addProducer/StepBasicInfo';
+
+const AddProducerPage = () => {
+  const navigate = useNavigate();
+  const [step, setStep] = useState(0);
+
+  const [form, setForm] = useState<IProducerForm>({
+    name: '',
+    categoryId: 'fresh-from-the-farm',
+    subcategorySlug: '',
+    description: '',
+    photo: null,
+    location: { lat: 49.8397, lng: 24.0297 },
+    contactPhone: '',
+    contactEmail: '',
+    contactSocial: '',
+  });
+
+  const handleChange = (field: keyof IProducerForm, value: any) => {
+    setForm((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const handleSubmit = async () => {
+    const payload = {
+      name: form.name,
+      description: form.description,
+      category: form.categoryId,
+      subcategory: form.subcategorySlug,
+      latitude: form.location.lat,
+      longitude: form.location.lng,
+      contact: [form.contactPhone, form.contactEmail, form.contactSocial]
+        .filter(Boolean)
+        .join(', '),
+    };
+
+    try {
+      const res = await fetch('http://localhost:8000/api/producers/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      if (res.ok) {
+        alert(`Виробник "${form.name}" доданий!`);
+        navigate('/');
+      } else {
+        alert('Помилка при додаванні виробника');
+      }
+    } catch {
+      alert('Помилка мережі');
+    }
+  };
+
+  const steps = [
+    <StepBasicInfo form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} key="step-1" />,
+    // <StepDescriptionPhoto form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} prevStep={() => setStep(step - 1)} key="step-2" />,
+    // <StepContact form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} prevStep={() => setStep(step - 1)} key="step-3" />,
+    // <StepLocation form={form} onChange={handleChange} nextStep={handleSubmit} prevStep={() => setStep(step - 1)} key="step-4" />,
+  ];
+
+  return <div className="form-producer-box">{steps[step]}</div>;
+};
+
+export default AddProducerPage;
