@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router';
 import AddProducerForm from '../components/forms/AddProducerForm';
 import type { IProducerForm } from '../utils/types';
 import StepBasicInfo from '../components/forms/addProducer/StepBasicInfo';
+import StepLocation from '../components/forms/addProducer/StepLocation';
 
 const AddProducerPage = () => {
   const navigate = useNavigate();
@@ -58,9 +59,9 @@ const AddProducerPage = () => {
 
   const steps = [
     <StepBasicInfo form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} key="step-1" />,
-    // <StepDescriptionPhoto form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} prevStep={() => setStep(step - 1)} key="step-2" />,
-    // <StepContact form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} prevStep={() => setStep(step - 1)} key="step-3" />,
-    // <StepLocation form={form} onChange={handleChange} nextStep={handleSubmit} prevStep={() => setStep(step - 1)} key="step-4" />,
+    <StepLocation form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} prevStep={() => setStep(step - 1)} key="step-2" />,
+    // <StepDescriptionPhoto form={form} onChange={handleChange} nextStep={() => setStep(step + 1)} prevStep={() => setStep(step - 1)} key="step-3" />,
+    // <StepContact form={form} onChange={handleChange} nextStep={handleSubmit}  prevStep={() => setStep(step - 1)} key="step-4" />,
   ];
 
   return <div className="form-producer-box">{steps[step]}</div>;
