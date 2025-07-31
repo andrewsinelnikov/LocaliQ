@@ -108,7 +108,9 @@ const AddProducerPage = () => {
           <p className="description">{t(`addProducer.stepSubtitle.${step}`)}</p>
         </div>
 
-        {steps[step]}
+        <div key={step} className="step-transition">
+          {steps[step]}
+        </div>
       </div>
     </div>
   );
