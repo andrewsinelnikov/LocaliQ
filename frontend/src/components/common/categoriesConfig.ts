@@ -112,7 +112,7 @@ export const categories: ICategory[] = [
           { name: 'Енергетичний мед', imageUrl: '/images/products/farm/honey-beekeeping/energy-honey.jpg', description: 'Мед з додаванням пилку, перги, прополісу або женьшеню — природне джерело енергії та імунної підтримки', season: 'цілорічно' },
           { name: 'Мед з травами', imageUrl: '/images/products/farm/honey-beekeeping/herbal-honey.jpg', description: 'Мед, настояний на травах або оліях (шавлія, м’ята, евкаліпт) — для профілактики застуд і стресу', season: 'цілорічно' },
           { name: 'Прополіс', imageUrl: '/images/products/propolis.jpg', description: 'Натуральний антисептик з вулика' },
-          { name: 'Бджолиний віск', imageUrl: '/images/products/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
+          { name: 'Бджолиний віск', imageUrl: '/images/products/farm/honey-beekeeping/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
           { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
           { name: 'Маточне молочко', imageUrl: '/images/products/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
           { name: 'Пилок (обніжжя)', imageUrl: '/images/products/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },

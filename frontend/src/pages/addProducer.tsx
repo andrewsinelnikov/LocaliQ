@@ -24,7 +24,15 @@ const AddProducerPage = () => {
   });
 
   const handleChange = (field: keyof IProducerForm, value: any) => {
-    setForm((prev) => ({ ...prev, [field]: value }));
+    if (field === 'categoryId') {
+      setForm((prev) => ({
+        ...prev,
+        categoryId: value,
+        subcategorySlug: '', // Reset subcategory if category changes
+      }));
+    } else {
+      setForm((prev) => ({ ...prev, [field]: value }));
+    }
   };
 
   const handleSubmit = async () => {
@@ -65,7 +73,22 @@ const AddProducerPage = () => {
     <StepContact form={form} onChange={handleChange} nextStep={handleSubmit}  prevStep={() => setStep(step - 1)} key="step-4" />,
   ];
 
-  return <div className="form-producer-box">{steps[step]}</div>;
+  return (
+    <div className="add-producer-wrapper">
+      <div className="step-indicator">
+        {[0, 1, 2, 3].map((s) => (
+          <span
+            key={s}
+            className={`step-bullet ${step === s ? 'active' : ''}`}
+          />
+        ))}
+      </div>
+
+      <div className="form-producer-wrapper">
+        {steps[step]}
+      </div>
+    </div>
+  );
 };
 
 export default AddProducerPage;
