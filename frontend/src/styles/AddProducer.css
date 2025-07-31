@@ -213,3 +213,20 @@
   background-color: var(--color-border);
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+.step-bullet.active {
+  background-color: var(--color-primary);
+  transform: scale(1.2);
+}
+
+.form-producer-wrapper {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px var(--color-box-shadow);
+  padding: 50px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
