@@ -279,3 +279,10 @@
   background-color: var(--color-primary);
   color: white;
 }
+
+.form-producer-wrapper .steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}

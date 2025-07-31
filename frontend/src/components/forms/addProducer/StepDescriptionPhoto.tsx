@@ -35,7 +35,7 @@ const StepDescriptionPhoto = ({ form, onChange, nextStep, prevStep }: FormStepPr
         />
       </label>
 
-      <div style={{ marginTop: '1rem' }}>
+      <div className='steps'>
         <button type="button" onClick={prevStep}>{t('common.back')}</button>
         <button type="button" onClick={nextStep}>{t('common.next')}</button>
       </div>
