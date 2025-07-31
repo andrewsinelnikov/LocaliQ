@@ -248,3 +248,34 @@
   color: var(--color-font);
   font-size: 15px;
 }
+
+.form-producer-wrapper input[type="text"],
+.form-producer-wrapper input[type="email"],
+.form-producer-wrapper input[type="file"],
+.form-producer-wrapper select,
+.form-producer-wrapper textarea {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 10px;
+  font-family: inherit;
+  width: 100%;
+  resize: vertical;
+}
+
+.form-producer-wrapper button {
+  background-color: white;
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: 12px 20px;
+  border: 2px solid var(--color-primary);;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  margin-top: 8px;
+}
+
+.form-producer-wrapper button:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
