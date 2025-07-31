@@ -414,8 +414,19 @@
   },
   "addProducer": {
     "title": "Add Producer",
+    "stepTitles": {
+      "0": "Basic Information",
+      "1": "Your Location",
+      "2": "Photo and Description",
+      "3": "Contact Details"
+    },
+    "stepSubtitle": {
+      "0": "Tell us more about your product so locals can find you",
+      "1": "Specify where you can be found on the map",
+      "2": "Add a description and photo to build trust",
+      "3": "Leave your contact details so people can reach out"
+    },
     "name": "Name / Brand",
-    "subtitle": "Tell us more about your product so locals can find you",
     "category": "Category",
     "subcategory": "Subcategory",
     "description": "Description",

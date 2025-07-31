@@ -52,7 +52,7 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
 
       <div className="step-one">
         <button type="button" onClick={nextStep}>
-          {t('common.next')}
+          {t('addProducer.next')}
         </button>
       </div>
     </>

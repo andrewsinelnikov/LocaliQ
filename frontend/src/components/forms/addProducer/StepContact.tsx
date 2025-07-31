@@ -34,8 +34,8 @@ const StepContact = ({ form, onChange, nextStep, prevStep }: FormStepProps) => {
       </label>
 
       <div className='steps'>
-        <button type="button" onClick={prevStep}>{t('common.back')}</button>
-        <button type="button" onClick={nextStep}>{t('common.next')}</button>
+        <button type="button" onClick={prevStep}>{t('addProducer.back')}</button>
+        <button type="button" onClick={nextStep}>{t('addProducer.add')}</button>
       </div>
     </>
   );

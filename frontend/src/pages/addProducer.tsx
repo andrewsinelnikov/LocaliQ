@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import { useTranslation } from 'react-i18next';
 
 import type { IProducerForm } from '../utils/types';
 import StepBasicInfo from '../components/forms/addProducer/StepBasicInfo';
@@ -8,6 +9,8 @@ import StepDescriptionPhoto from '../components/forms/addProducer/StepDescriptio
 import StepContact from '../components/forms/addProducer/StepContact';
 
 const AddProducerPage = () => {
+  const { t } = useTranslation();
+
   const navigate = useNavigate();
   const [step, setStep] = useState(0);
 
@@ -85,6 +88,11 @@ const AddProducerPage = () => {
       </div>
 
       <div className="form-producer-wrapper">
+        <div className="form-step-header">
+          <h2>{t(`addProducer.stepTitles.${step}`)}</h2>
+          <p className="form-step-description">{t(`addProducer.stepSubtitle.${step}`)}</p>
+        </div>
+
         {steps[step]}
       </div>
     </div>
