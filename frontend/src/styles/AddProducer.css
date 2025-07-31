@@ -188,3 +188,28 @@
 .geo-hint-text:hover {
   color: var(--color-primary-hover);
 }
+
+
+.add-producer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-light);
+  min-height: 100dvh;
+  padding: 40px 20px;
+}
+
+.step-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.step-bullet {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--color-border);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
