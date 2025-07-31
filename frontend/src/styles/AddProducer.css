@@ -16,15 +16,15 @@
   max-width: 600px;
 }
 
-.form-producer-box h2 {
+.form-producer-box h2, .form-step-header h2 {
   font-size: 28px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: var(--color-primary);
   margin-bottom: 24px;
   text-align: center;
 }
 
-.form-producer-box .description {
+.form-producer-box .description, .form-step-header .description {
   font-size: 16px;
   color: var(--color-dark);
   margin-bottom: 24px;
@@ -209,14 +209,6 @@
   position: relative;
 }
 
-.form-producer-wrapper h2 {
-  font-size: 28px;
-  color: var(--color-primary);
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
 .form-producer-wrapper label {
   display: flex;
   flex-direction: column;
@@ -241,7 +233,6 @@
   resize: vertical;
 }
 
-
 .form-producer-wrapper .steps {
   display: flex;
   justify-content: space-between;
@@ -258,9 +249,9 @@
   background-color: white;
   color: var(--color-primary);
   font-weight: 600;
-  padding: 12px 20px;
+  padding: 6px 20px;
   border: 2px solid var(--color-primary);;
-  border-radius: 10px;
+  border-radius: var(--radius);
   cursor: pointer;
   transition: background-color 0.2s, color 0.2s;
   margin-top: 8px;

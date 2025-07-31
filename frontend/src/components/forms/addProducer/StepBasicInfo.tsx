@@ -9,7 +9,6 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
 
   return (
     <>
-      <h2>{t('addProducer.title')}</h2>
       <label>
         {t('addProducer.name')}
         <input

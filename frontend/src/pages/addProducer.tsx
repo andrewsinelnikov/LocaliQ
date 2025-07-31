@@ -90,7 +90,7 @@ const AddProducerPage = () => {
       <div className="form-producer-wrapper">
         <div className="form-step-header">
           <h2>{t(`addProducer.stepTitles.${step}`)}</h2>
-          <p className="form-step-description">{t(`addProducer.stepSubtitle.${step}`)}</p>
+          <p className="description">{t(`addProducer.stepSubtitle.${step}`)}</p>
         </div>
 
         {steps[step]}

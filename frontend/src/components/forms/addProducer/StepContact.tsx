@@ -35,7 +35,7 @@ const StepContact = ({ form, onChange, nextStep, prevStep }: FormStepProps) => {
 
       <div className='steps'>
         <button type="button" onClick={prevStep}>{t('addProducer.back')}</button>
-        <button type="button" onClick={nextStep}>{t('addProducer.add')}</button>
+        <button type="button" onClick={nextStep}>{t('addProducer.submit')}</button>
       </div>
     </>
   );
