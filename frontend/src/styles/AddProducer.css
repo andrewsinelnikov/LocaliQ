@@ -168,28 +168,6 @@
   margin-left: 4px;
 }
 
-.geo-hint {
-  text-align: right;
-  margin-top: 0;
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 0;
-}
-
-.geo-hint-text {
-  color: var(--color-primary);
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.2s ease;
-  font-size: 14px;
-  font-family: inherit;
-}
-
-.geo-hint-text:hover {
-  color: var(--color-primary-hover);
-}
-
-
 .add-producer-wrapper {
   display: flex;
   flex-direction: column;
@@ -263,6 +241,19 @@
   resize: vertical;
 }
 
+
+.form-producer-wrapper .steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.form-producer-wrapper .step-one {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .form-producer-wrapper button {
   background-color: white;
   color: var(--color-primary);
@@ -280,9 +271,37 @@
   color: white;
 }
 
-.form-producer-wrapper .steps {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 24px;
+.geo-hint {
+  text-align: right;
+  margin-top: 0;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.geo-hint-text {
+  color: var(--color-primary);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.geo-hint-text {
+  color: var(--color-primary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-size: 14px;
+  font-family: inherit;
+  margin-top: 10px;
+}
+
+.geo-hint-text:hover {
+  color: var(--color-primary-hover);
+}
+
+.map-wrapper {
+  margin-top: 4px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }

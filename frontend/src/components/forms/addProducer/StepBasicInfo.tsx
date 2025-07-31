@@ -50,9 +50,11 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
         </label>
       )}
 
-      <button type="button" onClick={nextStep}>
-        {t('common.next')}
-      </button>
+      <div className="step-one">
+        <button type="button" onClick={nextStep}>
+          {t('common.next')}
+        </button>
+      </div>
     </>
   );
 };
