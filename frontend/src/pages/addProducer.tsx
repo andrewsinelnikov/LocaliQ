@@ -10,9 +10,21 @@ import StepContact from '../components/forms/addProducer/StepContact';
 
 const AddProducerPage = () => {
   const { t } = useTranslation();
-
   const navigate = useNavigate();
   const [step, setStep] = useState(0);
+
+  // const stepTitles = [
+  //   t('stepTitles.0'),
+  //   t('stepTitles.1'),
+  //   t('stepTitles.2'),
+  //   t('stepTitles.3'),
+  // ];
+  // const stepSubtitles = [
+  //   t('stepSubtitle.0'),
+  //   t('stepSubtitle.1'),
+  //   t('stepSubtitle.2'),
+  //   t('stepSubtitle.3'),
+  // ];
 
   const [form, setForm] = useState<IProducerForm>({
     name: '',
@@ -78,16 +90,19 @@ const AddProducerPage = () => {
 
   return (
     <div className="add-producer-wrapper">
-      <div className="step-indicator">
+      {/* <div className="step-indicator">
         {[0, 1, 2, 3].map((s) => (
           <span
             key={s}
             className={`step-bullet ${step === s ? 'active' : ''}`}
           />
         ))}
-      </div>
+      </div> */}
 
       <div className="form-producer-wrapper">
+        <div className="step-header">
+          <h2>{t('addProducer.step')} {step + 1} {t('addProducer.of')} 4</h2>
+        </div>
         <div className="form-step-header">
           <h2>{t(`addProducer.stepTitles.${step}`)}</h2>
           <p className="description">{t(`addProducer.stepSubtitle.${step}`)}</p>

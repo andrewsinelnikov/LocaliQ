@@ -414,6 +414,8 @@
   },
   "addProducer": {
     "title": "Add Producer",
+    "step": "Step",
+    "of": "of",
     "stepTitles": {
       "0": "Basic Information",
       "1": "Your Location",
@@ -422,7 +424,7 @@
     },
     "stepSubtitle": {
       "0": "Tell us more about your product so locals can find you",
-      "1": "Specify where you can be found on the map",
+      "1": "Specify location where you can be found on the map",
       "2": "Add a description and photo to build trust",
       "3": "Leave your contact details so people can reach out"
     },

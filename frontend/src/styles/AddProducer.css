@@ -24,6 +24,11 @@
   text-align: center;
 }
 
+.form-step-header .step-header h2 {
+  color: var(--color-dark);
+  align-self: flex-start;
+}
+
 .form-producer-box .description, .form-step-header .description {
   font-size: 16px;
   color: var(--color-dark);
@@ -113,6 +118,114 @@
   background-color: var(--color-primary-hover);
 }
 
+.idea-box-optional {
+  font-weight: normal;
+  font-style: italic;
+  color: var(--color-font-light-neutral);
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.add-producer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-light);
+  min-height: 100dvh;
+  padding: 10px 20px;
+}
+
+.step-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.step-bullet {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--color-border);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.step-bullet.active {
+  background-color: var(--color-primary);
+  transform: scale(1.2);
+}
+
+.form-producer-wrapper {
+  background: white;
+  border-radius: 16px;
+  /* box-shadow: 0 12px 28px var(--color-box-shadow); */
+  padding: 0px 40px;
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.form-producer-wrapper label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--color-font);
+  font-size: 15px;
+}
+
+.form-producer-wrapper input[type="text"],
+.form-producer-wrapper input[type="email"],
+.form-producer-wrapper input[type="file"],
+.form-producer-wrapper select,
+.form-producer-wrapper textarea {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 10px;
+  font-family: inherit;
+  width: 100%;
+  resize: vertical;
+}
+
+.geo-hint {
+  text-align: right;
+  margin-top: 0;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.geo-hint-text {
+  color: var(--color-primary);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.geo-hint-text {
+  color: var(--color-primary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-size: 14px;
+  font-family: inherit;
+  margin-top: 10px;
+}
+
+.geo-hint-text:hover {
+  color: var(--color-primary-hover);
+}
+
+.map-wrapper {
+  margin-top: 4px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 .photo-preview-wrapper {
   position: relative;
   margin-top: 12px;
@@ -153,86 +266,6 @@
   pointer-events: auto;
 }
 
-.map-wrapper {
-  margin-top: 4px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.idea-box-optional {
-  font-weight: normal;
-  font-style: italic;
-  color: var(--color-font-light-neutral);
-  font-size: 14px;
-  margin-left: 4px;
-}
-
-.add-producer-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--color-bg-light);
-  min-height: 100dvh;
-  padding: 40px 20px;
-}
-
-.step-indicator {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 24px;
-}
-
-.step-bullet {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: var(--color-border);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.step-bullet.active {
-  background-color: var(--color-primary);
-  transform: scale(1.2);
-}
-
-.form-producer-wrapper {
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 12px 28px var(--color-box-shadow);
-  padding: 50px 40px;
-  width: 90%;
-  max-width: 900px;
-  margin: 40px auto;
-  font-family: 'Segoe UI', sans-serif;
-  position: relative;
-}
-
-.form-producer-wrapper label {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: 16px;
-  font-weight: 500;
-  color: var(--color-font);
-  font-size: 15px;
-}
-
-.form-producer-wrapper input[type="text"],
-.form-producer-wrapper input[type="email"],
-.form-producer-wrapper input[type="file"],
-.form-producer-wrapper select,
-.form-producer-wrapper textarea {
-  padding: 10px 14px;
-  font-size: 15px;
-  border: 1.5px solid var(--color-border);
-  border-radius: 10px;
-  font-family: inherit;
-  width: 100%;
-  resize: vertical;
-}
-
 .form-producer-wrapper .steps {
   display: flex;
   justify-content: space-between;
@@ -243,6 +276,7 @@
 .form-producer-wrapper .step-one {
   display: flex;
   justify-content: flex-end;
+  margin-top: 24px;
 }
 
 .form-producer-wrapper button {
@@ -260,39 +294,4 @@
 .form-producer-wrapper button:hover {
   background-color: var(--color-primary);
   color: white;
-}
-
-.geo-hint {
-  text-align: right;
-  margin-top: 0;
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 0;
-}
-
-.geo-hint-text {
-  color: var(--color-primary);
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.geo-hint-text {
-  color: var(--color-primary);
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.2s ease;
-  font-size: 14px;
-  font-family: inherit;
-  margin-top: 10px;
-}
-
-.geo-hint-text:hover {
-  color: var(--color-primary-hover);
-}
-
-.map-wrapper {
-  margin-top: 4px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }

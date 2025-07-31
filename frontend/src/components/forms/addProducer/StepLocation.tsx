@@ -21,7 +21,7 @@ const StepLocation = ({ form, onChange, nextStep, prevStep }: FormStepProps) => 
 
   return (
     <>
-      <label>{t('addProducer.mapLabel')}</label>
+      {/* <label>{t('addProducer.mapLabel')}</label> */}
       <div className="map-wrapper">
         <MapContainer
           center={[form.location.lat, form.location.lng]}
