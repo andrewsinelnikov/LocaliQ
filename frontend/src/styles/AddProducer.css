@@ -414,3 +414,15 @@
     transform: translateX(0);
   }
 }
+
+@media (max-width: 991.98px) {
+  .category-list {
+    flex-wrap: wrap;
+    justify-content: center; /* ✅ Center cards when wrapping */
+  }
+
+  .category-card {
+    flex: 1 1 140px;          /* ✅ Flexible layout */
+    max-width: 140px;         
+  }
+}
