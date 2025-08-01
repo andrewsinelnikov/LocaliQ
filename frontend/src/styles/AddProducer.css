@@ -247,15 +247,24 @@
 }
 
 .category-card:hover {
-  transform: scale(1.03);
+  border-color: var(--color-primary);
   background-color: white !important;
   /* border-color: var(--color-primary);
   background-color: var(--color-hover); */
 }
 
+.category-card:hover .category-name-wrapper .category-name {
+  color: var(--color-primary);
+}
+
 .category-card.selected {
   border-color: var(--color-primary);
-  background-color: var(--color-primary-light);
+  /* background-color: var(--color-primary-light); */
+  box-shadow: 0 0 0 3px var(--color-box-shadow); 
+}
+
+.category-card.selected .category-name-wrapper .category-name {
+  color: var(--color-primary);
 }
 
 .category-image {
