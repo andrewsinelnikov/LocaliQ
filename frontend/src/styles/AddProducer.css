@@ -177,6 +177,13 @@
   font-size: 15px;
 }
 
+.category-options p {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--color-font);
+  font-size: 15px;
+}
+
 .form-producer-wrapper input[type="text"],
 .form-producer-wrapper input[type="email"],
 .form-producer-wrapper input[type="file"],
@@ -249,8 +256,6 @@
 .category-card:hover {
   border-color: var(--color-primary);
   background-color: white !important;
-  /* border-color: var(--color-primary);
-  background-color: var(--color-hover); */
 }
 
 .category-card:hover .category-name-wrapper .category-name {
