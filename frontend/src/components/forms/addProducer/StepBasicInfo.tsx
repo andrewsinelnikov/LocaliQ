@@ -35,7 +35,7 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
 
       <div className="category-options">
         <p>{t('addProducer.category')}</p>
-        <div className="category-grid">
+        <div className="category-list">
           {categories.map((cat) => (
             <button
               key={cat.id}
