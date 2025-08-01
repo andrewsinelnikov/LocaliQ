@@ -33,6 +33,24 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
         </select>
       </label>
 
+      <div className="category-options">
+        <p>{t('addProducer.category')}</p>
+        <div className="category-grid">
+          {categories.map((cat) => (
+            <button
+              key={cat.id}
+              type="button"
+              className={`category-card ${form.categoryId === cat.id ? 'selected' : ''}`}
+              onClick={() => onChange('categoryId', cat.id)}
+            >
+              <img src={cat.imageUrl} alt={t(cat.title)} className="category-image" />
+              <span className="category-title">{t(cat.title)}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+
       {(selectedCategory?.subcategories?.length ?? 0) > 0 && (
         <label>
           {t('addProducer.subcategory')}

@@ -10,7 +10,7 @@ export interface ICategory {
   title: string;
   emoji: string;
   description: string;
-  imageUrl: string;
+  imageUrl: string | undefined;
   subcategories: {
     name: string;
     slug: string;
