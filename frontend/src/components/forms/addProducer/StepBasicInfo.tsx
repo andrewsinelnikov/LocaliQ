@@ -44,7 +44,7 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
               onClick={() => onChange('categoryId', cat.id)}
             >
               <img src={cat.imageUrl} alt={t(cat.title)} className="category-image" />
-              <span className="category-title">{t(cat.title)}</span>
+              <span className="category-name">{t(cat.title)}</span>
             </button>
           ))}
         </div>
