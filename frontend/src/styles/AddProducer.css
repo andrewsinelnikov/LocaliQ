@@ -184,6 +184,10 @@
   font-size: 15px;
 }
 
+.category-options {
+  margin-bottom: 16px;
+}
+
 .form-producer-wrapper input[type="text"],
 .form-producer-wrapper input[type="email"],
 .form-producer-wrapper input[type="file"],

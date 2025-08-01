@@ -19,7 +19,7 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
         />
       </label>
 
-      <label>
+      {/* <label>
         {t('addProducer.category')}
         <select
           value={form.categoryId}
@@ -31,7 +31,7 @@ const StepBasicInfo = ({ form, onChange, nextStep }: FormStepProps) => {
             </option>
           ))}
         </select>
-      </label>
+      </label> */}
 
       <div className="category-options">
         <p>{t('addProducer.category')}</p>
