@@ -189,6 +189,29 @@
   font-family: inherit;
   width: 100%;
   resize: vertical;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-producer-wrapper input[type="text"]:hover,
+.form-producer-wrapper input[type="email"]:hover,
+.form-producer-wrapper input[type="file"]:hover,
+.form-producer-wrapper select:hover,
+.form-producer-wrapper textarea:hover,
+.form-producer-wrapper input[type="text"]:focus,
+.form-producer-wrapper input[type="email"]:focus,
+.form-producer-wrapper input[type="file"]:focus,
+.form-producer-wrapper select:focus,
+.form-producer-wrapper textarea:focus {
+  border-color: var(--color-primary); 
+}
+
+.form-producer-wrapper input[type="text"]:focus,
+.form-producer-wrapper input[type="email"]:focus,
+.form-producer-wrapper input[type="file"]:focus,
+.form-producer-wrapper select:focus,
+.form-producer-wrapper textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-box-shadow); 
 }
 
 .geo-hint {
@@ -308,4 +331,3 @@
     transform: translateX(0);
   }
 }
-
