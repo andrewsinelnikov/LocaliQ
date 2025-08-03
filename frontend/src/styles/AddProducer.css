@@ -267,7 +267,9 @@
 }
 
 .category-card.selected {
-  border-color: var(--color-primary);
+  /* border-width: 3px; */
+  outline: 3px solid var(--color-primary);
+  /* border-color: var(--color-primary); */
   /* background-color: var(--color-primary-light); */
   box-shadow: 0 0 0 3px var(--color-box-shadow); 
 }
