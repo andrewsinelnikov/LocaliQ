@@ -250,6 +250,10 @@
           "name": "Tailoring & Repairs",
           "description": "Clothing fixes, custom garments"
         },
+        "home-garden-help": {
+          "name": "Home & Garden Help",
+          "description": "Home services, yard work, handyman"
+        },
         "creative-workshops": {
           "name": "Creative Workshops",
           "description": "Pottery, painting, kids’ classes"
@@ -257,10 +261,6 @@
         "tech-help-setup": {
           "name": "Tech Help & Setup",
           "description": "Device setup, repairs, tutoring"
-        },
-        "garden-home-help": {
-          "name": "Garden & Home Help",
-          "description": "Home services, yard work, handyman"
         },
         "pet-care-walking": {
           "name": "Pet Care & Walking",
