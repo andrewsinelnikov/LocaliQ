@@ -104,7 +104,13 @@ export const categories: ICategory[] = [
           { name: 'Молоко', imageUrl: '/images/products/milk.jpg', description: 'Свіже молоко, не пастеризоване' },
           { name: 'Сметана', imageUrl: '/images/products/sour-cream.jpg', description: 'Домашня сметана жирністю 20%' },
           { name: 'Домашній сир', imageUrl: '/images/products/cottage-cheese.jpg', description: 'Мʼякий сир для випічки й сніданків' },
-          { name: 'Сир', imageUrl: '/images/products/cheese.jpg', description: 'Мʼякі й твердi сири — з зеленню, перцем або класичні' }
+          { name: 'Сир', imageUrl: '/images/products/cheese.jpg', description: 'Мʼякі й твердi сири — з зеленню, перцем або класичні' },
+          { name: 'Масло', imageUrl: '/images/products/farm/dairy/butter.jpg', description: 'Натуральне вершкове масло, збите вручну' },
+          { name: 'Вершки', imageUrl: '/images/products/farm/dairy/cream.jpg', description: 'Свіжі вершки для кави чи десертів' },
+          { name: 'Йогурт', imageUrl: '/images/products/farm/dairy/yogurt.jpg', description: 'Домашній йогурт без добавок або з ягодами' },
+          { name: 'Бринза', imageUrl: '/images/products/farm/dairy/brynza.jpg', description: 'Солоний овечий або коров’ячий сир' },
+          { name: 'Кефір', imageUrl: '/images/products/farm/dairy/kefir.jpg', description: 'Кисломолочний напій для здорового травлення' },
+          { name: 'Ряжанка', imageUrl: '/images/products/farm/dairy/ryazhenka.jpg', description: 'Традиційний ферментований молочний напій' },
         ]
       },
       { 
@@ -208,7 +214,7 @@ export const categories: ICategory[] = [
           { name: 'Молоко з горіхів', imageUrl: '/images/products/farm/nuts/nut-milk.jpg', description: 'Мигдальне чи фундукове молоко — рослинна альтернатива', season: 'цілорічно' },
         ]
       },
-      { 
+      {
         name: 'categories.fresh-from-the-farm.subcategories.seeds-oilcrops.name', 
         slug: 'seeds-oilcrops', 
         emoji: '🌻', 
