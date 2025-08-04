@@ -144,10 +144,14 @@ export const categories: ICategory[] = [
           { name: 'Яловичина', imageUrl: '/images/products/beef.jpg', description: 'Мармурове мʼясо з ферми' },
           { name: 'Свинина', imageUrl: '/images/products/pork.jpg', description: 'Домашнє мʼясо для смаження і запікання' },
           { name: 'Телятина', imageUrl: '/images/products/veal.jpg', description: 'Ніжне дієтичне мʼясо' },
-          { name: 'Баранина', imageUrl: '/images/products/lamb.jpg', description: 'Пахуче мʼясо молодих ягнят' }
+          { name: 'Баранина', imageUrl: '/images/products/lamb.jpg', description: 'Пахуче мʼясо молодих ягнят' },
+          { name: 'Козятина', imageUrl: '/images/products/farm/meat/goat.jpg', description: 'Пісне мʼясо з насиченим смаком' },
+          { name: 'Домашня шинка', imageUrl: '/images/products/farm/meat/ham.jpg', description: 'Копчена або запечена шинка без консервантів' },
+          { name: 'Ковбаси домашні', imageUrl: '/images/products/farm/meat/sausage.jpg', description: 'Ручна робота: ковбаси зі свинини, яловичини або змішані' },
+          { name: 'Фарш яловичий', imageUrl: '/images/products/farm/meat/beef-minced.jpg', description: 'Свіжий фарш для котлет, голубців або рагу' },
         ]
       },
-      { 
+      {
         name: 'categories.fresh-from-the-farm.subcategories.fish-seafood.name', 
         slug: 'fish-seafood', 
         emoji: '🐟🦐', 
