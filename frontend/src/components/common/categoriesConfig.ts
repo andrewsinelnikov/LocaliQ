@@ -161,7 +161,11 @@ export const categories: ICategory[] = [
           { name: 'Форель', imageUrl: '/images/products/trout.jpg', description: 'Свіжа або копчена форель' },
           { name: 'Короп', imageUrl: '/images/products/carp.jpg', description: 'Популярна риба на свята і будні' },
           { name: 'Судак', imageUrl: '/images/products/pikeperch.jpg', description: 'Мʼясо з білим філе, без кісток' },
-          { name: 'Раки', imageUrl: '/images/products/crayfish.jpg', description: 'Свіжі або варені, для гурманів' }
+          { name: 'Раки', imageUrl: '/images/products/crayfish.jpg', description: 'Свіжі або варені, для гурманів' },
+          { name: 'Окунь', imageUrl: '/images/products/farm/fish-seafood/perch.jpg', description: 'Маленький, але смачний — на сковорідку або юшку' },
+          { name: 'Оселедець домашній', imageUrl: '/images/products/farm/fish-seafood/herring.jpg', description: 'Солений або маринований оселедець ручної роботи' },
+          { name: 'Копчена риба', imageUrl: '/images/products/farm/fish-seafood/smoked-fish.jpg', description: 'Асорті з копчених риб — короп, товстолоб, судак' },
+          { name: 'Ікра прісноводна', imageUrl: '/images/products/farm/fish-seafood/caviar.jpg', description: 'Натуральна ікра без консервантів — коропова, щуча' },
         ]
       },
       { 
@@ -173,7 +177,12 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Оленина', imageUrl: '/images/products/venison.jpg', description: 'Мʼясо дикого оленя з лісу' },
           { name: 'Фазан', imageUrl: '/images/products/pheasant.jpg', description: 'Птах з ніжним мʼясом' },
-          { name: 'Заяча тушка', imageUrl: '/images/products/hare.jpg', description: 'Для тушкування чи запікання' }
+          { name: 'Заяча тушка', imageUrl: '/images/products/hare.jpg', description: 'Для тушкування чи запікання' },
+          { name: 'Кабанина', imageUrl: '/images/products/farm/game-meats/boar.jpg', description: 'Мʼясо дикого кабана — насичений смак і аромат' },
+          { name: 'Кролик', imageUrl: '/images/products/farm/game-meats/rabbit.jpg', description: 'Фермерський або дикий, дієтичне мʼясо' },
+          { name: 'Перепел', imageUrl: '/images/products/farm/game-meats/quail.jpg', description: 'Маленький птах, ніжне філе, підходить для запікання' },
+          { name: 'Куріпка', imageUrl: '/images/products/farm/game-meats/partridge.jpg', description: 'Дика птиця з насиченим смаком, делікатес' },
+          { name: 'Бекас', imageUrl: '/images/products/farm/game-meats/snipe.jpg', description: 'Невеликий перелітний птах, для гурманів' },
         ]
       },
       { 
