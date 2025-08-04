@@ -708,6 +708,28 @@ export const categories: ICategory[] = [
     imageUrl: '/images/categories/services.jpg',
     subcategories: [
       {
+        name: 'categories.local-services.subcategories.home-garden-help.name',
+        slug: 'home-garden-help',
+        emoji: '🌻🧹',
+        description: 'categories.local-services.subcategories.garden-home-help.description',
+        items: [
+          { name: 'Догляд за садом', imageUrl: '/images/products/garden-care.jpg', description: 'Покіс трави, обрізка кущів, посадка рослин' },
+          { name: 'Прибирання дому', imageUrl: '/images/products/home-cleaning.jpg', description: 'Генеральне та регулярне прибирання' },
+          { name: 'Малярні роботи', imageUrl: '/images/products/painting.jpg', description: 'Фарбування стін, реставрація поверхонь' },
+        ],
+      },
+      {
+        name: 'categories.local-services.subcategories.vehicle-help-repairs.name',
+        slug: 'vehicle-help-repairs',
+        emoji: '🚗🔧',
+        description: 'categories.local-services.subcategories.vehicle-help-repairs.description',
+        items: [
+          { name: 'Автомеханік на виїзді', imageUrl: '/images/products/mobile-mechanic.jpg', description: 'Швидкий ремонт та діагностика авто' },
+          { name: 'Заміна шин', imageUrl: '/images/products/tire-change.jpg', description: 'Професійна заміна та балансування' },
+          { name: 'Автомийка', imageUrl: '/images/products/car-wash.jpg', description: 'Чистка та миття автомобіля' },
+        ],
+      },
+      {
         name: 'categories.local-services.subcategories.tailoring-repairs.name',
         slug: 'tailoring-repairs',
         emoji: '🧵🧥',
@@ -716,17 +738,6 @@ export const categories: ICategory[] = [
           { name: 'Пошиття одягу на замовлення', imageUrl: '/images/products/tailoring-custom.jpg', description: 'Індивідуальне пошиття за мірками клієнта' },
           { name: 'Ремонт одягу', imageUrl: '/images/products/clothing-repair.jpg', description: 'Заміна блискавок, латки, підшивання' },
           { name: 'Підгонка за розміром', imageUrl: '/images/products/size-adjustment.jpg', description: 'Професійна підгонка одягу під фігуру' },
-        ],
-      },
-      {
-        name: 'categories.local-services.subcategories.creative-workshops.name',
-        slug: 'creative-workshops',
-        emoji: '🎨🧑‍🏫',
-        description: 'categories.local-services.subcategories.creative-workshops.description',
-        items: [
-          { name: 'Майстер-клас з малювання', imageUrl: '/images/products/painting-workshop.jpg', description: 'Навчання різним технікам живопису' },
-          { name: 'Вироби з глини', imageUrl: '/images/products/clay-workshop.jpg', description: 'Створення глиняних виробів своїми руками' },
-          { name: 'Курс рукоділля', imageUrl: '/images/products/handicraft-workshop.jpg', description: 'Виготовлення прикрас, вишивка, плетіння' },
         ],
       },
       {
@@ -741,17 +752,6 @@ export const categories: ICategory[] = [
         ],
       },
       {
-        name: 'categories.local-services.subcategories.garden-home-help.name',
-        slug: 'garden-home-help',
-        emoji: '🌻🧹',
-        description: 'categories.local-services.subcategories.garden-home-help.description',
-        items: [
-          { name: 'Догляд за садом', imageUrl: '/images/products/garden-care.jpg', description: 'Покіс трави, обрізка кущів, посадка рослин' },
-          { name: 'Прибирання дому', imageUrl: '/images/products/home-cleaning.jpg', description: 'Генеральне та регулярне прибирання' },
-          { name: 'Малярні роботи', imageUrl: '/images/products/painting.jpg', description: 'Фарбування стін, реставрація поверхонь' },
-        ],
-      },
-      {
         name: 'categories.local-services.subcategories.pet-care-walking.name',
         slug: 'pet-care-walking',
         emoji: '🐕🦴',
@@ -760,6 +760,17 @@ export const categories: ICategory[] = [
           { name: 'Вигул собак', imageUrl: '/images/products/dog-walking.jpg', description: 'Регулярні прогулянки з домашніми улюбленцями' },
           { name: 'Догляд за домашніми тваринами', imageUrl: '/images/products/pet-care.jpg', description: 'Кормління, прибирання, базовий догляд' },
           { name: 'Навчання та тренування', imageUrl: '/images/products/pet-training.jpg', description: 'Основні команди та поведінка' },
+        ],
+      },
+      {
+        name: 'categories.local-services.subcategories.creative-workshops.name',
+        slug: 'creative-workshops',
+        emoji: '🎨🧑‍🏫',
+        description: 'categories.local-services.subcategories.creative-workshops.description',
+        items: [
+          { name: 'Майстер-клас з малювання', imageUrl: '/images/products/painting-workshop.jpg', description: 'Навчання різним технікам живопису' },
+          { name: 'Вироби з глини', imageUrl: '/images/products/clay-workshop.jpg', description: 'Створення глиняних виробів своїми руками' },
+          { name: 'Курс рукоділля', imageUrl: '/images/products/handicraft-workshop.jpg', description: 'Виготовлення прикрас, вишивка, плетіння' },
         ],
       },
       {
@@ -793,17 +804,6 @@ export const categories: ICategory[] = [
           { name: 'Оренда обладнання', imageUrl: '/images/products/equipment-rental.jpg', description: 'Звукові системи, світло, меблі' },
           { name: 'Організація заходів', imageUrl: '/images/products/event-planning.jpg', description: 'Планування та проведення свят і подій' },
           { name: 'Ведучі та аніматори', imageUrl: '/images/products/hosts-animators.jpg', description: 'Професійні ведучі для свят' },
-        ],
-      },
-      {
-        name: 'categories.local-services.subcategories.vehicle-help-repairs.name',
-        slug: 'vehicle-help-repairs',
-        emoji: '🚗🔧',
-        description: 'categories.local-services.subcategories.vehicle-help-repairs.description',
-        items: [
-          { name: 'Автомеханік на виїзді', imageUrl: '/images/products/mobile-mechanic.jpg', description: 'Швидкий ремонт та діагностика авто' },
-          { name: 'Заміна шин', imageUrl: '/images/products/tire-change.jpg', description: 'Професійна заміна та балансування' },
-          { name: 'Автомийка', imageUrl: '/images/products/car-wash.jpg', description: 'Чистка та миття автомобіля' },
         ],
       },
       {
