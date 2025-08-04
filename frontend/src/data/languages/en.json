@@ -98,6 +98,10 @@
           "name": "Nuts",
           "description": "Walnuts, hazelnuts, almonds, and other locally sourced nuts"
         },
+        "seeds-oilcrops": {
+          "name": "Seeds & Oils",
+          "description": "Sesame, pumpkin and sunflower seeds, flax, chia, and other sources of nutritious oils"
+        },
         "herbs-flowers": {
           "name": "Herbs & Flowers",
           "description": "Culinary herbs, teas, edible flowers"

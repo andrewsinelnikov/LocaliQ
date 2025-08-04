@@ -209,6 +209,29 @@ export const categories: ICategory[] = [
         ]
       },
       { 
+        name: 'categories.fresh-from-the-farm.subcategories.seeds-oilcrops.name', 
+        slug: 'seeds-oilcrops', 
+        emoji: '🌻', 
+        imageUrl: '/images/subcategories/farm/seeds-oilcrops.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.seeds-oilcrops.description',
+        items: [
+          { name: 'Кунжут', imageUrl: '/images/products/farm/seeds/sesame.jpg', description: 'Кунжутне насіння для кулінарії та олії', season: 'вересень-жовтень' },
+          { name: 'Насіння льону', imageUrl: '/images/products/farm/seeds/flax.jpg', description: 'Корисне лляне насіння, джерело Омега-3', season: 'серпень-вересень' },
+          { name: 'Насіння соняшника', imageUrl: '/images/products/farm/seeds/sunflower.jpg', description: 'Сире або підсмажене насіння соняшника', season: 'серпень-вересень' },
+          { name: 'Гарбузове насіння', imageUrl: '/images/products/farm/seeds/pumpkin.jpg', description: 'Очищене або сире насіння гарбуза', season: 'жовтень' },
+          { name: 'Насіння чіа', imageUrl: '/images/products/farm/seeds/chia.jpg', description: 'Суперфуд для сніданків, багатий на клітковину', season: 'цілорічно' },
+          { name: 'Оливкова олія', imageUrl: '/images/products/farm/oils/olive-oil.jpg', description: 'Натуральна оливкова олія — місцева або імпортована в малих партіях', season: 'цілорічно' },
+          { name: 'Олія льону (холодного віджиму)', imageUrl: '/images/products/farm/oils/flax-oil.jpg', description: 'Натуральна нерафінована олія з насіння льону', season: 'цілорічно' },
+          { name: 'Соняшникова олія', imageUrl: '/images/products/farm/oils/sunflower-oil.jpg', description: 'Ароматна домашня соняшникова олія', season: 'цілорічно' },
+          { name: 'Гарбузова олія', imageUrl: '/images/products/farm/oils/pumpkin-oil.jpg', description: 'Темна і насичена гарбузова олія для салатів', season: 'жовтень-листопад' },
+          { name: 'Олія з конопель', imageUrl: '/images/products/farm/oils/hemp-oil.jpg', description: 'Корисна зелена олія з приємним горіховим присмаком', season: 'серпень-жовтень' },
+          { name: 'Кунжутна олія', imageUrl: '/images/products/farm/oils/sesame-oil.jpg', description: 'Кунжутна олія для кулінарії та здоров’я', season: 'вересень-жовтень' },
+          { name: 'Тахіні (кунжутна паста)', imageUrl: '/images/products/farm/seeds/tahini.jpg', description: 'Паста з обсмаженого кунжуту — основа для хумусу', season: 'цілорічно' },
+          { name: 'Урбеч з насіння льону', imageUrl: '/images/products/farm/seeds/urbech-flax.jpg', description: 'Густа паста з перемеленого насіння без цукру', season: 'цілорічно' },
+          { name: 'Насіння для пророщування', imageUrl: '/images/products/farm/seeds/sprouting.jpg', description: 'Насіння для мікрозелені та проростків', season: 'цілорічно' }
+        ]
+      },
+      { 
         name: 'categories.fresh-from-the-farm.subcategories.grains-legumes.name', 
         slug: 'grains-legumes', 
         emoji: '🌾', 
