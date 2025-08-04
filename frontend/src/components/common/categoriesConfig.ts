@@ -121,9 +121,17 @@ export const categories: ICategory[] = [
         description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description',
         items: [
           { name: 'Курячі яйця', imageUrl: '/images/products/farm/eggs-poultry/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
-          { name: 'Качині яйця', imageUrl: '/images/products/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
           { name: 'Домашні кури', imageUrl: '/images/products/chicken.jpg', description: 'Живі або охолоджені, вирощені без антибіотиків' },
-          { name: 'Індичка', imageUrl: '/images/products/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' }
+          { name: 'Курячі ковбаски', imageUrl: '/images/products/farm/eggs-poultry/chicken-sausage.jpg', description: 'Свіжі фермерські ковбаски без консервантів' },
+          { name: 'Качині яйця', imageUrl: '/images/products/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
+          { name: 'Качка', imageUrl: '/images/products/farm/eggs-poultry/duck.jpg', description: 'Домашня качка — для тушкування чи запікання' },
+          { name: 'Індичі яйця', imageUrl: '/images/products/farm/eggs-poultry/turkey-eggs.jpg', description: 'Рідкісні, поживні яйця від домашніх індиків' },
+          { name: 'Індичка', imageUrl: '/images/products/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' },
+          { name: 'Перепелині яйця', imageUrl: '/images/products/farm/eggs-poultry/quail-eggs.jpg', description: 'Маленькі яйця з ніжним смаком та дієтичними властивостями' },
+          { name: 'Перепілка', imageUrl: '/images/products/farm/eggs-poultry/quail.jpg', description: 'Невеликий птах для запікання або гриля' },
+          { name: 'Гуска', imageUrl: '/images/products/farm/eggs-poultry/goose.jpg', description: 'Соковите мʼясо гуски з хрусткою шкіркою' },
+          { name: 'Страусине яйце', imageUrl: '/images/products/farm/eggs-poultry/ostrich-egg.jpg', description: 'Одне яйце — як 20–25 курячих. Ідеальне для великої страви або подарунку.' },
+          { name: 'Страусине мʼясо', imageUrl: '/images/products/farm/eggs-poultry/ostrich-meat.jpg', description: 'Ніжне червоне мʼясо з низьким вмістом жиру. Альтернатива яловичині.' },
         ]
       },
       { 
