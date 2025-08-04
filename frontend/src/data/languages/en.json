@@ -90,17 +90,21 @@
           "name": "Grains & Legumes",
           "description": "Wheat, oats, beans, lentils"
         },
-        "seedlings-starts": {
-          "name": "Seedlings & Starts",
-          "description": "Starter plants, garden seeds"
-        },
         "foraged-goods": {
           "name": "Foraged Goods",
           "description": "Wild herbs, berries, mushrooms"
         },
+        "nuts": {
+          "name": "Nuts",
+          "description": "Walnuts, hazelnuts, almonds, and other locally sourced nuts"
+        },
         "herbs-flowers": {
           "name": "Herbs & Flowers",
           "description": "Culinary herbs, teas, edible flowers"
+        },
+        "seedlings-starts": {
+          "name": "Seedlings & Starts",
+          "description": "Starter plants, garden seeds"
         }
       }
     },

@@ -95,32 +95,16 @@ export const categories: ICategory[] = [
         ]
       },
       { 
-        name: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.name', 
-        slug: 'honey-beekeeping', 
-        emoji: '🍯', 
-        imageUrl: '/images/subcategories/farm/honey-beekeeping.jpg',
-        description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description',
+        name: 'categories.fresh-from-the-farm.subcategories.dairy.name', 
+        slug: 'dairy', 
+        emoji: '🧀', 
+        imageUrl: '/images/subcategories/farm/dairy.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.dairy.description',
         items: [
-          { name: 'Акацієвий мед', imageUrl:'/images/products/farm/honey-beekeeping/acacia-honey.jpg', description: 'Світлий, ніжний мед з акації, довго не кристалізується', season: 'травень-червень' },
-          { name: 'Липовий мед',imageUrl: '/images/products/farm/honey-beekeeping/linden-honey.jpg', description: 'Ароматний мед із квітів липи, має виражену антисептичну дію', season: 'червень-липень' },
-          { name: 'Гречаний мед',imageUrl: '/images/products/farm/honey-beekeeping/buckwheat-honey.jpg', description: 'Темний, насичений мед з сильним смаком і високим вмістом заліза', season: 'липень-серпень' },
-          { name: 'Соняшниковий мед',imageUrl: '/images/products/farm/honey-beekeeping/sunflower-honey.jpg', description: 'Яскравий жовтий мед з легким смаком, швидко кристалізується', season: 'серпень-вересень' },
-          { name: 'Різнотрав’я',imageUrl: '/images/products/farm/honey-beekeeping/wildflower-honey.jpg', description: 'Мед зі збору нектару з лугових та польових квітів, універсальний для щоденного вживання', season: 'червень-серпень' },
-          { name: 'Гірський мед',imageUrl: '/images/products/farm/honey-beekeeping/mountain-honey.jpg', description: 'Мед з нектару високогірних рослин, має складний смак і аромат', season: 'липень-серпень' },
-          { name: 'Лісовий мед', imageUrl: '/images/products/farm/honey-beekeeping/forest-honey.jpg', description: 'Насичений мед з нектару лісових трав, дерев і кущів — має темний колір та глибокий аромат', season: 'липень-вересень' },
-          { name: 'Мед з прянощами', imageUrl: '/images/products/farm/honey-beekeeping/spiced-honey.jpg', description: 'Мед із додаванням кориці, імбиру, куркуми або чилі — для підтримки імунітету та тонусу', season: 'цілорічно' },
-          { name: 'Енергетичний мед', imageUrl: '/images/products/farm/honey-beekeeping/energy-honey.jpg', description: 'Мед з додаванням пилку, перги, прополісу або женьшеню — природне джерело енергії та імунної підтримки', season: 'цілорічно' },
-          { name: 'Мед з травами', imageUrl: '/images/products/farm/honey-beekeeping/herbal-honey.jpg', description: 'Мед, настояний на травах або оліях (шавлія, м’ята, евкаліпт) — для профілактики застуд і стресу', season: 'цілорічно' },
-          { name: 'Прополіс', imageUrl: '/images/products/propolis.jpg', description: 'Натуральний антисептик з вулика' },
-          { name: 'Бджолиний віск', imageUrl: '/images/products/farm/honey-beekeeping/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
-          { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
-          { name: 'Маточне молочко', imageUrl: '/images/products/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
-          { name: 'Пилок (обніжжя)', imageUrl: '/images/products/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },
-          { name: 'Перга (бджолиний хліб)', imageUrl: '/images/products/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
-          { name: 'Медові пасти', imageUrl: '/images/products/honey-paste.jpg', description: 'Мед з додаванням ягід, горіхів або спецій', season: 'цілорічно' },
-          { name: 'Апітерапевтичні набори', imageUrl: '/images/products/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
-          { name: 'Подарункові набори з медом', imageUrl: '/images/products/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
-          { name: 'Медова косметика', imageUrl: '/images/products/honey-cosmetics.jpg', description: 'Креми, бальзами та маски на основі меду і прополісу', season: 'цілорічно' }
+          { name: 'Молоко', imageUrl: '/images/products/milk.jpg', description: 'Свіже молоко, не пастеризоване' },
+          { name: 'Сметана', imageUrl: '/images/products/sour-cream.jpg', description: 'Домашня сметана жирністю 20%' },
+          { name: 'Домашній сир', imageUrl: '/images/products/cottage-cheese.jpg', description: 'Мʼякий сир для випічки й сніданків' },
+          { name: 'Сир', imageUrl: '/images/products/cheese.jpg', description: 'Мʼякі й твердi сири — з зеленню, перцем або класичні' }
         ]
       },
       { 
@@ -175,16 +159,53 @@ export const categories: ICategory[] = [
         ]
       },
       { 
-        name: 'categories.fresh-from-the-farm.subcategories.dairy.name', 
-        slug: 'dairy', 
-        emoji: '🧀', 
-        imageUrl: '/images/subcategories/farm/dairy.jpg',
-        description: 'categories.fresh-from-the-farm.subcategories.dairy.description',
+        name: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.name', 
+        slug: 'honey-beekeeping', 
+        emoji: '🍯', 
+        imageUrl: '/images/subcategories/farm/honey-beekeeping.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.honey-beekeeping.description',
         items: [
-          { name: 'Молоко', imageUrl: '/images/products/milk.jpg', description: 'Свіже молоко, не пастеризоване' },
-          { name: 'Сметана', imageUrl: '/images/products/sour-cream.jpg', description: 'Домашня сметана жирністю 20%' },
-          { name: 'Домашній сир', imageUrl: '/images/products/cottage-cheese.jpg', description: 'Мʼякий сир для випічки й сніданків' },
-          { name: 'Сир', imageUrl: '/images/products/cheese.jpg', description: 'Мʼякі й твердi сири — з зеленню, перцем або класичні' }
+          { name: 'Акацієвий мед', imageUrl:'/images/products/farm/honey-beekeeping/acacia-honey.jpg', description: 'Світлий, ніжний мед з акації, довго не кристалізується', season: 'травень-червень' },
+          { name: 'Липовий мед',imageUrl: '/images/products/farm/honey-beekeeping/linden-honey.jpg', description: 'Ароматний мед із квітів липи, має виражену антисептичну дію', season: 'червень-липень' },
+          { name: 'Гречаний мед',imageUrl: '/images/products/farm/honey-beekeeping/buckwheat-honey.jpg', description: 'Темний, насичений мед з сильним смаком і високим вмістом заліза', season: 'липень-серпень' },
+          { name: 'Соняшниковий мед',imageUrl: '/images/products/farm/honey-beekeeping/sunflower-honey.jpg', description: 'Яскравий жовтий мед з легким смаком, швидко кристалізується', season: 'серпень-вересень' },
+          { name: 'Різнотрав’я',imageUrl: '/images/products/farm/honey-beekeeping/wildflower-honey.jpg', description: 'Мед зі збору нектару з лугових та польових квітів, універсальний для щоденного вживання', season: 'червень-серпень' },
+          { name: 'Гірський мед',imageUrl: '/images/products/farm/honey-beekeeping/mountain-honey.jpg', description: 'Мед з нектару високогірних рослин, має складний смак і аромат', season: 'липень-серпень' },
+          { name: 'Лісовий мед', imageUrl: '/images/products/farm/honey-beekeeping/forest-honey.jpg', description: 'Насичений мед з нектару лісових трав, дерев і кущів — має темний колір та глибокий аромат', season: 'липень-вересень' },
+          { name: 'Мед з прянощами', imageUrl: '/images/products/farm/honey-beekeeping/spiced-honey.jpg', description: 'Мед із додаванням кориці, імбиру, куркуми або чилі — для підтримки імунітету та тонусу', season: 'цілорічно' },
+          { name: 'Енергетичний мед', imageUrl: '/images/products/farm/honey-beekeeping/energy-honey.jpg', description: 'Мед з додаванням пилку, перги, прополісу або женьшеню — природне джерело енергії та імунної підтримки', season: 'цілорічно' },
+          { name: 'Мед з травами', imageUrl: '/images/products/farm/honey-beekeeping/herbal-honey.jpg', description: 'Мед, настояний на травах або оліях (шавлія, м’ята, евкаліпт) — для профілактики застуд і стресу', season: 'цілорічно' },
+          { name: 'Прополіс', imageUrl: '/images/products/propolis.jpg', description: 'Натуральний антисептик з вулика' },
+          { name: 'Бджолиний віск', imageUrl: '/images/products/farm/honey-beekeeping/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
+          { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
+          { name: 'Маточне молочко', imageUrl: '/images/products/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
+          { name: 'Пилок (обніжжя)', imageUrl: '/images/products/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },
+          { name: 'Перга (бджолиний хліб)', imageUrl: '/images/products/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
+          { name: 'Медові пасти', imageUrl: '/images/products/honey-paste.jpg', description: 'Мед з додаванням ягід, горіхів або спецій', season: 'цілорічно' },
+          { name: 'Апітерапевтичні набори', imageUrl: '/images/products/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
+          { name: 'Подарункові набори з медом', imageUrl: '/images/products/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
+          { name: 'Медова косметика', imageUrl: '/images/products/honey-cosmetics.jpg', description: 'Креми, бальзами та маски на основі меду і прополісу', season: 'цілорічно' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.nuts.name', 
+        slug: 'nuts', 
+        emoji: '🌰', 
+        imageUrl: '/images/subcategories/farm/nuts.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.nuts.description',
+        items: [
+          { name: 'Волоський горіх', imageUrl: '/images/products/farm/nuts/walnut.jpg', description: 'Очищені та неочищені волоські горіхи', season: 'жовтень-листопад' },
+          { name: 'Ліщина (фундук)', imageUrl: '/images/products/farm/nuts/hazelnut.jpg', description: 'Стиглі ліщинові горіхи з локальних господарств', season: 'вересень-жовтень' },
+          { name: 'Мигдаль', imageUrl: '/images/products/farm/nuts/almond.jpg', description: 'Мигдаль — джерело білка та корисних жирів', season: 'серпень-вересень' },
+          { name: 'Кедровий горіх', imageUrl: '/images/products/farm/nuts/pine-nut.jpg', description: 'Маленькі, але поживні горішки з хвойних шишок', season: 'вересень-жовтень' },
+          { name: 'Арахіс', imageUrl: '/images/products/farm/nuts/peanut.jpg', description: 'Домашній арахіс — у шкаралупі чи смажений', season: 'вересень-жовтень' },
+          { name: 'Горіхи в меді', imageUrl: '/images/products/farm/nuts/walnut-honey.jpg', description: 'Горіхи, залиті ароматним квітковим медом', season: 'цілорічно' },
+          { name: 'Горіхова паста', imageUrl: '/images/products/farm/nuts/nut-butter.jpg', description: 'Натуральна паста з фундука, арахісу чи мигдалю без добавок', season: 'цілорічно' },
+          { name: 'Мікс горіхів', imageUrl: '/images/products/farm/nuts/nut-mix.jpg', description: 'Суміш сезонних горіхів — корисна закуска', season: 'цілорічно' },
+          { name: 'Сушені фрукти з горіхами', imageUrl: '/images/products/farm/nuts/nuts-dried-fruits.jpg', description: 'Корисний перекус із сухофруктів та горіхів', season: 'цілорічно' },
+          { name: 'Карамелізовані горіхи', imageUrl: '/images/products/farm/nuts/caramel-nuts.jpg', description: 'Солодкі смажені горіхи в карамелі', season: 'цілорічно' },
+          { name: 'Горіхи з прянощами', imageUrl: '/images/products/farm/nuts/spiced-nuts.jpg', description: 'Солоні та пряні смажені горіхи для перекусу', season: 'цілорічно' },
+          { name: 'Молоко з горіхів', imageUrl: '/images/products/farm/nuts/nut-milk.jpg', description: 'Мигдальне чи фундукове молоко — рослинна альтернатива', season: 'цілорічно' },
         ]
       },
       { 
@@ -198,18 +219,6 @@ export const categories: ICategory[] = [
           { name: 'Кукурудза', imageUrl: '/images/products/farm/grains-legumes/corn.jpg', description: 'Солодка кукурудза, ідеальна для варіння та грилю', season: 'літо' },
           { name: 'Квасоля', imageUrl: '/images/products/beans.jpg', description: 'Різнокольорова квасоля: червона, біла' },
           { name: 'Горошок', imageUrl: '/images/products/farm/vegetables/peas.jpg', description: 'Свіжозібраний зелений горошок', season: 'весна-початок літа' },
-        ]
-      },
-      { 
-        name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', 
-        slug: 'seedlings-starts', 
-        emoji: '🌱🪴', 
-        imageUrl: '/images/subcategories/farm/seedlings-starts.jpg',
-        description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description',
-        items: [
-          { name: 'Розсада помідорів', imageUrl: '/images/products/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
-          { name: 'Саджанці полуниці', imageUrl: '/images/products/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
-          { name: 'Саджанці малини', imageUrl: '/images/products/raspberry-seedling.jpg', description: 'Малина безколючкова' }
         ]
       },
       { 
@@ -235,6 +244,18 @@ export const categories: ICategory[] = [
           { name: 'Мʼята', imageUrl: '/images/products/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
           { name: 'Їстівні квіти', imageUrl: '/images/products/edible-flowers.jpg', description: 'Для декору і гастрономії' },
           { name: 'Квіти польові', imageUrl: '/images/products/wildflowers.jpg', description: 'Сезонні букети' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.name', 
+        slug: 'seedlings-starts', 
+        emoji: '🌱🪴', 
+        imageUrl: '/images/subcategories/farm/seedlings-starts.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description',
+        items: [
+          { name: 'Розсада помідорів', imageUrl: '/images/products/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
+          { name: 'Саджанці полуниці', imageUrl: '/images/products/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
+          { name: 'Саджанці малини', imageUrl: '/images/products/raspberry-seedling.jpg', description: 'Малина безколючкова' }
         ]
       },
     ],
