@@ -128,7 +128,7 @@ export const categories: ICategory[] = [
           { name: 'Качині яйця', imageUrl: '/images/products/farm/eggs-poultry/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
           { name: 'Качка', imageUrl: '/images/products/farm/eggs-poultry/duck.jpg', description: 'Домашня качка — для тушкування чи запікання' },
           { name: 'Індичі яйця', imageUrl: '/images/products/farm/eggs-poultry/turkey-eggs.jpg', description: 'Рідкісні, поживні яйця від домашніх індиків' },
-          { name: 'Індичка', imageUrl: '/images/products/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' },
+          { name: 'Індичка', imageUrl: '/images/products/farm/eggs-poultry/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' },
           { name: 'Перепелині яйця', imageUrl: '/images/products/farm/eggs-poultry/quail-eggs.jpg', description: 'Маленькі яйця з ніжним смаком та дієтичними властивостями' },
           { name: 'Перепілка', imageUrl: '/images/products/farm/eggs-poultry/quail.jpg', description: 'Невеликий птах для запікання або гриля' },
           { name: 'Гуска', imageUrl: '/images/products/farm/eggs-poultry/goose.jpg', description: 'Соковите мʼясо гуски з хрусткою шкіркою' },
