@@ -123,9 +123,9 @@ export const categories: ICategory[] = [
         description: 'categories.fresh-from-the-farm.subcategories.eggs-poultry.description',
         items: [
           { name: 'Курячі яйця', imageUrl: '/images/products/farm/eggs-poultry/eggs.jpg', description: 'Домашні яйця від щасливих курей' },
-          { name: 'Домашні кури', imageUrl: '/images/products/chicken.jpg', description: 'Живі або охолоджені, вирощені без антибіотиків' },
+          { name: 'Домашні кури', imageUrl: '/images/products/farm/eggs-poultry/chicken.jpg', description: 'Вирощені без антибіотиків' },
           { name: 'Курячі ковбаски', imageUrl: '/images/products/farm/eggs-poultry/chicken-sausage.jpg', description: 'Свіжі фермерські ковбаски без консервантів' },
-          { name: 'Качині яйця', imageUrl: '/images/products/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
+          { name: 'Качині яйця', imageUrl: '/images/products/farm/eggs-poultry/duck-eggs.jpg', description: 'Більші за курячі, з яскравим жовтком' },
           { name: 'Качка', imageUrl: '/images/products/farm/eggs-poultry/duck.jpg', description: 'Домашня качка — для тушкування чи запікання' },
           { name: 'Індичі яйця', imageUrl: '/images/products/farm/eggs-poultry/turkey-eggs.jpg', description: 'Рідкісні, поживні яйця від домашніх індиків' },
           { name: 'Індичка', imageUrl: '/images/products/turkey.jpg', description: 'Мʼясо індички для запікання та стейків' },
