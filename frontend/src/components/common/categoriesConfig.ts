@@ -165,10 +165,10 @@ export const categories: ICategory[] = [
           { name: 'Тунець', imageUrl: '/images/products/farm/fish-seafood/tuna.jpg', description: 'Стейки тунця — ідеальні для грилю чи тартару' },
           { name: 'Короп', imageUrl: '/images/products/farm/fish-seafood/carp.jpg', description: 'Популярна риба на свята і будні' },
           { name: 'Судак', imageUrl: '/images/products/farm/fish-seafood/pikeperch.jpg', description: 'Мʼясо з білим філе, без кісток' },
-          { name: 'Раки', imageUrl: '/images/products/farm/fish-seafood/crayfish.jpg', description: 'Свіжі або варені, для гурманів' },
           { name: 'Окунь', imageUrl: '/images/products/farm/fish-seafood/perch.jpg', description: 'Маленький, але смачний — на сковорідку або юшку' },
           { name: 'Оселедець домашній', imageUrl: '/images/products/farm/fish-seafood/herring.jpg', description: 'Солений або маринований оселедець ручної роботи' },
           { name: 'Копчена риба', imageUrl: '/images/products/farm/fish-seafood/smoked-fish.jpg', description: 'Асорті з копчених риб — короп, товстолоб, судак' },
+          { name: 'Раки', imageUrl: '/images/products/farm/fish-seafood/crayfish.jpg', description: 'Свіжі або варені, для гурманів' },
           { name: 'Ікра прісноводна', imageUrl: '/images/products/farm/fish-seafood/caviar.jpg', description: 'Натуральна ікра без консервантів — коропова, щуча' },
           { name: 'Креветки', imageUrl: '/images/products/farm/fish-seafood/shrimp.jpg', description: 'Варені або заморожені — ідеальні до салатів і пасти' },
           { name: 'Мідії', imageUrl: '/images/products/farm/fish-seafood/mussels.jpg', description: 'У мушлях або чищені — чудові для паельї чи запікання' }
