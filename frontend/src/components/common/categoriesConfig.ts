@@ -208,16 +208,16 @@ export const categories: ICategory[] = [
           { name: 'Мед з прянощами', imageUrl: '/images/products/farm/honey-beekeeping/spiced-honey.jpg', description: 'Мед із додаванням кориці, імбиру, куркуми або чилі — для підтримки імунітету та тонусу', season: 'цілорічно' },
           { name: 'Енергетичний мед', imageUrl: '/images/products/farm/honey-beekeeping/energy-honey.jpg', description: 'Мед з додаванням пилку, перги, прополісу або женьшеню — природне джерело енергії та імунної підтримки', season: 'цілорічно' },
           { name: 'Мед з травами', imageUrl: '/images/products/farm/honey-beekeeping/herbal-honey.jpg', description: 'Мед, настояний на травах або оліях (шавлія, м’ята, евкаліпт) — для профілактики застуд і стресу', season: 'цілорічно' },
-          { name: 'Прополіс', imageUrl: '/images/products/propolis.jpg', description: 'Натуральний антисептик з вулика' },
+          { name: 'Прополіс', imageUrl: '/images/products/farm/honey-beekeeping/propolis.jpg', description: 'Натуральний антисептик з вулика' },
           { name: 'Бджолиний віск', imageUrl: '/images/products/farm/honey-beekeeping/beeswax.jpg', description: 'Використовується в косметиці та свічках' },
-          { name: 'Мед у сотах', imageUrl: '/images/products/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
-          { name: 'Маточне молочко', imageUrl: '/images/products/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
-          { name: 'Пилок (обніжжя)', imageUrl: '/images/products/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },
-          { name: 'Перга (бджолиний хліб)', imageUrl: '/images/products/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
-          { name: 'Медові пасти', imageUrl: '/images/products/honey-paste.jpg', description: 'Мед з додаванням ягід, горіхів або спецій', season: 'цілорічно' },
-          { name: 'Апітерапевтичні набори', imageUrl: '/images/products/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
-          { name: 'Подарункові набори з медом', imageUrl: '/images/products/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
-          { name: 'Медова косметика', imageUrl: '/images/products/honey-cosmetics.jpg', description: 'Креми, бальзами та маски на основі меду і прополісу', season: 'цілорічно' }
+          { name: 'Мед у сотах', imageUrl: '/images/products/farm/honey-beekeeping/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
+          { name: 'Маточне молочко', imageUrl: '/images/products/farm/honey-beekeeping/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
+          { name: 'Пилок (обніжжя)', imageUrl: '/images/products/farm/honey-beekeeping/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },
+          { name: 'Перга (бджолиний хліб)', imageUrl: '/images/products/farm/honey-beekeeping/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
+          { name: 'Медові пасти', imageUrl: '/images/products/farm/honey-beekeeping/honey-paste.jpg', description: 'Мед з додаванням ягід, горіхів або спецій', season: 'цілорічно' },
+          { name: 'Апітерапевтичні набори', imageUrl: '/images/products/farm/honey-beekeeping/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
+          { name: 'Подарункові набори з медом', imageUrl: '/images/products/farm/honey-beekeeping/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
+          { name: 'Медова косметика', imageUrl: '/images/products/farm/honey-beekeeping/honey-cosmetics.jpg', description: 'Креми, бальзами та маски на основі меду і прополісу', season: 'цілорічно' }
         ]
       },
       { 
