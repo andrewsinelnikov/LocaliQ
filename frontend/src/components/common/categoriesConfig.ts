@@ -181,9 +181,9 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/farm/game-meats.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.game-meats.description',
         items: [
-          { name: 'Оленина', imageUrl: '/images/products/venison.jpg', description: 'Мʼясо дикого оленя з лісу' },
-          { name: 'Фазан', imageUrl: '/images/products/pheasant.jpg', description: 'Птах з ніжним мʼясом' },
-          { name: 'Заяча тушка', imageUrl: '/images/products/hare.jpg', description: 'Для тушкування чи запікання' },
+          { name: 'Оленина', imageUrl: '/images/products/farm/game-meats/venison.jpg', description: 'Мʼясо дикого оленя з лісу' },
+          { name: 'Фазан', imageUrl: '/images/products/farm/game-meats/pheasant.jpg', description: 'Птах з ніжним мʼясом' },
+          { name: 'Заяча тушка', imageUrl: '/images/products/farm/game-meats/hare.jpg', description: 'Для тушкування чи запікання' },
           { name: 'Кабанина', imageUrl: '/images/products/farm/game-meats/boar.jpg', description: 'Мʼясо дикого кабана — насичений смак і аромат' },
           { name: 'Кролик', imageUrl: '/images/products/farm/game-meats/rabbit.jpg', description: 'Фермерський або дикий, дієтичне мʼясо' },
           { name: 'Перепел', imageUrl: '/images/products/farm/game-meats/quail.jpg', description: 'Маленький птах, ніжне філе, підходить для запікання' },
