@@ -213,10 +213,10 @@ export const categories: ICategory[] = [
           { name: 'Мед у сотах', imageUrl: '/images/products/farm/honey-beekeeping/honeycomb.jpg', description: 'Натуральний мед у стільниках' },
           { name: 'Маточне молочко', imageUrl: '/images/products/farm/honey-beekeeping/royal-jelly.jpg', description: 'Цінний продукт для імунітету та омолодження', season: 'травень-серпень' },
           { name: 'Пилок (обніжжя)', imageUrl: '/images/products/farm/honey-beekeeping/pollen.jpg', description: 'Природне джерело вітамінів та амінокислот', season: 'квітень-серпень' },
-          { name: 'Перга (бджолиний хліб)', imageUrl: '/images/products/farm/honey-beekeeping/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
+          { name: 'Перга', imageUrl: '/images/products/farm/honey-beekeeping/perga.jpg', description: 'Ферментований пилок, потужний природний стимулятор', season: 'червень-серпень' },
           { name: 'Медові пасти', imageUrl: '/images/products/farm/honey-beekeeping/honey-paste.jpg', description: 'Мед з додаванням ягід, горіхів або спецій', season: 'цілорічно' },
-          { name: 'Апітерапевтичні набори', imageUrl: '/images/products/farm/honey-beekeeping/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
-          { name: 'Подарункові набори з медом', imageUrl: '/images/products/farm/honey-beekeeping/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
+          { name: 'Для апітерапії', imageUrl: '/images/products/farm/honey-beekeeping/apitherapy-kit.jpg', description: 'Комплекти для оздоровлення на основі бджолопродуктів', season: 'цілорічно' },
+          { name: 'Подарункові набори', imageUrl: '/images/products/farm/honey-beekeeping/honey-gift-box.jpg', description: 'Крафтові набори з меду та продуктів вулика', season: 'сезонно / на замовлення' },
           { name: 'Медова косметика', imageUrl: '/images/products/farm/honey-beekeeping/honey-cosmetics.jpg', description: 'Креми, бальзами та маски на основі меду і прополісу', season: 'цілорічно' }
         ]
       },
