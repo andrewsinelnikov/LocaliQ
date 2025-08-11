@@ -236,7 +236,7 @@ export const categories: ICategory[] = [
           { name: 'Горіхи в меді', imageUrl: '/images/products/farm/nuts/walnut-honey.jpg', description: 'Горіхи, залиті ароматним квітковим медом', season: 'цілорічно' },
           { name: 'Горіхова паста', imageUrl: '/images/products/farm/nuts/nut-butter.jpg', description: 'Натуральна паста з фундука, арахісу чи мигдалю без добавок', season: 'цілорічно' },
           { name: 'Мікс горіхів', imageUrl: '/images/products/farm/nuts/nut-mix.jpg', description: 'Суміш сезонних горіхів — корисна закуска', season: 'цілорічно' },
-          { name: 'Сушені фрукти з горіхами', imageUrl: '/images/products/farm/nuts/nuts-dried-fruits.jpg', description: 'Корисний перекус із сухофруктів та горіхів', season: 'цілорічно' },
+          { name: 'Горіхи з фруктами', imageUrl: '/images/products/farm/nuts/nuts-dried-fruits.jpg', description: 'Корисний перекус із сухофруктів та горіхів', season: 'цілорічно' },
           { name: 'Горіхи з прянощами', imageUrl: '/images/products/farm/nuts/spiced-nuts.jpg', description: 'Солоні та пряні смажені горіхи для перекусу', season: 'цілорічно' },
           { name: 'Молоко з горіхів', imageUrl: '/images/products/farm/nuts/nut-milk.jpg', description: 'Мигдальне чи фундукове молоко — рослинна альтернатива', season: 'цілорічно' },
         ]
