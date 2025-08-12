@@ -254,7 +254,7 @@ export const categories: ICategory[] = [
           { name: 'Гарбузове насіння', imageUrl: '/images/products/farm/seeds-oilcrops/pumpkin.jpg', description: 'Очищене або сире насіння гарбуза', season: 'жовтень' },
           { name: 'Насіння чіа', imageUrl: '/images/products/farm/seeds-oilcrops/chia.jpg', description: 'Суперфуд для сніданків, багатий на клітковину', season: 'цілорічно' },
           { name: 'Оливкова олія', imageUrl: '/images/products/farm/seeds-oilcrops/olive-oil.jpg', description: 'Натуральна оливкова олія — місцева або імпортована в малих партіях', season: 'цілорічно' },
-          { name: 'Олія льону (холодного віджиму)', imageUrl: '/images/products/farm/seeds-oilcrops/flax-oil.jpg', description: 'Натуральна нерафінована олія з насіння льону', season: 'цілорічно' },
+          { name: 'Олія льону', imageUrl: '/images/products/farm/seeds-oilcrops/flax-oil.jpg', description: 'Натуральна нерафінована олія з насіння льону', season: 'цілорічно' },
           { name: 'Соняшникова олія', imageUrl: '/images/products/farm/seeds-oilcrops/sunflower-oil.jpg', description: 'Ароматна домашня соняшникова олія', season: 'цілорічно' },
           { name: 'Гарбузова олія', imageUrl: '/images/products/farm/seeds-oilcrops/pumpkin-oil.jpg', description: 'Темна і насичена гарбузова олія для салатів', season: 'жовтень-листопад' },
           { name: 'Олія з конопель', imageUrl: '/images/products/farm/seeds-oilcrops/hemp-oil.jpg', description: 'Корисна зелена олія з приємним горіховим присмаком', season: 'серпень-жовтень' },
