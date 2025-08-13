@@ -259,8 +259,6 @@ export const categories: ICategory[] = [
           { name: 'Гарбузова олія', imageUrl: '/images/products/farm/seeds-oilcrops/pumpkin-oil.jpg', description: 'Темна і насичена гарбузова олія для салатів', season: 'жовтень-листопад' },
           { name: 'Олія з конопель', imageUrl: '/images/products/farm/seeds-oilcrops/hemp-oil.jpg', description: 'Корисна зелена олія з приємним горіховим присмаком', season: 'серпень-жовтень' },
           { name: 'Кунжутна олія', imageUrl: '/images/products/farm/seeds-oilcrops/sesame-oil.jpg', description: 'Кунжутна олія для кулінарії та здоров’я', season: 'вересень-жовтень' },
-          { name: 'Тахіні (кунжутна паста)', imageUrl: '/images/products/farm/seeds-oilcrops/tahini.jpg', description: 'Паста з обсмаженого кунжуту — основа для хумусу', season: 'цілорічно' },
-          { name: 'Урбеч з насіння льону', imageUrl: '/images/products/farm/seeds-oilcrops/urbech-flax.jpg', description: 'Густа паста з перемеленого насіння без цукру', season: 'цілорічно' },
           { name: 'Насіння для пророщування', imageUrl: '/images/products/farm/seeds-oilcrops/sprouting.jpg', description: 'Насіння для мікрозелені та проростків', season: 'цілорічно' }
         ]
       },
