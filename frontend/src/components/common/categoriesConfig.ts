@@ -270,15 +270,15 @@ export const categories: ICategory[] = [
         description: 'categories.fresh-from-the-farm.subcategories.grains-legumes.description',
         items: [
           { name: 'Кукурудза', imageUrl: '/images/products/farm/grains-legumes/corn.jpg', description: 'Солодка кукурудза, ідеальна для варіння та грилю', season: 'літо' },
-          { name: 'Квасоля', imageUrl: '/images/products/beans.jpg', description: 'Різнокольорова квасоля: червона, біла' },
+          { name: 'Квасоля', imageUrl: '/images/products/farm/grains-legumes/beans.jpg', description: 'Різнокольорова квасоля: червона, біла' },
           { name: 'Стручкова квасоля', imageUrl: '/images/products/farm/grains-legumes/green-beans.jpg', description: 'Ніжні зелені або жовті стручки без жорстких волокон, ідеальні для варіння, тушкування та заморожування', season: 'літо' },
-          { name: 'Горошок', imageUrl: '/images/products/farm/vegetables/peas.jpg', description: 'Свіжозібраний зелений горошок', season: 'весна-початок літа' },
+          { name: 'Горошок', imageUrl: '/images/products/farm/grains-legumes/peas.jpg', description: 'Свіжозібраний зелений горошок', season: 'весна-початок літа' },
           { name: 'Біб', imageUrl: '/images/products/farm/grains-legumes/fava-beans.jpg', description: 'М’ясисті боби з м’яким горіховим смаком' },
           { name: 'Сочевиця', imageUrl: '/images/products/farm/grains-legumes/lentils.jpg', description: 'Зелена та червона сочевиця, багата на білок' },
           { name: 'Нут', imageUrl: '/images/products/farm/grains-legumes/chickpeas.jpg', description: 'Ідеальний інгредієнт для хумусу та салатів' },
           { name: 'Соя', imageUrl: '/images/products/farm/grains-legumes/soy.jpg', description: 'Універсальна бобова для молока, тофу та інших продуктів' },
           { name: 'Гречка', imageUrl: '/images/products/farm/grains-legumes/buckwheat.jpg', description: 'Традиційна крупа з горіховим смаком' },
-          { name: 'Пшениця', imageUrl: '/images/products/wheat.jpg', description: 'Зерно для помелу або пророщування' },
+          { name: 'Пшениця', imageUrl: '/images/products/farm/grains-legumes/wheat.jpg', description: 'Зерно для помелу або пророщування' },
           { name: 'Жито', imageUrl: '/images/products/farm/grains-legumes/rye.jpg', description: 'Зерно для хлібопечення та ферментації' },
           { name: 'Овес', imageUrl: '/images/products/farm/grains-legumes/oats.jpg', description: 'Корисна крупа для сніданків та випічки' },
         ]
