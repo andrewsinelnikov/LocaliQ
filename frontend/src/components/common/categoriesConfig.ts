@@ -299,7 +299,7 @@ export const categories: ICategory[] = [
           { name: 'Чорниці', imageUrl: '/images/products/farm/foraged-goods/blueberries.jpg', description: 'Ягоди, зібрані в карпатських лісах' },
           { name: 'Суниці', imageUrl: '/images/products/farm/foraged-goods/wild-strawberry.jpg', description: 'Маленькі, але дуже духмяні дикі ягоди' },
           { name: 'Ожина', imageUrl: '/images/products/farm/foraged-goods/blackberry.jpg', description: 'Дика ягода з лісових галявин' },
-          { name: 'Малина', imageUrl: '/images/products/farm/foraged-goods/wild-raspberry.jpg', description: 'Ароматна і солодка, зібрана вручну' },
+          { name: 'Малина', imageUrl: '/images/products/farm/foraged-goods/raspberry.jpg', description: 'Ароматна і солодка, зібрана вручну' },
           { name: 'Брусниця', imageUrl: '/images/products/farm/foraged-goods/lingonberry.jpg', description: 'Кисло-солодкі ягоди, багаті на вітаміни' },
           { name: 'Шипшина', imageUrl: '/images/products/farm/foraged-goods/rosehip.jpg', description: 'Сушені плоди з високим вмістом вітаміну C' }
         ]
