@@ -289,18 +289,18 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/farm/foraged-goods.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.foraged-goods.description',
         items: [
+          { name: 'Суниці', imageUrl: '/images/products/farm/foraged-goods/wild-strawberry.jpg', description: 'Маленькі, але дуже духмяні дикі ягоди' },
+          { name: 'Чорниці', imageUrl: '/images/products/farm/foraged-goods/bilberry.jpg', description: 'Ягоди, зібрані в карпатських лісах' },
+          { name: 'Малина', imageUrl: '/images/products/farm/foraged-goods/raspberry.jpg', description: 'Ароматна і солодка, зібрана вручну' },
+          { name: 'Ожина', imageUrl: '/images/products/farm/foraged-goods/blackberry.jpg', description: 'Дика ягода з лісових галявин' },
+          { name: 'Брусниця', imageUrl: '/images/products/farm/foraged-goods/lingonberry.jpg', description: 'Кисло-солодкі ягоди, багаті на вітаміни' },
+          { name: 'Шипшина', imageUrl: '/images/products/farm/foraged-goods/rosehip.jpg', description: 'Сушені плоди з високим вмістом вітаміну C' },
           { name: 'Білі гриби', imageUrl: '/images/products/farm/foraged-goods/porcini.jpg', description: 'Свіжі або сушені, з екологічних лісів' },
           { name: 'Лисички', imageUrl: '/images/products/farm/foraged-goods/chanterelle.jpg', description: 'Сезонні гриби — з липня по вересень' },
           { name: 'Підберезники', imageUrl: '/images/products/farm/foraged-goods/birch-bolete.jpg', description: 'Делікатні гриби, ідеальні для тушкування' },
           { name: 'Маслюки', imageUrl: '/images/products/farm/foraged-goods/slippery-jack.jpg', description: 'Маслянисті капелюшки, чудові в маринаді' },
           { name: 'Шампіньйони', imageUrl: '/images/products/farm/foraged-goods/champignon.jpg', description: 'Лісові шампіньйони з характерним ароматом' },
           { name: 'Гливи', imageUrl: '/images/products/farm/foraged-goods/oyster.jpg', description: 'Зібрані на деревах у вологих лісах' },
-          { name: 'Чорниці', imageUrl: '/images/products/farm/foraged-goods/bilberry.jpg', description: 'Ягоди, зібрані в карпатських лісах' },
-          { name: 'Суниці', imageUrl: '/images/products/farm/foraged-goods/wild-strawberry.jpg', description: 'Маленькі, але дуже духмяні дикі ягоди' },
-          { name: 'Ожина', imageUrl: '/images/products/farm/foraged-goods/blackberry.jpg', description: 'Дика ягода з лісових галявин' },
-          { name: 'Малина', imageUrl: '/images/products/farm/foraged-goods/raspberry.jpg', description: 'Ароматна і солодка, зібрана вручну' },
-          { name: 'Брусниця', imageUrl: '/images/products/farm/foraged-goods/lingonberry.jpg', description: 'Кисло-солодкі ягоди, багаті на вітаміни' },
-          { name: 'Шипшина', imageUrl: '/images/products/farm/foraged-goods/rosehip.jpg', description: 'Сушені плоди з високим вмістом вітаміну C' }
         ]
       },
       { 
