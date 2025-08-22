@@ -310,10 +310,19 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/farm/herbs-flowers.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description',
         items: [
-          { name: 'Базилік', imageUrl: '/images/products/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
-          { name: 'Мʼята', imageUrl: '/images/products/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
-          { name: 'Їстівні квіти', imageUrl: '/images/products/edible-flowers.jpg', description: 'Для декору і гастрономії' },
-          { name: 'Квіти польові', imageUrl: '/images/products/wildflowers.jpg', description: 'Сезонні букети' }
+          { name: 'Базилік', imageUrl: '/images/products/farm/herbs-flowers/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
+          { name: 'Мʼята', imageUrl: '/images/products/farm/herbs-flowers/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
+          { name: 'Квіти польові', imageUrl: '/images/products/farm/herbs-flowers/wildflowers.jpg', description: 'Сезонні букети' },
+          { name: 'Розмарин', imageUrl: '/images/products/farm/herbs-flowers/rosemary.jpg', description: 'Пряна трава для мʼясних і овочевих страв' },
+          { name: 'Чебрець (тимʼян)', imageUrl: '/images/products/farm/herbs-flowers/thyme.jpg', description: 'Ароматна приправа для страв і настоїв' },
+          { name: 'Кріп', imageUrl: '/images/products/farm/herbs-flowers/dill.jpg', description: 'Незамінний для консервації та салатів' },
+          { name: 'Петрушка', imageUrl: '/images/products/farm/herbs-flowers/parsley.jpg', description: 'Класична зелень для будь-якої кухні' },
+          { name: 'Лаванда', imageUrl: '/images/products/farm/herbs-flowers/lavender.jpg', description: 'Квітка з ніжним ароматом — для декору і чаю' },
+          { name: 'Календула', imageUrl: '/images/products/farm/herbs-flowers/calendula.jpg', description: 'Лікувальна квітка з яскравим кольором' },
+          { name: 'Ехінацея', imageUrl: '/images/products/farm/herbs-flowers/echinacea.jpg', description: 'Імунно-зміцнювальна трава' },
+          { name: 'Кінза (коріандр)', imageUrl: '/images/products/farm/herbs-flowers/cilantro.jpg', description: 'Свіжа зелень для кавказької кухні' },
+          { name: 'Шавлія', imageUrl: '/images/products/farm/herbs-flowers/sage.jpg', description: 'Корисна трава з пряним ароматом' },
+          { name: 'Меліса', imageUrl: '/images/products/farm/herbs-flowers/lemon-balm.jpg', description: 'Заспокійлива трава для чаю' }
         ]
       },
       { 
