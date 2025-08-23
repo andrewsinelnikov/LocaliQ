@@ -102,13 +102,17 @@
           "name": "Seeds & Oils",
           "description": "Sesame, pumpkin and sunflower seeds, flax, chia, and other sources of nutritious oils"
         },
-        "herbs-flowers": {
-          "name": "Herbs & Flowers",
-          "description": "Culinary herbs, teas, edible flowers"
+        "greens-herbs": {
+          "name": "Greens & Herbs",
+          "description": "Culinary herbs, greens"
         },
         "seedlings-starts": {
           "name": "Seedlings & Starts",
           "description": "Starter plants, garden seeds"
+        },
+        "flowers": {
+          "name": "Flowers",
+          "description": "Seasonal and decorative flowers"
         }
       }
     },

@@ -305,25 +305,25 @@ export const categories: ICategory[] = [
         ]
       },
       { 
-        name: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.name', 
-        slug: 'herbs-flowers', 
+        name: 'categories.fresh-from-the-farm.subcategories.greens-herbs.name', 
+        slug: 'greens-herbs', 
         emoji: '🌿💐', 
-        imageUrl: '/images/subcategories/farm/herbs-flowers.jpg',
-        description: 'categories.fresh-from-the-farm.subcategories.herbs-flowers.description',
+        imageUrl: '/images/subcategories/farm/greens-herbs.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.greens-herbs.description',
         items: [
-          { name: 'Базилік', imageUrl: '/images/products/farm/herbs-flowers/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
-          { name: 'Мʼята', imageUrl: '/images/products/farm/herbs-flowers/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
-          { name: 'Розмарин', imageUrl: '/images/products/farm/herbs-flowers/rosemary.jpg', description: 'Пряна трава для мʼясних і овочевих страв' },
-          { name: 'Чебрець (тимʼян)', imageUrl: '/images/products/farm/herbs-flowers/thyme.jpg', description: 'Ароматна приправа для страв і настоїв' },
-          { name: 'Кріп', imageUrl: '/images/products/farm/herbs-flowers/dill.jpg', description: 'Незамінний для консервації та салатів' },
-          { name: 'Петрушка', imageUrl: '/images/products/farm/herbs-flowers/parsley.jpg', description: 'Класична зелень для будь-якої кухні' },
-          { name: 'Кінза (коріандр)', imageUrl: '/images/products/farm/herbs-flowers/cilantro.jpg', description: 'Свіжа зелень для кавказької кухні' },
-          { name: 'Меліса', imageUrl: '/images/products/farm/herbs-flowers/lemon-balm.jpg', description: 'Заспокійлива трава для чаю' },
-          { name: 'Квіти польові', imageUrl: '/images/products/farm/herbs-flowers/wildflowers.jpg', description: 'Сезонні букети' },
-          { name: 'Лаванда', imageUrl: '/images/products/farm/herbs-flowers/lavender.jpg', description: 'Квітка з ніжним ароматом — для декору і чаю' },
-          { name: 'Календула', imageUrl: '/images/products/farm/herbs-flowers/calendula.jpg', description: 'Лікувальна квітка з яскравим кольором' },
-          { name: 'Ехінацея', imageUrl: '/images/products/farm/herbs-flowers/echinacea.jpg', description: 'Імунно-зміцнювальна трава' },
-          { name: 'Шавлія', imageUrl: '/images/products/farm/herbs-flowers/sage.jpg', description: 'Корисна трава з пряним ароматом' },
+          { name: 'Базилік', imageUrl: '/images/products/farm/greens-herbs/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
+          { name: 'Мʼята', imageUrl: '/images/products/farm/greens-herbs/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
+          { name: 'Розмарин', imageUrl: '/images/products/farm/greens-herbs/rosemary.jpg', description: 'Пряна трава для мʼясних і овочевих страв' },
+          { name: 'Чебрець (тимʼян)', imageUrl: '/images/products/farm/greens-herbs/thyme.jpg', description: 'Ароматна приправа для страв і настоїв' },
+          { name: 'Кріп', imageUrl: '/images/products/farm/greens-herbs/dill.jpg', description: 'Незамінний для консервації та салатів' },
+          { name: 'Петрушка', imageUrl: '/images/products/farm/greens-herbs/parsley.jpg', description: 'Класична зелень для будь-якої кухні' },
+          { name: 'Кінза (коріандр)', imageUrl: '/images/products/farm/greens-herbs/cilantro.jpg', description: 'Свіжа зелень для кавказької кухні' },
+          { name: 'Меліса', imageUrl: '/images/products/farm/greens-herbs/lemon-balm.jpg', description: 'Заспокійлива трава для чаю' },
+          { name: 'Квіти польові', imageUrl: '/images/products/farm/greens-herbs/wildflowers.jpg', description: 'Сезонні букети' },
+          { name: 'Лаванда', imageUrl: '/images/products/farm/greens-herbs/lavender.jpg', description: 'Квітка з ніжним ароматом — для декору і чаю' },
+          { name: 'Календула', imageUrl: '/images/products/farm/greens-herbs/calendula.jpg', description: 'Лікувальна квітка з яскравим кольором' },
+          { name: 'Ехінацея', imageUrl: '/images/products/farm/greens-herbs/echinacea.jpg', description: 'Імунно-зміцнювальна трава' },
+          { name: 'Шавлія', imageUrl: '/images/products/farm/greens-herbs/sage.jpg', description: 'Корисна трава з пряним ароматом' },
         ]
       },
       { 
@@ -336,6 +336,16 @@ export const categories: ICategory[] = [
           { name: 'Розсада помідорів', imageUrl: '/images/products/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
           { name: 'Саджанці полуниці', imageUrl: '/images/products/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
           { name: 'Саджанці малини', imageUrl: '/images/products/raspberry-seedling.jpg', description: 'Малина безколючкова' }
+        ]
+      },
+      { 
+        name: 'categories.fresh-from-the-farm.subcategories.flowers.name', 
+        slug: 'flowers', 
+        emoji: '💐', 
+        imageUrl: '/images/subcategories/farm/flowers.jpg',
+        description: 'categories.fresh-from-the-farm.subcategories.flowers.description',
+        items: [
+          { name: 'Квіти польові', imageUrl: '/images/products/farm/herbs-flowers/wildflowers.jpg', description: 'Сезонні букети' },
         ]
       },
     ],
