@@ -45,6 +45,7 @@ export const categories: ICategory[] = [
           { name: 'Цвітна капуста', imageUrl: '/images/products/farm/vegetables/cauliflower.jpg', description: 'Ніжна цвітна капуста, багата вітамінами', season: 'літо-осінь' },
           { name: 'Брокколі', imageUrl: '/images/products/farm/vegetables/broccoli.jpg', description: 'Хрустка брокколі, багата на вітаміни', season: 'літо-осінь' },
           { name: 'Капуста брюссельська', imageUrl: '/images/products/farm/vegetables/brussels-sprouts.jpg', description: 'Мініатюрна капуста з ніжним смаком', season: 'осінь' },
+          { name: 'Червона капуста', imageUrl: '/images/products/farm/vegetables/red-cabbage.jpg', description: 'Хрустка червона капуста для салатів і маринування', season: 'літо-осінь' },
           { name: 'Цибуля', imageUrl: '/images/products/farm/vegetables/onion.jpg', description: 'Ароматна ріпчаста цибуля', season: 'літо-осінь' },
           { name: 'Часник', imageUrl: '/images/products/farm/vegetables/garlic.jpg', description: 'Ароматний молодий часник', season: 'весна-літо' },
           { name: 'Паприка', imageUrl: '/images/products/farm/vegetables/paprika.jpg', description: 'Солодка паприка яскравого кольору', season: 'літо' },
