@@ -319,7 +319,6 @@ export const categories: ICategory[] = [
           { name: 'Петрушка', imageUrl: '/images/products/farm/greens-herbs/parsley.jpg', description: 'Класична зелень для будь-якої кухні' },
           { name: 'Кінза (коріандр)', imageUrl: '/images/products/farm/greens-herbs/cilantro.jpg', description: 'Свіжа зелень для кавказької кухні' },
           { name: 'Меліса', imageUrl: '/images/products/farm/greens-herbs/lemon-balm.jpg', description: 'Заспокійлива трава для чаю' },
-          { name: 'Квіти польові', imageUrl: '/images/products/farm/greens-herbs/wildflowers.jpg', description: 'Сезонні букети' },
           { name: 'Лаванда', imageUrl: '/images/products/farm/greens-herbs/lavender.jpg', description: 'Квітка з ніжним ароматом — для декору і чаю' },
           { name: 'Календула', imageUrl: '/images/products/farm/greens-herbs/calendula.jpg', description: 'Лікувальна квітка з яскравим кольором' },
           { name: 'Ехінацея', imageUrl: '/images/products/farm/greens-herbs/echinacea.jpg', description: 'Імунно-зміцнювальна трава' },
