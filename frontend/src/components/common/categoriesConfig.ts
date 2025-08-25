@@ -314,7 +314,7 @@ export const categories: ICategory[] = [
           { name: 'Базилік', imageUrl: '/images/products/farm/greens-herbs/basil.jpg', description: 'Свіжа зелень для салатів і соусів' },
           { name: 'Мʼята', imageUrl: '/images/products/farm/greens-herbs/mint.jpg', description: 'Ароматна мʼята — для чаю і десертів' },
           { name: 'Розмарин', imageUrl: '/images/products/farm/greens-herbs/rosemary.jpg', description: 'Пряна трава для мʼясних і овочевих страв' },
-          { name: 'Чебрець (тимʼян)', imageUrl: '/images/products/farm/greens-herbs/thyme.jpg', description: 'Ароматна приправа для страв і настоїв' },
+          { name: 'Тимʼян (чебрець)', imageUrl: '/images/products/farm/greens-herbs/thyme.jpg', description: 'Ароматна приправа для страв і настоїв' },
           { name: 'Кріп', imageUrl: '/images/products/farm/greens-herbs/dill.jpg', description: 'Незамінний для консервації та салатів' },
           { name: 'Петрушка', imageUrl: '/images/products/farm/greens-herbs/parsley.jpg', description: 'Класична зелень для будь-якої кухні' },
           { name: 'Селера', imageUrl: '/images/products/farm/greens-herbs/celery.jpg', description: 'Ароматне листя селери — для супів, салатів і смузі' },
