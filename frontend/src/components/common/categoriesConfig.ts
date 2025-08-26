@@ -336,9 +336,18 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/farm/seedlings-starts.jpg',
         description: 'categories.fresh-from-the-farm.subcategories.seedlings-starts.description',
         items: [
-          { name: 'Розсада помідорів', imageUrl: '/images/products/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
-          { name: 'Саджанці полуниці', imageUrl: '/images/products/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
-          { name: 'Саджанці малини', imageUrl: '/images/products/raspberry-seedling.jpg', description: 'Малина безколючкова' }
+          { name: 'Розсада помідорів', imageUrl: '/images/products/farm/seedlings-starts/tomato-seedling.jpg', description: 'Стійкі сорти для відкритого ґрунту' },
+          { name: 'Розсада перцю', imageUrl: '/images/products/farm/seedlings-starts/pepper-seedling.jpg', description: 'Солодкий перець та гострий чилі' },
+          { name: 'Розсада капусти', imageUrl: '/images/products/farm/seedlings-starts/cabbage-seedling.jpg', description: 'Білокачанна та броколі' },
+          { name: 'Саджанці полуниці', imageUrl: '/images/products/farm/seedlings-starts/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
+          { name: 'Саджанці малини', imageUrl: '/images/products/farm/seedlings-starts/raspberry-seedling.jpg', description: 'Малина безколючкова' },
+          { name: 'Саджанці смородини', imageUrl: '/images/products/farm/seedlings-starts/currant-seedling.jpg', description: 'Чорна та червона смородина' },
+          { name: 'Саджанці ожини', imageUrl: '/images/products/farm/seedlings-starts/blackberry-seedling.jpg', description: 'Сорти з великими плодами' },
+          { name: 'Саджанці винограду', imageUrl: '/images/products/farm/seedlings-starts/grape-seedling.jpg', description: 'Стійкі до морозу столові сорти' },
+          { name: 'Саджанці яблуні', imageUrl: '/images/products/farm/seedlings-starts/apple-seedling.jpg', description: 'Місцеві адаптовані сорти' },
+          { name: 'Саджанці груші', imageUrl: '/images/products/farm/seedlings-starts/pear-seedling.jpg', description: 'Соковиті та зимостійкі сорти' },
+          { name: 'Саджанці вишні', imageUrl: '/images/products/farm/seedlings-starts/sour-cherry-seedling.jpg', description: 'Кисло-солодкі сорти для компотів та варення' },
+          { name: 'Саджанці абрикоса', imageUrl: '/images/products/farm/seedlings-starts/apricot-seedling.jpg', description: 'Смачні плоди для сушіння та варення' },
         ]
       },
       { 
