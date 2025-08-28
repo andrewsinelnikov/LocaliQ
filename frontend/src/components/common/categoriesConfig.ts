@@ -342,12 +342,17 @@ export const categories: ICategory[] = [
           { name: 'Саджанці полуниці', imageUrl: '/images/products/farm/seedlings-starts/strawberry-seedling.jpg', description: 'Урожайні сорти ремонтантної полуниці' },
           { name: 'Саджанці малини', imageUrl: '/images/products/farm/seedlings-starts/raspberry-seedling.jpg', description: 'Малина безколючкова' },
           { name: 'Саджанці смородини', imageUrl: '/images/products/farm/seedlings-starts/currant-seedling.jpg', description: 'Чорна та червона смородина' },
+          { name: 'Саджанці лохини', imageUrl: '/images/products/farm/seedlings-starts/blueberry-seedling.jpg', description: 'Сорти з високою врожайністю' },
           { name: 'Саджанці ожини', imageUrl: '/images/products/farm/seedlings-starts/blackberry-seedling.jpg', description: 'Сорти з великими плодами' },
           { name: 'Саджанці винограду', imageUrl: '/images/products/farm/seedlings-starts/grape-seedling.jpg', description: 'Стійкі до морозу столові сорти' },
           { name: 'Саджанці яблуні', imageUrl: '/images/products/farm/seedlings-starts/apple-seedling.jpg', description: 'Місцеві адаптовані сорти' },
           { name: 'Саджанці груші', imageUrl: '/images/products/farm/seedlings-starts/pear-seedling.jpg', description: 'Соковиті та зимостійкі сорти' },
           { name: 'Саджанці вишні', imageUrl: '/images/products/farm/seedlings-starts/sour-cherry-seedling.jpg', description: 'Кисло-солодкі сорти для компотів та варення' },
+          { name: 'Саджанці черешні', imageUrl: '/images/products/farm/seedlings-starts/sweet-cherry-seedling.jpg', description: 'Стійкі до розтріскування плоди' },
           { name: 'Саджанці абрикоса', imageUrl: '/images/products/farm/seedlings-starts/apricot-seedling.jpg', description: 'Смачні плоди для сушіння та варення' },
+          { name: 'Саджанці персика', imageUrl: '/images/products/farm/seedlings-starts/peach-seedling.jpg', description: 'Солодкі сорти з великими плодами' },
+          { name: 'Саджанці горіха', imageUrl: '/images/products/farm/seedlings-starts/walnut-seedling.jpg', description: 'Саджанці грецького горіха' },
+
         ]
       },
       { 
