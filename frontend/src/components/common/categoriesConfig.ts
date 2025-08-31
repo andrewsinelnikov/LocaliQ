@@ -370,9 +370,9 @@ export const categories: ICategory[] = [
           { name: 'Нарциси', imageUrl: '/images/products/farm/flowers/daffodils.jpg', description: 'Весняні квіти з фермерських клумб' },
           { name: 'Жоржини', imageUrl: '/images/products/farm/flowers/dahlias.jpg', description: 'Барвисті квіти для яскравих букетів' },
           { name: 'Гортензії', imageUrl: '/images/products/farm/flowers/hydrangeas.jpg', description: 'Обʼємні квіти у ніжних тонах' },
+          { name: 'Півонії сезонні', imageUrl: '/images/products/farm/flowers/peonies.jpg', description: 'Свіжі півонії в сезон' },
           { name: 'Айстри', imageUrl: '/images/products/farm/flowers/asters.jpg', description: 'Квітковий символ осені' },
           { name: 'Квіти польові', imageUrl: '/images/products/farm/flowers/wildflowers.jpg', description: 'Сезонні букети' },
-          { name: 'Півонії сезонні', imageUrl: '/images/products/farm/flowers/peonies.jpg', description: 'Свіжі півонії в сезон' },
           { name: 'Ромашки', imageUrl: '/images/products/farm/flowers/daisies.jpg', description: 'Ніжні польові квіти' },
         ]
       },
