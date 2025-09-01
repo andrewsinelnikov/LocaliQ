@@ -370,9 +370,9 @@ export const categories: ICategory[] = [
           { name: 'Нарциси', imageUrl: '/images/products/farm/flowers/daffodils.jpg', description: 'Весняні квіти з фермерських клумб' },
           { name: 'Жоржини', imageUrl: '/images/products/farm/flowers/dahlias.jpg', description: 'Барвисті квіти для яскравих букетів' },
           { name: 'Гортензії', imageUrl: '/images/products/farm/flowers/hydrangeas.jpg', description: 'Обʼємні квіти у ніжних тонах' },
-          { name: 'Півонії сезонні', imageUrl: '/images/products/farm/flowers/peonies.jpg', description: 'Свіжі півонії в сезон' },
+          { name: 'Півонії', imageUrl: '/images/products/farm/flowers/peonies.jpg', description: 'Свіжі півонії в сезон' },
           { name: 'Айстри', imageUrl: '/images/products/farm/flowers/asters.jpg', description: 'Квітковий символ осені' },
-          { name: 'Квіти польові', imageUrl: '/images/products/farm/flowers/wildflowers.jpg', description: 'Сезонні букети' },
+          { name: 'Польові квіти', imageUrl: '/images/products/farm/flowers/wildflowers.jpg', description: 'Сезонні букети' },
           { name: 'Ромашки', imageUrl: '/images/products/farm/flowers/daisies.jpg', description: 'Ніжні польові квіти' },
         ]
       },
@@ -392,11 +392,24 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/kitchen/baked-goods.jpg',
         description: 'categories.from-the-kitchen.subcategories.baked-goods.description',
         items: [
-          { name: 'Житній хліб на заквасці', imageUrl: '/images/products/rye-bread.jpg', description: 'Ароматний хліб із натуральної закваски' },
-          { name: 'Булочки з маком', imageUrl: '/images/products/poppy-rolls.jpg', description: 'Мʼякі й солодкі, ідеальні до чаю' },
-          { name: 'Печиво з медом', imageUrl: '/images/products/honey-cookies.jpg', description: 'Домашнє печиво з натурального меду' },
-          { name: 'Пиріжки з вишнею', imageUrl: '/images/products/cherry-pie.jpg', description: 'Пухкі пиріжки з кисло-солодкою начинкою' }
+          { name: 'Цільнозерновий хліб', imageUrl: '/images/products/kitchen/baked-goods/wholegrain-bread.jpg', description: 'Хліб з борошна грубого помолу, багатий на клітковину' },
+          { name: 'Житній на заквасці', imageUrl: '/images/products/kitchen/baked-goods/rye-bread.jpg', description: 'Ароматний хліб із натуральної закваски' },
+          { name: 'Бездріжджовий хліб', imageUrl: '/images/products/kitchen/baked-goods/yeast-free-bread.jpg', description: 'Хліб без дріжджів — легкий для травлення, ідеальний для особливих дієт' },
+          { name: 'Хліб без глютену (рисовий)', imageUrl: '/images/products/kitchen/baked-goods/gluten-free-rice-bread.jpg', description: 'Мʼякий хліб на основі рисового борошна — без глютену' },
+          { name: 'Батон домашній', imageUrl: '/images/products/kitchen/baked-goods/white-loaf.jpg', description: 'Мʼякий білий хліб з рум’яною скоринкою' },
+          { name: 'Фокача', imageUrl: '/images/products/kitchen/baked-goods/focaccia.jpg', description: 'Італійський плоский хліб з оливковою олією та спеціями' },
+          { name: 'Лаваш домашній', imageUrl: '/images/products/kitchen/baked-goods/lavash.jpg', description: 'Тонкий м’який хліб, випечений у печі' },
+          { name: 'Круасани', imageUrl: '/images/products/kitchen/baked-goods/chocolate-croissants.jpg', description: 'Свіжі круасани з начинкою з чорного шоколаду' },
+          { name: 'Сінабони', imageUrl: '/images/products/kitchen/baked-goods/cinnamon-rolls.jpg', description: 'Запашні булочки з корицею та крем-сирною глазур’ю' },
+          { name: 'Булочки', imageUrl: '/images/products/kitchen/baked-goods/pbuns.jpg', description: 'Мʼякі й солодкі, ідеальні до чаю' },
+          { name: 'Сирники', imageUrl: '/images/products/kitchen/baked-goods/baked-syrnyky.jpg', description: 'Легкі запечені сирники з домашнього сиру' },
+          { name: 'Пиріжки', imageUrl: '/images/products/kitchen/baked-goods/cherry-pie.jpg', description: 'Пухкі пиріжки з кисло-солодкою начинкою' },
+          { name: 'Слойки з яблуками', imageUrl: '/images/products/kitchen/baked-goods/apple-puffs.jpg', description: 'Листкове тісто з соковитою яблучною начинкою' },
+          { name: 'Паляниці', imageUrl: '/images/products/kitchen/baked-goods/palyanytsia.jpg', description: 'Традиційний український хліб, символ стійкості' },
+          { name: 'Киш з овочами', imageUrl: '/images/products/kitchen/baked-goods/quiche.jpg', description: 'Французький відкритий пиріг з начинкою' },
+          { name: 'Пісочний пиріг', imageUrl: '/images/products/kitchen/baked-goods/jam-pie.jpg', description: 'Пісочне тісто з ароматним домашнім повидлом' }
         ]
+
       },
       {
         name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
