@@ -395,7 +395,7 @@ export const categories: ICategory[] = [
           { name: 'Цільнозерновий хліб', imageUrl: '/images/products/kitchen/baked-goods/wholegrain-bread.jpg', description: 'Хліб з борошна грубого помолу, багатий на клітковину' },
           { name: 'Житній на заквасці', imageUrl: '/images/products/kitchen/baked-goods/rye-bread.jpg', description: 'Ароматний хліб із натуральної закваски' },
           { name: 'Бездріжджовий хліб', imageUrl: '/images/products/kitchen/baked-goods/yeast-free-bread.jpg', description: 'Хліб без дріжджів — легкий для травлення, ідеальний для особливих дієт' },
-          { name: 'Хліб без глютену (рисовий)', imageUrl: '/images/products/kitchen/baked-goods/gluten-free-rice-bread.jpg', description: 'Мʼякий хліб на основі рисового борошна — без глютену' },
+          { name: 'Хліб без глютену', imageUrl: '/images/products/kitchen/baked-goods/gluten-free-bread.jpg', description: 'Мʼякий хліб на основі рисового борошна — без глютену' },
           { name: 'Батон домашній', imageUrl: '/images/products/kitchen/baked-goods/white-loaf.jpg', description: 'Мʼякий білий хліб з рум’яною скоринкою' },
           { name: 'Фокача', imageUrl: '/images/products/kitchen/baked-goods/focaccia.jpg', description: 'Італійський плоский хліб з оливковою олією та спеціями' },
           { name: 'Лаваш домашній', imageUrl: '/images/products/kitchen/baked-goods/lavash.jpg', description: 'Тонкий м’який хліб, випечений у печі' },
