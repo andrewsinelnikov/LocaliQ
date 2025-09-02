@@ -399,7 +399,7 @@ export const categories: ICategory[] = [
           { name: 'Батон домашній', imageUrl: '/images/products/kitchen/baked-goods/white-loaf.jpg', description: 'Мʼякий білий хліб з рум’яною скоринкою' },
           { name: 'Фокача', imageUrl: '/images/products/kitchen/baked-goods/focaccia.jpg', description: 'Італійський плоский хліб з оливковою олією та спеціями' },
           { name: 'Лаваш домашній', imageUrl: '/images/products/kitchen/baked-goods/lavash.jpg', description: 'Тонкий м’який хліб, випечений у печі' },
-          { name: 'Круасани', imageUrl: '/images/products/kitchen/baked-goods/chocolate-croissants.jpg', description: 'Свіжі круасани з начинкою з чорного шоколаду' },
+          { name: 'Круасани', imageUrl: '/images/products/kitchen/baked-goods/croissants.jpg', description: 'Свіжі круасани з начинкою з чорного шоколаду' },
           { name: 'Сінабони', imageUrl: '/images/products/kitchen/baked-goods/cinnamon-rolls.jpg', description: 'Запашні булочки з корицею та крем-сирною глазур’ю' },
           { name: 'Булочки', imageUrl: '/images/products/kitchen/baked-goods/pbuns.jpg', description: 'Мʼякі й солодкі, ідеальні до чаю' },
           { name: 'Сирники', imageUrl: '/images/products/kitchen/baked-goods/baked-syrnyky.jpg', description: 'Легкі запечені сирники з домашнього сиру' },
