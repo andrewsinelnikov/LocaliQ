@@ -401,7 +401,7 @@ export const categories: ICategory[] = [
           { name: 'Лаваш домашній', imageUrl: '/images/products/kitchen/baked-goods/lavash.jpg', description: 'Тонкий м’який хліб, випечений у печі' },
           { name: 'Круасани', imageUrl: '/images/products/kitchen/baked-goods/croissants.jpg', description: 'Свіжі круасани з начинкою з чорного шоколаду' },
           { name: 'Сінабони', imageUrl: '/images/products/kitchen/baked-goods/cinnamon-rolls.jpg', description: 'Запашні булочки з корицею та крем-сирною глазур’ю' },
-          { name: 'Булочки', imageUrl: '/images/products/kitchen/baked-goods/pbuns.jpg', description: 'Мʼякі й солодкі, ідеальні до чаю' },
+          { name: 'Булочки', imageUrl: '/images/products/kitchen/baked-goods/buns.jpg', description: 'Мʼякі й солодкі, ідеальні до чаю' },
           { name: 'Сирники', imageUrl: '/images/products/kitchen/baked-goods/baked-syrnyky.jpg', description: 'Легкі запечені сирники з домашнього сиру' },
           { name: 'Пиріжки', imageUrl: '/images/products/kitchen/baked-goods/cherry-pie.jpg', description: 'Пухкі пиріжки з кисло-солодкою начинкою' },
           { name: 'Слойки з яблуками', imageUrl: '/images/products/kitchen/baked-goods/apple-puffs.jpg', description: 'Листкове тісто з соковитою яблучною начинкою' },
