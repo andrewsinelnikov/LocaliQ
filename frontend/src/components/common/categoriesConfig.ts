@@ -405,8 +405,8 @@ export const categories: ICategory[] = [
           { name: 'Сирники', imageUrl: '/images/products/kitchen/baked-goods/baked-syrnyky.jpg', description: 'Легкі запечені сирники з домашнього сиру' },
           { name: 'Пиріжки', imageUrl: '/images/products/kitchen/baked-goods/pies.jpg', description: 'Пухкі пиріжки з кисло-солодкою начинкою' },
           { name: 'Слойки', imageUrl: '/images/products/kitchen/baked-goods/puffs.jpg', description: 'Листкове тісто з соковитою яблучною начинкою' },
-          { name: 'Паляниці', imageUrl: '/images/products/kitchen/baked-goods/palyanytsia.jpg', description: 'Традиційний український хліб, символ стійкості' },
-          { name: 'Киш з овочами', imageUrl: '/images/products/kitchen/baked-goods/quiche.jpg', description: 'Французький відкритий пиріг з начинкою' },
+          { name: 'Паляниця', imageUrl: '/images/products/kitchen/baked-goods/palyanytsia.jpg', description: 'Традиційний український хліб, символ стійкості' },
+          { name: 'Киш', imageUrl: '/images/products/kitchen/baked-goods/quiche.jpg', description: 'Французький відкритий пиріг з начинкою' },
           { name: 'Пісочний пиріг', imageUrl: '/images/products/kitchen/baked-goods/jam-pie.jpg', description: 'Пісочне тісто з ароматним домашнім повидлом' }
         ]
 
