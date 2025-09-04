@@ -409,7 +409,28 @@ export const categories: ICategory[] = [
           { name: 'Киш', imageUrl: '/images/products/kitchen/baked-goods/quiche.jpg', description: 'Французький відкритий пиріг з начинкою' },
           { name: 'Пісочний пиріг', imageUrl: '/images/products/kitchen/baked-goods/jam-pie.jpg', description: 'Пісочне тісто з ароматним домашнім повидлом' }
         ]
-
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.homemade-meals.name',
+        slug: 'homemade-meals',
+        emoji: '🍲',
+        imageUrl: '/images/subcategories/kitchen/homemade-meals.jpg',
+        description: 'categories.from-the-kitchen.subcategories.homemade-meals.description',
+        items: [
+          { name: 'Борщ', imageUrl: '/images/products/kitchen/homemade-meals/borscht.jpg', description: 'Готова перша страва — просто розігріти' },
+          { name: 'Голубці', imageUrl: '/images/products/kitchen/homemade-meals/holubtsi.jpg', description: 'Капуста, начинена рисом і мʼясом' },
+          { name: 'Пельмені', imageUrl: '/images/products/kitchen/homemade-meals/dumplings.jpg', description: 'Заморожені або охолоджені' },
+          { name: 'Запіканка сирна', imageUrl: '/images/products/kitchen/homemade-meals/cheese-casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' },
+          { name: 'Вареники', imageUrl: '/images/products/kitchen/homemade-meals/varenyky-potato.jpg', description: 'Традиційні вареники з картопляною начинкою' },
+          { name: 'Котлети', imageUrl: '/images/products/kitchen/homemade-meals/home-cutlets.jpg', description: 'Соковиті котлети з мʼяса або овочів' },
+          { name: 'Тефтелі в соусі', imageUrl: '/images/products/kitchen/homemade-meals/meatballs-sauce.jpg', description: 'Мʼясні кульки в томатному або вершковому соусі' },
+          { name: 'Плов', imageUrl: '/images/products/kitchen/homemade-meals/plov.jpg', description: 'Ароматний рис із мʼясом та спеціями' },
+          { name: 'Олівʼє', imageUrl: '/images/products/kitchen/homemade-meals/olivye.jpg', description: 'Класичний салат, готовий до вживання' },
+          { name: 'Солянка', imageUrl: '/images/products/kitchen/homemade-meals/solyanka.jpg', description: 'Ситний суп із копченостями' },
+          { name: 'Лазанья', imageUrl: '/images/products/kitchen/homemade-meals/lasagna.jpg', description: 'Італійська страва з українською душею' },
+          { name: 'Каша з гарбуза', imageUrl: '/images/products/kitchen/homemade-meals/pumpkin-porridge.jpg', description: 'Солодка або солона, ідеально на сніданок' },
+          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes-meat.jpg', description: 'Тонкі налисники з мʼясною начинкою' }
+        ]
       },
       {
         name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
@@ -461,19 +482,6 @@ export const categories: ICategory[] = [
           { name: 'Огірки квашені', imageUrl: '/images/products/pickles.jpg', description: 'З натуральним бродінням' },
           { name: 'Яблучний оцет', imageUrl: '/images/products/apple-vinegar.jpg', description: 'Домашній, нефільтрований оцет' },
           { name: 'Кімчі', imageUrl: '/images/products/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' }
-        ]
-      },
-      {
-        name: 'categories.from-the-kitchen.subcategories.homemade-meals.name',
-        slug: 'homemade-meals',
-        emoji: '🍲',
-        imageUrl: '/images/subcategories/kitchen/homemade-meals.jpg',
-        description: 'categories.from-the-kitchen.subcategories.homemade-meals.description',
-        items: [
-          { name: 'Борщ у банці', imageUrl: '/images/products/borscht-jar.jpg', description: 'Готова перша страва — просто розігріти' },
-          { name: 'Голубці', imageUrl: '/images/products/holubtsi.jpg', description: 'Капуста, начинена рисом і мʼясом' },
-          { name: 'Пельмені домашні', imageUrl: '/images/products/dumplings.jpg', description: 'Заморожені або охолоджені' },
-          { name: 'Запіканка сирна', imageUrl: '/images/products/cheese-casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' }
         ]
       },
       {
