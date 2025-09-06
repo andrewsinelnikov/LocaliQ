@@ -429,7 +429,7 @@ export const categories: ICategory[] = [
           { name: 'Солянка', imageUrl: '/images/products/kitchen/homemade-meals/solyanka.jpg', description: 'Ситний суп із копченостями' },
           { name: 'Лазанья', imageUrl: '/images/products/kitchen/homemade-meals/lasagna.jpg', description: 'Італійська страва з українською душею' },
           { name: 'Каша з гарбуза', imageUrl: '/images/products/kitchen/homemade-meals/pumpkin-porridge.jpg', description: 'Солодка або солона, ідеально на сніданок' },
-          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes-meat.jpg', description: 'Тонкі налисники з мʼясною начинкою' }
+          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes.jpg', description: 'Тонкі налисники з мʼясною начинкою' }
         ]
       },
       {
