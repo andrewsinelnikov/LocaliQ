@@ -429,7 +429,14 @@ export const categories: ICategory[] = [
           { name: 'Солянка', imageUrl: '/images/products/kitchen/homemade-meals/solyanka.jpg', description: 'Ситний суп із копченостями' },
           { name: 'Лазанья', imageUrl: '/images/products/kitchen/homemade-meals/lasagna.jpg', description: 'Італійська страва з українською душею' },
           { name: 'Каша з гарбуза', imageUrl: '/images/products/kitchen/homemade-meals/pumpkin-porridge.jpg', description: 'Солодка або солона, ідеально на сніданок' },
-          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes.jpg', description: 'Тонкі налисники з мʼясною начинкою' }
+          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes.jpg', description: 'Тонкі налисники з мʼясною начинкою' },
+          { name: 'Деруни', imageUrl: '/images/products/kitchen/homemade-meals/deruny.jpg', description: 'Картопляні млинці, хрусткі ззовні і мʼякі всередині' },
+          { name: 'Мусака', imageUrl: '/images/products/kitchen/homemade-meals/moussaka.jpg', description: 'Балканська запіканка з баклажанами, мʼясом і бешамелем' },
+          { name: 'Курячий карі', imageUrl: '/images/products/kitchen/homemade-meals/chicken-curry.jpg', description: 'Ароматна індійська страва з куркою та спеціями' },
+          { name: 'Шакшука', imageUrl: '/images/products/kitchen/homemade-meals/shakshuka.jpg', description: 'Яйця, тушковані в томатному соусі з овочами' },
+          { name: 'Фалафель з хумусом', imageUrl: '/images/products/kitchen/homemade-meals/falafel-hummus.jpg', description: 'Східна страва з нуту — готова до подачі з соусом' },
+          { name: 'Мʼясо по-французьки', imageUrl: '/images/products/kitchen/homemade-meals/meat-french-style.jpg', description: 'Запечене мʼясо з сиром, цибулею та майонезом' },
+          { name: 'Паелья', imageUrl: '/images/products/kitchen/homemade-meals/paella.jpg', description: 'Іспанський рис з морепродуктами або мʼясом' },
         ]
       },
       {
