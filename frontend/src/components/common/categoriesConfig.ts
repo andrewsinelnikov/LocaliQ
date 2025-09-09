@@ -420,12 +420,11 @@ export const categories: ICategory[] = [
           { name: 'Борщ', imageUrl: '/images/products/kitchen/homemade-meals/borscht.jpg', description: 'Готова перша страва — просто розігріти' },
           { name: 'Голубці', imageUrl: '/images/products/kitchen/homemade-meals/holubtsi.jpg', description: 'Капуста, начинена рисом і мʼясом' },
           { name: 'Пельмені', imageUrl: '/images/products/kitchen/homemade-meals/dumplings.jpg', description: 'Заморожені або охолоджені' },
-          { name: 'Запіканка', imageUrl: '/images/products/kitchen/homemade-meals/casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' },
           { name: 'Вареники', imageUrl: '/images/products/kitchen/homemade-meals/varenyky.jpg', description: 'Традиційні вареники з картопляною начинкою' },
+          { name: 'Запіканка', imageUrl: '/images/products/kitchen/homemade-meals/casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' },
           { name: 'Котлети', imageUrl: '/images/products/kitchen/homemade-meals/cutlets.jpg', description: 'Соковиті котлети з мʼяса або овочів' },
           { name: 'Тефтелі', imageUrl: '/images/products/kitchen/homemade-meals/meatballs.jpg', description: 'Мʼясні кульки в томатному або вершковому соусі' },
           { name: 'Плов', imageUrl: '/images/products/kitchen/homemade-meals/plov.jpg', description: 'Ароматний рис із мʼясом та спеціями' },
-          { name: 'Олівʼє', imageUrl: '/images/products/kitchen/homemade-meals/olivye.jpg', description: 'Класичний салат, готовий до вживання' },
           { name: 'Солянка', imageUrl: '/images/products/kitchen/homemade-meals/solyanka.jpg', description: 'Ситний суп із копченостями' },
           { name: 'Лазанья', imageUrl: '/images/products/kitchen/homemade-meals/lasagna.jpg', description: 'Італійська страва з українською душею' },
           { name: 'Каша з гарбуза', imageUrl: '/images/products/kitchen/homemade-meals/pumpkin-porridge.jpg', description: 'Солодка або солона, ідеально на сніданок' },
@@ -435,8 +434,8 @@ export const categories: ICategory[] = [
           { name: 'Курячий карі', imageUrl: '/images/products/kitchen/homemade-meals/chicken-curry.jpg', description: 'Ароматна індійська страва з куркою та спеціями' },
           { name: 'Шакшука', imageUrl: '/images/products/kitchen/homemade-meals/shakshuka.jpg', description: 'Яйця, тушковані в томатному соусі з овочами' },
           { name: 'Фалафель з хумусом', imageUrl: '/images/products/kitchen/homemade-meals/falafel-hummus.jpg', description: 'Східна страва з нуту — готова до подачі з соусом' },
-          { name: 'Мʼясо по-французьки', imageUrl: '/images/products/kitchen/homemade-meals/meat-french-style.jpg', description: 'Запечене мʼясо з сиром, цибулею та майонезом' },
           { name: 'Паелья', imageUrl: '/images/products/kitchen/homemade-meals/paella.jpg', description: 'Іспанський рис з морепродуктами або мʼясом' },
+          { "name": "Рататуй", "imageUrl": "/images/products/kitchen/homemade-meals/ratatouille.jpg", "description": "Французька овочева страва, тушкована в томатному соусі" },
         ]
       },
       {
