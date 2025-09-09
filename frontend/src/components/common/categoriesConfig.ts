@@ -438,6 +438,7 @@ export const categories: ICategory[] = [
           { name: 'Рататуй', imageUrl: '/images/products/kitchen/homemade-meals/ratatouille.jpg', description: 'Французька овочева страва, тушкована в томатному соусі' },
           { name: 'Чілі кон карне', imageUrl: '/images/products/kitchen/homemade-meals/chili-con-carne.jpg', description: "Пряне м'ясо з квасолею в мексиканському стилі" },
           { name: 'Том Ям', imageUrl: '/images/products/kitchen/homemade-meals/tom-yam.jpg', description: "Гострий тайський суп з креветками та кокосовим молоком" },
+          { name: 'Гуляш', imageUrl: '/images/products/kitchen/homemade-meals/goulash.jpg', description: "Угорська страва з м'ясом та паприкою" },
         ]
       },
       {
