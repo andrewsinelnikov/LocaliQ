@@ -435,7 +435,8 @@ export const categories: ICategory[] = [
           { name: 'Шакшука', imageUrl: '/images/products/kitchen/homemade-meals/shakshuka.jpg', description: 'Яйця, тушковані в томатному соусі з овочами' },
           { name: 'Фалафель з хумусом', imageUrl: '/images/products/kitchen/homemade-meals/falafel-hummus.jpg', description: 'Східна страва з нуту — готова до подачі з соусом' },
           { name: 'Паелья', imageUrl: '/images/products/kitchen/homemade-meals/paella.jpg', description: 'Іспанський рис з морепродуктами або мʼясом' },
-          { "name": "Рататуй", "imageUrl": "/images/products/kitchen/homemade-meals/ratatouille.jpg", "description": "Французька овочева страва, тушкована в томатному соусі" },
+          { name: 'Рататуй', imageUrl: '/images/products/kitchen/homemade-meals/ratatouille.jpg', description: 'Французька овочева страва, тушкована в томатному соусі' },
+          { name: 'Чілі кон карне', imageUrl: '/images/products/kitchen/homemade-meals/chili-con-carne.jpg', description: "Пряне м'ясо з квасолею в мексиканському стилі" },
         ]
       },
       {
