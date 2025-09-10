@@ -417,30 +417,35 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/kitchen/homemade-meals.jpg',
         description: 'categories.from-the-kitchen.subcategories.homemade-meals.description',
         items: [
+          // 🥣 Супи / Гарячі перші страви
           { name: 'Борщ', imageUrl: '/images/products/kitchen/homemade-meals/borscht.jpg', description: 'Готова перша страва — просто розігріти' },
+          { name: 'Солянка', imageUrl: '/images/products/kitchen/homemade-meals/solyanka.jpg', description: 'Ситний суп із копченостями' },
+          { name: 'Том Ям', imageUrl: '/images/products/kitchen/homemade-meals/tom-yam.jpg', description: "Гострий тайський суп з креветками та кокосовим молоком" },
+          { name: 'Гаспачо', imageUrl: '/images/products/kitchen/homemade-meals/gazpacho.jpg', description: 'Іспанський холодний суп із томатів та овочів' },
+          // 🍛 Основні страви з мʼясом / рибою
           { name: 'Голубці', imageUrl: '/images/products/kitchen/homemade-meals/holubtsi.jpg', description: 'Капуста, начинена рисом і мʼясом' },
-          { name: 'Пельмені', imageUrl: '/images/products/kitchen/homemade-meals/dumplings.jpg', description: 'Заморожені або охолоджені' },
-          { name: 'Вареники', imageUrl: '/images/products/kitchen/homemade-meals/varenyky.jpg', description: 'Традиційні вареники з картопляною начинкою' },
-          { name: 'Запіканка', imageUrl: '/images/products/kitchen/homemade-meals/casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' },
           { name: 'Котлети', imageUrl: '/images/products/kitchen/homemade-meals/cutlets.jpg', description: 'Соковиті котлети з мʼяса або овочів' },
           { name: 'Тефтелі', imageUrl: '/images/products/kitchen/homemade-meals/meatballs.jpg', description: 'Мʼясні кульки в томатному або вершковому соусі' },
           { name: 'Плов', imageUrl: '/images/products/kitchen/homemade-meals/plov.jpg', description: 'Ароматний рис із мʼясом та спеціями' },
-          { name: 'Солянка', imageUrl: '/images/products/kitchen/homemade-meals/solyanka.jpg', description: 'Ситний суп із копченостями' },
-          { name: 'Лазанья', imageUrl: '/images/products/kitchen/homemade-meals/lasagna.jpg', description: 'Італійська страва з українською душею' },
-          { name: 'Каша з гарбуза', imageUrl: '/images/products/kitchen/homemade-meals/pumpkin-porridge.jpg', description: 'Солодка або солона, ідеально на сніданок' },
-          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes.jpg', description: 'Тонкі налисники з мʼясною начинкою' },
-          { name: 'Деруни', imageUrl: '/images/products/kitchen/homemade-meals/deruny.jpg', description: 'Картопляні млинці, хрусткі ззовні і мʼякі всередині' },
           { name: 'Мусака', imageUrl: '/images/products/kitchen/homemade-meals/moussaka.jpg', description: 'Балканська запіканка з баклажанами, мʼясом і бешамелем' },
           { name: 'Курячий карі', imageUrl: '/images/products/kitchen/homemade-meals/chicken-curry.jpg', description: 'Ароматна індійська страва з куркою та спеціями' },
-          { name: 'Шакшука', imageUrl: '/images/products/kitchen/homemade-meals/shakshuka.jpg', description: 'Яйця, тушковані в томатному соусі з овочами' },
-          { name: 'Фалафель з хумусом', imageUrl: '/images/products/kitchen/homemade-meals/falafel-hummus.jpg', description: 'Східна страва з нуту — готова до подачі з соусом' },
           { name: 'Паелья', imageUrl: '/images/products/kitchen/homemade-meals/paella.jpg', description: 'Іспанський рис з морепродуктами або мʼясом' },
-          { name: 'Рататуй', imageUrl: '/images/products/kitchen/homemade-meals/ratatouille.jpg', description: 'Французька овочева страва, тушкована в томатному соусі' },
           { name: 'Чілі кон карне', imageUrl: '/images/products/kitchen/homemade-meals/chili-con-carne.jpg', description: "Пряне м'ясо з квасолею в мексиканському стилі" },
-          { name: 'Том Ям', imageUrl: '/images/products/kitchen/homemade-meals/tom-yam.jpg', description: "Гострий тайський суп з креветками та кокосовим молоком" },
           { name: 'Гуляш', imageUrl: '/images/products/kitchen/homemade-meals/goulash.jpg', description: "Угорська страва з м'ясом та паприкою" },
           { name: 'Паста Болоньєзе', imageUrl: '/images/products/kitchen/homemade-meals/pasta-bolognese.jpg', description: 'Італійська паста з мʼясним соусом' },
-          { name: 'Гаспачо', imageUrl: '/images/products/kitchen/homemade-meals/gazpacho.jpg', description: 'Іспанський холодний суп із томатів та овочів' },
+          // 🥗 Основні вегетаріанські страви
+          { name: 'Шакшука', imageUrl: '/images/products/kitchen/homemade-meals/shakshuka.jpg', description: 'Яйця, тушковані в томатному соусі з овочами' },
+          { name: 'Рататуй', imageUrl: '/images/products/kitchen/homemade-meals/ratatouille.jpg', description: 'Французька овочева страва, тушкована в томатному соусі' },
+          { name: 'Фалафель з хумусом', imageUrl: '/images/products/kitchen/homemade-meals/falafel-hummus.jpg', description: 'Східна страва з нуту — готова до подачі з соусом' },
+          // 🥟 Страви з тіста
+          { name: 'Пельмені', imageUrl: '/images/products/kitchen/homemade-meals/dumplings.jpg', description: 'Заморожені або охолоджені' },
+          { name: 'Вареники', imageUrl: '/images/products/kitchen/homemade-meals/varenyky.jpg', description: 'Традиційні вареники з картопляною начинкою' },
+          { name: 'Лазанья', imageUrl: '/images/products/kitchen/homemade-meals/lasagna.jpg', description: 'Італійська страва з українською душею' },
+          { name: 'Млинці', imageUrl: '/images/products/kitchen/homemade-meals/crepes.jpg', description: 'Тонкі налисники з мʼясною начинкою' },
+          { name: 'Деруни', imageUrl: '/images/products/kitchen/homemade-meals/deruny.jpg', description: 'Картопляні млинці, хрусткі ззовні і мʼякі всередині' },
+          // 🍚 Каші та запіканки
+          { name: 'Запіканка', imageUrl: '/images/products/kitchen/homemade-meals/casserole.jpg', description: 'Десерт або сніданок — готовий до подачі' },
+          { name: 'Каша з гарбуза', imageUrl: '/images/products/kitchen/homemade-meals/pumpkin-porridge.jpg', description: 'Солодка або солона, ідеально на сніданок' }
         ]
       },
       {
