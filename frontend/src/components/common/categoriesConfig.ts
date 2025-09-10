@@ -439,6 +439,8 @@ export const categories: ICategory[] = [
           { name: 'Чілі кон карне', imageUrl: '/images/products/kitchen/homemade-meals/chili-con-carne.jpg', description: "Пряне м'ясо з квасолею в мексиканському стилі" },
           { name: 'Том Ям', imageUrl: '/images/products/kitchen/homemade-meals/tom-yam.jpg', description: "Гострий тайський суп з креветками та кокосовим молоком" },
           { name: 'Гуляш', imageUrl: '/images/products/kitchen/homemade-meals/goulash.jpg', description: "Угорська страва з м'ясом та паприкою" },
+          { name: 'Паста Болоньєзе', imageUrl: '/images/products/kitchen/homemade-meals/pasta-bolognese.jpg', description: 'Італійська паста з мʼясним соусом' },
+          { name: 'Гаспачо', imageUrl: '/images/products/kitchen/homemade-meals/gazpacho.jpg', description: 'Іспанський холодний суп із томатів та овочів' },
         ]
       },
       {
