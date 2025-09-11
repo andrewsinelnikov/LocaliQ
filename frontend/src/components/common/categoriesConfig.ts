@@ -449,29 +449,37 @@ export const categories: ICategory[] = [
         ]
       },
       {
-        name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
-        slug: 'savory-spreads-sauces',
-        emoji: '🧄🫙',
-        imageUrl: '/images/subcategories/kitchen/savory-spreads-sauces.jpg',
-        description: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.description',
-        items: [
-          { name: 'Песто з базиліку', imageUrl: '/images/products/pesto.jpg', description: 'Свіжий зелений соус з домашнього базиліку' },
-          { name: 'Хумус', imageUrl: '/images/products/hummus.jpg', description: 'Ніжна паста з нуту, з оливковою олією' },
-          { name: 'Часникова паста', imageUrl: '/images/products/garlic-spread.jpg', description: 'Гострий намаз для м’яса або хліба' },
-          { name: 'Аджика', imageUrl: '/images/products/adjika.jpg', description: 'Гострий соус за домашнім рецептом' }
-        ]
-      },
-      {
         name: 'categories.from-the-kitchen.subcategories.pasta-grains.name',
         slug: 'pasta-grains',
         emoji: '🍝🌾',
         imageUrl: '/images/subcategories/kitchen/pasta-grains.jpg',
         description: 'categories.from-the-kitchen.subcategories.pasta-grains.description',
         items: [
-          { name: 'Домашня локшина', imageUrl: '/images/products/egg-noodles.jpg', description: 'З твердих сортів пшениці або з яйцем' },
-          { name: 'Кус-кус', imageUrl: '/images/products/couscous.jpg', description: 'Дрібна крупа для швидких страв' },
-          { name: 'Булгур', imageUrl: '/images/products/bulgur.jpg', description: 'Корисна крупа з пшениці' },
-          { name: 'Паста з полби', imageUrl: '/images/products/spelt-pasta.jpg', description: 'Цільнозернова паста ручної роботи' }
+          { name: 'Домашня локшина', imageUrl: '/images/products/kitchen/pasta-grains/egg-noodles.jpg', description: 'З твердих сортів пшениці або з яйцем' },
+          { name: 'Кус-кус', imageUrl: '/images/products/kitchen/pasta-grains/couscous.jpg', description: 'Дрібна крупа для швидких страв' },
+          { name: 'Булгур', imageUrl: '/images/products/kitchen/pasta-grains/bulgur.jpg', description: 'Корисна крупа з пшениці' },
+          { name: 'Паста з полби', imageUrl: '/images/products/kitchen/pasta-grains/spelt-pasta.jpg', description: 'Цільнозернова паста ручної роботи' },
+          { name: 'Різотто (Арборіо)', imageUrl: '/images/products/kitchen/pasta-grains/arborio-rice.jpg', description: 'Італійський рис для кремового різотто' },
+          { name: 'Фузіллі', imageUrl: '/images/products/kitchen/pasta-grains/fusilli.jpg', description: 'Спіральна паста, чудова для соусів' },
+          { name: 'Пенне', imageUrl: '/images/products/kitchen/pasta-grains/penne.jpg', description: 'Трубчаста паста з гострими кінцями' },
+          { name: 'Кіноа', imageUrl: '/images/products/kitchen/pasta-grains/quinoa.jpg', description: 'Білкова крупа з легкою текстурою' },
+          { name: 'Полента', imageUrl: '/images/products/kitchen/pasta-grains/polenta.jpg', description: 'Крупа з кукурудзи для каші або запікання' },
+          { name: 'Ячна крупа', imageUrl: '/images/products/kitchen/pasta-grains/barley-grits.jpg', description: 'Традиційна українська крупа' },
+          { name: 'Орзо', imageUrl: '/images/products/kitchen/pasta-grains/orzo.jpg', description: 'Паста у формі рисинок, ідеальна для салатів' },
+          { name: 'Гречана паста (соба)', imageUrl: '/images/products/kitchen/pasta-grains/soba.jpg', description: 'Японська локшина з гречки' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
+        slug: 'savory-spreads-sauces',
+        emoji: '🧄🫙',
+        imageUrl: '/images/subcategories/kitchen/savory-spreads-sauces.jpg',
+        description: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.description',
+        items: [
+          { name: 'Песто з базиліку', imageUrl: '/images/products/kitchen/savory-spreads-sauces/pesto.jpg', description: 'Свіжий зелений соус з домашнього базиліку' },
+          { name: 'Хумус', imageUrl: '/images/products/kitchen/savory-spreads-sauces/hummus.jpg', description: 'Ніжна паста з нуту, з оливковою олією' },
+          { name: 'Часникова паста', imageUrl: '/images/products/kitchen/savory-spreads-sauces/garlic-spread.jpg', description: 'Гострий намаз для м’яса або хліба' },
+          { name: 'Аджика', imageUrl: '/images/products/kitchen/savory-spreads-sauces/adjika.jpg', description: 'Гострий соус за домашнім рецептом' }
         ]
       },
       {
