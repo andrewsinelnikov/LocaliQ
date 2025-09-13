@@ -468,7 +468,6 @@ export const categories: ICategory[] = [
           { name: 'Рігатоні', imageUrl: '/images/products/kitchen/pasta-grains/rigatoni.jpg', description: 'Великі трубочки з рифленою поверхнею' },
           { name: 'Фарфалле', imageUrl: '/images/products/kitchen/pasta-grains/farfalle.jpg', description: 'Паста у формі метеликів, гарна для салатів' },
           { name: 'Канелоні', imageUrl: '/images/products/kitchen/pasta-grains/cannelloni.jpg', description: 'Великі трубки для фарширування та запікання' },
-          { name: 'Лазанья', imageUrl: '/images/products/kitchen/pasta-grains/lasagna.jpg', description: 'Шари пасти для запіканки з соусами та сиром' },
           { name: 'Гноччі', imageUrl: '/images/products/kitchen/pasta-grains/gnocchi.jpg', description: 'Італійські картопляні кльоцки' },
           { name: 'Тортеліні', imageUrl: '/images/products/kitchen/pasta-grains/tortellini.jpg', description: 'Маленькі фаршировані кільця з тіста' },
           { name: 'Равіолі', imageUrl: '/images/products/kitchen/pasta-grains/ravioli.jpg', description: 'Паста з начинкою, зварена або запечена' },
