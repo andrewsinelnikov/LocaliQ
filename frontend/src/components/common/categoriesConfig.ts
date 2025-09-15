@@ -477,7 +477,6 @@ export const categories: ICategory[] = [
           { name: 'Равіолі', imageUrl: '/images/products/kitchen/pasta-grains/ravioli.jpg', description: 'Паста з начинкою, зварена або запечена' },
           { name: 'Кіноа', imageUrl: '/images/products/kitchen/pasta-grains/quinoa.jpg', description: 'Білкова крупа з легкою текстурою' },
           { name: 'Полента', imageUrl: '/images/products/kitchen/pasta-grains/polenta.jpg', description: 'Крупа з кукурудзи для каші або запікання' },
-          { name: 'Ячна крупа', imageUrl: '/images/products/kitchen/pasta-grains/barley-grits.jpg', description: 'Традиційна українська крупа' },
           { name: 'Орзо', imageUrl: '/images/products/kitchen/pasta-grains/orzo.jpg', description: 'Паста у формі рисинок, ідеальна для салатів' },
           { name: 'Гречана паста (соба)', imageUrl: '/images/products/kitchen/pasta-grains/soba.jpg', description: 'Японська локшина з гречки' }
         ]
