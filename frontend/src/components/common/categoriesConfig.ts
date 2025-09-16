@@ -455,11 +455,12 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/kitchen/pasta-grains.jpg',
         description: 'categories.from-the-kitchen.subcategories.pasta-grains.description',
         items: [
-          { name: 'Домашня локшина', imageUrl: '/images/products/kitchen/pasta-grains/egg-noodles.jpg', description: 'З твердих сортів пшениці або з яйцем' },
           { name: 'Кус-кус', imageUrl: '/images/products/kitchen/pasta-grains/couscous.jpg', description: 'Дрібна крупа для швидких страв' },
           { name: 'Булгур', imageUrl: '/images/products/kitchen/pasta-grains/bulgur.jpg', description: 'Корисна крупа з пшениці' },
-          { name: 'Паста з полби', imageUrl: '/images/products/kitchen/pasta-grains/spelt-pasta.jpg', description: 'Цільнозернова паста ручної роботи' },
           { name: 'Різотто (Арборіо)', imageUrl: '/images/products/kitchen/pasta-grains/arborio-rice.jpg', description: 'Італійський рис для кремового різотто' },
+          { name: 'Кіноа', imageUrl: '/images/products/kitchen/pasta-grains/quinoa.jpg', description: 'Білкова крупа з легкою текстурою' },
+          { name: 'Полента', imageUrl: '/images/products/kitchen/pasta-grains/polenta.jpg', description: 'Крупа з кукурудзи для каші або запікання' },
+          { name: 'Домашня локшина', imageUrl: '/images/products/kitchen/pasta-grains/egg-noodles.jpg', description: 'З твердих сортів пшениці або з яйцем' },
           { name: 'Фузіллі', imageUrl: '/images/products/kitchen/pasta-grains/fusilli.jpg', description: 'Спіральна паста, чудова для соусів' },
           { name: 'Пенне', imageUrl: '/images/products/kitchen/pasta-grains/penne.jpg', description: 'Трубчаста паста з гострими кінцями' },
           { name: 'Тальятеле', imageUrl: '/images/products/kitchen/pasta-grains/tagliatelle.jpg', description: 'Широка стрічкова паста, популярна з соусом болоньєзе' },
@@ -472,13 +473,25 @@ export const categories: ICategory[] = [
           { name: 'Орекьєтте', imageUrl: '/images/products/kitchen/pasta-grains/orecchiette.jpg', description: 'Паста у формі вушок, з Пулії, добре тримає соуси' },
           { name: 'Конкільє', imageUrl: '/images/products/kitchen/pasta-grains/conchiglie.jpg', description: 'Мушлі, які чудово підходять для начинки або запікання' },
           { name: 'Діталіні', imageUrl: '/images/products/kitchen/pasta-grains/ditalini.jpg', description: 'Маленькі трубочки, популярні в супах (наприклад, паста-е-фаджолі)' },
+          { name: 'Паста з полби', imageUrl: '/images/products/kitchen/pasta-grains/spelt-pasta.jpg', description: 'Цільнозернова паста ручної роботи' },
+          { name: 'Орзо', imageUrl: '/images/products/kitchen/pasta-grains/orzo.jpg', description: 'Паста у формі рисинок, ідеальна для салатів' },
+          { name: 'Соба (гречана паста)', imageUrl: '/images/products/kitchen/pasta-grains/soba.jpg', description: 'Японська локшина з гречки' },
+          { name: 'Равіолі', imageUrl: '/images/products/kitchen/pasta-grains/ravioli.jpg', description: 'Паста з начинкою, зварена або запечена' },
           { name: 'Гноччі', imageUrl: '/images/products/kitchen/pasta-grains/gnocchi.jpg', description: 'Італійські картопляні кльоцки' },
           { name: 'Тортеліні', imageUrl: '/images/products/kitchen/pasta-grains/tortellini.jpg', description: 'Маленькі фаршировані кільця з тіста' },
-          { name: 'Равіолі', imageUrl: '/images/products/kitchen/pasta-grains/ravioli.jpg', description: 'Паста з начинкою, зварена або запечена' },
-          { name: 'Кіноа', imageUrl: '/images/products/kitchen/pasta-grains/quinoa.jpg', description: 'Білкова крупа з легкою текстурою' },
-          { name: 'Полента', imageUrl: '/images/products/kitchen/pasta-grains/polenta.jpg', description: 'Крупа з кукурудзи для каші або запікання' },
-          { name: 'Орзо', imageUrl: '/images/products/kitchen/pasta-grains/orzo.jpg', description: 'Паста у формі рисинок, ідеальна для салатів' },
-          { name: 'Гречана паста (соба)', imageUrl: '/images/products/kitchen/pasta-grains/soba.jpg', description: 'Японська локшина з гречки' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.name',
+        slug: 'cheese-cured-meats',
+        emoji: '🧀🥓',
+        imageUrl: '/images/subcategories/kitchen/cheese-cured-meats.jpg',
+        description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description',
+        items: [
+          { name: 'Сир бринза', imageUrl: '/images/products/brynza.jpg', description: 'Солоний овечий сир' },
+          { name: 'Сир косичка', imageUrl: '/images/products/cheese-string.jpg', description: 'Копчений твердий сир ручної роботи' },
+          { name: 'Домашній бекон', imageUrl: '/images/products/bacon.jpg', description: 'Солений, копчений або варено-копчений' },
+          { name: 'Ковбаса з індички', imageUrl: '/images/products/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' }
         ]
       },
       {
@@ -531,19 +544,6 @@ export const categories: ICategory[] = [
           { name: 'Домашній квас', imageUrl: '/images/products/kvas.jpg', description: 'Справжній хлібний квас' },
           { name: 'Травʼяний чай', imageUrl: '/images/products/herbal-tea.jpg', description: 'Мʼята, меліса, чебрець — купажі власного збору' },
           { name: 'Ягідний морс', imageUrl: '/images/products/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' }
-        ]
-      },
-      {
-        name: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.name',
-        slug: 'cheese-cured-meats',
-        emoji: '🧀🥓',
-        imageUrl: '/images/subcategories/kitchen/cheese-cured-meats.jpg',
-        description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description',
-        items: [
-          { name: 'Сир бринза', imageUrl: '/images/products/brynza.jpg', description: 'Солоний овечий сир' },
-          { name: 'Сир косичка', imageUrl: '/images/products/cheese-string.jpg', description: 'Копчений твердий сир ручної роботи' },
-          { name: 'Домашній бекон', imageUrl: '/images/products/bacon.jpg', description: 'Солений, копчений або варено-копчений' },
-          { name: 'Ковбаса з індички', imageUrl: '/images/products/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' }
         ]
       },
       {
