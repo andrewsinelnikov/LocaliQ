@@ -491,7 +491,33 @@ export const categories: ICategory[] = [
           { name: 'Сир бринза', imageUrl: '/images/products/brynza.jpg', description: 'Солоний овечий сир' },
           { name: 'Сир косичка', imageUrl: '/images/products/cheese-string.jpg', description: 'Копчений твердий сир ручної роботи' },
           { name: 'Домашній бекон', imageUrl: '/images/products/bacon.jpg', description: 'Солений, копчений або варено-копчений' },
-          { name: 'Ковбаса з індички', imageUrl: '/images/products/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' }
+          { name: 'Ковбаса з індички', imageUrl: '/images/products/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' },
+          { name: 'Сир сулугуні', imageUrl: '/images/products/suluguni.jpg', description: 'Розсільний сир, м’який і злегка кислуватий' },
+          { name: 'Копчена ковбаса', imageUrl: '/images/products/smoked-sausage.jpg', description: 'В’ялена і копчена по домашньому рецепту' },
+          { name: 'Сир з зеленню', imageUrl: '/images/products/herb-cheese.jpg', description: 'Домашній сир зі свіжими травами' },
+          { name: 'Козячий сир', imageUrl: '/images/products/goat-cheese.jpg', description: 'Ніжний сир з козячого молока, ручної роботи' },
+          { name: 'Яловича в’яленина', imageUrl: '/images/products/beef-jerky.jpg', description: 'Тонко нарізане та висушене яловиче м’ясо' },
+          { name: 'Сир фета домашній', imageUrl: '/images/products/feta.jpg', description: 'Ніжний м’який сир у розсолі, на грецький манер' },
+          { name: 'Сир камамбер', imageUrl: '/images/products/camembert.jpg', description: 'М’який сир з пліснявою ручної роботи' },
+          { name: 'Сир з паприкою', imageUrl: '/images/products/cheese-paprika.jpg', description: 'Напівтвердий сир з меленим перцем або паприкою' },
+          { name: 'Сир у вині', imageUrl: '/images/products/wine-cheese.jpg', description: 'Витриманий сир з ароматом червоного вина' },
+          { name: 'Ковбаса мисливська', imageUrl: '/images/products/hunters-sausage.jpg', description: 'Сушена ковбаса зі свинини або яловичини' },
+          { name: 'Копчена грудинка', imageUrl: '/images/products/smoked-brisket.jpg', description: 'Ароматна м’ясна страва гарячого копчення' },
+          { name: 'Сир пармезан домашній', imageUrl: '/images/products/parmesan.jpg', description: 'Витриманий твердий сир із горіховим смаком' },
+          { name: 'Ковбаса чоризо', imageUrl: '/images/products/chorizo.jpg', description: 'Пряна сушена ковбаса з паприкою' },
+          { name: 'Сир чеддер', imageUrl: '/images/products/cheddar.jpg', description: 'Твердий сир із насиченим вершковим смаком' },
+          { name: 'Шинка прошуто', imageUrl: '/images/products/prosciutto.jpg', description: 'Тонко нарізана в’ялена свинина' },
+          { name: 'Сир дорблю', imageUrl: '/images/products/blue-cheese.jpg', description: 'М’який сир із благородною блакитною пліснявою' },
+          { name: 'Ковбаса салямі', imageUrl: '/images/products/salami.jpg', description: 'Традиційна сушена ковбаса з перцем' },
+          { name: 'Сир моцарела', imageUrl: '/images/products/mozzarella.jpg', description: 'Свіжий м’який сир для салатів і піци' },
+          { name: 'Копчена шинка', imageUrl: '/images/products/smoked-ham.jpg', description: 'Ніжна шинка гарячого копчення' },
+          { name: 'Сир з горіхами', imageUrl: '/images/products/nut-cheese.jpg', description: 'М’який сир із додаванням волоських горіхів' },
+          { name: 'В’ялена свинина', imageUrl: '/images/products/cured-pork.jpg', description: 'Сушене свиняче м’ясо з прянощами' },
+          { name: 'Сир гауда', imageUrl: '/images/products/gouda.jpg', description: 'Напівтвердий сир із ніжним вершковим смаком' },
+          { name: 'Ковбаса з оленини', imageUrl: '/images/products/venison-sausage.jpg', description: 'Сушена ковбаса з дичини з ялівцем' },
+          { name: 'Сир з трюфелем', imageUrl: '/images/products/truffle-cheese.jpg', description: 'Елітний сир із ароматом чорного трюфеля' },
+          { name: 'Бастурма', imageUrl: '/images/products/basturma.jpg', description: 'В’ялена яловичина з пряним покриттям' },
+          { name: 'Сир рикота', imageUrl: '/images/products/ricotta.jpg', description: 'Легкий м’який сир для десертів і страв' }
         ]
       },
       {
@@ -508,19 +534,6 @@ export const categories: ICategory[] = [
         ]
       },
       {
-        name: 'categories.from-the-kitchen.subcategories.jams-preserves.name',
-        slug: 'jams-preserves',
-        emoji: '🍓🥫',
-        imageUrl: '/images/subcategories/kitchen/jams-preserves.jpg',
-        description: 'categories.from-the-kitchen.subcategories.jams-preserves.description',
-        items: [
-          { name: 'Варення з полуниці', imageUrl: '/images/products/strawberry-jam.jpg', description: 'Класичне варення з літніх ягід' },
-          { name: 'Чорнослив у сиропі', imageUrl: '/images/products/prunes.jpg', description: 'Домашня консервація' },
-          { name: 'Малинове варення', imageUrl: '/images/products/raspberry-jam.jpg', description: 'Ідеальне до млинців і чаю' },
-          { name: 'Конфітюр із яблук з корицею', imageUrl: '/images/products/apple-cinnamon.jpg', description: 'Смак дитинства' }
-        ]
-      },
-      {
         name: 'categories.from-the-kitchen.subcategories.ferments-vinegars.name',
         slug: 'ferments-vinegars',
         emoji: '🧂🍶',
@@ -531,6 +544,32 @@ export const categories: ICategory[] = [
           { name: 'Огірки квашені', imageUrl: '/images/products/pickles.jpg', description: 'З натуральним бродінням' },
           { name: 'Яблучний оцет', imageUrl: '/images/products/apple-vinegar.jpg', description: 'Домашній, нефільтрований оцет' },
           { name: 'Кімчі', imageUrl: '/images/products/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.sweet-treats.name',
+        slug: 'sweet-treats',
+        emoji: '🍰🍫',
+        imageUrl: '/images/subcategories/kitchen/sweet-treats.jpg',
+        description: 'categories.from-the-kitchen.subcategories.sweet-treats.description',
+        items: [
+          { name: 'Медівник', imageUrl: '/images/products/medivnyk.jpg', description: 'Мʼякий пиріг на меду' },
+          { name: 'Цукерки з фініків', imageUrl: '/images/products/date-candies.jpg', description: 'Корисні солодощі без цукру' },
+          { name: 'Шоколад ручної роботи', imageUrl: '/images/products/handmade-chocolate.jpg', description: 'Темний, з горіхами або ягодами' },
+          { name: 'Пастила фруктова', imageUrl: '/images/products/fruit-leather.jpg', description: 'Натуральний перекус із сушених фруктів' }
+        ]
+      },
+      {
+        name: 'categories.from-the-kitchen.subcategories.jams-preserves.name',
+        slug: 'jams-preserves',
+        emoji: '🍓🥫',
+        imageUrl: '/images/subcategories/kitchen/jams-preserves.jpg',
+        description: 'categories.from-the-kitchen.subcategories.jams-preserves.description',
+        items: [
+          { name: 'Варення з полуниці', imageUrl: '/images/products/strawberry-jam.jpg', description: 'Класичне варення з літніх ягід' },
+          { name: 'Чорнослив у сиропі', imageUrl: '/images/products/prunes.jpg', description: 'Домашня консервація' },
+          { name: 'Малинове варення', imageUrl: '/images/products/raspberry-jam.jpg', description: 'Ідеальне до млинців і чаю' },
+          { name: 'Конфітюр із яблук з корицею', imageUrl: '/images/products/apple-cinnamon.jpg', description: 'Смак дитинства' }
         ]
       },
       {
@@ -546,19 +585,6 @@ export const categories: ICategory[] = [
           { name: 'Ягідний морс', imageUrl: '/images/products/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' }
         ]
       },
-      {
-        name: 'categories.from-the-kitchen.subcategories.sweet-treats.name',
-        slug: 'sweet-treats',
-        emoji: '🍰🍫',
-        imageUrl: '/images/subcategories/kitchen/sweet-treats.jpg',
-        description: 'categories.from-the-kitchen.subcategories.sweet-treats.description',
-        items: [
-          { name: 'Медівник', imageUrl: '/images/products/medivnyk.jpg', description: 'Мʼякий пиріг на меду' },
-          { name: 'Цукерки з фініків', imageUrl: '/images/products/date-candies.jpg', description: 'Корисні солодощі без цукру' },
-          { name: 'Шоколад ручної роботи', imageUrl: '/images/products/handmade-chocolate.jpg', description: 'Темний, з горіхами або ягодами' },
-          { name: 'Пастила фруктова', imageUrl: '/images/products/fruit-leather.jpg', description: 'Натуральний перекус із сушених фруктів' }
-        ]
-      }
     ]
   },
   {
