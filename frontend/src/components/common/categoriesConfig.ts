@@ -489,7 +489,6 @@ export const categories: ICategory[] = [
         description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description',
         items: [
           { name: 'Бринза', imageUrl: '/images/products/kitchen/cheese-cured-meats/brynza.jpg', description: 'Солоний овечий сир' },
-          { name: 'Сир косичка', imageUrl: '/images/products/kitchen/cheese-cured-meats/cheese-string.jpg', description: 'Копчений твердий сир ручної роботи' },
           { name: 'Домашній бекон', imageUrl: '/images/products/kitchen/cheese-cured-meats/bacon.jpg', description: 'Солений, копчений або варено-копчений' },
           { name: 'Ковбаса з індички', imageUrl: '/images/products/kitchen/cheese-cured-meats/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' },
           { name: 'Сулугуні', imageUrl: '/images/products/kitchen/cheese-cured-meats/suluguni.jpg', description: 'Розсільний сир, м’який і злегка кислуватий' },
@@ -508,7 +507,7 @@ export const categories: ICategory[] = [
           { name: 'Чеддер', imageUrl: '/images/products/kitchen/cheese-cured-meats/cheddar.jpg', description: 'Твердий сир із насиченим вершковим смаком' },
           { name: 'Шинка прошуто', imageUrl: '/images/products/kitchen/cheese-cured-meats/prosciutto.jpg', description: 'Тонко нарізана в’ялена свинина' },
           { name: 'Дорблю', imageUrl: '/images/products/kitchen/cheese-cured-meats/blue-cheese.jpg', description: 'М’який сир із благородною блакитною пліснявою' },
-          { name: 'Ковбаса салямі', imageUrl: '/images/products/kitchen/cheese-cured-meats/salami.jpg', description: 'Традиційна сушена ковбаса з перцем' },
+          { name: 'Салямі', imageUrl: '/images/products/kitchen/cheese-cured-meats/salami.jpg', description: 'Традиційна сушена ковбаса з перцем' },
           { name: 'Моцарела', imageUrl: '/images/products/kitchen/cheese-cured-meats/mozzarella.jpg', description: 'Свіжий м’який сир для салатів і піци' },
           { name: 'Копчена шинка', imageUrl: '/images/products/kitchen/cheese-cured-meats/smoked-ham.jpg', description: 'Ніжна шинка гарячого копчення' },
           { name: 'Сир з горіхами', imageUrl: '/images/products/kitchen/cheese-cured-meats/nut-cheese.jpg', description: 'М’який сир із додаванням волоських горіхів' },
