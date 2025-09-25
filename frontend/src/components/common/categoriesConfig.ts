@@ -498,7 +498,6 @@ export const categories: ICategory[] = [
           { name: 'Яловича в’яленина', imageUrl: '/images/products/kitchen/cheese-cured-meats/beef-jerky.jpg', description: 'Тонко нарізане та висушене яловиче м’ясо' },
           { name: 'Фета', imageUrl: '/images/products/kitchen/cheese-cured-meats/feta.jpg', description: 'Ніжний м’який сир у розсолі, на грецький манер' },
           { name: 'Камамбер', imageUrl: '/images/products/kitchen/cheese-cured-meats/camembert.jpg', description: 'М’який сир з пліснявою ручної роботи' },
-          { name: 'Сир з паприкою', imageUrl: '/images/products/kitchen/cheese-cured-meats/cheese-paprika.jpg', description: 'Напівтвердий сир з меленим перцем або паприкою' },
           { name: 'Сир у вині', imageUrl: '/images/products/kitchen/cheese-cured-meats/wine-cheese.jpg', description: 'Витриманий сир з ароматом червоного вина' },
           { name: 'Ковбаса мисливська', imageUrl: '/images/products/kitchen/cheese-cured-meats/hunters-sausage.jpg', description: 'Сушена ковбаса зі свинини або яловичини' },
           { name: 'Копчена грудинка', imageUrl: '/images/products/kitchen/cheese-cured-meats/smoked-brisket.jpg', description: 'Ароматна м’ясна страва гарячого копчення' },
@@ -520,8 +519,8 @@ export const categories: ICategory[] = [
           { name: 'Хамон', imageUrl: '/images/products/kitchen/cheese-cured-meats/jamon.jpg', description: 'Тонко нарізана іспанська в’ялена шинка'  },
           { name: 'Ковбаса фует', imageUrl: '/images/products/kitchen/cheese-cured-meats/fuet.jpg', description: 'Тонка сушена ковбаса з білою пліснявою' },
           { name: 'Брі', imageUrl: '/images/products/kitchen/cheese-cured-meats/brie.jpg', description: 'М’який сир із білою пліснявою та вершковим смаком' },
-          { name: 'Едам', imageUrl: '/images/products/kitchen/cheese-cured-meats/edam.jpg', description: 'Напівтвердий сир із м’яким вершковим смаком' },
-          { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Напівтвердий сир із солодкуватим горіховим смаком' },
+          { name: 'Рокфор', imageUrl: '/images/products/kitchen/cheese-cured-meats/roquefort.jpg', description: 'Блакитний сир із овечого молока з різким ароматом і пікантним смаком' },
+          { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Голландський сир із великими дірками та солодкувато-горіховим смаком' },
         ]
       },
       {
