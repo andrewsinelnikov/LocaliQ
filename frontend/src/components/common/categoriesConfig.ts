@@ -516,33 +516,13 @@ export const categories: ICategory[] = [
           { name: 'Ковбаса з оленини', imageUrl: '/images/products/kitchen/cheese-cured-meats/venison-sausage.jpg', description: 'Сушена ковбаса з дичини з ялівцем' },
           { name: 'Сир з трюфелем', imageUrl: '/images/products/kitchen/cheese-cured-meats/truffle-cheese.jpg', description: 'Елітний сир із ароматом чорного трюфеля' },
           { name: 'Бастурма', imageUrl: '/images/products/kitchen/cheese-cured-meats/basturma.jpg', description: 'В’ялена яловичина з пряним покриттям' },
-          { name: 'Сир рикота', imageUrl: '/images/products/kitchen/cheese-cured-meats/ricotta.jpg', description: 'Легкий м’який сир для десертів і страв' },
-          { 
-    name: 'Хамон', 
-    imageUrl: '/images/products/kitchen/cheese-cured-meats/jamon.jpg', 
-    description: 'Тонко нарізана іспанська в’ялена шинка' 
-  },
-  { 
-    name: 'Ковбаса фует', 
-    imageUrl: '/images/products/kitchen/cheese-cured-meats/fuet.jpg', 
-    description: 'Тонка сушена ковбаса з білою пліснявою' 
-  },
-  { 
-    name: 'Сир брі', 
-    imageUrl: '/images/products/kitchen/cheese-cured-meats/brie.jpg', 
-    description: 'М’який сир із білою пліснявою та вершковим смаком' 
-  },
-  { 
-    name: 'Сир едам', 
-    imageUrl: '/images/products/kitchen/cheese-cured-meats/edam.jpg', 
-    description: 'Напівтвердий сир із м’яким вершковим смаком' 
-  },
-  { 
-    name: 'Маасдам', 
-    imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', 
-    description: 'Напівтвердий сир із солодкуватим горіховим смаком' 
-  },
-    ]
+          { name: 'Рикота', imageUrl: '/images/products/kitchen/cheese-cured-meats/ricotta.jpg', description: 'Легкий м’який сир для десертів і страв' },
+          { name: 'Хамон', imageUrl: '/images/products/kitchen/cheese-cured-meats/jamon.jpg', description: 'Тонко нарізана іспанська в’ялена шинка'  },
+          { name: 'Ковбаса фует', imageUrl: '/images/products/kitchen/cheese-cured-meats/fuet.jpg', description: 'Тонка сушена ковбаса з білою пліснявою' },
+          { name: 'Брі', imageUrl: '/images/products/kitchen/cheese-cured-meats/brie.jpg', description: 'М’який сир із білою пліснявою та вершковим смаком' },
+          { name: 'Едам', imageUrl: '/images/products/kitchen/cheese-cured-meats/edam.jpg', description: 'Напівтвердий сир із м’яким вершковим смаком' },
+          { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Напівтвердий сир із солодкуватим горіховим смаком' },
+        ]
       },
       {
         name: 'categories.from-the-kitchen.subcategories.savory-spreads-sauces.name',
