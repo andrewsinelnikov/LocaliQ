@@ -522,7 +522,7 @@ export const categories: ICategory[] = [
           { name: 'Рокфор', imageUrl: '/images/products/kitchen/cheese-cured-meats/roquefort.jpg', description: 'Блакитний сир із овечого молока з різким ароматом і пікантним смаком' },
           { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Голландський сир із великими дірками та солодкувато-горіховим смаком' },
           { name: "Сир халумі", imageUrl: "/images/products/kitchen/cheese-cured-meats/halloumi.jpg", description: "Кіпрський сир, який не плавиться — ідеальний для смаження" },
-          
+          { name: "Сир манчего", imageUrl: "/images/products/kitchen/cheese-cured-meats/manchego.jpg", description: "Іспанський твердий сир із овечого молока з горіховим післясмаком" },
         ]
       },
       {
