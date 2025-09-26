@@ -521,6 +521,8 @@ export const categories: ICategory[] = [
           { name: 'Брі', imageUrl: '/images/products/kitchen/cheese-cured-meats/brie.jpg', description: 'М’який сир із білою пліснявою та вершковим смаком' },
           { name: 'Рокфор', imageUrl: '/images/products/kitchen/cheese-cured-meats/roquefort.jpg', description: 'Блакитний сир із овечого молока з різким ароматом і пікантним смаком' },
           { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Голландський сир із великими дірками та солодкувато-горіховим смаком' },
+          { name: "Сир халумі", imageUrl: "/images/products/kitchen/cheese-cured-meats/halloumi.jpg", description: "Кіпрський сир, який не плавиться — ідеальний для смаження" },
+          
         ]
       },
       {
