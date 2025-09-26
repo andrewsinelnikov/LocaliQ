@@ -511,7 +511,7 @@ export const categories: ICategory[] = [
           { name: 'Копчена шинка', imageUrl: '/images/products/kitchen/cheese-cured-meats/smoked-ham.jpg', description: 'Ніжна шинка гарячого копчення' },
           { name: 'Сир з горіхами', imageUrl: '/images/products/kitchen/cheese-cured-meats/nut-cheese.jpg', description: 'М’який сир із додаванням волоських горіхів' },
           { name: 'В’ялена свинина', imageUrl: '/images/products/kitchen/cheese-cured-meats/cured-pork.jpg', description: 'Сушене свиняче м’ясо з прянощами' },
-          { name: 'Сир гауда', imageUrl: '/images/products/kitchen/cheese-cured-meats/gouda.jpg', description: 'Напівтвердий сир із ніжним вершковим смаком' },
+          { name: 'Гауда', imageUrl: '/images/products/kitchen/cheese-cured-meats/gouda.jpg', description: 'Напівтвердий сир із ніжним вершковим смаком' },
           { name: 'Ковбаса з оленини', imageUrl: '/images/products/kitchen/cheese-cured-meats/venison-sausage.jpg', description: 'Сушена ковбаса з дичини з ялівцем' },
           { name: 'Сир з трюфелем', imageUrl: '/images/products/kitchen/cheese-cured-meats/truffle-cheese.jpg', description: 'Елітний сир із ароматом чорного трюфеля' },
           { name: 'Бастурма', imageUrl: '/images/products/kitchen/cheese-cured-meats/basturma.jpg', description: 'В’ялена яловичина з пряним покриттям' },
@@ -523,6 +523,7 @@ export const categories: ICategory[] = [
           { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Голландський сир із великими дірками та солодкувато-горіховим смаком' },
           { name: "Сир халумі", imageUrl: "/images/products/kitchen/cheese-cured-meats/halloumi.jpg", description: "Кіпрський сир, який не плавиться — ідеальний для смаження" },
           { name: "Сир манчего", imageUrl: "/images/products/kitchen/cheese-cured-meats/manchego.jpg", description: "Іспанський твердий сир із овечого молока з горіховим післясмаком" },
+          { name: "Сир грюйєр", imageUrl: "/images/products/kitchen/cheese-cured-meats/gruyere.jpg", description: "Швейцарський твердий сир із солодкувато-горіховим смаком" }
         ]
       },
       {
