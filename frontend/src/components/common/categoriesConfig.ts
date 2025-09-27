@@ -482,48 +482,59 @@ export const categories: ICategory[] = [
         ]
       },
       {
-        name: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.name',
-        slug: 'cheese-cured-meats',
-        emoji: '🧀🥓',
-        imageUrl: '/images/subcategories/kitchen/cheese-cured-meats.jpg',
-        description: 'categories.from-the-kitchen.subcategories.cheese-cured-meats.description',
-        items: [
-          { name: 'Бринза', imageUrl: '/images/products/kitchen/cheese-cured-meats/brynza.jpg', description: 'Солоний овечий сир' },
-          { name: 'Домашній бекон', imageUrl: '/images/products/kitchen/cheese-cured-meats/bacon.jpg', description: 'Солений, копчений або варено-копчений' },
-          { name: 'Ковбаса з індички', imageUrl: '/images/products/kitchen/cheese-cured-meats/turkey-sausage.jpg', description: 'З мінімумом спецій та добавок' },
-          { name: 'Сулугуні', imageUrl: '/images/products/kitchen/cheese-cured-meats/suluguni.jpg', description: 'Розсільний сир, м’який і злегка кислуватий' },
-          { name: 'Копчена ковбаса', imageUrl: '/images/products/kitchen/cheese-cured-meats/smoked-sausage.jpg', description: 'В’ялена і копчена по домашньому рецепту' },
-          { name: 'Сир з зеленню', imageUrl: '/images/products/kitchen/cheese-cured-meats/herb-cheese.jpg', description: 'Домашній сир зі свіжими травами' },
-          { name: 'Козячий сир', imageUrl: '/images/products/kitchen/cheese-cured-meats/goat-cheese.jpg', description: 'Ніжний сир з козячого молока, ручної роботи' },
-          { name: 'Яловича в’яленина', imageUrl: '/images/products/kitchen/cheese-cured-meats/beef-jerky.jpg', description: 'Тонко нарізане та висушене яловиче м’ясо' },
-          { name: 'Фета', imageUrl: '/images/products/kitchen/cheese-cured-meats/feta.jpg', description: 'Ніжний м’який сир у розсолі, на грецький манер' },
-          { name: 'Камамбер', imageUrl: '/images/products/kitchen/cheese-cured-meats/camembert.jpg', description: 'М’який сир з пліснявою ручної роботи' },
-          { name: 'Сир у вині', imageUrl: '/images/products/kitchen/cheese-cured-meats/wine-cheese.jpg', description: 'Витриманий сир з ароматом червоного вина' },
-          { name: 'Ковбаса мисливська', imageUrl: '/images/products/kitchen/cheese-cured-meats/hunters-sausage.jpg', description: 'Сушена ковбаса зі свинини або яловичини' },
-          { name: 'Копчена грудинка', imageUrl: '/images/products/kitchen/cheese-cured-meats/smoked-brisket.jpg', description: 'Ароматна м’ясна страва гарячого копчення' },
-          { name: 'Пармезан ', imageUrl: '/images/products/kitchen/cheese-cured-meats/parmesan.jpg', description: 'Витриманий твердий сир із горіховим смаком' },
-          { name: 'Ковбаса чоризо', imageUrl: '/images/products/kitchen/cheese-cured-meats/chorizo.jpg', description: 'Пряна сушена ковбаса з паприкою' },
-          { name: 'Чеддер', imageUrl: '/images/products/kitchen/cheese-cured-meats/cheddar.jpg', description: 'Твердий сир із насиченим вершковим смаком' },
-          { name: 'Шинка прошуто', imageUrl: '/images/products/kitchen/cheese-cured-meats/prosciutto.jpg', description: 'Тонко нарізана в’ялена свинина' },
-          { name: 'Дорблю', imageUrl: '/images/products/kitchen/cheese-cured-meats/blue-cheese.jpg', description: 'М’який сир із благородною блакитною пліснявою' },
-          { name: 'Салямі', imageUrl: '/images/products/kitchen/cheese-cured-meats/salami.jpg', description: 'Традиційна сушена ковбаса з перцем' },
-          { name: 'Моцарела', imageUrl: '/images/products/kitchen/cheese-cured-meats/mozzarella.jpg', description: 'Свіжий м’який сир для салатів і піци' },
-          { name: 'Копчена шинка', imageUrl: '/images/products/kitchen/cheese-cured-meats/smoked-ham.jpg', description: 'Ніжна шинка гарячого копчення' },
-          { name: 'Сир з горіхами', imageUrl: '/images/products/kitchen/cheese-cured-meats/nut-cheese.jpg', description: 'М’який сир із додаванням волоських горіхів' },
-          { name: 'В’ялена свинина', imageUrl: '/images/products/kitchen/cheese-cured-meats/cured-pork.jpg', description: 'Сушене свиняче м’ясо з прянощами' },
-          { name: 'Гауда', imageUrl: '/images/products/kitchen/cheese-cured-meats/gouda.jpg', description: 'Напівтвердий сир із ніжним вершковим смаком' },
-          { name: 'Ковбаса з оленини', imageUrl: '/images/products/kitchen/cheese-cured-meats/venison-sausage.jpg', description: 'Сушена ковбаса з дичини з ялівцем' },
-          { name: 'Сир з трюфелем', imageUrl: '/images/products/kitchen/cheese-cured-meats/truffle-cheese.jpg', description: 'Елітний сир із ароматом чорного трюфеля' },
-          { name: 'Бастурма', imageUrl: '/images/products/kitchen/cheese-cured-meats/basturma.jpg', description: 'В’ялена яловичина з пряним покриттям' },
-          { name: 'Рикота', imageUrl: '/images/products/kitchen/cheese-cured-meats/ricotta.jpg', description: 'Легкий м’який сир для десертів і страв' },
-          { name: 'Хамон', imageUrl: '/images/products/kitchen/cheese-cured-meats/jamon.jpg', description: 'Тонко нарізана іспанська в’ялена шинка'  },
-          { name: 'Ковбаса фует', imageUrl: '/images/products/kitchen/cheese-cured-meats/fuet.jpg', description: 'Тонка сушена ковбаса з білою пліснявою' },
-          { name: 'Брі', imageUrl: '/images/products/kitchen/cheese-cured-meats/brie.jpg', description: 'М’який сир із білою пліснявою та вершковим смаком' },
-          { name: 'Рокфор', imageUrl: '/images/products/kitchen/cheese-cured-meats/roquefort.jpg', description: 'Блакитний сир із овечого молока з різким ароматом і пікантним смаком' },
-          { name: 'Маасдам', imageUrl: '/images/products/kitchen/cheese-cured-meats/maasdam.jpg', description: 'Голландський сир із великими дірками та солодкувато-горіховим смаком' },
-          { name: "Сир халумі", imageUrl: "/images/products/kitchen/cheese-cured-meats/halloumi.jpg", description: "Кіпрський сир, який не плавиться — ідеальний для смаження" },
-          { name: "Сир манчего", imageUrl: "/images/products/kitchen/cheese-cured-meats/manchego.jpg", description: "Іспанський твердий сир із овечого молока з горіховим післясмаком" },
-          { name: "Сир грюйєр", imageUrl: "/images/products/kitchen/cheese-cured-meats/gruyere.jpg", description: "Швейцарський твердий сир із солодкувато-горіховим смаком" }
+        "name": "categories.from-the-kitchen.subcategories.cheese-cured-meats.name",
+        "slug": "cheese-cured-meats",
+        "emoji": "🧀🥓",
+        "imageUrl": "/images/subcategories/kitchen/cheese-cured-meats.jpg",
+        "description": "categories.from-the-kitchen.subcategories.cheese-cured-meats.description",
+        "items": [
+          // 🧀 Сири (Cheeses)
+          // — М'які сири (Soft Cheeses)
+          { "name": "Моцарела", "imageUrl": "/images/products/kitchen/cheese-cured-meats/mozzarella.jpg", "description": "Свіжий м’який сир для салатів і піци" },
+          { "name": "Рикота", "imageUrl": "/images/products/kitchen/cheese-cured-meats/ricotta.jpg", "description": "Легкий м’який сир для десертів і страв" },
+          { "name": "Камамбер", "imageUrl": "/images/products/kitchen/cheese-cured-meats/camembert.jpg", "description": "М’який сир з пліснявою ручної роботи" },
+          { "name": "Брі", "imageUrl": "/images/products/kitchen/cheese-cured-meats/brie.jpg", "description": "М’який сир із білою пліснявою та вершковим смаком" },
+          { "name": "Дорблю", "imageUrl": "/images/products/kitchen/cheese-cured-meats/blue-cheese.jpg", "description": "М’який сир із благородною блакитною пліснявою" },
+          { "name": "Рокфор", "imageUrl": "/images/products/kitchen/cheese-cured-meats/roquefort.jpg", "description": "Блакитний сир із овечого молока з різким ароматом і пікантним смаком" },
+          { "name": "Фета", "imageUrl": "/images/products/kitchen/cheese-cured-meats/feta.jpg", "description": "Ніжний м’який сир у розсолі, на грецький манер" },
+          { "name": "Сулугуні", "imageUrl": "/images/products/kitchen/cheese-cured-meats/suluguni.jpg", "description": "Розсільний сир, м’який і злегка кислуватий" },
+          { "name": "Бринза", "imageUrl": "/images/products/kitchen/cheese-cured-meats/brynza.jpg", "description": "Солоний овечий сир" },
+          { "name": "Козячий сир", "imageUrl": "/images/products/kitchen/cheese-cured-meats/goat-cheese.jpg", "description": "Ніжний сир з козячого молока, ручної роботи" },
+          { "name": "Сир з зеленню", "imageUrl": "/images/products/kitchen/cheese-cured-meats/herb-cheese.jpg", "description": "Домашній сир зі свіжими травами" },
+          { "name": "Сир з горіхами", "imageUrl": "/images/products/kitchen/cheese-cured-meats/nut-cheese.jpg", "description": "М’який сир із додаванням волоських горіхів" },
+          { "name": "Сир з трюфелем", "imageUrl": "/images/products/kitchen/cheese-cured-meats/truffle-cheese.jpg", "description": "Елітний сир із ароматом чорного трюфеля" },
+          { "name": "Сир у вині", "imageUrl": "/images/products/kitchen/cheese-cured-meats/wine-cheese.jpg", "description": "Витриманий сир з ароматом червоного вина" },
+
+          // — Тверді та напівтверді сири (Hard & Semi-Hard Cheeses)
+          { "name": "Чеддер", "imageUrl": "/images/products/kitchen/cheese-cured-meats/cheddar.jpg", "description": "Твердий сир із насиченим вершковим смаком" },
+          { "name": "Пармезан", "imageUrl": "/images/products/kitchen/cheese-cured-meats/parmesan.jpg", "description": "Витриманий твердий сир із горіховим смаком" },
+          { "name": "Гауда", "imageUrl": "/images/products/kitchen/cheese-cured-meats/gouda.jpg", "description": "Напівтвердий сир із ніжним вершковим смаком" },
+          { "name": "Маасдам", "imageUrl": "/images/products/kitchen/cheese-cured-meats/maasdam.jpg", "description": "Голландський сир із великими дірками та солодкувато-горіховим смаком" },
+          { "name": "Сир манчего", "imageUrl": "/images/products/kitchen/cheese-cured-meats/manchego.jpg", "description": "Іспанський твердий сир із овечого молока з горіховим післясмаком" },
+          { "name": "Сир грюйєр", "imageUrl": "/images/products/kitchen/cheese-cured-meats/gruyere.jpg", "description": "Швейцарський твердий сир із солодкувато-горіховим смаком" },
+          { "name": "Сир халумі", "imageUrl": "/images/products/kitchen/cheese-cured-meats/halloumi.jpg", "description": "Кіпрський сир, який не плавиться — ідеальний для смаження" },
+
+          // 🥓 М’ясні делікатеси (Meats)
+          // — Ковбаси (Sausages)
+          { "name": "Копчена ковбаса", "imageUrl": "/images/products/kitchen/cheese-cured-meats/smoked-sausage.jpg", "description": "В’ялена і копчена по домашньому рецепту" },
+          { "name": "Ковбаса з індички", "imageUrl": "/images/products/kitchen/cheese-cured-meats/turkey-sausage.jpg", "description": "З мінімумом спецій та добавок" },
+          { "name": "Ковбаса чоризо", "imageUrl": "/images/products/kitchen/cheese-cured-meats/chorizo.jpg", "description": "Пряна сушена ковбаса з паприкою" },
+          { "name": "Ковбаса мисливська", "imageUrl": "/images/products/kitchen/cheese-cured-meats/hunters-sausage.jpg", "description": "Сушена ковбаса зі свинини або яловичини" },
+          { "name": "Ковбаса з оленини", "imageUrl": "/images/products/kitchen/cheese-cured-meats/venison-sausage.jpg", "description": "Сушена ковбаса з дичини з ялівцем" },
+          { "name": "Ковбаса фует", "imageUrl": "/images/products/kitchen/cheese-cured-meats/fuet.jpg", "description": "Тонка сушена ковбаса з білою пліснявою" },
+          { "name": "Салямі", "imageUrl": "/images/products/kitchen/cheese-cured-meats/salami.jpg", "description": "Традиційна сушена ковбаса з перцем" },
+
+          // — Шинка, бекон, грудинка (Ham, Bacon, Brisket)
+          { "name": "Домашній бекон", "imageUrl": "/images/products/kitchen/cheese-cured-meats/bacon.jpg", "description": "Солений, копчений або варено-копчений" },
+          { "name": "Копчена грудинка", "imageUrl": "/images/products/kitchen/cheese-cured-meats/smoked-brisket.jpg", "description": "Ароматна м’ясна страва гарячого копчення" },
+          { "name": "Копчена шинка", "imageUrl": "/images/products/kitchen/cheese-cured-meats/smoked-ham.jpg", "description": "Ніжна шинка гарячого копчення" },
+          { "name": "Шинка прошуто", "imageUrl": "/images/products/kitchen/cheese-cured-meats/prosciutto.jpg", "description": "Тонко нарізана в’ялена свинина" },
+          { "name": "Хамон", "imageUrl": "/images/products/kitchen/cheese-cured-meats/jamon.jpg", "description": "Тонко нарізана іспанська в’ялена шинка" },
+
+          // — В’ялене м’ясо (Cured Meat)
+          { "name": "Яловича в’яленина", "imageUrl": "/images/products/kitchen/cheese-cured-meats/beef-jerky.jpg", "description": "Тонко нарізане та висушене яловиче м’ясо" },
+          { "name": "В’ялена свинина", "imageUrl": "/images/products/kitchen/cheese-cured-meats/cured-pork.jpg", "description": "Сушене свиняче м’ясо з прянощами" },
+          { "name": "Бастурма", "imageUrl": "/images/products/kitchen/cheese-cured-meats/basturma.jpg", "description": "В’ялена яловичина з пряним покриттям" }
         ]
       },
       {
