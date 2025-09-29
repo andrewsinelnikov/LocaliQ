@@ -544,101 +544,26 @@ export const categories: ICategory[] = [
         imageUrl: "/images/subcategories/kitchen/savory-spreads-sauces.jpg",
         description: "categories.from-the-kitchen.subcategories.savory-spreads-sauces.description",
         items: [
-          {
-            "name": "Песто з базиліку",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/pesto.jpg",
-            "description": "Свіжий зелений соус з домашнього базиліку"
-          },
-          {
-            "name": "Хумус",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/hummus.jpg",
-            "description": "Ніжна паста з нуту, з оливковою олією"
-          },
-          {
-            "name": "Часникова паста",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/garlic-spread.jpg",
-            "description": "Гострий намаз для м’яса або хліба"
-          },
-          {
-            "name": "Аджика",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/adjika.jpg",
-            "description": "Гострий соус за домашнім рецептом"
-          },
-          {
-            "name": "Паста з в'ялених томатів",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/sun-dried-tomato.jpg",
-            "description": "Паста з в'ялених томатів, оливкової олії та спецій"
-          },
-          {
-            "name": "Овочева ікра (баклажанна)",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/eggplant-spread.jpg",
-            "description": "Домашня баклажанна ікра з томатами та перцем"
-          },
-          {
-            "name": "Тапенад з оливок",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/olive-tapenade.jpg",
-            "description": "Оливковий намаз з каперсами та часником"
-          },
-          {
-            "name": "Соус чимічурі",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/chimichurri.jpg",
-            "description": "Аргентинський соус з петрушки, часнику та олії"
-          },
-          {
-            "name": "Соус Піканте",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/picante-sauce.jpg",
-            "description": "Гострий соус з томатами, перцем та спеціями"
-          },
-          {
-            "name": "Соус Барбекю (BBQ)",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/bbq-sauce.jpg",
-            "description": "Домашній соус BBQ зі спеціями та димком"
-          },
-          {
-            "name": "М'ясний паштет",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/meat-pate.jpg",
-            "description": "Домашній паштет з печінки або м’яса зі спеціями"
-          },
-          {
-            "name": "Грибний паштет",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/mushroom-pate.jpg",
-            "description": "Намаз з грибів, цибулі та вершків"
-          },
-          {
-            "name": "Сирний намаз",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/cheese-spread.jpg",
-            "description": "Намаз з сиру з зеленню або часником"
-          },
-          {
-            "name": "Соус \"Сацебелі\"",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/satsebeli.jpg",
-            "description": "Традиційний грузинський соус з томатів та слив"
-          },
-          {
-            "name": "Крем з авокадо (гуакомоле)",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/guacamole.jpg",
-            "description": "Авокадо з лаймом, цибулею та зеленню"
-          },
-          {
-            "name": "Гострий соус з перцю чилі",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/chili-sauce.jpg",
-            "description": "Гострий соус з чилі, часником та оцтом"
-          },
-          {
-            "name": "Соус з хрону",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/horseradish-sauce.jpg",
-            "description": "Пікантний соус з тертим хроном"
-          },
-          {
-            "name": "Гірчичний соус",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/mustard-sauce.jpg",
-            "description": "Соус на основі гірчиці з медом або спеціями"
-          },
-          {
-            "name": "Паста з бобових",
-            "imageUrl": "/images/products/kitchen/savory-spreads-sauces/bean-spread.jpg",
-            "description": "Намаз з квасолі або сочевиці зі спеціями"
-          }
+          { name: "Песто з базиліку", imageUrl: "/images/products/kitchen/savory-spreads-sauces/pesto.jpg",description: "Свіжий зелений соус з домашнього базиліку" },
+          { name: "Хумус", imageUrl: "/images/products/kitchen/savory-spreads-sauces/hummus.jpg",description: "Ніжна паста з нуту, з оливковою олією" },
+          { name: "Часникова паста", imageUrl: "/images/products/kitchen/savory-spreads-sauces/garlic-spread.jpg",description: "Гострий намаз для м’яса або хліба" },
+          { name: "Аджика", imageUrl: "/images/products/kitchen/savory-spreads-sauces/adjika.jpg",description: "Гострий соус за домашнім рецептом" },
+          { name: "Паста з в'ялених томатів", imageUrl: "/images/products/kitchen/savory-spreads-sauces/sun-dried-tomato.jpg",description: "Паста з в'ялених томатів, оливкової олії та спецій" },
+          { name: "Овочева ікра (баклажанна)", imageUrl: "/images/products/kitchen/savory-spreads-sauces/eggplant-spread.jpg",description: "Домашня баклажанна ікра з томатами та перцем" },
+          { name: "Тапенад з оливок", imageUrl: "/images/products/kitchen/savory-spreads-sauces/olive-tapenade.jpg",description: "Оливковий намаз з каперсами та часником" },
+          { name: "Соус чимічурі", imageUrl: "/images/products/kitchen/savory-spreads-sauces/chimichurri.jpg",description: "Аргентинський соус з петрушки, часнику та олії" },
+          { name: "Соус Піканте", imageUrl: "/images/products/kitchen/savory-spreads-sauces/picante-sauce.jpg",description: "Гострий соус з томатами, перцем та спеціями" },
+          { name: "Соус Барбекю (BBQ)", imageUrl: "/images/products/kitchen/savory-spreads-sauces/bbq-sauce.jpg",description: "Домашній соус BBQ зі спеціями та димком" },
+          { name: "М'ясний паштет", imageUrl: "/images/products/kitchen/savory-spreads-sauces/meat-pate.jpg",description: "Домашній паштет з печінки або м’яса зі спеціями" },
+          { name: "Грибний паштет", imageUrl: "/images/products/kitchen/savory-spreads-sauces/mushroom-pate.jpg",description: "Намаз з грибів, цибулі та вершків" },
+          { name: "Сирний намаз", imageUrl: "/images/products/kitchen/savory-spreads-sauces/cheese-spread.jpg",description: "Намаз з сиру з зеленню або часником" },
+          { name: "Соус Сацебелі", imageUrl: "/images/products/kitchen/savory-spreads-sauces/satsebeli.jpg",description: "Традиційний грузинський соус з томатів та слив" },
+          { name: "Крем з авокадо (гуакомоле)", imageUrl: "/images/products/kitchen/savory-spreads-sauces/guacamole.jpg",description: "Авокадо з лаймом, цибулею та зеленню" },
+          { name: "Гострий соус з перцю чилі", imageUrl: "/images/products/kitchen/savory-spreads-sauces/chili-sauce.jpg",description: "Гострий соус з чилі, часником та оцтом" },
+          { name: "Соус з хрону", imageUrl: "/images/products/kitchen/savory-spreads-sauces/horseradish-sauce.jpg",description: "Пікантний соус з тертим хроном" },
+          { name: "Гірчичний соус", imageUrl: "/images/products/kitchen/savory-spreads-sauces/mustard-sauce.jpg",description: "Соус на основі гірчиці з медом або спеціями" },
+          { name: "Паста з бобових", imageUrl: "/images/products/kitchen/savory-spreads-sauces/bean-spread.jpg",description: "Намаз з квасолі або сочевиці зі спеціями"
+         }
         ]
       },
       {
