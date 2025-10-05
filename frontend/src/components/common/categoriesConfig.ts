@@ -572,7 +572,7 @@ export const categories: ICategory[] = [
           { name: "Соус Сальса Верде", imageUrl: "/images/products/kitchen/savory-spreads-sauces/salsa-verde.jpg", description: "Італійський зелений соус з петрушки, анчоусів та каперсів" },
           { name: "Паста з буряка", imageUrl: "/images/products/kitchen/savory-spreads-sauces/beet-spread.jpg", description: "Яскрава паста з буряка, часнику та горіхів" },
           { name: "Соус Ткемалі", imageUrl: "/images/products/kitchen/savory-spreads-sauces/tkemali-sauce.jpg", description: "Грузинський кисло-гострий соус зі слив та спецій" },
-          { name: "Паста з авокадо та томатів", imageUrl: "/images/products/kitchen/savory-spreads-sauces/avocado-tomato-spread.jpg", description: "Ніжна паста з авокадо, томатів та кінзи" }
+          { name: "З авокадо та томатів", imageUrl: "/images/products/kitchen/savory-spreads-sauces/avocado-tomato-spread.jpg", description: "Ніжна паста з авокадо, томатів та кінзи" }
         ]
       },
       {
