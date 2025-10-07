@@ -567,7 +567,7 @@ export const categories: ICategory[] = [
           { name: "Соус Тартар", imageUrl: "/images/products/kitchen/savory-spreads-sauces/tartar-sauce.jpg",description: "Кремовий соус з маринованими огірками, каперсами та зеленню" },
           { name: "Паста з артишоків", imageUrl: "/images/products/kitchen/savory-spreads-sauces/artichoke-spread.jpg", description: "Ніжна паста з артишоків з лимоном та оливковою олією" },
           { name: "Соус Ромеско", imageUrl: "/images/products/kitchen/savory-spreads-sauces/romesco-sauce.jpg", description: "Іспанський соус з печеного перцю, томатів та мигдалю" },
-          { name: "Соус Чатні з манго", imageUrl: "/images/products/kitchen/savory-spreads-sauces/mango-chutney.jpg", description: "Індійський соус з манго, імбиру та прянощів" },
+          { name: "Соус Чатні", imageUrl: "/images/products/kitchen/savory-spreads-sauces/chutney.jpg", description: "Індійський соус з манго, імбиру та прянощів" },
           { name: "Соус Айолі", imageUrl: "/images/products/kitchen/savory-spreads-sauces/aioli-sauce.jpg", description: "Густий часниковий соус на основі оливкової олії та яєць" },
           { name: "З копченої риби", imageUrl: "/images/products/kitchen/savory-spreads-sauces/smoked-fish-spread.jpg", description: "Намаз із копченої риби з вершковим сиром та зеленню" },
           { name: "Паста з буряка", imageUrl: "/images/products/kitchen/savory-spreads-sauces/beet-spread.jpg", description: "Яскрава паста з буряка, часнику та горіхів" },          
