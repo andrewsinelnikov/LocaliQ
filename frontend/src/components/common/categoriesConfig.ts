@@ -562,7 +562,6 @@ export const categories: ICategory[] = [
           { name: "Гуакомоле", imageUrl: "/images/products/kitchen/savory-spreads-sauces/guacamole.jpg",description: "Авокадо з лаймом, цибулею та зеленню" },
           { name: "Соус з перцю чилі", imageUrl: "/images/products/kitchen/savory-spreads-sauces/chili-sauce.jpg",description: "Гострий соус з чилі, часником та оцтом" },
           { name: "Соус з хрону", imageUrl: "/images/products/kitchen/savory-spreads-sauces/horseradish-sauce.jpg",description: "Пікантний соус з тертим хроном" },
-          // { name: "Гірчичний соус", imageUrl: "/images/products/kitchen/savory-spreads-sauces/mustard-sauce.jpg",description: "Соус на основі гірчиці з медом або спеціями" },
           { name: "Паста з бобових", imageUrl: "/images/products/kitchen/savory-spreads-sauces/bean-spread.jpg",description: "Намаз з квасолі або сочевиці зі спеціями" },
           { name: "Соус Тартар", imageUrl: "/images/products/kitchen/savory-spreads-sauces/tartar-sauce.jpg",description: "Кремовий соус з маринованими огірками, каперсами та зеленню" },
           { name: "Паста з артишоків", imageUrl: "/images/products/kitchen/savory-spreads-sauces/artichoke-spread.jpg", description: "Ніжна паста з артишоків з лимоном та оливковою олією" },
@@ -584,8 +583,24 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Квашена капуста', imageUrl: '/images/products/sauerkraut.jpg', description: 'З ферментованої капусти без оцту' },
           { name: 'Огірки квашені', imageUrl: '/images/products/pickles.jpg', description: 'З натуральним бродінням' },
+          { name: 'Квашені помідори', imageUrl: '/images/products/fermented-tomatoes.jpg', description: 'Соковиті домашні помідори, ферментовані у розсолі' },
+          { name: 'Морква квашена з імбиром', imageUrl: '/images/products/ginger-carrot.jpg', description: 'Хрустка морква з пряним імбирним відтінком' },
           { name: 'Яблучний оцет', imageUrl: '/images/products/apple-vinegar.jpg', description: 'Домашній, нефільтрований оцет' },
-          { name: 'Кімчі', imageUrl: '/images/products/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' }
+          { name: 'Виноградний оцет', imageUrl: '/images/products/grape-vinegar.jpg', description: 'Натуральний оцет з червоних виноградів, витриманий' },
+          { name: 'Бальзамічний оцет', imageUrl: '/images/products/balsamic-vinegar.jpg', description: 'Витриманий італійський оцет з винограду, солодкуватий і густий' },
+          { name: 'Кімчі', imageUrl: '/images/products/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' },
+          { name: 'Комбуча', imageUrl: '/images/products/kombucha.jpg', description: 'Ферментований чай з ніжним газуванням і корисними бактеріями' },
+
+          { name: 'Місо паста', imageUrl: '/images/products/miso.jpg', description: 'Японська ферментована паста з сої, для супів та маринадів' },
+          { name: 'Темпе', imageUrl: '/images/products/tempeh.jpg', description: 'Індонезійський продукт з ферментованої сої — білковий суперфуд' },
+          { name: 'Натто', imageUrl: '/images/products/natto.jpg', description: 'Традиційна японська ферментована соя з характерним ароматом' },
+          { name: 'Кефір', imageUrl: '/images/products/kefir.jpg', description: 'Ферментований молочний напій з пробіотиками' },
+          { name: 'Йогурт домашній', imageUrl: '/images/products/yogurt.jpg', description: 'Натуральний йогурт без добавок, з живими культурами' },
+          { name: 'Сир із цвіллю', imageUrl: '/images/products/blue-cheese.jpg', description: 'Європейський ферментований сир з благородною цвіллю' },
+          { name: 'Соєвий соус', imageUrl: '/images/products/soy-sauce.jpg', description: 'Традиційний ферментований соус з сої та пшениці' },
+          { name: 'Сирний оцет (рибний соус)', imageUrl: '/images/products/fish-sauce.jpg', description: 'Азійський соус з ферментованої риби — основа тайської кухні' },
+          { name: 'Ферментований соєвий соус', imageUrl: '/images/products/soy-sauce.jpg', description: 'Традиційний азійський соус із ферментованих соєвих бобів' },
+          { name: 'Натто', imageUrl: '/images/products/natto.jpg', description: 'Японські ферментовані соєві боби з унікальним смаком і текстурою' },
         ]
       },
       {
