@@ -590,17 +590,11 @@ export const categories: ICategory[] = [
           { name: 'Бальзамічний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/balsamic-vinegar.jpg', description: 'Витриманий італійський оцет з винограду, солодкуватий і густий' },
           { name: 'Кімчі', imageUrl: '/images/products/kitchen/ferments-vinegars/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' },
           { name: 'Комбуча', imageUrl: '/images/products/kitchen/ferments-vinegars/kombucha.jpg', description: 'Ферментований чай з ніжним газуванням і корисними бактеріями' },
-
           { name: 'Місо паста', imageUrl: '/images/products/kitchen/ferments-vinegars/miso.jpg', description: 'Японська ферментована паста з сої, для супів та маринадів' },
           { name: 'Темпе', imageUrl: '/images/products/kitchen/ferments-vinegars/tempeh.jpg', description: 'Індонезійський продукт з ферментованої сої — білковий суперфуд' },
           { name: 'Натто', imageUrl: '/images/products/kitchen/ferments-vinegars/natto.jpg', description: 'Традиційна японська ферментована соя з характерним ароматом' },
-          { name: 'Кефір', imageUrl: '/images/products/kitchen/ferments-vinegars/kefir.jpg', description: 'Ферментований молочний напій з пробіотиками' },
-          { name: 'Йогурт домашній', imageUrl: '/images/products/kitchen/ferments-vinegars/yogurt.jpg', description: 'Натуральний йогурт без добавок, з живими культурами' },
-          { name: 'Сир із цвіллю', imageUrl: '/images/products/kitchen/ferments-vinegars/blue-cheese.jpg', description: 'Європейський ферментований сир з благородною цвіллю' },
           { name: 'Соєвий соус', imageUrl: '/images/products/kitchen/ferments-vinegars/soy-sauce.jpg', description: 'Традиційний ферментований соус з сої та пшениці' },
           { name: 'Сирний оцет (рибний соус)', imageUrl: '/images/products/kitchen/ferments-vinegars/fish-sauce.jpg', description: 'Азійський соус з ферментованої риби — основа тайської кухні' },
-          { name: 'Ферментований соєвий соус', imageUrl: '/images/products/kitchen/ferments-vinegars/soy-sauce.jpg', description: 'Традиційний азійський соус із ферментованих соєвих бобів' },
-          { name: 'Натто', imageUrl: '/images/products/kitchen/ferments-vinegars/natto.jpg', description: 'Японські ферментовані соєві боби з унікальним смаком і текстурою' },
         ]
       },
       {
