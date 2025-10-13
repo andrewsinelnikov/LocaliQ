@@ -594,7 +594,7 @@ export const categories: ICategory[] = [
           { name: 'Темпе', imageUrl: '/images/products/kitchen/ferments-vinegars/tempeh.jpg', description: 'Індонезійський продукт з ферментованої сої — білковий суперфуд' },
           { name: 'Натто', imageUrl: '/images/products/kitchen/ferments-vinegars/natto.jpg', description: 'Традиційна японська ферментована соя з характерним ароматом' },
           { name: 'Соєвий соус', imageUrl: '/images/products/kitchen/ferments-vinegars/soy-sauce.jpg', description: 'Традиційний ферментований соус з сої та пшениці' },
-          { name: 'Сирний оцет (рибний соус)', imageUrl: '/images/products/kitchen/ferments-vinegars/fish-sauce.jpg', description: 'Азійський соус з ферментованої риби — основа тайської кухні' },
+          { name: 'Рибний соус', imageUrl: '/images/products/kitchen/ferments-vinegars/fish-sauce.jpg', description: 'Азійський соус з ферментованої риби — основа тайської кухні' },
         ]
       },
       {
