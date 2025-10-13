@@ -588,6 +588,7 @@ export const categories: ICategory[] = [
           { name: 'Яблучний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/apple-vinegar.jpg', description: 'Домашній, нефільтрований оцет' },
           { name: 'Виноградний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/grape-vinegar.jpg', description: 'Натуральний оцет з червоних виноградів, витриманий' },
           { name: 'Бальзамічний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/balsamic-vinegar.jpg', description: 'Витриманий італійський оцет з винограду, солодкуватий і густий' },
+          { name: 'Рисовий оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/rice-vinegar.jpg', description: 'М’який японський оцет з ферментованого рису' },
           { name: 'Кімчі', imageUrl: '/images/products/kitchen/ferments-vinegars/kimchi.jpg', description: 'Пряна корейська капуста — ферментована вдома' },
           { name: 'Комбуча', imageUrl: '/images/products/kitchen/ferments-vinegars/kombucha.jpg', description: 'Ферментований чай з ніжним газуванням і корисними бактеріями' },
           { name: 'Місо паста', imageUrl: '/images/products/kitchen/ferments-vinegars/miso.jpg', description: 'Японська ферментована паста з сої, для супів та маринадів' },
