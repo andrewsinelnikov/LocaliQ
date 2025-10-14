@@ -585,6 +585,7 @@ export const categories: ICategory[] = [
           { name: 'Огірки квашені', imageUrl: '/images/products/kitchen/ferments-vinegars/pickles.jpg', description: 'З натуральним бродінням' },
           { name: 'Квашені помідори', imageUrl: '/images/products/kitchen/ferments-vinegars/fermented-tomatoes.jpg', description: 'Соковиті домашні помідори, ферментовані у розсолі' },
           { name: 'Морква з імбиром', imageUrl: '/images/products/kitchen/ferments-vinegars/ginger-carrot.jpg', description: 'Хрустка морква з пряним імбирним відтінком' },
+          { name: 'Квашений буряк', imageUrl: '/images/products/kitchen/ferments-vinegars/fermented-beetroot.jpg', description: 'Ферментований буряк з насиченим смаком і корисними властивостями' },
           { name: 'Яблучний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/apple-vinegar.jpg', description: 'Домашній, нефільтрований оцет' },
           { name: 'Виноградний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/grape-vinegar.jpg', description: 'Натуральний оцет з червоних виноградів, витриманий' },
           { name: 'Бальзамічний оцет', imageUrl: '/images/products/kitchen/ferments-vinegars/balsamic-vinegar.jpg', description: 'Витриманий італійський оцет з винограду, солодкуватий і густий' },
