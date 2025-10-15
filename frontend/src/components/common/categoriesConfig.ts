@@ -606,22 +606,44 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/kitchen/sweet-treats.jpg',
         description: 'categories.from-the-kitchen.subcategories.sweet-treats.description',
         items: [
-          { name: 'Медівник', imageUrl: '/images/products/kitchen/sweet-treats/medivnyk.jpg', description: 'Мʼякий пиріг на меду' },
-          { name: 'Цукерки з фініків', imageUrl: '/images/products/kitchen/sweet-treats/date-candies.jpg', description: 'Корисні солодощі без цукру' },
-          { name: 'Шоколад ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, з горіхами або ягодами' },
-          { name: 'Пастила фруктова', imageUrl: '/images/products/kitchen/sweet-treats/fruit-leather.jpg', description: 'Натуральний перекус із сушених фруктів' },
-          { name: 'Домашнє варення', imageUrl: '/images/products/kitchen/sweet-treats/jam.jpg', description: 'Класичне або з цікавими поєднаннями — полуниця, малина, лаванда' },
-          { name: 'Печиво з вівсянки', imageUrl: '/images/products/kitchen/sweet-treats/oat-cookies.jpg', description: 'Домашнє печиво з вівсяних пластівців, горіхів і меду' },
-          { name: 'Кекси домашні', imageUrl: '/images/products/kitchen/sweet-treats/muffins.jpg', description: 'Ніжні міні-кекси з сезонними фруктами або шоколадом' },
-          { name: 'Сирники солодкі', imageUrl: '/images/products/kitchen/sweet-treats/cottage-cheese-pancakes.jpg', description: 'Класичні українські сирники зі сметанкою або варенням' },
-          { name: 'Зефір натуральний', imageUrl: '/images/products/kitchen/sweet-treats/marshmallow.jpg', description: 'Легкий десерт із яблучного пюре без барвників' },
-          { name: 'Карамель ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-caramel.jpg', description: 'Традиційна карамель або з сіллю та вершками' },
+          // 🐝 Traditional & Classic
+          { name: 'Медівник', imageUrl: '/images/products/kitchen/sweet-treats/medivnyk.jpg', description: 'Мʼякий пиріг на меду з ароматом кориці та гвоздики' },
+          { name: 'Сирники солодкі', imageUrl: '/images/products/kitchen/sweet-treats/cottage-cheese-pancakes.jpg', description: 'Класичні сирники зі сметаною або варенням' },
+          { name: 'Рулет бісквітний', imageUrl: '/images/products/kitchen/sweet-treats/swiss-roll.jpg', description: 'Пухкий бісквіт із домашнім варенням чи кремом' },
+          { name: 'Кекс домашній', imageUrl: '/images/products/kitchen/sweet-treats/cake-loaf.jpg', description: 'Домашній кекс із родзинками, горіхами або лимонною цедрою' },
+          { name: 'Пляцок', imageUrl: '/images/products/kitchen/sweet-treats/plyatsok.jpg', description: 'Традиційний західноукраїнський десерт — багатошаровий торт із кремом' },
+          { name: 'Бабка дріжджова', imageUrl: '/images/products/kitchen/sweet-treats/babka.jpg', description: 'Повітряна святкова випічка, прикрашена глазур’ю' },
+
+          // 🍫 Chocolate & Candy
+          { name: 'Шоколад ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
           { name: 'Трюфелі', imageUrl: '/images/products/kitchen/sweet-treats/truffles.jpg', description: 'Ніжні шоколадні кульки з какао, горіхами або лікером' },
-          { name: 'Енергетичні батончики', imageUrl: '/images/products/kitchen/sweet-treats/energy-bars.jpg', description: 'Фітнес-десерт із фініків, горіхів і насіння' },
-          { name: 'Чизкейк домашній', imageUrl: '/images/products/kitchen/sweet-treats/cheesecake.jpg', description: 'Ніжний десерт на основі сиру з ягодами або карамеллю' },
-          { name: 'Рулет бісквітний', imageUrl: '/images/products/kitchen/sweet-treats/swiss-roll.jpg', description: 'Пухкий бісквіт із варенням, згущеним молоком або кремом' },
-          { name: 'Марципан', imageUrl: '/images/products/kitchen/sweet-treats/marzipan.jpg', description: 'Мигдальне тістечко ручної роботи' },
-          { name: 'Мармелад домашній', imageUrl: '/images/products/kitchen/sweet-treats/marmalade.jpg', description: 'Желейні цукерки зі справжнього соку та агар-агару' }
+          { name: 'Карамель ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-caramel.jpg', description: 'Мʼяка карамель із вершками або морською сіллю' },
+          { name: 'Цукерки з фініків', imageUrl: '/images/products/kitchen/sweet-treats/date-candies.jpg', description: 'Корисні цукерки з фініків, горіхів і какао' },
+          { name: 'Мармелад домашній', imageUrl: '/images/products/kitchen/sweet-treats/marmalade.jpg', description: 'Желейні солодощі зі свіжих фруктів і агар-агару' },
+          { name: 'Марципан', imageUrl: '/images/products/kitchen/sweet-treats/marzipan.jpg', description: 'Мигдальна маса для цукерок і фігурок' },
+          { name: 'Ірис м’який', imageUrl: '/images/products/kitchen/sweet-treats/toffee.jpg', description: 'Домашній ірис із вершків і масла' },
+
+          // 🍪 Cookies & Baked Goodies
+          { name: 'Печиво з вівсянки', imageUrl: '/images/products/kitchen/sweet-treats/oat-cookies.jpg', description: 'Домашнє печиво з медом і горіхами' },
+          { name: 'Печиво пісочне', imageUrl: '/images/products/kitchen/sweet-treats/shortbread.jpg', description: 'Класичне хрустке пісочне печиво' },
+          { name: 'Печиво імбирне', imageUrl: '/images/products/kitchen/sweet-treats/ginger-cookies.jpg', description: 'Ароматне імбирне печиво до свят' },
+          { name: 'Макаруни', imageUrl: '/images/products/kitchen/sweet-treats/macarons.jpg', description: 'Французькі мигдальні тістечка з ніжним кремом' },
+          { name: 'Кураб’є', imageUrl: '/images/products/kitchen/sweet-treats/kurabie.jpg', description: 'Мʼяке східне печиво з варенням' },
+          { name: 'Брауні', imageUrl: '/images/products/kitchen/sweet-treats/brownie.jpg', description: 'Насичений шоколадний десерт з волоськими горіхами' },
+
+          // 🍎 Fruity & Natural Treats
+          { name: 'Пастила фруктова', imageUrl: '/images/products/kitchen/sweet-treats/fruit-leather.jpg', description: 'Натуральна пастила без цукру' },
+          { name: 'Чипси фруктові', imageUrl: '/images/products/kitchen/sweet-treats/fruit-chips.jpg', description: 'Хрусткі скибочки яблук, груш чи бананів' },
+          { name: 'Зефір натуральний', imageUrl: '/images/products/kitchen/sweet-treats/marshmallow.jpg', description: 'Домашній зефір із яблучного пюре' },
+          { name: 'Сухофрукти в шоколаді', imageUrl: '/images/products/kitchen/sweet-treats/chocolate-fruits.jpg', description: 'Курага, журавлина або інжир у темному шоколаді' },
+
+          // 🌿 Healthy & Modern
+          { name: 'Енергетичні батончики', imageUrl: '/images/products/kitchen/sweet-treats/energy-bars.jpg', description: 'Фітнес-десерт із фініків, горіхів та насіння' },
+          { name: 'Гранола домашня', imageUrl: '/images/products/kitchen/sweet-treats/granola.jpg', description: 'Суміш злаків, горіхів і меду — корисний сніданок' },
+          { name: 'Снікерс без цукру', imageUrl: '/images/products/kitchen/sweet-treats/healthy-snickers.jpg', description: 'Альтернатива класичному батончику з фініків та арахісу' },
+          { name: 'Чизкейк домашній', imageUrl: '/images/products/kitchen/sweet-treats/cheesecake.jpg', description: 'Ніжний сирний десерт із ягодами або карамеллю' },
+          { name: 'Панакота', imageUrl: '/images/products/kitchen/sweet-treats/panna-cotta.jpg', description: 'Італійський вершковий десерт із соусом із ягід' },
+          { name: 'Тірамісу', imageUrl: '/images/products/kitchen/sweet-treats/tiramisu.jpg', description: 'Класичний десерт із маскарпоне та кави' }
         ]
       },
       {
