@@ -612,7 +612,6 @@ export const categories: ICategory[] = [
           { name: 'Рулет бісквітний', imageUrl: '/images/products/kitchen/sweet-treats/swiss-roll.jpg', description: 'Пухкий бісквіт із домашнім варенням чи кремом' },
           { name: 'Кекс домашній', imageUrl: '/images/products/kitchen/sweet-treats/cake-loaf.jpg', description: 'Домашній кекс із родзинками, горіхами або лимонною цедрою' },
           { name: 'Пляцок', imageUrl: '/images/products/kitchen/sweet-treats/plyatsok.jpg', description: 'Традиційний західноукраїнський десерт' },
-          { name: 'Бабка дріжджова', imageUrl: '/images/products/kitchen/sweet-treats/babka.jpg', description: 'Повітряна святкова випічка, прикрашена глазур’ю' },
 
           // 🍫 Chocolate & Candy
           { name: 'Шоколад ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
