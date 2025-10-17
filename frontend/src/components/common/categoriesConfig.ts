@@ -614,9 +614,9 @@ export const categories: ICategory[] = [
           { name: 'Пляцок', imageUrl: '/images/products/kitchen/sweet-treats/plyatsok.jpg', description: 'Традиційний західноукраїнський десерт' },
 
           // 🍫 Chocolate & Candy
-          { name: 'Шоколад ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
+          { name: 'Авторський шоколад', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
           { name: 'Трюфелі', imageUrl: '/images/products/kitchen/sweet-treats/truffles.jpg', description: 'Ніжні шоколадні кульки з какао, горіхами або лікером' },
-          { name: 'Карамель ручної роботи', imageUrl: '/images/products/kitchen/sweet-treats/handmade-caramel.jpg', description: 'Мʼяка карамель із вершками або морською сіллю' },
+          { name: 'Хендмейд карамель', imageUrl: '/images/products/kitchen/sweet-treats/handmade-caramel.jpg', description: 'Мʼяка карамель із вершками або морською сіллю' },
           { name: 'Цукерки з фініків', imageUrl: '/images/products/kitchen/sweet-treats/date-candies.jpg', description: 'Корисні цукерки з фініків, горіхів і какао' },
           { name: 'Мармелад домашній', imageUrl: '/images/products/kitchen/sweet-treats/marmalade.jpg', description: 'Желейні солодощі зі свіжих фруктів і агар-агару' },
           { name: 'Марципан', imageUrl: '/images/products/kitchen/sweet-treats/marzipan.jpg', description: 'Мигдальна маса для цукерок і фігурок' },
