@@ -632,7 +632,7 @@ export const categories: ICategory[] = [
 
           // 🍎 Fruity & Natural Treats
           { name: 'Пастила фруктова', imageUrl: '/images/products/kitchen/sweet-treats/fruit-leather.jpg', description: 'Натуральна пастила без цукру' },
-          { name: 'Чипси фруктові', imageUrl: '/images/products/kitchen/sweet-treats/fruit-chips.jpg', description: 'Хрусткі скибочки яблук, груш чи бананів' },
+          { name: 'Чіпси фруктові', imageUrl: '/images/products/kitchen/sweet-treats/fruit-chips.jpg', description: 'Хрусткі скибочки яблук, груш чи бананів' },
           { name: 'Зефір натуральний', imageUrl: '/images/products/kitchen/sweet-treats/marshmallow.jpg', description: 'Домашній зефір із яблучного пюре' },
           { name: 'Сухофрукти в шоколаді', imageUrl: '/images/products/kitchen/sweet-treats/chocolate-fruits.jpg', description: 'Курага, журавлина або інжир у темному шоколаді' },
 
