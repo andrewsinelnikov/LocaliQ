@@ -637,7 +637,7 @@ export const categories: ICategory[] = [
           { name: 'Фрукти в шоколаді', imageUrl: '/images/products/kitchen/sweet-treats/chocolate-fruits.jpg', description: 'Курага, журавлина або інжир у темному шоколаді' },
 
           // 🌿 Healthy & Modern
-          { name: 'ЕнерджіБар', imageUrl: '/images/products/kitchen/sweet-treats/energy-bars.jpg', description: 'Фітнес-десерт із фініків, горіхів та насіння' },
+          { name: 'Енерджі-бар', imageUrl: '/images/products/kitchen/sweet-treats/energy-bars.jpg', description: 'Фітнес-десерт із фініків, горіхів та насіння' },
           { name: 'Гранола домашня', imageUrl: '/images/products/kitchen/sweet-treats/granola.jpg', description: 'Суміш злаків, горіхів і меду — корисний сніданок' },
           { name: 'Снікерс без цукру', imageUrl: '/images/products/kitchen/sweet-treats/healthy-snickers.jpg', description: 'Альтернатива класичному батончику з фініків та арахісу' },
           { name: 'Чизкейк домашній', imageUrl: '/images/products/kitchen/sweet-treats/cheesecake.jpg', description: 'Ніжний сирний десерт із ягодами або карамеллю' },
