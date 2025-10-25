@@ -621,7 +621,7 @@ export const categories: ICategory[] = [
           { name: 'Шварцвальдський', imageUrl: '/images/products/kitchen/sweet-treats/black-forest.jpg', description: 'Німецький шоколадний торт із вишнями та вершками' },
           { name: 'Фруктовий', imageUrl: '/images/products/kitchen/sweet-treats/fruit-tart.jpg', description: 'Пісочна основа, заварний крем і свіжі фрукти' },
           { name: 'Морквяний', imageUrl: '/images/products/kitchen/sweet-treats/carrot-cake.jpg', description: 'Ароматний морквяний торт із горіхами та сирним кремом' },
-          { name: 'Весільний', imageUrl: '/images/products/kitchen/sweet-treats/wedding-cake-flowers.jpg', description: 'Класичний білий торт, оздоблений живими або цукровими квітами' },
+          { name: 'Весільний', imageUrl: '/images/products/kitchen/sweet-treats/wedding-cake.jpg', description: 'Класичний білий торт, оздоблений живими або цукровими квітами' },
 
           // 🍫 Chocolate & Candy
           { name: 'Авторський шоколад', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
