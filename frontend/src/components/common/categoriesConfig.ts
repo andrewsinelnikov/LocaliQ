@@ -614,6 +614,13 @@ export const categories: ICategory[] = [
           { name: 'Пляцок', imageUrl: '/images/products/kitchen/sweet-treats/plyatsok.jpg', description: 'Традиційний західноукраїнський десерт' },
           { name: 'Наполеон', imageUrl: '/images/products/kitchen/sweet-treats/napoleon.jpg', description: 'Багатошаровий торт із заварним кремом' },
           { name: 'Шарлотка', imageUrl: '/images/products/kitchen/sweet-treats/sharlotka.jpg', description: 'Ароматний яблучний пиріг із корицею' },
+          { name: 'Київський торт', imageUrl: '/images/products/kitchen/sweet-treats/kyiv-cake.jpg', description: 'Легендарний торт із горіховими безе-коржами та масляним кремом' },
+          { name: 'Захер', imageUrl: '/images/products/kitchen/sweet-treats/sacher-torte.jpg', description: 'Австрійський шоколадний торт із прошарком абрикосового джему' },
+          { name: 'Прага', imageUrl: '/images/products/kitchen/sweet-treats/praga-cake.jpg', description: 'Ніжний шоколадний торт із вершково-шоколадним кремом' },
+          { name: 'Естерхазі', imageUrl: '/images/products/kitchen/sweet-treats/esterhazy.jpg', description: 'Угорський торт із горіховими коржами та вершковим кремом' },
+          { name: 'Шварцвальдський торт', imageUrl: '/images/products/kitchen/sweet-treats/black-forest.jpg', description: 'Німецький шоколадний торт із вишнями та вершками' },
+          { name: 'Морквяний торт', imageUrl: '/images/products/kitchen/sweet-treats/carrot-cake.jpg', description: 'Ароматний морквяний торт із горіхами та сирним кремом' },
+          { name: 'Весільний торт', imageUrl: '/images/products/kitchen/sweet-treats/wedding-cake-flowers.jpg', description: 'Класичний білий торт, оздоблений живими або цукровими квітами' },
 
           // 🍫 Chocolate & Candy
           { name: 'Авторський шоколад', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
