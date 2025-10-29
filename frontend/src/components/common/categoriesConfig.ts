@@ -622,7 +622,7 @@ export const categories: ICategory[] = [
           { name: 'Мільфей', imageUrl: '/images/products/kitchen/sweet-treats/mille-feuille.jpg', description: 'Французький “тисяча шарів” із листкового тіста та заварного крему' },
           { name: 'Павлова', imageUrl: '/images/products/kitchen/sweet-treats/pavlova.jpg', description: 'Ніжний безе-торт із вершками та свіжими фруктами' },
           { name: 'Баумкухен', imageUrl: '/images/products/kitchen/sweet-treats/baumkuchen.jpg', description: 'Німецький “торт-дерево” із численними шарами тіста' },
-          { name: 'Сан-Себастьян', imageUrl: '/images/products/kitchen/sweet-treats/basque-cheesecake.jpg', description: 'Іспанський чізкейк із карамелізованою скоринкою' },
+          { name: 'Себастьян', imageUrl: '/images/products/kitchen/sweet-treats/basque-cheesecake.jpg', description: 'Іспанський чізкейк із карамелізованою скоринкою' },
           { name: 'Лінцер', imageUrl: '/images/products/kitchen/sweet-treats/linzer-torte.jpg', description: 'Австрійський горіховий торт із малиновим джемом та решітчастим верхом' },
           { name: 'Моцарт', imageUrl: '/images/products/kitchen/sweet-treats/mozart-torte.jpg', description: 'Австрійський десерт із шоколаду, марципану та фісташок' },
           { name: 'Пташине молоко', imageUrl: '/images/products/kitchen/sweet-treats/ptashyne-moloko.jpg', description: 'Повітряний суфле-торт із ніжним бісквітом та шоколадною глазур’ю' },
