@@ -632,9 +632,8 @@ export const categories: ICategory[] = [
           { name: 'Кекс домашній', imageUrl: '/images/products/kitchen/sweet-treats/cake-loaf.jpg', description: 'Домашній кекс із родзинками, горіхами або лимонною цедрою' },
           { name: 'Пляцок', imageUrl: '/images/products/kitchen/sweet-treats/plyatsok.jpg', description: 'Традиційний західноукраїнський десерт' },
           { name: 'Шарлотка', imageUrl: '/images/products/kitchen/sweet-treats/sharlotka.jpg', description: 'Ароматний яблучний пиріг із корицею' },
-          { name: 'Штрудель', imageUrl: '/images/products/kitchen/sweet-treats/apple-strudel.jpg', description: 'Традиційний австрійсько-німецький рулет із тонкого тіста з яблуками, родзинками та корицею' },
-          { name: 'Канолі (Cannoli)', imageUrl: '/images/products/kitchen/sweet-treats/cannoli.jpg', description: 'Італійські трубочки з хрусткого тіста, наповнені солодким сиром рікота' },
-          { name: 'Пастел де Ната', imageUrl: '/images/products/kitchen/sweet-treats/pastel-de-nata.jpg', description: 'Португальські тарталетки із заварним кремом і хрустким тістом' },          
+          { name: 'Штрудель', imageUrl: '/images/products/kitchen/sweet-treats/strudel.jpg', description: 'Традиційний австрійсько-німецький рулет із тонкого тіста з яблуками, родзинками та корицею' },
+          { name: 'Канолі', imageUrl: '/images/products/kitchen/sweet-treats/cannoli.jpg', description: 'Італійські трубочки з хрусткого тіста, наповнені солодким сиром рікота' },
 
           // 🍫 Chocolate & Candy
           { name: 'Авторський шоколад', imageUrl: '/images/products/kitchen/sweet-treats/handmade-chocolate.jpg', description: 'Темний, молочний або білий шоколад із наповнювачами' },
