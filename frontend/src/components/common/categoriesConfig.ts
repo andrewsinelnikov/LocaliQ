@@ -643,6 +643,8 @@ export const categories: ICategory[] = [
           { name: 'Мармелад домашній', imageUrl: '/images/products/kitchen/sweet-treats/marmalade.jpg', description: 'Желейні солодощі зі свіжих фруктів і агар-агару' },
           { name: 'Марципан', imageUrl: '/images/products/kitchen/sweet-treats/marzipan.jpg', description: 'Мигдальна маса для цукерок і фігурок' },
           { name: 'Ірис м’який', imageUrl: '/images/products/kitchen/sweet-treats/toffee.jpg', description: 'Домашній ірис із вершків і масла' },
+          { name: 'Крем-брюле', imageUrl: '/images/products/kitchen/sweet-treats/creme-brulee.jpg', description: 'Французький ванільний крем із хрусткою карамельною скоринкою' },
+          { name: 'Профітролі', imageUrl: '/images/products/kitchen/sweet-treats/profitroles.jpg', description: 'Маленькі заварні кульки з кремом, политі шоколадом' },
           { name: 'Шоколадний фондан', imageUrl: '/images/products/kitchen/sweet-treats/chocolate-fondant.jpg', description: 'Тістечко з гарячою шоколадною серединкою' },
           { name: 'Праліне', imageUrl: '/images/products/kitchen/sweet-treats/praline.jpg', description: 'Шоколадні цукерки з горіховою начинкою' },
 
