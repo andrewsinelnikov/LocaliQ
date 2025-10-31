@@ -653,10 +653,10 @@ export const categories: ICategory[] = [
           { name: 'Макаруни', imageUrl: '/images/products/kitchen/sweet-treats/macarons.jpg', description: 'Французькі мигдальні тістечка з ніжним кремом' },
           { name: 'Кураб’є', imageUrl: '/images/products/kitchen/sweet-treats/kurabie.jpg', description: 'Мʼяке східне печиво з варенням' },
           { name: 'Брауні', imageUrl: '/images/products/kitchen/sweet-treats/brownie.jpg', description: 'Насичений шоколадний десерт з волоськими горіхами' },
-          { name: 'Баклава', imageUrl: '/images/products/kitchen/sweet-treats/baklava.jpg', description: 'Східний десерт із шарів тіста філо, горіхів і ароматного медового сиропу' },
+          { name: 'Пахлава', imageUrl: '/images/products/kitchen/sweet-treats/baklava.jpg', description: 'Східний десерт із шарів тіста філо, горіхів і ароматного медового сиропу' },
           { name: 'Еклери', imageUrl: '/images/products/kitchen/sweet-treats/eclairs.jpg', description: 'Заварні тістечка з кремом і глазур’ю' },
           { name: 'Маффіни', imageUrl: '/images/products/kitchen/sweet-treats/muffins.jpg', description: 'Пухкі кексики з ягодами або шоколадом' },
-          { name: 'Круасан', imageUrl: '/images/products/kitchen/sweet-treats/croissant.jpg', description: 'Класичний французький круасан із шаруватого листкового тіста, ідеальний до кави' },
+          { name: 'Круасани', imageUrl: '/images/products/kitchen/sweet-treats/croissant.jpg', description: 'Класичний французький круасан із шаруватого листкового тіста, ідеальний до кави' },
           { name: 'Донати', imageUrl: '/images/products/kitchen/sweet-treats/donuts.jpg', description: 'Смажені пончики з глазур’ю та посипкою' },
 
           // 🍎 Fruity & Natural Treats
