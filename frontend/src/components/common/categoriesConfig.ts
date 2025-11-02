@@ -406,7 +406,7 @@ export const categories: ICategory[] = [
           { name: 'Пиріжки', imageUrl: '/images/products/kitchen/baked-goods/pies.jpg', description: 'Пухкі пиріжки з кисло-солодкою начинкою' },
           { name: 'Слойки', imageUrl: '/images/products/kitchen/baked-goods/puffs.jpg', description: 'Листкове тісто з соковитою яблучною начинкою' },
           { name: 'Паляниця', imageUrl: '/images/products/kitchen/baked-goods/palyanytsia.jpg', description: 'Традиційний український хліб, символ стійкості' },
-          { name: 'Киш', imageUrl: '/images/products/kitchen/baked-goods/quiche.jpg', description: 'Французький відкритий пиріг з начинкою' },
+          { name: 'Кіш', imageUrl: '/images/products/kitchen/baked-goods/quiche.jpg', description: 'Французький відкритий пиріг з начинкою' },
           { name: 'Пісочний пиріг', imageUrl: '/images/products/kitchen/baked-goods/jam-pie.jpg', description: 'Пісочне тісто з ароматним домашнім повидлом' }
         ]
       },
@@ -688,10 +688,24 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/kitchen/jams-preserves.jpg',
         description: 'categories.from-the-kitchen.subcategories.jams-preserves.description',
         items: [
-          { name: 'Варення з полуниці', imageUrl: '/images/products/strawberry-jam.jpg', description: 'Класичне варення з літніх ягід' },
-          { name: 'Чорнослив у сиропі', imageUrl: '/images/products/prunes.jpg', description: 'Домашня консервація' },
-          { name: 'Малинове варення', imageUrl: '/images/products/raspberry-jam.jpg', description: 'Ідеальне до млинців і чаю' },
-          { name: 'Конфітюр із яблук з корицею', imageUrl: '/images/products/apple-cinnamon.jpg', description: 'Смак дитинства' }
+          { name: 'Варення з полуниці', imageUrl: '/images/products/kitchen/jams-preserves/strawberry-jam.jpg', description: 'Класичне варення з літніх ягід' },
+          { name: 'Малинове варення', imageUrl: '/images/products/kitchen/jams-preserves/raspberry-jam.jpg', description: 'Ідеальне до млинців і чаю' },
+          { name: 'Смородинове варення', imageUrl: '/images/products/kitchen/jams-preserves/blackcurrant-jam.jpg', description: 'Насичений смак чорної смородини' },
+          { name: 'Варення з вишні', imageUrl: '/images/products/kitchen/jams-preserves/cherry-jam.jpg', description: 'Домашня класика з вишень' },
+          { name: 'Абрикосове варення', imageUrl: '/images/products/kitchen/jams-preserves/apricot-jam.jpg', description: 'Сонячний смак літа' },
+          { name: 'Персиковий конфітюр', imageUrl: '/images/products/kitchen/jams-preserves/peach-confiture.jpg', description: 'Ніжна текстура і яскравий аромат' },
+          { name: 'Конфітюр із яблук з корицею', imageUrl: '/images/products/kitchen/jams-preserves/apple-cinnamon.jpg', description: 'Смак дитинства і домашнього тепла' },
+          { name: 'Грушевий джем', imageUrl: '/images/products/kitchen/jams-preserves/pear-jam.jpg', description: 'Делікатний десертний джем' },
+          { name: 'Сливове повидло', imageUrl: '/images/products/kitchen/jams-preserves/plum-butter.jpg', description: 'Традиційне українське повидло' },
+          { name: 'Чорнослив у сиропі', imageUrl: '/images/products/kitchen/jams-preserves/prunes.jpg', description: 'Домашня консервація у власному соку' },
+          { name: 'Полунично-ревеневий конфітюр', imageUrl: '/images/products/kitchen/jams-preserves/strawberry-rhubarb.jpg', description: 'Кисло-солодкий смак літа' },
+          { name: 'Журавлинове варення', imageUrl: '/images/products/kitchen/jams-preserves/cranberry-jam.jpg', description: 'Корисне варення з лісових ягід' },
+          { name: 'Обліпиховий джем', imageUrl: '/images/products/kitchen/jams-preserves/sea-buckthorn-jam.jpg', description: 'Багате на вітаміни варення' },
+          { name: 'Чорничне варення', imageUrl: '/images/products/kitchen/jams-preserves/blueberry-jam.jpg', description: 'Лісова класика для десертів' },
+          { name: 'Айвове повидло', imageUrl: '/images/products/kitchen/jams-preserves/quince-jelly.jpg', description: 'Ароматне та густе повидло' },
+          { name: 'Смоквове варення (інжир)', imageUrl: '/images/products/kitchen/jams-preserves/fig-jam.jpg', description: 'Екзотичний смак і ніжна текстура' },
+          { name: 'Варення з троянди', imageUrl: '/images/products/kitchen/jams-preserves/rose-petal-jam.jpg', description: 'Ніжний аромат і вишуканий смак' },
+          { name: 'Медово-лимонний конфітюр з імбиром', imageUrl: '/images/products/kitchen/jams-preserves/honey-lemon-ginger.jpg', description: 'Корисний мікс для імунітету' },
         ]
       },
       {
