@@ -597,6 +597,13 @@ export const categories: ICategory[] = [
           { name: 'Натто', imageUrl: '/images/products/kitchen/ferments-vinegars/natto.jpg', description: 'Традиційна японська ферментована соя з характерним ароматом' },
           { name: 'Соєвий соус', imageUrl: '/images/products/kitchen/ferments-vinegars/soy-sauce.jpg', description: 'Традиційний ферментований соус з сої та пшениці' },
           { name: 'Рибний соус', imageUrl: '/images/products/kitchen/ferments-vinegars/fish-sauce.jpg', description: 'Азійський соус з ферментованої риби — основа тайської кухні' },
+
+          { name: "Мариновані огірки", imageUrl: "/images/products/kitchen/ferments/pickled-cucumbers.jpg", description: "Хрусткі, з кропом і часником" },
+          { name: "Помідори у соці", imageUrl: "/images/products/kitchen/ferments/tomatoes-in-juice.jpg", description: "Без оцту, натуральні" },
+          { name: "Кабачки в томаті", imageUrl: "/images/products/kitchen/ferments/zucchini-in-tomato.jpg", description: "Готова закуска" },
+          { name: "Лечо", imageUrl: "/images/products/kitchen/ferments/lecho.jpg", description: "Перець і помідори" },
+          { name: "Салат з баклажанів", imageUrl: "/images/products/kitchen/ferments-vinegars/eggplant-salad.jpg", description: "Баклажани з перцем і томатами – готова закуска" },
+    
         ]
       },
       {
@@ -705,7 +712,9 @@ export const categories: ICategory[] = [
           { name: 'Айвове повидло', imageUrl: '/images/products/kitchen/jams-preserves/quince-jelly.jpg', description: 'Ароматне та густе повидло' },
           { name: 'Інжирне варення', imageUrl: '/images/products/kitchen/jams-preserves/fig-jam.jpg', description: 'Екзотичний смак і ніжна текстура' },
           { name: 'Варення з троянди', imageUrl: '/images/products/kitchen/jams-preserves/rose-petal-jam.jpg', description: 'Ніжний аромат і вишуканий смак' },
-          { name: 'Медово-лимонний', imageUrl: '/images/products/kitchen/jams-preserves/honey-lemon-ginger.jpg', description: 'Корисний мікс для імунітету' },
+          { "name": "Гранатовий джем", "imageUrl": "/images/products/kitchen/jams-preserves/pomegranate-jam.jpg", "description": "Яскравий колір і насичений смак" },
+          { "name": "Ківі-лайм конфітюр", "imageUrl": "/images/products/kitchen/jams-preserves/kiwi-lime-confiture.jpg", "description": "Екзотична свіжість у кожній ложці" },
+          { "name": "Брусничне варення", "imageUrl": "/images/products/kitchen/jams-preserves/lingonberry-jam.jpg", "description": "Скандинавська класика до м'яса та сиру" }
         ]
       },
       {
