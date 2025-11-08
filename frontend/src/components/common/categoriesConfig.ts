@@ -598,12 +598,14 @@ export const categories: ICategory[] = [
           { name: 'Соєвий соус', imageUrl: '/images/products/kitchen/ferments-vinegars/soy-sauce.jpg', description: 'Традиційний ферментований соус з сої та пшениці' },
           { name: 'Рибний соус', imageUrl: '/images/products/kitchen/ferments-vinegars/fish-sauce.jpg', description: 'Азійський соус з ферментованої риби — основа тайської кухні' },
 
-          { name: "Мариновані огірки", imageUrl: "/images/products/kitchen/ferments/pickled-cucumbers.jpg", description: "Хрусткі, з кропом і часником" },
-          { name: "Помідори у соці", imageUrl: "/images/products/kitchen/ferments/tomatoes-in-juice.jpg", description: "Без оцту, натуральні" },
-          { name: "Кабачки в томаті", imageUrl: "/images/products/kitchen/ferments/zucchini-in-tomato.jpg", description: "Готова закуска" },
-          { name: "Лечо", imageUrl: "/images/products/kitchen/ferments/lecho.jpg", description: "Перець і помідори" },
+          { name: "Мариновані огірки", imageUrl: "/images/products/kitchen/ferments-vinegars/pickled-cucumbers.jpg", description: "Хрусткі, з кропом і часником" },
+          { name: "Помідори мариновані", imageUrl: "/images/products/kitchen/ferments-vinegars/marinated-tomatoes.jpg", description: "Солодкі, з ароматними спеціями" },
+          { name: "Перець маринований", imageUrl: "/images/products/kitchen/ferments-vinegars/pickled-peppers.jpg", description: "Солодкий перець у маринаді" },
+          { name: "Помідори у соці", imageUrl: "/images/products/kitchen/ferments-vinegars/tomatoes-in-juice.jpg", description: "Без оцту, натуральні" },
+          { name: "Кабачки в томаті", imageUrl: "/images/products/kitchen/ferments-vinegars/zucchini-in-tomato.jpg", description: "Готова закуска" },
+          { name: "Лечо", imageUrl: "/images/products/kitchen/ferments-vinegars/lecho.jpg", description: "Перець і помідори" },
           { name: "Салат з баклажанів", imageUrl: "/images/products/kitchen/ferments-vinegars/eggplant-salad.jpg", description: "Баклажани з перцем і томатами – готова закуска" },
-    
+          { name: "Соте з овочів", imageUrl: "/images/products/kitchen/ferments-vinegars/vegetable-saute.jpg", description: "Овочеве асорті в томатному соусі" }
         ]
       },
       {
