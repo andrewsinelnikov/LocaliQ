@@ -714,9 +714,9 @@ export const categories: ICategory[] = [
           { name: 'Айвове повидло', imageUrl: '/images/products/kitchen/jams-preserves/quince-jelly.jpg', description: 'Ароматне та густе повидло' },
           { name: 'Інжирне варення', imageUrl: '/images/products/kitchen/jams-preserves/fig-jam.jpg', description: 'Екзотичний смак і ніжна текстура' },
           { name: 'Варення з троянди', imageUrl: '/images/products/kitchen/jams-preserves/rose-petal-jam.jpg', description: 'Ніжний аромат і вишуканий смак' },
-          { "name": "Гранатовий джем", "imageUrl": "/images/products/kitchen/jams-preserves/pomegranate-jam.jpg", "description": "Яскравий колір і насичений смак" },
-          { "name": "Ківі-лайм конфітюр", "imageUrl": "/images/products/kitchen/jams-preserves/kiwi-lime-confiture.jpg", "description": "Екзотична свіжість у кожній ложці" },
-          { "name": "Брусничне варення", "imageUrl": "/images/products/kitchen/jams-preserves/lingonberry-jam.jpg", "description": "Скандинавська класика до м'яса та сиру" }
+          { name: "Гранатовий джем", imageUrl: "/images/products/kitchen/jams-preserves/pomegranate-jam.jpg", description: "Яскравий колір і насичений смак" },
+          { name: "Ківі-лайм конфітюр", imageUrl: "/images/products/kitchen/jams-preserves/kiwi-lime-confiture.jpg", description: "Екзотична свіжість у кожній ложці" },
+          { name: "Брусничне варення", imageUrl: "/images/products/kitchen/jams-preserves/lingonberry-jam.jpg", description: "Скандинавська класика до м'яса та сиру" }
         ]
       },
       {
