@@ -729,7 +729,15 @@ export const categories: ICategory[] = [
           { name: 'Компот з сухофруктів', imageUrl: '/images/products/kompot.jpg', description: 'Напій без консервантів' },
           { name: 'Домашній квас', imageUrl: '/images/products/kvas.jpg', description: 'Справжній хлібний квас' },
           { name: 'Травʼяний чай', imageUrl: '/images/products/herbal-tea.jpg', description: 'Мʼята, меліса, чебрець — купажі власного збору' },
-          { name: 'Ягідний морс', imageUrl: '/images/products/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' }
+          { name: 'Ягідний морс', imageUrl: '/images/products/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' },
+          { name: 'Лимонад з м’ятою', imageUrl: '/images/products/mint-lemonade.jpg', description: 'Охолоджуючий лимонад з натурального соку та свіжої м’яти' },
+          { name: 'Домашнє какао', imageUrl: '/images/products/cocoa.jpg', description: 'З молоком та справжнім какао-порошком' },
+          { name: 'Морозний смузі', imageUrl: '/images/products/smoothie.jpg', description: 'Сезонні фрукти, йогурт і трішки меду' },
+          { name: 'Глінтвейн безалкогольний', imageUrl: '/images/products/mulled-wine.jpg', description: 'Прянощі, цитруси та сік — ідеальний зимовий напій' },
+          { name: 'Чай з обліпихи', imageUrl: '/images/products/sea-buckthorn-tea.jpg', description: 'Обліпиха, мед і лимон — корисно та смачно' },
+          { name: 'Холодний чай з персиком', imageUrl: '/images/products/iced-peach-tea.jpg', description: 'Домашній айс-ті без барвників і ароматизаторів' },
+          { name: 'Сік яблучно-морквяний', imageUrl: '/images/products/apple-carrot-juice.jpg', description: 'Свіжовичавлений, 100% натуральний' },
+          { name: 'Молочний коктейль', imageUrl: '/images/products/milkshake.jpg', description: 'Класичний десертний напій з морозивом' }
         ]
       },
     ]
