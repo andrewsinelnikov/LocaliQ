@@ -726,7 +726,7 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/kitchen/beverages.jpg',
         description: 'categories.from-the-kitchen.subcategories.beverages.description',
         items: [
-          { name: 'Компот з сухофруктів', imageUrl: '/images/products/kitchen/beverages/kompot.jpg', description: 'Напій без консервантів' },
+          { name: 'Компот з фруктів', imageUrl: '/images/products/kitchen/beverages/kompot.jpg', description: 'Напій без консервантів' },
           { name: 'Домашній квас', imageUrl: '/images/products/kitchen/beverages/kvas.jpg', description: 'Справжній хлібний квас' },
           { name: 'Травʼяний чай', imageUrl: '/images/products/kitchen/beverages/herbal-tea.jpg', description: 'Мʼята, меліса, чебрець — купажі власного збору' },
           { name: 'Ягідний морс', imageUrl: '/images/products/kitchen/beverages/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' },
