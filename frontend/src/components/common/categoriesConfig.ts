@@ -733,10 +733,10 @@ export const categories: ICategory[] = [
           { name: 'Лимонад з м’ятою', imageUrl: '/images/products/kitchen/beverages/mint-lemonade.jpg', description: 'Охолоджуючий лимонад з натурального соку та свіжої м’яти' },
           { name: 'Домашнє какао', imageUrl: '/images/products/kitchen/beverages/cocoa.jpg', description: 'З молоком та справжнім какао-порошком' },
           { name: 'Морозний смузі', imageUrl: '/images/products/kitchen/beverages/smoothie.jpg', description: 'Сезонні фрукти, йогурт і трішки меду' },
-          { name: 'Глінтвейн безалкогольний', imageUrl: '/images/products/kitchen/beverages/mulled-wine.jpg', description: 'Прянощі, цитруси та сік — ідеальний зимовий напій' },
+          { name: 'Глінтвейн', imageUrl: '/images/products/kitchen/beverages/mulled-wine.jpg', description: 'Прянощі, цитруси та сік — ідеальний зимовий напій' },
           { name: 'Чай з обліпихи', imageUrl: '/images/products/kitchen/beverages/sea-buckthorn-tea.jpg', description: 'Обліпиха, мед і лимон — корисно та смачно' },
-          { name: 'Холодний чай з персиком', imageUrl: '/images/products/kitchen/beverages/iced-peach-tea.jpg', description: 'Домашній айс-ті без барвників і ароматизаторів' },
-          { name: 'Сік яблучно-морквяний', imageUrl: '/images/products/kitchen/beverages/apple-carrot-juice.jpg', description: 'Свіжовичавлений, 100% натуральний' },
+          { name: 'Чай з персиком', imageUrl: '/images/products/kitchen/beverages/iced-peach-tea.jpg', description: 'Домашній айс-ті без барвників і ароматизаторів' },
+          { name: 'Яблучно-морквяний', imageUrl: '/images/products/kitchen/beverages/apple-carrot-juice.jpg', description: 'Свіжовичавлений, 100% натуральний' },
           { name: 'Молочний коктейль', imageUrl: '/images/products/kitchen/beverages/milkshake.jpg', description: 'Класичний десертний напій з морозивом' }
         ]
       },
