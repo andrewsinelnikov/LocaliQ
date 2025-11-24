@@ -740,9 +740,9 @@ export const categories: ICategory[] = [
           { name: 'Молочний коктейль', imageUrl: '/images/products/kitchen/beverages/milkshake.jpg', description: 'Класичний десертний напій з морозивом' },
 
           { name: 'Домашня Кока-Кола', imageUrl: '/images/products/kitchen/beverages/homemade-cola.jpg', description: 'Натуральна версія з ефірними оліями, лаймом і корицею' },
-          { name: 'Домашній лимонад', imageUrl: '/images/products/kitchen/beverages/classic-lemonade.jpg', description: 'Класичний свіжий лимонад як у дитинстві' },
-          { name: 'Мохіто безалкогольний', imageUrl: '/images/products/kitchen/beverages/virgin-mojito.jpg', description: 'Мʼята, лайм, тростинний цукор і газована вода' },
-          { name: 'Піна Колада безалкогольна', imageUrl: '/images/products/kitchen/beverages/virgin-pina-colada.jpg', description: 'Ананас, кокосове молоко, лід — тропічний смак' },
+          { name: 'Лимонад', imageUrl: '/images/products/kitchen/beverages/classic-lemonade.jpg', description: 'Класичний свіжий лимонад як у дитинстві' },
+          { name: 'Мохіто', imageUrl: '/images/products/kitchen/beverages/virgin-mojito.jpg', description: 'Мʼята, лайм, тростинний цукор і газована вода' },
+          { name: 'Піна Колада', imageUrl: '/images/products/kitchen/beverages/virgin-pina-colada.jpg', description: 'Ананас, кокосове молоко, лід — тропічний смак' },
           { name: 'Глінтвейн', imageUrl: '/images/products/kitchen/beverages/mulled-wine.jpg', description: 'Традиційний зимовий зі спеціями та апельсином' },
           { name: 'Домашній квас', imageUrl: '/images/products/kitchen/beverages/kvas.jpg', description: 'Справжній хлібний квас на заквасці' },
           { name: 'Айран', imageUrl: '/images/products/kitchen/beverages/ayran.jpg', description: 'Освіжаючий кисломолочний напій з сіллю та м’ятою' },
