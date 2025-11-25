@@ -738,7 +738,6 @@ export const categories: ICategory[] = [
           { name: 'Чай з персиком', imageUrl: '/images/products/kitchen/beverages/iced-peach-tea.jpg', description: 'Домашній айс-ті без барвників і ароматизаторів' },
           { name: 'Яблучно-морквяний', imageUrl: '/images/products/kitchen/beverages/apple-carrot-juice.jpg', description: 'Свіжовичавлений, 100% натуральний' },
           { name: 'Молочний коктейль', imageUrl: '/images/products/kitchen/beverages/milkshake.jpg', description: 'Класичний десертний напій з морозивом' },
-
           { name: 'Домашня Кока-Кола', imageUrl: '/images/products/kitchen/beverages/homemade-cola.jpg', description: 'Натуральна версія з ефірними оліями, лаймом і корицею' },
           { name: 'Лимонад', imageUrl: '/images/products/kitchen/beverages/classic-lemonade.jpg', description: 'Класичний свіжий лимонад як у дитинстві' },
           { name: 'Мохіто', imageUrl: '/images/products/kitchen/beverages/virgin-mojito.jpg', description: 'Мʼята, лайм, тростинний цукор і газована вода' },
