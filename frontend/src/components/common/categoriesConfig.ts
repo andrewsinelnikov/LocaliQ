@@ -731,7 +731,6 @@ export const categories: ICategory[] = [
           { name: 'Травʼяний чай', imageUrl: '/images/products/kitchen/beverages/herbal-tea.jpg', description: 'Мʼята, меліса, чебрець — купажі власного збору' },
           { name: 'Ягідний морс', imageUrl: '/images/products/kitchen/beverages/berry-mors.jpg', description: 'Без цукру, тільки ягоди та вода' },
           { name: 'Лимонад з м’ятою', imageUrl: '/images/products/kitchen/beverages/mint-lemonade.jpg', description: 'Охолоджуючий лимонад з натурального соку та свіжої м’яти' },
-          { name: 'Домашнє какао', imageUrl: '/images/products/kitchen/beverages/cocoa.jpg', description: 'З молоком та справжнім какао-порошком' },
           { name: 'Морозний смузі', imageUrl: '/images/products/kitchen/beverages/smoothie.jpg', description: 'Сезонні фрукти, йогурт і трішки меду' },
           { name: 'Глінтвейн', imageUrl: '/images/products/kitchen/beverages/mulled-wine.jpg', description: 'Прянощі, цитруси та сік — ідеальний зимовий напій' },
           { name: 'Чай з обліпихи', imageUrl: '/images/products/kitchen/beverages/sea-buckthorn-tea.jpg', description: 'Обліпиха, мед і лимон — корисно та смачно' },
