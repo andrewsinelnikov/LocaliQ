@@ -754,11 +754,8 @@ export const categories: ICategory[] = [
           { name: 'Узвар', imageUrl: '/images/products/kitchen/beverages/uzvar.jpg', description: 'Традиційний напій із сухофруктів' },
           { name: 'Тархун', imageUrl: '/images/products/kitchen/beverages/tarragon-lemonade.jpg', description: 'Домашній зелений лимонад з естрагоном' },
           { name: 'Сбитень', imageUrl: '/images/products/kitchen/beverages/sbiten.jpg', description: 'Старовинний медово-пряний гарячий напій' },
-          { name: 'Латте з куркумою', imageUrl: '/images/products/kitchen/beverages/golden-milk.jpg', description: 'Тепле молоко з куркумою, імбиром і медом' },
           { name: 'Мʼятний джулеп', imageUrl: '/images/products/kitchen/beverages/virgin-mint-julep.jpg', description: 'Освіжаючий мʼятний напій з льодом' },
           { name: 'Імбирний ель', imageUrl: '/images/products/kitchen/beverages/ginger-ale.jpg', description: 'Домашній гострий імбирний лимонад з газом' },
-          { name: 'Марокканський чай', imageUrl: '/images/products/kitchen/beverages/moroccan-mint-tea.jpg', description: 'Зелений чай з свіжою м’ятою та цукром' },
-          { name: 'Чай з бергамотом (Ерл Грей)', imageUrl: '/images/products/kitchen/beverages/earl-grey.jpg', description: 'Класичний ароматний чорний чай' },
           { name: 'Сангрія', imageUrl: '/images/products/kitchen/beverages/virgin-sangria.jpg', description: 'Фруктовий пунш з виноградним соком і цитрусами' },
           { name: 'Хорчата', imageUrl: '/images/products/kitchen/beverages/horchata.jpg', description: 'Іспансько-мексиканський напій з рису, кориці та ванілі' }
         ]
