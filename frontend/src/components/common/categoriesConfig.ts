@@ -788,9 +788,25 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/leather-goods.jpg',
         description: 'categories.handmade-crafted.subcategories.leather-goods.description',
         items: [
-          { name: 'Шкіряні гаманці', imageUrl: '/images/products/leather-wallet.jpg', description: 'Компактні гаманці з натуральної шкіри' },
-          { name: 'Ремені ручної роботи', imageUrl: '/images/products/leather-belt.jpg', description: 'Міцні і стильні аксесуари' },
-          { name: 'Сумки через плече', imageUrl: '/images/products/leather-bag.jpg', description: 'Шкіряні сумки з мінімалістичним дизайном' }
+          { name: 'Рукавиці', imageUrl: '/images/products/leather-gloves.jpg', description: 'Елегантні рукавички з м’якої шкіри' },
+          { name: 'Ремені', imageUrl: '/images/products/leather-belt.jpg', description: 'Міцні і стильні аксесуари' },
+          { name: 'Браслети', imageUrl: '/images/products/leather-bracelet.jpg', description: 'Стильні аксесуари для щоденного носіння' },
+          { name: 'Гаманці', imageUrl: '/images/products/leather-wallet.jpg', description: 'Компактні гаманці з натуральної шкіри' },
+          { name: 'Жіночі сумки', imageUrl: '/images/products/leather-tote.jpg', description: 'Тоті, крос-боді, шопери та сумки через плече' },
+          { name: 'Чоловічі сумки', imageUrl: '/images/products/leather-messenger.jpg', description: 'Зручні повсякденні та ділові сумки' },
+          { name: 'Портфелі', imageUrl: '/images/products/leather-briefcase.jpg', description: 'Преміальні шкіряні портфелі ручної роботи' },
+          { name: 'Рюкзаки', imageUrl: '/images/products/leather-backpack.jpg', description: 'Місткі та довговічні рюкзаки ручної роботи' },
+          { name: 'Несесери та косметички', imageUrl: '/images/products/leather-toiletry-bag.jpg', description: 'Дорожні органайзери з натуральної шкіри' },
+          { name: 'Чохли для гаджетів', imageUrl: '/images/products/leather-laptop-sleeve.jpg', description: 'Стильний захист гаджетів з натуральної шкіри' },
+          { name: "Чохли для інструментів", imageUrl: "/images/products/leather-scissors-holder.jpg", description: "Шкіряні чохли для ножиць та професійних інструментів" },
+          { name: "Ремінці для годинників", imageUrl: "/images/products/leather-watch-strap.jpg", description: "Преміальні ремінці для смарт- та класичних годинників" },
+          { name: 'Футляри для окулярів', imageUrl: '/images/products/leather-glasses-case.jpg', description: 'Жорсткі та мʼякі шкіряні чохли для окулярів' },
+          { name: 'Обкладинки', imageUrl: '/images/products/leather-notebook-cover.jpg', description: 'Надійні обкладинки для щоденників та записників' },
+          { name: 'Картхолдери', imageUrl: '/images/products/leather-cardholder.jpg', description: 'Тонкі тримачі для карт з преміальної шкіри' },
+          { name: "Підставки під кружки", imageUrl: "/images/products/leather-coaster.jpg", description: "Набори шкіряних підставок з тисненням" },
+          { name: 'Ключниці', imageUrl: '/images/products/leather-keyholder.jpg', description: 'Компактні та зручні органайзери для ключів' },
+          { name: "Нашийники, Повідки", imageUrl: "/images/products/leather-pet-collar-leash.jpg", description: "Міцні шкіряні нашийники та повідки для собак і котів" },
+          { name: 'Аксесуари для коней', imageUrl: '/images/products/leather-saddle.jpg', description: 'Вироби для верхової їзди (якщо є майстри)' }
         ]
       },
       {
