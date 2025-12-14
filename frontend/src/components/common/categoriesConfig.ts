@@ -803,6 +803,7 @@ export const categories: ICategory[] = [
           { name: 'Для окулярів', imageUrl: '/images/products/handmade/leather-goods/leather-glasses-case.jpg', description: 'Жорсткі та мʼякі шкіряні чохли для окулярів' },
           { name: 'Обкладинки', imageUrl: '/images/products/handmade/leather-goods/leather-notebook-cover.jpg', description: 'Надійні обкладинки для щоденників та записників' },
           { name: 'Картхолдери', imageUrl: '/images/products/handmade/leather-goods/leather-cardholder.jpg', description: 'Тонкі тримачі для карт з преміальної шкіри' },
+          { name: 'Пенали', imageUrl: '/images/products/handmade/leather-goods/leather-pencil-case.jpg', description: 'Шкіряні пенали для письмового приладдя та дрібниць' },
           { name: "Підставки", imageUrl: "/images/products/handmade/leather-goods/leather-coaster.jpg", description: "Набори шкіряних підставок з тисненням" },
           { name: 'Ключниці', imageUrl: '/images/products/handmade/leather-goods/leather-keyholder.jpg', description: 'Компактні та зручні органайзери для ключів' },
           { name: "Нашийники, повідки", imageUrl: "/images/products/handmade/leather-goods/leather-pet-collar-leash.jpg", description: "Міцні шкіряні нашийники та повідки для собак і котів" },
