@@ -776,9 +776,18 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/woodcrafts.jpg',
         description: 'categories.handmade-crafted.subcategories.woodcrafts.description',
         items: [
-          { name: 'Деревʼяні ложки', imageUrl: '/images/products/wooden-spoons.jpg', description: 'Ручна різьба, з вільхи або бука' },
           { name: 'Обробні дошки', imageUrl: '/images/products/cutting-board.jpg', description: 'Натуральне дерево, покриття олією' },
-          { name: 'Табурети ручної роботи', imageUrl: '/images/products/wooden-stool.jpg', description: 'Невеликі меблі з естетикою ручного виробництва' }
+          { name: 'Ложки', imageUrl: '/images/products/wooden-spoons.jpg', description: 'Ручна різьба, з вільхи або бука' },
+          { name: 'Миски та тарілки', imageUrl: '/images/products/wooden-bowls.jpg', description: 'Точені вироби для кухні та сервірування' },
+          { name: 'Табурети', imageUrl: '/images/products/wooden-stool.jpg', description: 'Невеликі меблі з естетикою ручного виробництва' },
+          { name: 'Свічники', imageUrl: '/images/products/wooden-candle-holders.jpg', description: 'Декоративні та функціональні аксесуари для дому' },
+          { name: 'Різьблені шкатулки', imageUrl: '/images/products/wooden-boxes.jpg', description: 'Для зберігання прикрас і дрібниць' },
+          { name: 'Полиці, органайзери', imageUrl: '/images/products/wooden-shelves.jpg', description: 'Функціональний декор для дому' },
+          { name: 'Іграшки', imageUrl: '/images/products/wooden-toys.jpg', description: 'Екологічні іграшки для дітей' },
+          { name: 'Кухонні набори', imageUrl: '/images/products/wooden-kitchen-set.jpg', description: 'Лопатки, товкачі, качалки ручної роботи' },
+          { name: 'Рамки', imageUrl: '/images/products/wooden-frames.jpg', description: 'Натуральні рамки з унікальною текстурою' },
+          { name: 'Малі меблі з масиву', imageUrl: '/images/products/small-wooden-furniture.jpg', description: 'Лавки, приліжкові столики, тумби' },
+          { name: 'Палиці для ходьби', imageUrl: '/images/products/walking-sticks.jpg', description: 'Ергономічні, з декоративними елементами' },
         ]
       },
       {
@@ -807,7 +816,7 @@ export const categories: ICategory[] = [
           { name: "Підставки", imageUrl: "/images/products/handmade/leather-goods/leather-coaster.jpg", description: "Набори шкіряних підставок з тисненням" },
           { name: 'Ключниці', imageUrl: '/images/products/handmade/leather-goods/leather-keyholder.jpg', description: 'Компактні та зручні органайзери для ключів' },
           { name: "Нашийники, повідки", imageUrl: "/images/products/handmade/leather-goods/leather-pet-collar-leash.jpg", description: "Міцні шкіряні нашийники та повідки для собак і котів" },
-          { name: 'Аксесуари для коней', imageUrl: '/images/products/handmade/leather-goods/leather-saddle.jpg', description: 'Вироби для верхової їзди (якщо є майстри)' }
+          { name: 'Аксесуари для коней', imageUrl: '/images/products/handmade/leather-goods/leather-saddle.jpg', description: 'Вироби для верхової їзди' }
         ]
       },
       {
