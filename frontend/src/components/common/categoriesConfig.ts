@@ -782,7 +782,7 @@ export const categories: ICategory[] = [
           { name: 'Табурети', imageUrl: '/images/products/handmade/woodcrafts/wooden-stool.jpg', description: 'Невеликі меблі з естетикою ручного виробництва' },
           { name: 'Свічники', imageUrl: '/images/products/handmade/woodcrafts/wooden-candle-holders.jpg', description: 'Декоративні та функціональні аксесуари для дому' },
           { name: 'Різьблені шкатулки', imageUrl: '/images/products/handmade/woodcrafts/wooden-boxes.jpg', description: 'Для зберігання прикрас і дрібниць' },
-          { name: 'Полиці, органайзери', imageUrl: '/images/products/handmade/woodcrafts/wooden-shelves.jpg', description: 'Функціональний декор для дому' },
+          { name: 'Полиці', imageUrl: '/images/products/handmade/woodcrafts/wooden-shelves.jpg', description: 'Функціональний декор для дому' },
           { name: 'Іграшки', imageUrl: '/images/products/handmade/woodcrafts/wooden-toys.jpg', description: 'Екологічні іграшки для дітей' },
           { name: 'Кухонні набори', imageUrl: '/images/products/handmade/woodcrafts/wooden-kitchen-set.jpg', description: 'Лопатки, товкачі, качалки ручної роботи' },
           { name: 'Рамки', imageUrl: '/images/products/handmade/woodcrafts/wooden-frames.jpg', description: 'Натуральні рамки з унікальною текстурою' },
