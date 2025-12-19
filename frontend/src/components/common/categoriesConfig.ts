@@ -788,6 +788,16 @@ export const categories: ICategory[] = [
           { name: 'Рамки', imageUrl: '/images/products/handmade/woodcrafts/wooden-frames.jpg', description: 'Натуральні рамки з унікальною текстурою' },
           { name: 'Малі меблі з масиву', imageUrl: '/images/products/handmade/woodcrafts/small-wooden-furniture.jpg', description: 'Лавки, приліжкові столики, тумби' },
           { name: 'Палиці для ходьби', imageUrl: '/images/products/handmade/woodcrafts/walking-sticks.jpg', description: 'Ергономічні, з декоративними елементами' },
+          { name: 'Підставки під гаряче', imageUrl: '/images/products/handmade/woodcrafts/wooden-trivets.jpg', description: 'Захист поверхонь, мінімалістичний дизайн' },
+          { name: 'Дошки для подачі', imageUrl: '/images/products/handmade/woodcrafts/serving-boards.jpg', description: 'Для сирів, мʼяса та закусок' },
+          { name: 'Органайзери для столу', imageUrl: '/images/products/handmade/woodcrafts/desk-organizers.jpg', description: 'Порядок у робочому просторі' },
+          { name: 'Ключниці', imageUrl: '/images/products/handmade/woodcrafts/key-holders.jpg', description: 'Настінні аксесуари для передпокою' },
+          { name: 'Вішалки', imageUrl: '/images/products/handmade/woodcrafts/wooden-hangers.jpg', description: 'Міцні та стильні рішення для одягу' },
+          { name: 'Декоративні панно', imageUrl: '/images/products/handmade/woodcrafts/wooden-wall-art.jpg', description: 'Настінний декор з природними мотивами' },
+          { name: 'Підставки для телефону', imageUrl: '/images/products/handmade/woodcrafts/phone-stands.jpg', description: 'Зручні аксесуари для дому та офісу' },
+          { name: 'Хлібниці', imageUrl: '/images/products/handmade/woodcrafts/bread-box.jpg', description: 'Натуральне зберігання хліба' },
+          { name: 'Скрині', imageUrl: '/images/products/handmade/woodcrafts/wooden-chests.jpg', description: 'Для зберігання текстилю та речей' },
+          { name: 'Дитячі меблі', imageUrl: '/images/products/handmade/woodcrafts/kids-furniture.jpg', description: 'Безпечні та екологічні вироби для дітей' },
         ]
       },
       {
