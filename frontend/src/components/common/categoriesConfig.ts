@@ -810,6 +810,16 @@ export const categories: ICategory[] = [
           { name: 'Підставки для телефону', imageUrl: '/images/products/handmade/woodcrafts/phone-stands.jpg', description: 'Зручні аксесуари для дому та офісу' },
           { name: 'Хлібниці', imageUrl: '/images/products/handmade/woodcrafts/bread-box.jpg', description: 'Натуральне зберігання хліба' },
           { name: 'Скрині', imageUrl: '/images/products/handmade/woodcrafts/wooden-chests.jpg', description: 'Для зберігання текстилю та речей' },
+          { name: 'Деревʼяні конструкції для даху', imageUrl: '/images/products/handmade/woodcrafts/roof-structures.jpg',description: 'Крокви, балки та ферми для дахів з масиву дерева' },
+          { name: 'Балки та бруси', imageUrl: '/images/products/handmade/woodcrafts/wooden-beams.jpg',description: 'Несучі елементи для будівництва та інтерʼєру' },
+          { name: 'Перголи', imageUrl: '/images/products/handmade/woodcrafts/pergola.jpg',description: 'Садові та терасні конструкції з натурального дерева' },
+          { name: 'Альтанки', imageUrl: '/images/products/handmade/woodcrafts/gazebo.jpg',description: 'Деревʼяні альтанки для подвірʼя та саду' },
+          { name: 'Сходи з дерева', imageUrl: '/images/products/handmade/woodcrafts/wooden-stairs.jpg',description: 'Міжповерхові та декоративні сходи ручної роботи' },
+          { name: 'Поручні та балясини', imageUrl: '/images/products/handmade/woodcrafts/wooden-railings.jpg',description: 'Елементи для сходів і балконів з масиву' },
+          { name: 'Деревʼяні двері', imageUrl: '/images/products/handmade/woodcrafts/wooden-doors.jpg',description: 'Вхідні та міжкімнатні двері з натурального дерева' },
+          { name: 'Віконні рами', imageUrl: '/images/products/handmade/woodcrafts/window-frames.jpg',description: 'Екологічні рами для будинків і котеджів' },
+          { name: 'Терасна дошка', imageUrl: '/images/products/handmade/woodcrafts/decking.jpg',description: 'Дошка з модрини або дуба для терас і балконів' },
+          { name: 'Парканні секції', imageUrl: '/images/products/handmade/woodcrafts/wooden-fence.jpg',description: 'Декоративні та функціональні огорожі'}
         ]
       },
       {
