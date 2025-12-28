@@ -833,6 +833,7 @@ export const categories: ICategory[] = [
           { name: 'Жилети', imageUrl: '/images/products/handmade/leather-goods/leather-vest.jpg', description: 'Жилети зі шкіри для повсякденного носіння' },
           { name: 'Фартухи', imageUrl: '/images/products/handmade/leather-goods/leather-apron.jpg', description: 'Фартухи для майстрів, бариста та кухарів' },
           { name: 'Рукавиці', imageUrl: '/images/products/handmade/leather-goods/leather-gloves.jpg', description: 'Елегантні рукавички з м’якої шкіри' },
+          { name: 'Взуття', imageUrl: '/images/products/handmade/leather-goods/leather-shoes.jpg', description: 'Шкіряне взуття ручної роботи: черевики, туфлі, чоботи та мокасини' },
           { name: 'Ремені', imageUrl: '/images/products/handmade/leather-goods/leather-belt.jpg', description: 'Міцні і стильні аксесуари' },
           { name: 'Браслети', imageUrl: '/images/products/handmade/leather-goods/leather-bracelet.jpg', description: 'Стильні аксесуари для щоденного носіння' },
           { name: 'Жіночі сумки', imageUrl: '/images/products/handmade/leather-goods/leather-tote.jpg', description: 'Тоті, крос-боді, шопери та сумки через плече' },
