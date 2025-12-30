@@ -878,7 +878,7 @@ export const categories: ICategory[] = [
           { name: 'Меблеві ручки', imageUrl: '/images/products/handmade/metalwork/metal-handles.jpg', description: 'Авторські металеві ручки для шаф та комодів' },
           { name: 'Металеві рамки', imageUrl: '/images/products/handmade/metalwork/metal-frame.jpg', description: 'Рамки з металу для дзеркал, фото та декору' },
           { name: 'Настінні панно', imageUrl: '/images/products/handmade/metalwork/metal-wall-art.jpg', description: 'Авторські панно з художнього металу' },
-          { name: 'Полиці та кронштейни', imageUrl: '/images/products/handmade/metalwork/shelf-bracket.jpg', description: 'Металеві тримачі та кронштейни ручної роботи' },
+          { name: 'Полиці, кронштейни', imageUrl: '/images/products/handmade/metalwork/shelf-bracket.jpg', description: 'Металеві тримачі та кронштейни ручної роботи' },
           { name: 'Меблеві елементи', imageUrl: '/images/products/handmade/metalwork/furniture-elements.jpg', description: 'Ніжки, рами та каркаси з металу ручної роботи' },
           { name: 'Підставки для квітів', imageUrl: '/images/products/handmade/metalwork/plant-stand.jpg', description: 'Ковані підлогові та настільні підставки для рослин' },
           { name: 'Камінні аксесуари', imageUrl: '/images/products/handmade/metalwork/fireplace-accessories.jpg', description: 'Декоративні аксесуари з металу для камінів' },
