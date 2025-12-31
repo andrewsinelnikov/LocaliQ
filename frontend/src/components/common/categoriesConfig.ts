@@ -885,7 +885,7 @@ export const categories: ICategory[] = [
           { name: 'Камінні набори', imageUrl: '/images/products/handmade/metalwork/fireplace-set.jpg', description: 'Ковані набори для камінів та печей' },
           { name: 'Садовий декор', imageUrl: '/images/products/handmade/metalwork/garden-decor.jpg', description: 'Металевий декор для саду та подвірʼя' },
           { name: 'Вуличний декор', imageUrl: '/images/products/handmade/metalwork/outdoor-decor.jpg', description: 'Металеві елементи для екстерʼєру' },
-          { name: 'Огорожі та решітки', imageUrl: '/images/products/handmade/metalwork/grillwork.jpg', description: 'Художні металеві решітки та декоративні огорожі' },
+          { name: 'Огорожі', imageUrl: '/images/products/handmade/metalwork/fences.jpg', description: 'Декоративні металеві огорожі' },
           { name: 'Аксесуари', imageUrl: '/images/products/handmade/metalwork/metal-accessories.jpg', description: 'Авторські аксесуари з металу ручної роботи' },
           { name: 'Підставки для дров', imageUrl: '/images/products/handmade/metalwork/firewood-holder.jpg', description: 'Ковані підставки для зберігання дров' },
           { name: 'Адресні таблички', imageUrl: '/images/products/handmade/metalwork/address-sign.jpg', description: 'Індивідуальні металеві таблички для будинків' },
