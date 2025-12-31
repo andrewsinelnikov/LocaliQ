@@ -889,6 +889,10 @@ export const categories: ICategory[] = [
           { name: 'Аксесуари', imageUrl: '/images/products/handmade/metalwork/metal-accessories.jpg', description: 'Авторські аксесуари з металу ручної роботи' },
           { name: 'Підставки для дров', imageUrl: '/images/products/handmade/metalwork/firewood-holder.jpg', description: 'Ковані підставки для зберігання дров' },
           { name: 'Адресні таблички', imageUrl: '/images/products/handmade/metalwork/address-sign.jpg', description: 'Індивідуальні металеві таблички для будинків' },
+          { name: 'Ворота', imageUrl: '/images/products/handmade/metalwork/gates.jpg', description: 'Елітні ковані ворота ручної роботи з індивідуальним дизайном та бездоганною обробкою' },
+          { name: 'Для парасоль', imageUrl: '/images/products/handmade/metalwork/umbrella-stand.jpg', description: 'Преміальні ковані підставки для парасоль — поєднання функціональності та витонченого стилю' },
+          { name: 'Поштові скриньки', imageUrl: '/images/products/handmade/metalwork/mailbox.jpg', description: 'Авторські ковані поштові скриньки з художніми деталями та довговічним покриттям' },
+          { name: 'Ковані двері', imageUrl: '/images/products/handmade/metalwork/forged-doors.jpg', description: 'Ексклюзивні ковані двері преміумкласу з унікальним орнаментом і ручним оздобленням' },
           { name: 'Ножі з дамаску', imageUrl: '/images/products/damascus-knife.jpg', description: 'Кухонні чи туристичні ножі ручного кування' },
           { name: 'Сокири з гравіюванням', imageUrl: '/images/products/engraved-axe.jpg', description: 'Функціональні та декоративні' }
         ]
