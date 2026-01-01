@@ -893,6 +893,16 @@ export const categories: ICategory[] = [
           { name: 'Для парасоль', imageUrl: '/images/products/handmade/metalwork/umbrella-stand.jpg', description: 'Преміальні ковані підставки для парасоль — поєднання функціональності та витонченого стилю' },
           { name: 'Поштові скриньки', imageUrl: '/images/products/handmade/metalwork/mailbox.jpg', description: 'Авторські ковані поштові скриньки з художніми деталями та довговічним покриттям' },
           { name: 'Ковані двері', imageUrl: '/images/products/handmade/metalwork/forged-doors.jpg', description: 'Ексклюзивні ковані двері преміумкласу з унікальним орнаментом і ручним оздобленням' },
+          { name: "Лампи", imageUrl: "/images/products/handmade/metalwork/lamp.jpg", description: "Преміальні лампи з металевим каркасом ручної роботи, що додають інтер’єру стиль і атмосферу" },
+          { name: "Перила", imageUrl: "/images/products/handmade/metalwork/railing.jpg", description: "Ковані перила індивідуального виготовлення для сходів і балконів, що поєднують надійність і елегантний дизайн"},
+          { name: "Решітки", imageUrl: "/images/products/handmade/metalwork/grille.jpg", description: "Декоративні металеві решітки ручної роботи для вікон і вентиляції з акцентом на безпеку та естетику" },
+          { name: "Пташині годівниці", imageUrl: "/images/products/handmade/metalwork/bird-feeder.jpg", description: "Ковані годівниці для птахів, стійкі до погодних умов і виконані в елегантному декоративному стилі" },
+          { name: "Садові арки", imageUrl: "/images/products/handmade/metalwork/garden-arch.jpg", description: "Металеві садові арки преміум-класу, що створюють вишуканий архітектурний акцент у ландшафті" },
+          { name: "Шпалери для рослин", imageUrl: "/images/products/handmade/metalwork/trellis.jpg", description: "Ковані шпалери для витких рослин, які поєднують функціональність і декоративну привабливість" },
+          { name: "Флюгери", imageUrl: "/images/products/handmade/metalwork/weathervane.jpg", description: "Декоративні металеві флюгери ручної роботи, що додають будинку індивідуальності та завершеного вигляду" },
+          { name: "Лави", imageUrl: "/images/products/handmade/metalwork/bench.jpg", description: "Ковані садові лави ручної роботи, створені для комфорту та довговічного використання" },
+          { name: "Столи", imageUrl: "/images/products/handmade/metalwork/table.jpg", description: "Металеві столи з художнім каркасом ручної роботи, що поєднують міцність і преміальний дизайн" },
+          { name: "Шторні карнизи", imageUrl: "/images/products/handmade/metalwork/curtain-rod.jpg", description: "Металеві шторні карнизи ручної роботи, які елегантно доповнюють інтер’єр" },
           { name: 'Ножі з дамаску', imageUrl: '/images/products/damascus-knife.jpg', description: 'Кухонні чи туристичні ножі ручного кування' },
           { name: 'Сокири з гравіюванням', imageUrl: '/images/products/engraved-axe.jpg', description: 'Функціональні та декоративні' }
         ]
