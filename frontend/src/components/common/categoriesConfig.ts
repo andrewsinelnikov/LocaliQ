@@ -903,7 +903,9 @@ export const categories: ICategory[] = [
           { name: "Лави", imageUrl: "/images/products/handmade/metalwork/bench.jpg", description: "Ковані садові лави ручної роботи, створені для комфорту та довговічного використання" },
           { name: "Столи", imageUrl: "/images/products/handmade/metalwork/table.jpg", description: "Металеві столи з художнім каркасом ручної роботи, що поєднують міцність і преміальний дизайн" },
           { name: "Шторні карнизи", imageUrl: "/images/products/handmade/metalwork/curtain-rod.jpg", description: "Металеві шторні карнизи ручної роботи, які елегантно доповнюють інтер’єр" },
-          { name: 'Ножі з Дамаску', imageUrl: '/images/products/damascus-knife.jpg', description: 'Кухонні чи туристичні ножі ручного кування' },
+          { name: 'Навіси та козирки', imageUrl: '/images/products/handmade/metalwork/canopy.jpg', description: 'Ковані навіси та козирки для входів і терас' },
+          { name: 'Підставки для взуття', imageUrl: '/images/products/handmade/metalwork/shoe-rack.jpg', description: 'Металеві підставки та полиці для взуття ручної роботи' },
+          { name: 'Ножі з Дамаску', imageUrl: '/images/products/handmade/metalwork/damascus-knife.jpg', description: 'Кухонні чи туристичні ножі ручного кування' },
         ]
       },
       {
