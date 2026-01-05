@@ -1046,7 +1046,23 @@ export const categories: ICategory[] = [
     imageUrl: '/images/products/handmade/natural-dyes-fibers/eco-diy-kit.jpg',
     description: 'Готові набори для рукоділля з натуральних матеріалів'
   },
-  
+
+  { name: 'Пряжа з кропиви', imageUrl: '/images/products/handmade/natural-dyes-fibers/nettle-yarn.jpg', description: 'Міцна та дихаюча пряжа з дикорослої кропиви' },
+{ name: 'Пряжа з конопель', imageUrl: '/images/products/handmade/natural-dyes-fibers/hemp-yarn.jpg', description: 'Екологічна пряжа з високою зносостійкістю' },
+{ name: 'Пряжа з льону', imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-yarn.jpg', description: 'Натуральна лляна пряжа для літніх виробів' },
+{ name: 'Вовна натурального фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/natural-dyed-wool.jpg', description: 'Вовна, пофарбована рослинами без хімічних барвників' },
+{ name: 'Тканини, фарбовані вручну', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-fabric.jpg', description: 'Унікальні кольори, створені рослинними барвниками' },
+{ name: 'Лляні тканини сирого фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/raw-linen-fabric.jpg', description: 'Нефарбований або мінімально оброблений льон' },
+{ name: 'Шовк ручного фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-silk.jpg', description: 'Натуральний шовк із мʼякими природними відтінками' },
+{ name: 'Натуральні барвники з рослин', imageUrl: '/images/products/handmade/natural-dyes-fibers/plant-dyes.jpg', description: 'Барвники з кори, листя, ягід та коріння' },
+{ name: 'Набори для фарбування тканин', imageUrl: '/images/products/handmade/natural-dyes-fibers/fabric-dye-kit.jpg', description: 'Готові комплекти для домашнього натурального фарбування' },
+{ name: 'Волокна для прядіння', imageUrl: '/images/products/handmade/natural-dyes-fibers/spinning-fibers.jpg', description: 'Натуральні волокна для ручного прядіння' },
+{ name: 'Вовна для валяння', imageUrl: '/images/products/handmade/natural-dyes-fibers/felting-wool.jpg', description: 'Матеріал для сухого та мокрого валяння' },
+{ name: 'Еко-тканини для одягу', imageUrl: '/images/products/handmade/natural-dyes-fibers/eco-clothing-fabric.jpg', description: 'Натуральні тканини для пошиття одягу та аксесуарів' },
+{ name: 'Текстиль з природними пігментами', imageUrl: '/images/products/handmade/natural-dyes-fibers/pigment-textile.jpg', description: 'Вироби, пофарбовані мінеральними та рослинними пігментами' },
+{ name: 'DIY-набори з натуральних волокон', imageUrl: '/images/products/handmade/natural-dyes-fibers/diy-fiber-kit.jpg', description: 'Набори для творчості з еко-матеріалів' },
+
+
           { name: 'Пряжа з кропиви', imageUrl: '/images/products/nettle-yarn.jpg', description: 'Екологічна альтернатива синтетичним волокнам' },
           { name: 'Тканини, фарбовані вручну', imageUrl: '/images/products/natural-dyed-fabric.jpg', description: 'Унікальні кольори за допомогою рослинних барвників' }
         ]
