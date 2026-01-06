@@ -918,6 +918,8 @@ export const categories: ICategory[] = [
           { name: 'Пряжа з кропиви', imageUrl: '/images/products/handmade/natural-dyes-fibers/nettle-yarn.jpg', description: 'Міцна та дихаюча пряжа з дикорослої кропиви' },
           { name: 'Пряжа з конопель', imageUrl: '/images/products/handmade/natural-dyes-fibers/hemp-yarn.jpg', description: 'Екологічна пряжа з високою зносостійкістю' },
           { name: 'Пряжа з льону', imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-yarn.jpg', description: 'Натуральна лляна пряжа для літніх виробів' },
+          { name: 'Пряжа з бавовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/cotton-yarn.jpg', description: 'Мʼяка та приємна на дотик бавовняна пряжа' },
+          { name: 'Пряжа з вовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/wool-yarn.jpg', description: 'Тепла та затишна пряжа з пряжа з овечої вовни' },
           {
     name: 'Натуральна пряжа',
     imageUrl: '/images/products/handmade/natural-dyes-fibers/natural-yarn.jpg',
