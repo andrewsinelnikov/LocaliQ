@@ -921,6 +921,7 @@ export const categories: ICategory[] = [
           { name: 'Пряжа з бавовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/cotton-yarn.jpg', description: 'Мʼяка та приємна на дотик бавовняна пряжа' },
           { name: 'Пряжа з вовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/wool-yarn.jpg', description: 'Тепла та затишна пряжа з пряжа з овечої вовни' },
           { name: 'Ручного фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-yarn.jpg', description: 'Авторська пряжа, пофарбована натуральними рослинними барвниками' },
+          { name: 'Вовна необроблена', imageUrl: '/images/products/handmade/natural-dyes-fibers/raw-wool.jpg', description: 'Натуральна, мінімально оброблена вовна для валяння та прядіння' },
           { name: 'Набори для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dyeing-kit.jpg', description: 'Комплекти для фарбування пряжі та тканин у домашніх умовах' },
   {
     name: 'Лляні тканини',
@@ -955,12 +956,7 @@ export const categories: ICategory[] = [
   {
     name: 'Вовна необроблена',
     imageUrl: '/images/products/handmade/natural-dyes-fibers/raw-wool.jpg',
-    description: 'Немита або мінімально оброблена вовна для валяння та прядіння'
-  },
-  {
-    name: 'Матеріали для валяння',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/felting-materials.jpg',
-    description: 'Натуральна вовна та волокна для сухого й мокрого валяння'
+    description: 'Натуральна, мінімально оброблена вовна для валяння та прядіння'
   },
   {
     name: 'Ручноткані полотна',
