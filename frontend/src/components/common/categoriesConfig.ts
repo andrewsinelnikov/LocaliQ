@@ -920,16 +920,8 @@ export const categories: ICategory[] = [
           { name: 'Пряжа з льону', imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-yarn.jpg', description: 'Натуральна лляна пряжа для літніх виробів' },
           { name: 'Пряжа з бавовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/cotton-yarn.jpg', description: 'Мʼяка та приємна на дотик бавовняна пряжа' },
           { name: 'Пряжа з вовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/wool-yarn.jpg', description: 'Тепла та затишна пряжа з пряжа з овечої вовни' },
-          {
-    name: 'Натуральна пряжа',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/natural-yarn.jpg',
-    description: 'Пряжа з вовни, льону, конопель або бавовни без синтетичних домішок'
-  },
-  {
-    name: 'Пряжа ручного фарбування',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-yarn.jpg',
-    description: 'Авторська пряжа, пофарбована натуральними рослинними барвниками'
-  },
+          { name: 'Ручного фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-yarn.jpg', description: 'Авторська пряжа, пофарбована натуральними рослинними барвниками' },
+          { name: 'Набори для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dyeing-kit.jpg', description: 'Комплекти для фарбування пряжі та тканин у домашніх умовах' },
   {
     name: 'Лляні тканини',
     imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-fabric.jpg',
