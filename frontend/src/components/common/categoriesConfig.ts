@@ -923,11 +923,11 @@ export const categories: ICategory[] = [
           { name: 'Ручного фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-yarn.jpg', description: 'Авторська пряжа, пофарбована натуральними рослинними барвниками' },
           { name: 'Вовна необроблена', imageUrl: '/images/products/handmade/natural-dyes-fibers/raw-wool.jpg', description: 'Натуральна, мінімально оброблена вовна для валяння та прядіння' },
           { name: 'Для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dyeing-kit.jpg', description: 'Комплекти для фарбування пряжі та тканин у домашніх умовах' },
-  {
-    name: 'Лляні тканини',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-fabric.jpg',
-    description: 'Екологічні лляні тканини ручного ткацтва або локального виробництва'
-  },
+          
+          { name: 'Лляні тканини', imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-fabric.jpg', description: 'Екологічні лляні тканини ручного ткацтва або локального виробництва' },
+          { name: 'Шовк натуральний', imageUrl: '/images/products/handmade/natural-dyes-fibers/silk-fabric.jpg', description: 'Натуральний шовк ручного фарбування або без хімічної обробки' },
+          { name: 'Рослинні барвники', imageUrl: '/images/products/handmade/natural-dyes-fibers/plant-dyes.jpg', description: 'Натуральні барвники з рослинної сировини' },
+          { name: 'Ручноткані полотна', imageUrl: '/images/products/handmade/natural-dyes-fibers/handwoven-textile.jpg', description: 'Авторські тканини, створені на ткацьких верстатах' },
   {
     name: 'Конопляні тканини',
     imageUrl: '/images/products/handmade/natural-dyes-fibers/hemp-fabric.jpg',
@@ -937,31 +937,6 @@ export const categories: ICategory[] = [
     name: 'Натурально пофарбовані тканини',
     imageUrl: '/images/products/handmade/natural-dyes-fibers/natural-dyed-fabric.jpg',
     description: 'Тканини, пофарбовані рослинами, корінням, корою та мінералами'
-  },
-  {
-    name: 'Рослинні барвники',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/plant-dyes.jpg',
-    description: 'Набори та окремі натуральні барвники з рослинної сировини'
-  },
-  {
-    name: 'Набори для натурального фарбування',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/dye-kit.jpg',
-    description: 'Готові комплекти для фарбування тканин і пряжі в домашніх умовах'
-  },
-  {
-    name: 'Шовк натуральний',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/silk-fabric.jpg',
-    description: 'Натуральний шовк ручного фарбування або без хімічної обробки'
-  },
-  {
-    name: 'Вовна необроблена',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/raw-wool.jpg',
-    description: 'Натуральна, мінімально оброблена вовна для валяння та прядіння'
-  },
-  {
-    name: 'Ручноткані полотна',
-    imageUrl: '/images/products/handmade/natural-dyes-fibers/handwoven-textile.jpg',
-    description: 'Авторські тканини, створені на ткацьких верстатах'
   },
   {
     name: 'Еко-текстиль для дому',
