@@ -922,7 +922,7 @@ export const categories: ICategory[] = [
           { name: 'Пряжа з вовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/wool-yarn.jpg', description: 'Тепла та затишна пряжа з пряжа з овечої вовни' },
           { name: 'Ручного фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-yarn.jpg', description: 'Авторська пряжа, пофарбована натуральними рослинними барвниками' },
           { name: 'Вовна необроблена', imageUrl: '/images/products/handmade/natural-dyes-fibers/raw-wool.jpg', description: 'Натуральна, мінімально оброблена вовна для валяння та прядіння' },
-          { name: 'Набори для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dyeing-kit.jpg', description: 'Комплекти для фарбування пряжі та тканин у домашніх умовах' },
+          { name: 'Для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dyeing-kit.jpg', description: 'Комплекти для фарбування пряжі та тканин у домашніх умовах' },
   {
     name: 'Лляні тканини',
     imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-fabric.jpg',
