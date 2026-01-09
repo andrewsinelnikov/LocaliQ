@@ -1124,8 +1124,18 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/artisan-stationery.jpg',
         description: 'categories.handmade-crafted.subcategories.artisan-stationery.description',
         items: [
-          { name: 'Записники з переробленого паперу', imageUrl: '/images/products/recycled-notebook.jpg', description: 'Крафтові обкладинки, ручна збірка' },
-          { name: 'Листівки аквареллю', imageUrl: '/images/products/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' }
+          { name: 'Листівки аквареллю', imageUrl: '/images/products/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' },
+          { name: 'Записники з переробленого паперу', imageUrl: '/images/products/handmade/artisan-stationery/recycled-notebook.jpg', description: 'Еко-блокнот для записів і творчості' },
+          { name: 'Блокнот ручної роботи', imageUrl: '/images/products/handmade/artisan-stationery/handmade-notebook.jpg', description: 'Крафтовий блокнот з унікальним дизайном' },
+          { name: 'Щоденник', imageUrl: '/images/products/handmade/artisan-stationery/journal.jpg', description: 'Стильний щоденник для планування та нотаток' },
+          { name: 'Крафтовий папір', imageUrl: '/images/products/handmade/artisan-stationery/craft-paper.jpg', description: 'Папір для листів та творчих проєктів' },
+          { name: 'Нотатник', imageUrl: '/images/products/handmade/artisan-stationery/notepad.jpg', description: 'Зручний для швидких записів та ідей' },
+          { name: 'Еко-блокнот', imageUrl: '/images/products/handmade/artisan-stationery/eco-notebook.jpg', description: 'Блокнот з переробленого паперу, екологічний та стильний' },
+          { name: 'Планер', imageUrl: '/images/products/handmade/artisan-stationery/planner.jpg', description: 'Органайзер для записів і планування часу' },
+          { name: 'Міні-блокнот', imageUrl: '/images/products/handmade/artisan-stationery/mini-notebook.jpg', description: 'Компактний блокнот для сумки або кишені' },
+          { name: 'Набір листівок', imageUrl: '/images/products/handmade/artisan-stationery/postcard-set.jpg', description: 'Набір листівок для колекціонування чи подарунку' },
+          { name: 'Конверти хендмейд', imageUrl: '/images/products/handmade/artisan-stationery/handmade-envelopes.jpg', description: 'Унікальні конверти для особливих листів' },
+          { name: 'Паперові закладки', imageUrl: '/images/products/handmade/artisan-stationery/paper-bookmark.jpg', description: 'Стильні закладки для книг ручної роботи' },
         ]
       },
       {
@@ -1161,8 +1171,23 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/music-media.jpg',
         description: 'categories.handmade-crafted.subcategories.music-media.description',
         items: [
-          { name: 'Касети з гуртами', imageUrl: '/images/products/cassette.jpg', description: 'Альтернативна музика на фізичних носіях' },
-          { name: 'Вініли з локальними записями', imageUrl: '/images/products/vinyl.jpg', description: 'Музика місцевих виконавців' }
+          { name: 'Касети з гуртами', imageUrl: '/images/products/handmade/music-media/cassette.jpg', description: 'Альтернативна музика на фізичних носіях' },
+          { name: 'CD альбоми', imageUrl: '/images/products/handmade/music-media/cd-album.jpg', description: 'Локальні музиканти у компакт-дисках для колекції та подарунків' },
+          { name: 'Вінілові платівки', imageUrl: '/images/products/handmade/music-media/vinyl-record.jpg', description: 'Стильні вінілові записи з унікальним звучанням' },
+          { name: 'Джазові записи', imageUrl: '/images/products/handmade/music-media/jazz.jpg', description: 'Вибрані джазові композиції локальних виконавців' },
+          { name: 'Класична музика', imageUrl: '/images/products/handmade/music-media/classical.jpg', description: 'Твори класичних композиторів у виконанні локальних музикантів' },
+          { name: 'Дитячі пісні', imageUrl: '/images/products/handmade/music-media/kids.jpg', description: 'Веселі та освітні пісні для дітей' },
+          { name: 'Подкасти', imageUrl: '/images/products/handmade/music-media/podcast.jpg', description: 'Авторські аудіопроєкти та історії від локальних авторів' },
+          { name: 'Аудіокниги', imageUrl: '/images/products/handmade/music-media/audiobook.jpg', description: 'Цікаві історії та книги у форматі аудіо' },
+          { name: 'Електронна музика', imageUrl: '/images/products/handmade/music-media/electronic.jpg', description: 'Сучасні електронні треки від локальних продюсерів' },
+          { name: 'Фольк та етно', imageUrl: '/images/products/handmade/music-media/folk.jpg', description: 'Музика з народними мотивами та етнічними інструментами' },
+          { name: 'Live записи', imageUrl: '/images/products/handmade/music-media/live.jpg', description: 'Записи живих концертів та виступів' },
+          { name: 'Ремікси', imageUrl: '/images/products/handmade/music-media/remix.jpg', description: 'Авторські ремікси від локальних діджеїв та музикантів' },
+          { name: 'Саундтреки', imageUrl: '/images/products/handmade/music-media/soundtrack.jpg', description: 'Музика з локальних фільмів та театральних постановок' },
+          { name: 'Акустичні записи', imageUrl: '/images/products/handmade/music-media/acoustic.jpg', description: 'Теплі акустичні треки від локальних виконавців' },
+          { name: 'Онлайн-релізи', imageUrl: '/images/products/handmade/music-media/online-release.jpg', description: 'Ексклюзивні цифрові альбоми та сингли від локальних артистів' },
+          { name: 'Музичні збірки', imageUrl: '/images/products/handmade/music-media/compilation.jpg', description: 'Збірки треків різних авторів для насолоди та натхнення' },
+          { name: 'Сингли', imageUrl: '/images/products/handmade/music-media/single.jpg', description: 'Окремі пісні та композиції для колекції або прослуховування' }
         ]
       },
       {
@@ -1172,8 +1197,36 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/upcycled-products.jpg',
         description: 'categories.handmade-crafted.subcategories.upcycled-products.description',
         items: [
-          { name: 'Сумки з банерів', imageUrl: '/images/products/upcycled-bag.jpg', description: 'Стильні аксесуари з перероблених матеріалів' },
-          { name: 'Декор з винних пробок', imageUrl: '/images/products/cork-decor.jpg', description: 'Креативне перевикористання' }
+          { name: 'Сумки з банерів', imageUrl: '/images/products/handmade/upcycled-products/banner-bag.jpg', description: 'Яскраві та міцні сумки з рекламних банерів' },
+          { name: 'Декор з винних пробок', imageUrl: '/images/products/handmade/upcycled-products/cork-decor.jpg', description: 'Унікальні панно, підставки та аксесуари зі справжніх корків' },
+          { name: 'Гаманці зі шкіри', imageUrl: '/images/products/handmade/upcycled-products/leather-wallet.jpg', description: 'Міні-гаманці зі старої шкіри, стильні та довговічні' },
+          { name: 'Свічники зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-candle-holder.jpg', description: 'Оригінальні свічники зі старих пляшок та скляних предметів' },
+          { name: 'Килимки з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-rug.jpg', description: 'Теплі та яскраві килимки зі залишків тканин' },
+          { name: 'Подушки з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-pillow.jpg', description: 'М’які подушки з перероблених джинсів' },
+          { name: 'Меблі з піддонів', imageUrl: '/images/products/handmade/upcycled-products/pallet-furniture.jpg', description: 'Стільці, столи та полиці з дерев’яних піддонів' },
+          { name: 'Панно з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-panel.jpg', description: 'Декоративні панно та картини з вторинного дерева' },
+          { name: 'Аксесуари зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-accessory.jpg', description: 'Біжутерія та дрібні предмети зі старого скла' },
+          { name: 'Ювелірка з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-jewelry.jpg', description: 'Браслети, кулони та сережки з переробленого металу' },
+          { name: 'Скриньки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-box.jpg', description: 'Маленькі скриньки та органайзери з вторинного дерева' },
+          { name: 'Лампи зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-lamp.jpg', description: 'Світильники зі старих пляшок та банок' },
+          { name: 'Підставки під чашки', imageUrl: '/images/products/handmade/upcycled-products/coaster.jpg', description: 'Еко-підставки з деревини та тканини' },
+          { name: 'Кошики з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-basket.jpg', description: 'Практичні та стильні кошики з залишків тканин' },
+          { name: 'Подставки з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-stand.jpg', description: 'Функціональні та декоративні предмети з металу' },
+          { name: 'Картини з журналів', imageUrl: '/images/products/handmade/upcycled-products/magazine-art.jpg', description: 'Колажі та панно зі старих журналів' },
+          { name: 'Текстильні сумки', imageUrl: '/images/products/handmade/upcycled-products/textile-bag.jpg', description: 'Яскраві сумки з залишків тканин та крафт-матеріалів' },
+          { name: 'Набори для подарунків', imageUrl: '/images/products/handmade/upcycled-products/gift-set.jpg', description: 'Комплекти стильних речей з перероблених матеріалів' },
+          { name: 'Аксесуари з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-accessory.jpg', description: 'Браслети, сумочки та дрібні предмети з джинсу' },
+          { name: 'Скульптури з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-sculpture.jpg', description: 'Міні-скульптури та арт-об’єкти з переробленого металу' },
+          { name: 'Декор зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-decor.jpg', description: 'Стильні декоративні елементи зі старих скляних предметів' },
+          { name: 'Підставки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-stand.jpg', description: 'Практичні та красиві підставки для дому та офісу' },
+          { name: 'Магніти', imageUrl: '/images/products/handmade/upcycled-products/magnet.jpg', description: 'Невеликі магніти з вторинних матеріалів для прикрас холодильника' },
+          { name: 'Сумки з парасольок', imageUrl: '/images/products/handmade/upcycled-products/umbrella-bag.jpg', description: 'Яскраві сумки з перероблених парасольок' },
+          { name: 'Декор зі старих книг', imageUrl: '/images/products/handmade/upcycled-products/book-decor.jpg', description: 'Унікальні панно та предмети інтер’єру зі старих книг' },
+          { name: 'Текстильні підставки', imageUrl: '/images/products/handmade/upcycled-products/textile-coaster.jpg', description: 'Підставки під чашки та дрібні предмети з тканини' },
+          { name: 'Міні-сумки', imageUrl: '/images/products/handmade/upcycled-products/mini-bag.jpg', description: 'Компактні сумки з перероблених матеріалів для повсякденного використання' },
+          { name: 'Декор з бляшанок', imageUrl: '/images/products/handmade/upcycled-products/can-decor.jpg', description: 'Стильні та креативні предмети зі старих консервних банок' },
+          { name: 'Панно з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-panel.jpg', description: 'Декоративні панно з текстильних залишків' },
+          { name: 'Килимки з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-rug.jpg', description: 'Яскраві килимки з перероблених джинсів' }
         ]
       },
     ]
