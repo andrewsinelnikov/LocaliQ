@@ -909,6 +909,56 @@ export const categories: ICategory[] = [
         ]
       },
       {
+        name: 'categories.handmade-crafted.subcategories.pottery-ceramics.name',
+        slug: 'pottery-ceramics',
+        emoji: '🏺',
+        imageUrl: '/images/subcategories/handmade/pottery-ceramics.jpg',
+        description: 'categories.handmade-crafted.subcategories.pottery-ceramics.description',
+        items: [
+          { name: 'Чашки гончарні', imageUrl: '/images/products/ceramic-cup.jpg', description: 'Кожна — унікальна' },
+          { name: 'Глечики для води', imageUrl: '/images/products/ceramic-jug.jpg', description: 'Функціональний і декоративний посуд' }
+        ]
+      },
+      {
+        name: 'categories.handmade-crafted.subcategories.textiles-weaving.name',
+        slug: 'textiles-weaving',
+        emoji: '🧵🧣',
+        imageUrl: '/images/subcategories/handmade/textiles-weaving.jpg',
+        description: 'categories.handmade-crafted.subcategories.textiles-weaving.description',
+        items: [
+          { name: 'Лляні тканини', imageUrl: '/images/products/handmade/textiles-weaving/linen-fabric.jpg', description: 'Екологічні лляні тканини ручного ткацтва або локального виробництва' },
+          { name: 'Шовк натуральний', imageUrl: '/images/products/handmade/textiles-weaving/silk-fabric.jpg', description: 'Натуральний шовк ручного фарбування або без хімічної обробки' },
+          { name: 'Тканини з бавовни', imageUrl: '/images/products/handmade/textiles-weaving/cotton-fabric.jpg', description: 'Натуральні бавовняні тканини  для одягу та дому' },
+          { name: 'Вовняна тканина', imageUrl: '/images/products/handmade/textiles-weaving/wool-fabric.jpg', description: 'Тепле ткане полотно з вовни' },
+          { name: 'Ручноткані полотна', imageUrl: '/images/products/handmade/textiles-weaving/handwoven-textile.jpg', description: 'Авторські тканини, створені на ткацьких верстатах' },
+
+          { name: 'Рушники ткані', imageUrl: '/images/products/handmade/textiles-weaving/woven-towel.jpg', description: 'Традиційні рушники з орнаментами' },
+          { name: 'Скатертини хендмейд', imageUrl: '/images/products/handmade/textiles-weaving/woven-tablecloth.jpg', description: 'Натуральні скатертини для дому та свят' },
+          { name: 'Серветки ткані', imageUrl: '/images/products/handmade/textiles-weaving/woven-napkin.jpg', description: 'Ручне ткацтво з льону або бавовни' },
+          { name: 'Доріжки на стіл', imageUrl: '/images/products/handmade/textiles-weaving/table-runner.jpg', description: 'Ткані доріжки для сервірування' },
+          { name: 'Пледи та покривала', imageUrl: '/images/products/handmade/textiles-weaving/woven-blanket.jpg', description: 'Затишні ткані покривала' },
+          { name: 'Килимки ткані', imageUrl: '/images/products/handmade/textiles-weaving/woven-rug.jpg', description: 'Ткані килимки з натуральних волокон' },
+          { name: 'Настінні панно', imageUrl: '/images/products/handmade/textiles-weaving/wall-tapestry.jpg', description: 'Декоративний тканий текстиль' },
+          { name: 'Чохли для подушок', imageUrl: '/images/products/handmade/textiles-weaving/pillow-cover.jpg', description: 'Ручноткані чохли для декору' },
+
+          { name: 'Шарфи хендмейд', imageUrl: '/images/products/handmade/textiles-weaving/woven-scarf.jpg', description: 'Теплі та стильні шарфи' },
+          { name: 'Палантини', imageUrl: '/images/products/handmade/textiles-weaving/woven-shawl.jpg', description: 'Легкі ткані накидки' },
+          { name: 'Пончо ткане', imageUrl: '/images/products/handmade/textiles-weaving/woven-poncho.jpg', description: 'Одяг ручного ткацтва' },
+          { name: 'Ткані накидки', imageUrl: '/images/products/handmade/textiles-weaving/woven-wrap.jpg', description: 'Універсальні накидки з натуральної пряжі' },
+
+          { name: 'Ткані сумки', imageUrl: '/images/products/handmade/textiles-weaving/woven-bag.jpg', description: 'Екологічні сумки ручної роботи' },
+          { name: 'Еко-торбинки', imageUrl: '/images/products/handmade/textiles-weaving/eco-bag.jpg', description: 'Міцні ткані торбинки для покупок' },
+          { name: 'Рюкзаки ткані', imageUrl: '/images/products/handmade/textiles-weaving/woven-backpack.jpg', description: 'Функціональні рюкзаки з тканого полотна' },
+
+          { name: 'Пояси та крайки', imageUrl: '/images/products/handmade/textiles-weaving/woven-belt.jpg', description: 'Традиційні ткані пояси' },
+          { name: 'Ліжники', imageUrl: '/images/products/handmade/textiles-weaving/lizhnyk.jpg', description: 'Гуцульські вовняні покривала' },
+          { name: 'Килими традиційні', imageUrl: '/images/products/handmade/textiles-weaving/traditional-carpet.jpg', description: 'Орнаментальні ткані килими' },
+
+          { name: 'Ткані штори', imageUrl: '/images/products/handmade/textiles-weaving/woven-curtains.jpg', description: 'Натуральні штори ручного ткацтва' },
+          { name: 'Ткані серії для інтерʼєру', imageUrl: '/images/products/handmade/textiles-weaving/interior-textile-set.jpg', description: 'Комплекти тканого текстилю' },
+        ]
+      },
+      {
         name: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.name',
         slug: 'natural-dyes-fibers',
         emoji: '🧶🌱',
@@ -959,6 +1009,17 @@ export const categories: ICategory[] = [
         ]
       },
       {
+        name: 'categories.handmade-crafted.subcategories.jewelry.name',
+        slug: 'jewelry',
+        emoji: '💍',
+        imageUrl: '/images/subcategories/handmade/jewelry.jpg',
+        description: 'categories.handmade-crafted.subcategories.jewelry.description',
+        items: [
+          { name: 'Сережки з полімерної глини', imageUrl: '/images/products/polymer-earrings.jpg', description: 'Легкі та яскраві прикраси' },
+          { name: 'Браслети з натурального каменю', imageUrl: '/images/products/stone-bracelet.jpg', description: 'Енергетичні аксесуари' }
+        ]
+      },
+      {
         name: 'categories.handmade-crafted.subcategories.printed-materials.name',
         slug: 'printed-materials',
         emoji: '🖨️📚',
@@ -970,46 +1031,14 @@ export const categories: ICategory[] = [
         ]
       },
       {
-        name: 'categories.handmade-crafted.subcategories.upcycled-products.name',
-        slug: 'upcycled-products',
-        emoji: '🔁🧺',
-        imageUrl: '/images/subcategories/handmade/upcycled-products.jpg',
-        description: 'categories.handmade-crafted.subcategories.upcycled-products.description',
+        name: 'categories.handmade-crafted.subcategories.artisan-stationery.name',
+        slug: 'artisan-stationery',
+        emoji: '✉️📓',
+        imageUrl: '/images/subcategories/handmade/artisan-stationery.jpg',
+        description: 'categories.handmade-crafted.subcategories.artisan-stationery.description',
         items: [
-          { name: 'Сумки з банерів', imageUrl: '/images/products/upcycled-bag.jpg', description: 'Стильні аксесуари з перероблених матеріалів' },
-          { name: 'Декор з винних пробок', imageUrl: '/images/products/cork-decor.jpg', description: 'Креативне перевикористання' }
-        ]
-      },
-      {
-        name: 'categories.handmade-crafted.subcategories.pottery-ceramics.name',
-        slug: 'pottery-ceramics',
-        emoji: '🏺',
-        imageUrl: '/images/subcategories/handmade/pottery-ceramics.jpg',
-        description: 'categories.handmade-crafted.subcategories.pottery-ceramics.description',
-        items: [
-          { name: 'Чашки гончарні', imageUrl: '/images/products/ceramic-cup.jpg', description: 'Кожна — унікальна' },
-          { name: 'Глечики для води', imageUrl: '/images/products/ceramic-jug.jpg', description: 'Функціональний і декоративний посуд' }
-        ]
-      },
-      {
-        name: 'categories.handmade-crafted.subcategories.textiles-weaving.name',
-        slug: 'textiles-weaving',
-        emoji: '🧵🧣',
-        imageUrl: '/images/subcategories/handmade/textiles-weaving.jpg',
-        description: 'categories.handmade-crafted.subcategories.textiles-weaving.description',
-        items: [
-          { name: 'Лляні тканини', imageUrl: '/images/products/handmade/textiles-weaving/linen-fabric.jpg', description: 'Екологічні лляні тканини ручного ткацтва або локального виробництва' },
-          { name: 'Шовк натуральний', imageUrl: '/images/products/handmade/textiles-weaving/silk-fabric.jpg', description: 'Натуральний шовк ручного фарбування або без хімічної обробки' },
-          { name: 'Тканини з бавовни', imageUrl: '/images/products/handmade/textiles-weaving/cotton-fabric.jpg', description: 'Натуральні бавовняні тканини  для одягу та дому' },
-          { name: 'Вовняна тканина', imageUrl: '/images/products/handmade/textiles-weaving/wool-fabric.jpg', description: 'Тепле ткане полотно з вовни' },
-          { name: 'Ручноткані полотна', imageUrl: '/images/products/handmade/textiles-weaving/handwoven-textile.jpg', description: 'Авторські тканини, створені на ткацьких верстатах' },
-
-    { name: 'Тканина натурального фарбування', imageUrl: '/images/products/handmade/textiles-weaving/natural-dyed-fabric.jpg', description: 'Полотно, пофарбоване рослинними барвниками' },
-    { name: 'Домоткане полотно', imageUrl: '/images/products/handmade/textiles-weaving/homespun-fabric.jpg', description: 'Традиційне ткане полотно ручної роботи' },
-
-
-          { name: 'Плетені серветки', imageUrl: '/images/products/woven-napkin.jpg', description: 'З льону або бавовни' },
-          { name: 'Шарфи ручного ткацтва', imageUrl: '/images/products/woven-scarf.jpg', description: 'Теплі й стильні' }
+          { name: 'Записники з переробленого паперу', imageUrl: '/images/products/recycled-notebook.jpg', description: 'Крафтові обкладинки, ручна збірка' },
+          { name: 'Листівки аквареллю', imageUrl: '/images/products/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' }
         ]
       },
       {
@@ -1024,17 +1053,6 @@ export const categories: ICategory[] = [
         ]
       },
       {
-        name: 'categories.handmade-crafted.subcategories.jewelry.name',
-        slug: 'jewelry',
-        emoji: '💍',
-        imageUrl: '/images/subcategories/handmade/jewelry.jpg',
-        description: 'categories.handmade-crafted.subcategories.jewelry.description',
-        items: [
-          { name: 'Сережки з полімерної глини', imageUrl: '/images/products/polymer-earrings.jpg', description: 'Легкі та яскраві прикраси' },
-          { name: 'Браслети з натурального каменю', imageUrl: '/images/products/stone-bracelet.jpg', description: 'Енергетичні аксесуари' }
-        ]
-      },
-      {
         name: 'categories.handmade-crafted.subcategories.music-media.name',
         slug: 'music-media',
         emoji: '🎶📀',
@@ -1046,16 +1064,16 @@ export const categories: ICategory[] = [
         ]
       },
       {
-        name: 'categories.handmade-crafted.subcategories.artisan-stationery.name',
-        slug: 'artisan-stationery',
-        emoji: '✉️📓',
-        imageUrl: '/images/subcategories/handmade/artisan-stationery.jpg',
-        description: 'categories.handmade-crafted.subcategories.artisan-stationery.description',
+        name: 'categories.handmade-crafted.subcategories.upcycled-products.name',
+        slug: 'upcycled-products',
+        emoji: '🔁🧺',
+        imageUrl: '/images/subcategories/handmade/upcycled-products.jpg',
+        description: 'categories.handmade-crafted.subcategories.upcycled-products.description',
         items: [
-          { name: 'Записники з переробленого паперу', imageUrl: '/images/products/recycled-notebook.jpg', description: 'Крафтові обкладинки, ручна збірка' },
-          { name: 'Листівки аквареллю', imageUrl: '/images/products/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' }
+          { name: 'Сумки з банерів', imageUrl: '/images/products/upcycled-bag.jpg', description: 'Стильні аксесуари з перероблених матеріалів' },
+          { name: 'Декор з винних пробок', imageUrl: '/images/products/cork-decor.jpg', description: 'Креативне перевикористання' }
         ]
-      }
+      },
     ]
   },
   {

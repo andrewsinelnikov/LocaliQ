@@ -174,18 +174,6 @@
           "name": "Metalwork & Tools",
           "description": "Knives, custom tools, sculpture"
         },
-        "natural-dyes-fibers": {
-          "name": "Natural Dyes & Fibers",
-          "description": "Hand-dyed yarn, cloth, basketry"
-        },
-        "printed-materials": {
-          "name": "Printed Materials",
-          "description": "Zines, cards, calendars"
-        },
-        "upcycled-products": {
-          "name": "Upcycled Products",
-          "description": "Reclaimed fabric, wood, metal"
-        },
         "pottery-ceramics": {
           "name": "Pottery & Ceramics",
           "description": "Mugs, plates, decorative objects"
@@ -194,21 +182,33 @@
           "name": "Textiles & Weaving",
           "description": "Scarves, wall art, table linens"
         },
-        "fine-art-prints": {
-          "name": "Fine Art & Prints",
-          "description": "Paintings, block prints, digital art"
+        "natural-dyes-fibers": {
+          "name": "Natural Dyes & Fibers",
+          "description": "Hand-dyed yarn, cloth, basketry"
         },
         "jewelry": {
           "name": "Jewelry",
           "description": "Handmade metal, beads, natural stones"
         },
-        "music-media": {
-          "name": "Music & Media",
-          "description": "CDs, vinyl, local labels, online releases"
+        "printed-materials": {
+          "name": "Printed Materials",
+          "description": "Zines, cards, calendars"
         },
         "artisan-stationery": {
           "name": "Artisan Stationery",
           "description": "Handmade paper, journals, cards"
+        },
+        "fine-art-prints": {
+          "name": "Fine Art & Prints",
+          "description": "Paintings, block prints, digital art"
+        },
+        "music-media": {
+          "name": "Music & Media",
+          "description": "CDs, vinyl, local labels, online releases"
+        },
+        "upcycled-products": {
+          "name": "Upcycled Products",
+          "description": "Reclaimed fabric, wood, metal"
         }
       }
     },
