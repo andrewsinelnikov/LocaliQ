@@ -1001,8 +1001,6 @@ export const categories: ICategory[] = [
         description: 'categories.handmade-crafted.subcategories.natural-dyes-fibers.description',
         items: [
           // Натуральна пряжа
-          { name: 'Пряжа з кропиви', imageUrl: '/images/products/handmade/natural-dyes-fibers/nettle-yarn.jpg', description: 'Міцна та дихаюча пряжа з дикорослої кропиви' },
-          { name: 'Пряжа з конопель', imageUrl: '/images/products/handmade/natural-dyes-fibers/hemp-yarn.jpg', description: 'Екологічна пряжа з високою зносостійкістю' },
           { name: 'Пряжа з льону', imageUrl: '/images/products/handmade/natural-dyes-fibers/linen-yarn.jpg', description: 'Натуральна лляна пряжа для літніх виробів' },
           { name: 'Пряжа з бавовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/cotton-yarn.jpg', description: 'Мʼяка та приємна на дотик бавовняна пряжа' },
           { name: "Пряжа з шовку", imageUrl: "/images/products/handmade/natural-dyes-fibers/silk-yarn.jpg", description: "Натуральна шовкова пряжа для делікатних виробів" },
@@ -1010,6 +1008,8 @@ export const categories: ICategory[] = [
           { name: 'Козяча вовна (мохер)', imageUrl: '/images/products/handmade/natural-dyes-fibers/mohair-yarn.jpg', description: 'Мʼяка, легка та блискуча пряжа з козячої вовни' },
           { name: 'Пряжа з лами', imageUrl: '/images/products/handmade/natural-dyes-fibers/llama-yarn.jpg', description: 'Тепла натуральна пряжа з волокон лами' },
           { name: 'Пряжа з альпаки', imageUrl: '/images/products/handmade/natural-dyes-fibers/alpaca-yarn.jpg', description: 'Надзвичайно мʼяка та тепла натуральна пряжа' },
+          { name: 'Пряжа з кропиви', imageUrl: '/images/products/handmade/natural-dyes-fibers/nettle-yarn.jpg', description: 'Міцна та дихаюча пряжа з дикорослої кропиви' },
+          { name: 'Пряжа з конопель', imageUrl: '/images/products/handmade/natural-dyes-fibers/hemp-yarn.jpg', description: 'Екологічна пряжа з високою зносостійкістю' },
           { name: 'Ручного фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/hand-dyed-yarn.jpg', description: 'Авторська пряжа, пофарбована натуральними рослинними барвниками' },
           { name: 'Аксесуари з волокон', imageUrl: '/images/products/handmade/natural-dyes-fibers/fiber-accessories.jpg', description: 'Шнури, мотузки, стрічки з льону, джуту та конопель' },
           // Натуральні волокна          
