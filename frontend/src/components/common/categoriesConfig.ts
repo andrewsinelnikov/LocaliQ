@@ -1005,7 +1005,7 @@ export const categories: ICategory[] = [
           { name: 'Пряжа з бавовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/cotton-yarn.jpg', description: 'Натуральна мʼяка бавовняна пряжа, приємна до тіла та підходить навіть для чутливої шкіри' },
           { name: 'Пряжа з шовку', imageUrl: '/images/products/handmade/natural-dyes-fibers/silk-yarn.jpg', description: 'Розкішна натуральна шовкова пряжа з делікатним блиском для вишуканих і легких виробів' },
           { name: 'Пряжа з вовни', imageUrl: '/images/products/handmade/natural-dyes-fibers/wool-yarn.jpg', description: 'Класична тепла пряжа з овечої вовни, що дарує затишок, мʼякість і природне тепло' },
-          { name: 'Козяча вовна (мохер)', imageUrl: '/images/products/handmade/natural-dyes-fibers/mohair-yarn.jpg', description: 'Повітряна та пухнаста мохерова пряжа з ніжним блиском для легких і елегантних виробів' },
+          { name: 'Мохер (козяча вовна)', imageUrl: '/images/products/handmade/natural-dyes-fibers/mohair-yarn.jpg', description: 'Повітряна та пухнаста мохерова пряжа з ніжним блиском для легких і елегантних виробів' },
           { name: 'Пряжа з лами', imageUrl: '/images/products/handmade/natural-dyes-fibers/llama-yarn.jpg', description: 'Натуральна тепла пряжа з волокон лами — мʼяка, міцна та комфортна у носінні' },
           { name: 'Пряжа з альпаки', imageUrl: '/images/products/handmade/natural-dyes-fibers/alpaca-yarn.jpg', description: 'Надзвичайно мʼяка та тепла пряжа з альпаки з шовковистою текстурою і без подразнення' },
           { name: 'Пряжа з кропиви', imageUrl: '/images/products/handmade/natural-dyes-fibers/nettle-yarn.jpg', description: 'Міцна, екологічна та дихаюча пряжа з кропиви з природним характером' },
