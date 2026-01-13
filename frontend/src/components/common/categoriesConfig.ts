@@ -1025,9 +1025,9 @@ export const categories: ICategory[] = [
           { name: 'Сумішеве волокно', imageUrl: '/images/products/handmade/natural-dyes-fibers/blended-fiber.jpg', description: 'Поєднання вовни з льоном або коноплями' },    
           // Інструменти для прядіння та фарбування
           { name: 'Міні-прялка', imageUrl: '/images/products/handmade/natural-dyes-fibers/spinning-wheel.jpg', description: 'Компактна прялка для дому' },
+          { name: 'Веретено хендмейд', imageUrl: '/images/products/handmade/natural-dyes-fibers/spindle.jpg', description: 'Деревʼяне веретено для прядіння' },
           { name: 'Для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dyeing-kit.jpg', description: 'Комплекти для фарбування пряжі та тканин у домашніх умовах' },
-          { name: 'Веретено ручної роботи', imageUrl: '/images/products/handmade/natural-dyes-fibers/spindle.jpg', description: 'Деревʼяне веретено для прядіння' },
-          { name: 'Мішечки для фарбування', imageUrl: '/images/products/handmade/natural-dyes-fibers/dye-bags.jpg', description: 'Зручні для фарбування малих партій' },
+          { name: 'Мішечки', imageUrl: '/images/products/handmade/natural-dyes-fibers/dye-bags.jpg', description: 'Зручні для фарбування малих партій' },
           { name: 'Деревʼяна мішалка', imageUrl: '/images/products/handmade/natural-dyes-fibers/dye-stirrer.jpg', description: 'Для роботи з фарбувальними ваннами' },
           // Рослинні барвники
           { name: 'Рослинні барвники', imageUrl: '/images/products/handmade/natural-dyes-fibers/plant-dyes.jpg', description: 'Натуральні барвники з рослинної сировини' },
