@@ -1044,7 +1044,7 @@ export const categories: ICategory[] = [
           { name: 'Залізний купорос', imageUrl: '/images/products/handmade/natural-dyes-fibers/iron-mordant.jpg', description: 'Для затемнення та модифікації кольору' },
           { name: 'Мідний купорос', imageUrl: '/images/products/handmade/natural-dyes-fibers/copper-mordant.jpg', description: 'Для глибших зелених і синіх відтінків' },
           { name: 'Рослинні таніни', imageUrl: '/images/products/handmade/natural-dyes-fibers/tannins.jpg', description: 'Натуральні морданти з рослин' },
-          { name: 'Натуральне мило для пряжі', imageUrl: '/images/products/handmade/natural-dyes-fibers/yarn-soap.jpg', description: 'Делікатне очищення волокон' },
+          { name: 'Мило для пряжі', imageUrl: '/images/products/handmade/natural-dyes-fibers/yarn-soap.jpg', description: 'Делікатне очищення волокон' },
         ]
       },
       {
