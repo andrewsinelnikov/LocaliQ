@@ -968,7 +968,7 @@ export const categories: ICategory[] = [
           { name: 'Ручноткані полотна', imageUrl: '/images/products/handmade/textiles-weaving/handwoven-textile.jpg', description: 'Авторські тканини, створені на ткацьких верстатах' },
 
           { name: 'Рушники ткані', imageUrl: '/images/products/handmade/textiles-weaving/woven-towel.jpg', description: 'Традиційні рушники з орнаментами' },
-          { name: 'Скатертини хендмейд', imageUrl: '/images/products/handmade/textiles-weaving/woven-tablecloth.jpg', description: 'Натуральні скатертини для дому та свят' },
+          { name: 'Скатертини хендмейд', imageUrl: '/images/products/handmade/textiles-weaving/woven-tablecloth.jpg', description: 'Натуральні скатертини для дому' },
           { name: 'Серветки ткані', imageUrl: '/images/products/handmade/textiles-weaving/woven-napkin.jpg', description: 'Ручне ткацтво з льону або бавовни' },
           { name: 'Доріжки на стіл', imageUrl: '/images/products/handmade/textiles-weaving/table-runner.jpg', description: 'Ткані доріжки для сервірування' },
           { name: 'Пледи та покривала', imageUrl: '/images/products/handmade/textiles-weaving/woven-blanket.jpg', description: 'Затишні ткані покривала' },
