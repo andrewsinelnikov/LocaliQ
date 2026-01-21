@@ -988,6 +988,9 @@ export const categories: ICategory[] = [
           { name: 'Пояси та крайки', imageUrl: '/images/products/handmade/textiles-weaving/woven-belt.jpg', description: 'Традиційні ткані пояси' },
           { name: 'Ліжники', imageUrl: '/images/products/handmade/textiles-weaving/lizhnyk.jpg', description: 'Гуцульські вовняні покривала' },
           { name: 'Килими традиційні', imageUrl: '/images/products/handmade/textiles-weaving/traditional-carpet.jpg', description: 'Орнаментальні ткані килими' },
+          { name: 'Вовняні накидки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-wrap.jpg', description: 'Теплі накидки та пончо з овечої шерсті' },
+          { name: 'Вовняні доріжки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-runner.jpg', description: 'Теплі ткані доріжки для підлоги' },
+          { name: 'Cидіння та накладки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-seat-pad.jpg', description: 'Ткані накладки для стільців та лав' },    
 
           { name: 'Ткані штори', imageUrl: '/images/products/handmade/textiles-weaving/woven-curtains.jpg', description: 'Натуральні штори ручного ткацтва' },
           { name: 'Cерії для інтерʼєру', imageUrl: '/images/products/handmade/textiles-weaving/interior-textile-set.jpg', description: 'Комплекти тканого текстилю' },
