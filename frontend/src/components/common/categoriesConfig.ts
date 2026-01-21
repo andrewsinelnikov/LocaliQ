@@ -990,7 +990,7 @@ export const categories: ICategory[] = [
           { name: 'Килими традиційні', imageUrl: '/images/products/handmade/textiles-weaving/traditional-carpet.jpg', description: 'Орнаментальні ткані килими' },
 
           { name: 'Ткані штори', imageUrl: '/images/products/handmade/textiles-weaving/woven-curtains.jpg', description: 'Натуральні штори ручного ткацтва' },
-          { name: 'Ткані серії для інтерʼєру', imageUrl: '/images/products/handmade/textiles-weaving/interior-textile-set.jpg', description: 'Комплекти тканого текстилю' },
+          { name: 'Cерії для інтерʼєру', imageUrl: '/images/products/handmade/textiles-weaving/interior-textile-set.jpg', description: 'Комплекти тканого текстилю' },
         ]
       },
       {
