@@ -993,8 +993,12 @@ export const categories: ICategory[] = [
           { name: 'Cерії для інтерʼєру', imageUrl: '/images/products/handmade/textiles-weaving/interior-textile-set.jpg', description: 'Комплекти тканого текстилю' },
           
           { name: 'Вовняні накидки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-wrap.jpg', description: 'Теплі накидки та пончо з овечої шерсті' },
-          { name: 'Вовняні доріжки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-runner.jpg', description: 'Теплі ткані доріжки для підлоги' },
+          { name: 'Вовняні пледи', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-blanket.jpg', description: 'Затишні пледи з овечої шерсті для холодних вечорів' },
           { name: 'Cидіння та накладки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-seat-pad.jpg', description: 'Ткані накладки для стільців та лав' },    
+          { name: 'Вовняні подушки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-pillow.jpg', description: 'Мʼякі подушки з овечої шерсті для комфортного відпочинку' },
+          { name: 'Вовняні тапочки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-slippers.jpg', description: 'Теплі та зручні тапочки з овечої шерсті' },
+          { name: 'Вовняні доріжки', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-runner.jpg', description: 'Теплі ткані доріжки для підлоги' },
+          { name: 'Вовняні килими', imageUrl: '/images/products/handmade/textiles-weaving/sheep-wool-carpet.jpg', description: 'Мʼякі та теплі килими з овечої шерсті' },
         ]
       },
       {
