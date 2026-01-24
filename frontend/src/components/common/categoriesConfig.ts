@@ -916,8 +916,8 @@ export const categories: ICategory[] = [
         description: 'categories.handmade-crafted.subcategories.pottery-ceramics.description',
         items: [
           { name: 'Глиняні кухлі', imageUrl: '/images/products/handmade/pottery-ceramics/clay-mug.jpg', description: 'Теплі та зручні кухлі ручної роботи для ранкової кави або чаю' },
-          { name: 'Чашки гончарні', imageUrl: '/images/products/ceramic-cup.jpg', description: 'Кожна — унікальна' },
-          { name: 'Тарілки хендмейд', imageUrl: '/images/products/handmade/pottery-ceramics/handmade-plate.jpg', description: 'Натуральні глиняні тарілки, які перетворюють обід на свято' },
+          { name: 'Чашки гончарні', imageUrl: '/images/products/handmade/pottery-ceramics/ceramic-cup.jpg', description: 'Кожна — унікальна' },
+          { name: 'Тарілки хендмейд', imageUrl: '/images/products/handmade/pottery-ceramics/handmade-plate.jpg', description: 'Натуральні глиняні тарілки, які перетворюють обід на особливу подію' },
           { name: 'Склянки та стакани', imageUrl: '/images/products/handmade/pottery-ceramics/ceramic-glass.jpg', description: 'Керамічні стакани, ідеальні для напоїв будь-якого дня' },
           { name: 'Вазочки для квітів', imageUrl: '/images/products/handmade/pottery-ceramics/flower-vase.jpg', description: 'Стильні вазочки для свіжих та сухих квітів' },
           { name: 'Глечики для води', imageUrl: '/images/products/handmade/pottery-ceramics/water-pitcher.jpg', description: 'Функціональні та красиві глечики для щоденного використання' },
