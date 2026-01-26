@@ -933,7 +933,7 @@ export const categories: ICategory[] = [
           { name: 'Миски для фруктів', imageUrl: '/images/products/handmade/pottery-ceramics/fruit-bowl.jpg', description: 'Яскраві миски для фруктів та десертів' },
           { name: 'Соусники', imageUrl: '/images/products/handmade/pottery-ceramics/sauce-bowl.jpg', description: 'Маленькі мисочки для соусів та приправ' },
           { name: 'Керамічні шкатулки', imageUrl: '/images/products/handmade/pottery-ceramics/ceramic-box.jpg', description: 'Стильні скриньки для дрібничок та прикрас' },
-          { name: 'Настільні декори', imageUrl: '/images/products/handmade/pottery-ceramics/table-decor.jpg', description: 'Мініатюрні керамічні прикраси для дому та офісу' },
+          { name: 'Настільні декори', imageUrl: '/images/products/handmade/pottery-ceramics/table-decor.jpg', description: 'Керамічні прикраси для дому та офісу' },
           { name: 'Великі декоративні вази', imageUrl: '/images/products/handmade/pottery-ceramics/large-vase.jpg', description: 'Вражаючі вази, які прикрасять будь-який інтер’єр' },
           { name: 'Тарілки для суші', imageUrl: '/images/products/handmade/pottery-ceramics/sushi-plate.jpg', description: 'Елегантні плоскі тарілки для японської кухні' },
           
