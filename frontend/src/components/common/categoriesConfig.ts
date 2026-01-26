@@ -921,7 +921,7 @@ export const categories: ICategory[] = [
           { name: 'Склянки та стакани', imageUrl: '/images/products/handmade/pottery-ceramics/ceramic-glass.jpg', description: 'Керамічні стакани, ідеальні для напоїв будь-якого дня' },
           { name: 'Вазочки для квітів', imageUrl: '/images/products/handmade/pottery-ceramics/flower-vase.jpg', description: 'Стильні вазочки для свіжих та сухих квітів' },
           { name: 'Глечики для води', imageUrl: '/images/products/handmade/pottery-ceramics/water-pitcher.jpg', description: 'Функціональні та красиві глечики для щоденного використання' },
-          { name: 'Солонки та перечниці', imageUrl: '/images/products/handmade/pottery-ceramics/salt-pepper.jpg', description: 'Маленькі аксесуари, що роблять кухню особливою' },
+          { name: 'Для спецій', imageUrl: '/images/products/handmade/pottery-ceramics/salt-pepper.jpg', description: 'Маленькі аксесуари, що роблять кухню особливою' },
           { name: 'Посуд для запікання', imageUrl: '/images/products/handmade/pottery-ceramics/baking-dish.jpg', description: 'Глиняні форми для печі — натуральний спосіб приготування' },
           { name: 'Декоративні миски', imageUrl: '/images/products/handmade/pottery-ceramics/decorative-bowl.jpg', description: 'Миски, що поєднують функціональність та мистецтво' },
           { name: 'Салатниці', imageUrl: '/images/products/handmade/pottery-ceramics/salad-bowl.jpg', description: 'Ручна кераміка для сервірування та вечірніх салатів' },
