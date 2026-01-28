@@ -945,8 +945,6 @@ export const categories: ICategory[] = [
           { name: 'Декоративні панно', imageUrl: '/images/products/handmade/pottery-ceramics/decorative-tile.jpg', description: 'Керамічні плитки з розписом для декору стін' },
           { name: 'Для чайних свічок', imageUrl: '/images/products/handmade/pottery-ceramics/tea-light-holder.jpg', description: 'Мініатюрні свічники для затишної атмосфери' },
           { name: 'Керамічні підставки', imageUrl: '/images/products/handmade/pottery-ceramics/trivet.jpg', description: 'Стильні та практичні підставки для гарячого посуду' },
-          { name: 'Великі миски для салатів', imageUrl: '/images/products/handmade/pottery-ceramics/large-salad-bowl.jpg', description: 'Об’ємні миски для великих застіль та сервірування' },
-          { name: 'Глиняні набори для спецій', imageUrl: '/images/products/handmade/pottery-ceramics/spice-set.jpg', description: 'Комплекти баночок для спецій ручної роботи' },
           { name: 'Керамічні чайники', imageUrl: '/images/products/handmade/pottery-ceramics/teapot.jpg', description: 'Ручна робота — чайники для затишних вечорів' },
           { name: 'Мисочки для закусок', imageUrl: '/images/products/handmade/pottery-ceramics/snack-bowl.jpg', description: 'Ідеальні мисочки для горіхів, фруктів та закусок' },
           { name: 'Керамічні підставки для гарячих напоїв', imageUrl: '/images/products/handmade/pottery-ceramics/coaster.jpg', description: 'Стильні підставки для чашок та стаканів' },
