@@ -941,7 +941,6 @@ export const categories: ICategory[] = [
           { name: 'Для вершків', imageUrl: '/images/products/handmade/pottery-ceramics/creamer.jpg', description: 'Керамічні молочники для сніданку та кави' },
           { name: 'Супниці', imageUrl: '/images/products/handmade/pottery-ceramics/soup-bowl.jpg', description: 'Глиняні супниці для щоденних та особливих обідів' },
           { name: 'Тарілки десертні', imageUrl: '/images/products/handmade/pottery-ceramics/dessert-plate.jpg', description: 'Маленькі тарілки для солодощів та десертів' },
-          { name: 'Керамічні баночки для спецій', imageUrl: '/images/products/handmade/pottery-ceramics/spice-jar.jpg', description: 'Маленькі баночки для спецій, трав та чаїв' },
           { name: 'Керамічні ложки', imageUrl: '/images/products/handmade/pottery-ceramics/ceramic-spoon.jpg', description: 'Ручні ложки для сервірування та приготування' },
           { name: 'Декоративні панно', imageUrl: '/images/products/handmade/pottery-ceramics/decorative-tile.jpg', description: 'Керамічні плитки з розписом для декору стін' },
           { name: 'Глиняні свічники для чайних свічок', imageUrl: '/images/products/handmade/pottery-ceramics/tea-light-holder.jpg', description: 'Мініатюрні свічники для затишної атмосфери' },
