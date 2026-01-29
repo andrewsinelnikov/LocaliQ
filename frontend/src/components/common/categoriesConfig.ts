@@ -947,8 +947,8 @@ export const categories: ICategory[] = [
           { name: 'Керамічні підставки', imageUrl: '/images/products/handmade/pottery-ceramics/trivet.jpg', description: 'Стильні та практичні підставки для гарячого посуду' },
           { name: 'Керамічні чайники', imageUrl: '/images/products/handmade/pottery-ceramics/teapot.jpg', description: 'Ручна робота — чайники для затишних вечорів' },
           { name: 'Мисочки для закусок', imageUrl: '/images/products/handmade/pottery-ceramics/snack-bowl.jpg', description: 'Ідеальні мисочки для горіхів, фруктів та закусок' },
-          { name: 'Керамічні підставки для гарячих напоїв', imageUrl: '/images/products/handmade/pottery-ceramics/coaster.jpg', description: 'Стильні підставки для чашок та стаканів' },
-          { name: 'Великі декоративні глечики', imageUrl: '/images/products/handmade/pottery-ceramics/large-pitcher.jpg', description: 'Вражаючі глечики для сервірування та декору' },
+          { name: 'Для гарячих напоїв', imageUrl: '/images/products/handmade/pottery-ceramics/coaster.jpg', description: 'Стильні підставки для чашок та стаканів' },
+          { name: 'Великі глечики', imageUrl: '/images/products/handmade/pottery-ceramics/large-pitcher.jpg', description: 'Вражаючі глечики для сервірування та декору' },
         ]
       },
       {
