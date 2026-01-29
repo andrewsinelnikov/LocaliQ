@@ -1060,7 +1060,7 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/jewelry.jpg',
         description: 'categories.handmade-crafted.subcategories.jewelry.description',
         items: [
-          { name: 'Сережки з натуральних каменів', imageUrl: '/images/products/handmade/jewelry/stone-earrings.jpg', description: 'Яскраві сережки з автентичних каменів для вашого неповторного стилю' },
+          { name: 'Сережки з каменю', imageUrl: '/images/products/handmade/jewelry/stone-earrings.jpg', description: 'Яскраві сережки з автентичних каменів для вашого неповторного стилю' },
           { name: 'Браслети з бісеру', imageUrl: '/images/products/handmade/jewelry/beaded-bracelet.jpg', description: 'Веселі та кольорові браслети ручної роботи для будь-якого настрою' },
           { name: 'Металеві каблучки', imageUrl: '/images/products/handmade/jewelry/metal-ring.jpg', description: 'Тонка робота з металу — каблучки, що підкреслюють індивідуальність' },
           { name: 'Кольє з натуральних каменів', imageUrl: '/images/products/handmade/jewelry/stone-necklace.jpg', description: 'Елегантне кольє з натуральними каменями для будь-якого образу' },
