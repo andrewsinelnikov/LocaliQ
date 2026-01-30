@@ -1064,10 +1064,9 @@ export const categories: ICategory[] = [
           { name: 'Сережки з каменю', imageUrl: '/images/products/handmade/jewelry/stone-earrings.jpg', description: 'Яскраві сережки з автентичних каменів для вашого неповторного стилю' },
           { name: 'Браслети з бісеру', imageUrl: '/images/products/handmade/jewelry/beaded-bracelet.jpg', description: 'Веселі та кольорові браслети ручної роботи для будь-якого настрою' },
           { name: 'Каблучки хендмейд', imageUrl: '/images/products/handmade/jewelry/ring.jpg', description: 'Тонка робота з металу — каблучки, що підкреслюють індивідуальність' },
-          { name: 'Сережки-кільця', imageUrl: '/images/products/handmade/jewelry/hoop-earrings.jpg', description: 'Класичні сережки-кільця з авторським дизайном' },
-          { name: 'Браслети зі шкіри', imageUrl: '/images/products/handmade/jewelry/leather-bracelet.jpg', description: 'Міцні та стильні браслети зі шкіри ручної роботи' },
           { name: 'Каблучки з дерева', imageUrl: '/images/products/handmade/jewelry/wood-ring.jpg', description: 'Теплі та природні каблучки з натурального дерева' },
-          { name: 'Сережки з металевим декором', imageUrl: '/images/products/handmade/jewelry/metal-earrings.jpg', description: 'Ручна робота з металу для особливого акценту у вашому образі' },
+          { name: 'Сережки хендмейд', imageUrl: '/images/products/handmade/jewelry/earrings.jpg', description: 'Ручна робота з металу для особливого акценту у вашому образі' },
+          { name: 'Сережки-кільця', imageUrl: '/images/products/handmade/jewelry/hoop-earrings.jpg', description: 'Класичні сережки-кільця з авторським дизайном' },
           { name: 'Кольє-браслет сет', imageUrl: '/images/products/handmade/jewelry/necklace-bracelet-set.jpg', description: 'Стильні набори кольє та браслета, що доповнюють один одного' },
           { name: 'Підвіски на шию', imageUrl: '/images/products/handmade/jewelry/pendant-necklace.jpg', description: 'Натуральні матеріали та авторський дизайн у кожній підвісці' },
 
