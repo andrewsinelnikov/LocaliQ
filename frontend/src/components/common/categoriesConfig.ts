@@ -1062,8 +1062,10 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Кольє-браслет сет', imageUrl: '/images/products/handmade/jewelry/necklace-bracelet-set.jpg', description: 'Стильні набори кольє та браслета, що доповнюють один одного' },
           { name: 'Кольє з каменю', imageUrl: '/images/products/handmade/jewelry/stone-necklace.jpg', description: 'Елегантне кольє з натуральними каменями для будь-якого образу' },
+          { name: 'Кольє з дерева', imageUrl: '/images/products/handmade/jewelry/wood-necklace.jpg', description: 'Природні матеріали для стильного та натурального образу' },
           { name: 'Сережки хендмейд', imageUrl: '/images/products/handmade/jewelry/earrings.jpg', description: 'Ручна робота з металу для особливого акценту у вашому образі' },
           { name: 'Сережки-кільця', imageUrl: '/images/products/handmade/jewelry/hoop-earrings.jpg', description: 'Класичні сережки-кільця з авторським дизайном' },
+          { name: 'Сережки-стіллети', imageUrl: '/images/products/handmade/jewelry/dangle-earrings.jpg', description: 'Довгі сережки, що додають витонченості та грації' },
           { name: 'Сережки з каменю', imageUrl: '/images/products/handmade/jewelry/stone-earrings.jpg', description: 'Яскраві сережки з автентичних каменів для вашого неповторного стилю' },
           { name: 'Сережки з бісеру', imageUrl: '/images/products/handmade/jewelry/beaded-earrings.jpg', description: 'Маленькі шедеври ручної роботи для щоденного носіння' },
           { name: 'Каблучки хендмейд', imageUrl: '/images/products/handmade/jewelry/ring.jpg', description: 'Тонка робота з металу — каблучки, що підкреслюють індивідуальність' },
@@ -1073,9 +1075,7 @@ export const categories: ICategory[] = [
           { name: 'Підвіски на шию', imageUrl: '/images/products/handmade/jewelry/pendant-necklace.jpg', description: 'Натуральні матеріали та авторський дизайн у кожній підвісці' },
 
           { name: 'Брошки хендмейд', imageUrl: '/images/products/handmade/jewelry/brooch.jpg', description: 'Авторські брошки для додаткового шарму образу' },
-          { name: 'Сережки-стіллети', imageUrl: '/images/products/handmade/jewelry/dangle-earrings.jpg', description: 'Довгі сережки, що додають витонченості та грації' },
-          { name: 'Кольє з дерев’яними елементами', imageUrl: '/images/products/handmade/jewelry/wood-necklace.jpg', description: 'Природні матеріали для стильного та натурального образу' },
-          { name: 'Браслети з натуральних каменів', imageUrl: '/images/products/handmade/jewelry/stone-bracelet.jpg', description: 'Енергетика каменів у кожному браслеті ручної роботи' },
+          { name: 'Браслети з каменю', imageUrl: '/images/products/handmade/jewelry/stone-bracelet.jpg', description: 'Енергетика каменів у кожному браслеті ручної роботи' },
           { name: 'Сережки з перлами', imageUrl: '/images/products/handmade/jewelry/pearl-earrings.jpg', description: 'Класика, яка завжди в моді — сережки з натуральними перлами' },
           { name: 'Металеві підвіски', imageUrl: '/images/products/handmade/jewelry/metal-pendant.jpg', description: 'Стильні підвіски для унікального образу' },
           { name: 'Каблучки з гравіюванням', imageUrl: '/images/products/handmade/jewelry/engraved-ring.jpg', description: 'Індивідуальні каблучки з ручним гравіюванням' },
