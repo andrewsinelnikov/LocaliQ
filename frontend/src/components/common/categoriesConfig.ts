@@ -1070,6 +1070,7 @@ export const categories: ICategory[] = [
           { name: 'Сережки з перлами', imageUrl: '/images/products/handmade/jewelry/pearl-earrings.jpg', description: 'Класика, яка завжди в моді — сережки з натуральними перлами' },
           { name: 'Сережки з кераміки', imageUrl: '/images/products/handmade/jewelry/ceramic-earrings.jpg', description: 'Керамічні сережки, що додають кольору та текстури образу' },
           { name: 'З полімерної глини', imageUrl: '/images/products/handmade/jewelry/polymer-clay-earrings.jpg', description: 'Яскраві та легкі сережки з авторської полімерної глини' },
+          { name: 'Сережки з авторським розписом', imageUrl: '/images/products/handmade/jewelry/painted-earrings.jpg', description: 'Кожна пара сережок — маленький витвір мистецтва' },
           { name: 'Сережки з бісеру', imageUrl: '/images/products/handmade/jewelry/beaded-earrings.jpg', description: 'Маленькі шедеври ручної роботи для щоденного носіння' },
           { name: 'Каблучки хендмейд', imageUrl: '/images/products/handmade/jewelry/ring.jpg', description: 'Тонка робота з металу — каблучки, що підкреслюють індивідуальність' },
           { name: 'Каблучки з каменем', imageUrl: '/images/products/handmade/jewelry/gemstone-ring.jpg', description: 'Каблучки з натуральним каменем — символ індивідуальності' },
@@ -1078,12 +1079,11 @@ export const categories: ICategory[] = [
           { name: 'Браслети з бісеру', imageUrl: '/images/products/handmade/jewelry/beaded-bracelet.jpg', description: 'Веселі та кольорові браслети ручної роботи для будь-якого настрою' },
           { name: 'Браслети з каменю', imageUrl: '/images/products/handmade/jewelry/stone-bracelet.jpg', description: 'Енергетика каменів у кожному браслеті ручної роботи' },
           { name: 'Підвіски на шию', imageUrl: '/images/products/handmade/jewelry/pendant-necklace.jpg', description: 'Натуральні матеріали та авторський дизайн у кожній підвісці' },
+          { name: 'Підвіски з натуральних каменів', imageUrl: '/images/products/handmade/jewelry/stone-pendant.jpg', description: 'Натуральні камені для унікальної та персональної прикраси' },
 
           { name: 'Брошки хендмейд', imageUrl: '/images/products/handmade/jewelry/brooch.jpg', description: 'Авторські брошки для додаткового шарму образу' },
 
-          { name: 'Браслети з тканини та бісеру', imageUrl: '/images/products/handmade/jewelry/fabric-beaded-bracelet.jpg', description: 'М’які браслети з поєднанням текстилю та бісеру' },
-          { name: 'Підвіски з натуральних каменів', imageUrl: '/images/products/handmade/jewelry/stone-pendant.jpg', description: 'Натуральні камені для унікальної та персональної прикраси' },
-          { name: 'Сережки з авторським розписом', imageUrl: '/images/products/handmade/jewelry/painted-earrings.jpg', description: 'Кожна пара сережок — маленький витвір мистецтва' },
+          
           { name: 'Каблучки з інкрустацією', imageUrl: '/images/products/handmade/jewelry/inlaid-ring.jpg', description: 'Ретельна ручна робота з інкрустацією каменів та металу' },
           { name: 'Браслети з шкіряними вставками', imageUrl: '/images/products/handmade/jewelry/leather-inlay-bracelet.jpg', description: 'Міцні та стильні браслети з натуральної шкіри та металу' },
           { name: 'Сережки-гвіздки', imageUrl: '/images/products/handmade/jewelry/stud-earrings.jpg', description: 'Мініатюрні та елегантні сережки для повсякденного носіння' },
