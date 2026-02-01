@@ -1077,8 +1077,7 @@ export const categories: ICategory[] = [
           { name: 'Підвіски на шию', imageUrl: '/images/products/handmade/jewelry/pendant-necklace.jpg', description: 'Натуральні матеріали та авторський дизайн у кожній підвісці' },
 
           { name: 'Брошки хендмейд', imageUrl: '/images/products/handmade/jewelry/brooch.jpg', description: 'Авторські брошки для додаткового шарму образу' },
-          { name: 'Металеві підвіски', imageUrl: '/images/products/handmade/jewelry/metal-pendant.jpg', description: 'Стильні підвіски для унікального образу' },
-          { name: 'Каблучки з гравіюванням', imageUrl: '/images/products/handmade/jewelry/engraved-ring.jpg', description: 'Індивідуальні каблучки з ручним гравіюванням' },
+          { name: 'З гравіюванням', imageUrl: '/images/products/handmade/jewelry/engraved-ring.jpg', description: 'Індивідуальні каблучки з ручним гравіюванням' },
           { name: 'Сережки з кераміки', imageUrl: '/images/products/handmade/jewelry/ceramic-earrings.jpg', description: 'Керамічні сережки, що додають кольору та текстури образу' },
 
           { name: 'Сережки з полімерної глини', imageUrl: '/images/products/handmade/jewelry/polymer-clay-earrings.jpg', description: 'Яскраві та легкі сережки з авторської полімерної глини' },
