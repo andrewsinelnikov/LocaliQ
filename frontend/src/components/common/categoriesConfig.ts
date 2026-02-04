@@ -1076,7 +1076,7 @@ export const categories: ICategory[] = [
           { name: 'Сережки з перлами', imageUrl: '/images/products/handmade/jewelry/pearl-earrings.jpg', description: 'Класика, яка завжди в моді — сережки з натуральними перлами' },
           { name: 'Сережки з кераміки', imageUrl: '/images/products/handmade/jewelry/ceramic-earrings.jpg', description: 'Керамічні сережки, що додають кольору та текстури образу' },
           { name: 'З полімерної глини', imageUrl: '/images/products/handmade/jewelry/polymer-clay-earrings.jpg', description: 'Яскраві та легкі сережки з авторської полімерної глини' },
-          { name: 'З авторським розписом', imageUrl: '/images/products/handmade/jewelry/painted-earrings.jpg', description: 'Кожна пара сережок — маленький витвір мистецтва' },
+          { name: 'З розписом', imageUrl: '/images/products/handmade/jewelry/painted-earrings.jpg', description: 'Кожна пара сережок — маленький витвір мистецтва' },
           { name: 'Сережки з бісеру', imageUrl: '/images/products/handmade/jewelry/beaded-earrings.jpg', description: 'Маленькі шедеври ручної роботи для щоденного носіння' },
           { name: 'Каблучки хендмейд', imageUrl: '/images/products/handmade/jewelry/ring.jpg', description: 'Тонка робота з металу — каблучки, що підкреслюють індивідуальність' },
           { name: 'Каблучки з перлів', imageUrl: '/images/products/handmade/jewelry/pearl-ring.jpg', description: 'Ніжні каблучки з натуральних перлів для особливих образів' },
@@ -1093,9 +1093,9 @@ export const categories: ICategory[] = [
           { name: 'Запонки хендмейд', imageUrl: '/images/products/handmade/jewelry/cufflinks.jpg', description: 'Авторські запонки з металу, дерева або каменю для елегантного образу' },
           { name: 'Бутоньєрка', imageUrl: '/images/products/handmade/jewelry/lapel-brooch.jpg', description: 'Лацканна брошка ручної роботи для піджака або костюма' },
           { name: 'Зажими для галстука', imageUrl: '/images/products/handmade/jewelry/tie-clip.jpg', description: 'Мінімалістичні зажими для галстука ручної роботи' },
-          { name: 'Ланцюжки ручної роботи', imageUrl: '/images/products/handmade/jewelry/mens-chain.jpg', description: 'Міцні та стильні ланцюжки, створені вручну' },
           { name: 'Брелоки хендмейд', imageUrl: '/images/products/handmade/jewelry/handmade-keychain.jpg', description: 'Унікальні брелоки ручної роботи для ваших ключів' },
           { name: 'Чоловічі браслети', imageUrl: '/images/products/handmade/jewelry/mens-bracelet.jpg', description: 'Стильні браслети з каменю, шкіри та металу для чоловіків' },
+          { name: 'Ланцюжки хендмейд', imageUrl: '/images/products/handmade/jewelry/mens-chain.jpg', description: 'Міцні та стильні ланцюжки, створені вручну' },
         ]
       },
       {
