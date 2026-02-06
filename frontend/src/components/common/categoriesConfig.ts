@@ -1108,7 +1108,7 @@ export const categories: ICategory[] = [
           { name: 'Авторські збірки', imageUrl: '/images/products/handmade/printed-materials/zine-collection.jpg', description: 'Малі тиражі, локальні автори. Маленькі видання з ілюстраціями, текстами та творчими історіями' },
           { name: 'Ручна ліногравюра', imageUrl: '/images/products/handmade/printed-materials/linocut.jpg', description: 'Унікальні гравюри, вирізані та надруковані вручну' },
           { name: 'Листівки', imageUrl: '/images/products/handmade/printed-materials/postcard.jpg', description: 'Авторські листівки для друзів і колекціонування' },
-          { name: 'Листівки з рослинами', imageUrl: '/images/products/handmade/printed-materials/plant-postcard.jpg', description: 'Натуральні мотиви та стильні ілюстрації' },
+          { name: 'З рослинами', imageUrl: '/images/products/handmade/printed-materials/plant-postcard.jpg', description: 'Натуральні мотиви та стильні ілюстрації' },
           { name: 'Постери', imageUrl: '/images/products/handmade/printed-materials/poster.jpg', description: 'Яскраві плакати для дому, офісу чи студії' },
           { name: 'Постери з цитатами', imageUrl: '/images/products/handmade/printed-materials/quote-poster.jpg', description: 'Мотивуючі цитати у красивому графічному оформленні' },
           { name: 'Календарі', imageUrl: '/images/products/handmade/printed-materials/calendar.jpg', description: 'Настінні та настільні календарі з оригінальним дизайном' },
