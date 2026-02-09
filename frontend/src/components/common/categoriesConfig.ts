@@ -1130,7 +1130,7 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/artisan-stationery.jpg',
         description: 'categories.handmade-crafted.subcategories.artisan-stationery.description',
         items: [
-          { name: 'Листівки аквареллю', imageUrl: '/images/products/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' },
+          { name: 'Листівки аквареллю', imageUrl: '/images/products/handmade/artisan-stationery/watercolor-postcard.jpg', description: 'Кожна — унікальна робота' },
           { name: 'Записники з переробленого паперу', imageUrl: '/images/products/handmade/artisan-stationery/recycled-notebook.jpg', description: 'Еко-блокнот для записів і творчості' },
           { name: 'Блокнот ручної роботи', imageUrl: '/images/products/handmade/artisan-stationery/handmade-notebook.jpg', description: 'Крафтовий блокнот з унікальним дизайном' },
           { name: 'Щоденник', imageUrl: '/images/products/handmade/artisan-stationery/journal.jpg', description: 'Стильний щоденник для планування та нотаток' },
