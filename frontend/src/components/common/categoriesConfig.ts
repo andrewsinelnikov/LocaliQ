@@ -1124,7 +1124,6 @@ export const categories: ICategory[] = [
           { name: 'Крафтовий папір', imageUrl: '/images/products/handmade/artisan-stationery/craft-paper.jpg', description: 'Папір для листів та творчих проєктів' },
           { name: 'Конверти хендмейд', imageUrl: '/images/products/handmade/artisan-stationery/handmade-envelopes.jpg', description: 'Унікальні конверти для особливих листів' },
           { name: 'Паперові закладки', imageUrl: '/images/products/handmade/artisan-stationery/paper-bookmark.jpg', description: 'Стильні закладки для книг ручної роботи' },
-
           { name: 'Арт-карти', imageUrl: '/images/products/handmade/artisan-stationery/art-cards.jpg', description: 'Міні-картини та арт-карти для декору та подарунків' },
           { name: 'Календарі', imageUrl: '/images/products/handmade/artisan-stationery/calendar.jpg', description: 'Настінні та настільні календарі з оригінальним дизайном' },
           { name: 'Постери', imageUrl: '/images/products/handmade/artisan-stationery/poster.jpg', description: 'Яскраві плакати для дому, офісу чи студії' },
