@@ -190,13 +190,9 @@
           "name": "Jewelry",
           "description": "Handmade metal, beads, natural stones"
         },
-        "printed-materials": {
-          "name": "Printed Materials",
-          "description": "Zines, cards, calendars"
-        },
         "artisan-stationery": {
           "name": "Artisan Stationery",
-          "description": "Handmade paper, journals, cards"
+          "description": "Handmade paper, journals, cards, zines, calendars"
         },
         "fine-art-prints": {
           "name": "Fine Art & Prints",
