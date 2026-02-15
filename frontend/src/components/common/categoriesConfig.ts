@@ -1154,10 +1154,16 @@ export const categories: ICategory[] = [
           { name: 'Серія принтів', imageUrl: '/images/products/handmade/fine-art-prints/print-series.jpg', description: 'Набір з декількох принтів для стильної композиції на стіні' },
           { name: 'Лімітоване видання', imageUrl: '/images/products/handmade/fine-art-prints/limited-edition.jpg', description: 'Унікальні лімітовані принти для справжніх цінителів мистецтва' },
 
+          { name: 'Міський пейзаж', imageUrl: '/images/products/handmade/fine-art-prints/cityscape.jpg', description: 'Архітектура, вулиці та урбаністичні сюжети у художньому виконанні' },
+          { name: 'Ботанічні ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/botanical.jpg', description: 'Рослини, квіти та гербарні мотиви у витонченому мистецькому стилі' },
+          { name: 'Сюрреалізм', imageUrl: '/images/products/handmade/fine-art-prints/surrealism.jpg', description: 'Фантазійні та символічні композиції з елементами уяви та сновидінь' },
+          { name: 'Морські пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/marina.jpg', description: 'Морські пейзажі з хвилями, кораблями та прибережними мотивами' },
+          { name: 'Історичний жанр', imageUrl: '/images/products/handmade/fine-art-prints/historical.jpg', description: 'Сюжети з історичними подіями та постатями' },
+          { name: 'Концептуальне мистецтво', imageUrl: '/images/products/handmade/fine-art-prints/conceptual.jpg', description: 'Роботи з глибокою ідеєю та символічним змістом' },
+
           { name: 'Міні-принти', imageUrl: '/images/products/handmade/fine-art-prints/mini-print.jpg', description: 'Маленькі принти для декоративних композицій' },
           { name: 'Ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/illustration.jpg', description: 'Авторські ілюстрації в різних стилях та техніках' },
           { name: 'Лінійні малюнки', imageUrl: '/images/products/handmade/fine-art-prints/line-art.jpg', description: 'Чисті лінії та мінімалістичний стиль для сучасного інтер’єру' },
-          { name: 'Цифрове мистецтво', imageUrl: '/images/products/handmade/fine-art-prints/digital-art.jpg', description: 'Сучасні цифрові твори мистецтва, надруковані на якісному папері' },
         ]
       },
       {
