@@ -1156,10 +1156,10 @@ export const categories: ICategory[] = [
 
           { name: 'Міський пейзаж', imageUrl: '/images/products/handmade/fine-art-prints/cityscape.jpg', description: 'Архітектура, вулиці та урбаністичні сюжети у художньому виконанні' },
           { name: 'Ботанічні ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/botanical.jpg', description: 'Рослини, квіти та гербарні мотиви у витонченому мистецькому стилі' },
-          { name: 'Сюрреалізм', imageUrl: '/images/products/handmade/fine-art-prints/surrealism.jpg', description: 'Фантазійні та символічні композиції з елементами уяви та сновидінь' },
+          { name: 'Сюрреалізм', imageUrl: '/images/products/handmade/fine-art-prints/surrealism.jpg', description: 'Фантазійні та символічні композиції з елементами уяви' },
           { name: 'Морські пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/marina.jpg', description: 'Морські пейзажі з хвилями, кораблями та прибережними мотивами' },
-          { name: 'Історичний жанр', imageUrl: '/images/products/handmade/fine-art-prints/historical.jpg', description: 'Сюжети з історичними подіями та постатями' },
-          { name: 'Концептуальне мистецтво', imageUrl: '/images/products/handmade/fine-art-prints/conceptual.jpg', description: 'Роботи з глибокою ідеєю та символічним змістом' },
+          { name: 'Історичний жанр', imageUrl: '/images/products/handmade/fine-art-prints/historical.jpg', description: 'Сюжети з історичними подіями' },
+          { name: 'Концептуалізм', imageUrl: '/images/products/handmade/fine-art-prints/conceptual.jpg', description: 'Роботи з глибокою ідеєю та символічним змістом' },
 
           { name: 'Міні-принти', imageUrl: '/images/products/handmade/fine-art-prints/mini-print.jpg', description: 'Маленькі принти для декоративних композицій' },
           { name: 'Ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/illustration.jpg', description: 'Авторські ілюстрації в різних стилях та техніках' },
