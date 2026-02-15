@@ -909,6 +909,36 @@ export const categories: ICategory[] = [
         ]
       },
       {
+        name: 'categories.handmade-crafted.subcategories.fine-art-prints.name',
+        slug: 'fine-art-prints',
+        emoji: '🎨🖼️',
+        imageUrl: '/images/subcategories/handmade/fine-art-prints.jpg',
+        description: 'categories.handmade-crafted.subcategories.fine-art-prints.description',
+        items: [
+          { name: 'Портрети', imageUrl: '/images/products/handmade/fine-art-prints/portrait.jpg', description: 'Авторські портрети в сучасному або класичному стилі' },
+          { name: 'Пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/landscape.jpg', description: 'Картини та принти з красивими природними мотивами' },
+          { name: 'Анімалістика', imageUrl: '/images/products/handmade/fine-art-prints/animals.jpg', description: 'Малюнки та принти з тваринами у різних стилях' },
+          { name: 'Натюрморти', imageUrl: '/images/products/handmade/fine-art-prints/still-life.jpg', description: 'Класичні та сучасні натюрморти для дому та офісу' },
+          { name: 'Історичний жанр', imageUrl: '/images/products/handmade/fine-art-prints/historical.jpg', description: 'Сюжети з історичними подіями' },
+          { name: 'Міський пейзаж', imageUrl: '/images/products/handmade/fine-art-prints/cityscape.jpg', description: 'Архітектура, вулиці та урбаністичні сюжети у художньому виконанні' },
+          { name: 'Ботанічні ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/botanical.jpg', description: 'Рослини, квіти та гербарні мотиви у витонченому мистецькому стилі' },
+          { name: 'Морські пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/marina.jpg', description: 'Морські пейзажі з хвилями, кораблями та прибережними мотивами' },
+          { name: 'Міні-картина', imageUrl: '/images/products/handmade/fine-art-prints/mini-painting.jpg', description: 'Компактні твори мистецтва для маленьких приміщень' },
+          { name: 'Гравюра', imageUrl: '/images/products/handmade/fine-art-prints/engraving.jpg', description: 'Ретельно створена гравюра для колекціонерів та декору' },
+          { name: 'Абстракції', imageUrl: '/images/products/handmade/fine-art-prints/abstract.jpg', description: 'Сучасне абстрактне мистецтво для яскравого акценту в інтер’єрі' },
+          { name: 'Концептуалізм', imageUrl: '/images/products/handmade/fine-art-prints/conceptual.jpg', description: 'Роботи з глибокою ідеєю та символічним змістом' },
+          { name: 'Арт-постер', imageUrl: '/images/products/handmade/fine-art-prints/art-poster.jpg', description: 'Яскравий постер з авторською ілюстрацією' },
+          { name: 'Постер з аквареллю', imageUrl: '/images/products/handmade/fine-art-prints/watercolor-poster.jpg', description: 'Ніжні акварельні мотиви для декору дому' },
+          { name: 'Цифровий принт', imageUrl: '/images/products/handmade/fine-art-prints/digital-print.jpg', description: 'Сучасне цифрове мистецтво, надруковане на якісному папері' },
+          { name: 'Серія принтів', imageUrl: '/images/products/handmade/fine-art-prints/print-series.jpg', description: 'Набір з декількох принтів для стильної композиції на стіні' },
+          { name: 'Лімітоване видання', imageUrl: '/images/products/handmade/fine-art-prints/limited-edition.jpg', description: 'Унікальні лімітовані принти для справжніх цінителів мистецтва' },
+
+          { name: 'Міні-принти', imageUrl: '/images/products/handmade/fine-art-prints/mini-print.jpg', description: 'Маленькі принти для декоративних композицій' },
+          { name: 'Ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/illustration.jpg', description: 'Авторські ілюстрації в різних стилях та техніках' },
+          { name: 'Лінійні малюнки', imageUrl: '/images/products/handmade/fine-art-prints/line-art.jpg', description: 'Чисті лінії та мінімалістичний стиль для сучасного інтер’єру' },
+        ]
+      },
+      {
         name: 'categories.handmade-crafted.subcategories.pottery-ceramics.name',
         slug: 'pottery-ceramics',
         emoji: '🏺',
@@ -1132,38 +1162,6 @@ export const categories: ICategory[] = [
           { name: 'Постери для дітей', imageUrl: '/images/products/handmade/artisan-stationery/kids-poster.jpg', description: 'Веселі та кольорові плакати для дитячої кімнати' },
           { name: 'Наклейки', imageUrl: '/images/products/handmade/artisan-stationery/stickers.jpg', description: 'Яскраві та стильні наклейки ручної роботи' },
           { name: 'Магніти', imageUrl: '/images/products/handmade/artisan-stationery/magnet.jpg', description: 'Невеликі магніти з авторськими ілюстраціями' },
-        ]
-      },
-      {
-        name: 'categories.handmade-crafted.subcategories.fine-art-prints.name',
-        slug: 'fine-art-prints',
-        emoji: '🎨🖼️',
-        imageUrl: '/images/subcategories/handmade/fine-art-prints.jpg',
-        description: 'categories.handmade-crafted.subcategories.fine-art-prints.description',
-        items: [
-          { name: 'Портрети', imageUrl: '/images/products/handmade/fine-art-prints/portrait.jpg', description: 'Авторські портрети в сучасному або класичному стилі' },
-          { name: 'Пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/landscape.jpg', description: 'Картини та принти з красивими природними мотивами' },
-          { name: 'Анімалістика', imageUrl: '/images/products/handmade/fine-art-prints/animals.jpg', description: 'Малюнки та принти з тваринами у різних стилях' },
-          { name: 'Натюрморти', imageUrl: '/images/products/handmade/fine-art-prints/still-life.jpg', description: 'Класичні та сучасні натюрморти для дому та офісу' },
-          { name: 'Міні-картина', imageUrl: '/images/products/handmade/fine-art-prints/mini-painting.jpg', description: 'Компактні твори мистецтва для маленьких приміщень' },
-          { name: 'Гравюра', imageUrl: '/images/products/handmade/fine-art-prints/engraving.jpg', description: 'Ретельно створена гравюра для колекціонерів та декору' },
-          { name: 'Абстракції', imageUrl: '/images/products/handmade/fine-art-prints/abstract.jpg', description: 'Сучасне абстрактне мистецтво для яскравого акценту в інтер’єрі' },
-          { name: 'Арт-постер', imageUrl: '/images/products/handmade/fine-art-prints/art-poster.jpg', description: 'Яскравий постер з авторською ілюстрацією' },
-          { name: 'Постер з аквареллю', imageUrl: '/images/products/handmade/fine-art-prints/watercolor-poster.jpg', description: 'Ніжні акварельні мотиви для декору дому' },
-          { name: 'Цифровий принт', imageUrl: '/images/products/handmade/fine-art-prints/digital-print.jpg', description: 'Сучасне цифрове мистецтво, надруковане на якісному папері' },
-          { name: 'Серія принтів', imageUrl: '/images/products/handmade/fine-art-prints/print-series.jpg', description: 'Набір з декількох принтів для стильної композиції на стіні' },
-          { name: 'Лімітоване видання', imageUrl: '/images/products/handmade/fine-art-prints/limited-edition.jpg', description: 'Унікальні лімітовані принти для справжніх цінителів мистецтва' },
-
-          { name: 'Міський пейзаж', imageUrl: '/images/products/handmade/fine-art-prints/cityscape.jpg', description: 'Архітектура, вулиці та урбаністичні сюжети у художньому виконанні' },
-          { name: 'Ботанічні ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/botanical.jpg', description: 'Рослини, квіти та гербарні мотиви у витонченому мистецькому стилі' },
-          { name: 'Сюрреалізм', imageUrl: '/images/products/handmade/fine-art-prints/surrealism.jpg', description: 'Фантазійні та символічні композиції з елементами уяви' },
-          { name: 'Морські пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/marina.jpg', description: 'Морські пейзажі з хвилями, кораблями та прибережними мотивами' },
-          { name: 'Історичний жанр', imageUrl: '/images/products/handmade/fine-art-prints/historical.jpg', description: 'Сюжети з історичними подіями' },
-          { name: 'Концептуалізм', imageUrl: '/images/products/handmade/fine-art-prints/conceptual.jpg', description: 'Роботи з глибокою ідеєю та символічним змістом' },
-
-          { name: 'Міні-принти', imageUrl: '/images/products/handmade/fine-art-prints/mini-print.jpg', description: 'Маленькі принти для декоративних композицій' },
-          { name: 'Ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/illustration.jpg', description: 'Авторські ілюстрації в різних стилях та техніках' },
-          { name: 'Лінійні малюнки', imageUrl: '/images/products/handmade/fine-art-prints/line-art.jpg', description: 'Чисті лінії та мінімалістичний стиль для сучасного інтер’єру' },
         ]
       },
       {
