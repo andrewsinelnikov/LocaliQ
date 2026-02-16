@@ -1171,9 +1171,9 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/music-media.jpg',
         description: 'categories.handmade-crafted.subcategories.music-media.description',
         items: [
+          { name: 'Вінілові платівки', imageUrl: '/images/products/handmade/music-media/vinyl-record.jpg', description: 'Стильні вінілові записи з унікальним звучанням' },
           { name: 'Касети з гуртами', imageUrl: '/images/products/handmade/music-media/cassette.jpg', description: 'Альтернативна музика на фізичних носіях' },
           { name: 'CD альбоми', imageUrl: '/images/products/handmade/music-media/cd-album.jpg', description: 'Локальні музиканти у компакт-дисках для колекції та подарунків' },
-          { name: 'Вінілові платівки', imageUrl: '/images/products/handmade/music-media/vinyl-record.jpg', description: 'Стильні вінілові записи з унікальним звучанням' },
           { name: 'Джазові записи', imageUrl: '/images/products/handmade/music-media/jazz.jpg', description: 'Вибрані джазові композиції локальних виконавців' },
           { name: 'Класична музика', imageUrl: '/images/products/handmade/music-media/classical.jpg', description: 'Твори класичних композиторів у виконанні локальних музикантів' },
           { name: 'Дитячі пісні', imageUrl: '/images/products/handmade/music-media/kids.jpg', description: 'Веселі та освітні пісні для дітей' },
