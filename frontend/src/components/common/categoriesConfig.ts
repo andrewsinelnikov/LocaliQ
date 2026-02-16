@@ -925,17 +925,17 @@ export const categories: ICategory[] = [
           { name: 'Морські пейзажі', imageUrl: '/images/products/handmade/fine-art-prints/marina.jpg', description: 'Морські пейзажі з хвилями, кораблями та прибережними мотивами' },
           { name: 'Міні-картина', imageUrl: '/images/products/handmade/fine-art-prints/mini-painting.jpg', description: 'Компактні твори мистецтва для маленьких приміщень' },
           { name: 'Гравюра', imageUrl: '/images/products/handmade/fine-art-prints/engraving.jpg', description: 'Ретельно створена гравюра для колекціонерів та декору' },
+          { name: 'Лінійні малюнки', imageUrl: '/images/products/handmade/fine-art-prints/line-art.jpg', description: 'Чисті лінії та мінімалістичний стиль для сучасного інтер’єру' },
           { name: 'Абстракції', imageUrl: '/images/products/handmade/fine-art-prints/abstract.jpg', description: 'Сучасне абстрактне мистецтво для яскравого акценту в інтер’єрі' },
           { name: 'Концептуалізм', imageUrl: '/images/products/handmade/fine-art-prints/conceptual.jpg', description: 'Роботи з глибокою ідеєю та символічним змістом' },
           { name: 'Арт-постер', imageUrl: '/images/products/handmade/fine-art-prints/art-poster.jpg', description: 'Яскравий постер з авторською ілюстрацією' },
           { name: 'Постер з аквареллю', imageUrl: '/images/products/handmade/fine-art-prints/watercolor-poster.jpg', description: 'Ніжні акварельні мотиви для декору дому' },
+          { name: 'Ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/illustration.jpg', description: 'Авторські ілюстрації в різних стилях та техніках' },
           { name: 'Цифровий принт', imageUrl: '/images/products/handmade/fine-art-prints/digital-print.jpg', description: 'Сучасне цифрове мистецтво, надруковане на якісному папері' },
           { name: 'Серія принтів', imageUrl: '/images/products/handmade/fine-art-prints/print-series.jpg', description: 'Набір з декількох принтів для стильної композиції на стіні' },
           { name: 'Лімітоване видання', imageUrl: '/images/products/handmade/fine-art-prints/limited-edition.jpg', description: 'Унікальні лімітовані принти для справжніх цінителів мистецтва' },
-
           { name: 'Міні-принти', imageUrl: '/images/products/handmade/fine-art-prints/mini-print.jpg', description: 'Маленькі принти для декоративних композицій' },
-          { name: 'Ілюстрації', imageUrl: '/images/products/handmade/fine-art-prints/illustration.jpg', description: 'Авторські ілюстрації в різних стилях та техніках' },
-          { name: 'Лінійні малюнки', imageUrl: '/images/products/handmade/fine-art-prints/line-art.jpg', description: 'Чисті лінії та мінімалістичний стиль для сучасного інтер’єру' },
+
         ]
       },
       {
