@@ -1171,11 +1171,11 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/music-media.jpg',
         description: 'categories.handmade-crafted.subcategories.music-media.description',
         items: [
+          { name: 'Класична музика', imageUrl: '/images/products/handmade/music-media/classical.jpg', description: 'Твори класичних композиторів у виконанні локальних музикантів' },
           { name: 'Вінілові платівки', imageUrl: '/images/products/handmade/music-media/vinyl-record.jpg', description: 'Стильні вінілові записи з унікальним звучанням' },
           { name: 'Касети з гуртами', imageUrl: '/images/products/handmade/music-media/cassette.jpg', description: 'Альтернативна музика на фізичних носіях' },
           { name: 'CD альбоми', imageUrl: '/images/products/handmade/music-media/cd-album.jpg', description: 'Локальні музиканти у компакт-дисках для колекції та подарунків' },
           { name: 'Джазові записи', imageUrl: '/images/products/handmade/music-media/jazz.jpg', description: 'Вибрані джазові композиції локальних виконавців' },
-          { name: 'Класична музика', imageUrl: '/images/products/handmade/music-media/classical.jpg', description: 'Твори класичних композиторів у виконанні локальних музикантів' },
           { name: 'Дитячі пісні', imageUrl: '/images/products/handmade/music-media/kids.jpg', description: 'Веселі та освітні пісні для дітей' },
           { name: 'Подкасти', imageUrl: '/images/products/handmade/music-media/podcast.jpg', description: 'Авторські аудіопроєкти та історії від локальних авторів' },
           { name: 'Аудіокниги', imageUrl: '/images/products/handmade/music-media/audiobook.jpg', description: 'Цікаві історії та книги у форматі аудіо' },
@@ -1187,7 +1187,6 @@ export const categories: ICategory[] = [
           { name: 'Акустичні записи', imageUrl: '/images/products/handmade/music-media/acoustic.jpg', description: 'Теплі акустичні треки від локальних виконавців' },
           { name: 'Онлайн-релізи', imageUrl: '/images/products/handmade/music-media/online-release.jpg', description: 'Ексклюзивні цифрові альбоми та сингли від локальних артистів' },
           { name: 'Музичні збірки', imageUrl: '/images/products/handmade/music-media/compilation.jpg', description: 'Збірки треків різних авторів для насолоди та натхнення' },
-          { name: 'Сингли', imageUrl: '/images/products/handmade/music-media/single.jpg', description: 'Окремі пісні та композиції для колекції або прослуховування' }
         ]
       },
       {
