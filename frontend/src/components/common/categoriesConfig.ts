@@ -1196,14 +1196,15 @@ export const categories: ICategory[] = [
         imageUrl: '/images/subcategories/handmade/upcycled-products.jpg',
         description: 'categories.handmade-crafted.subcategories.upcycled-products.description',
         items: [
+          { name: 'Декор з пробок', imageUrl: '/images/products/handmade/upcycled-products/cork-decor.jpg', description: 'Унікальні панно, підставки та аксесуари зі справжніх корків' },
+          { name: 'Панно з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-panel.jpg', description: 'Декоративні панно та картини з вторинного дерева' },
+          { name: 'Панно з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-panel.jpg', description: 'Декоративні панно з текстильних залишків' },
           { name: 'Сумки з банерів', imageUrl: '/images/products/handmade/upcycled-products/banner-bag.jpg', description: 'Яскраві та міцні сумки з рекламних банерів' },
-          { name: 'Декор з винних пробок', imageUrl: '/images/products/handmade/upcycled-products/cork-decor.jpg', description: 'Унікальні панно, підставки та аксесуари зі справжніх корків' },
           { name: 'Гаманці зі шкіри', imageUrl: '/images/products/handmade/upcycled-products/leather-wallet.jpg', description: 'Міні-гаманці зі старої шкіри, стильні та довговічні' },
           { name: 'Свічники зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-candle-holder.jpg', description: 'Оригінальні свічники зі старих пляшок та скляних предметів' },
           { name: 'Килимки з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-rug.jpg', description: 'Теплі та яскраві килимки зі залишків тканин' },
           { name: 'Подушки з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-pillow.jpg', description: 'М’які подушки з перероблених джинсів' },
           { name: 'Меблі з піддонів', imageUrl: '/images/products/handmade/upcycled-products/pallet-furniture.jpg', description: 'Стільці, столи та полиці з дерев’яних піддонів' },
-          { name: 'Панно з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-panel.jpg', description: 'Декоративні панно та картини з вторинного дерева' },
           { name: 'Аксесуари зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-accessory.jpg', description: 'Біжутерія та дрібні предмети зі старого скла' },
           { name: 'Ювелірка з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-jewelry.jpg', description: 'Браслети, кулони та сережки з переробленого металу' },
           { name: 'Скриньки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-box.jpg', description: 'Маленькі скриньки та органайзери з вторинного дерева' },
@@ -1224,7 +1225,6 @@ export const categories: ICategory[] = [
           { name: 'Текстильні підставки', imageUrl: '/images/products/handmade/upcycled-products/textile-coaster.jpg', description: 'Підставки під чашки та дрібні предмети з тканини' },
           { name: 'Міні-сумки', imageUrl: '/images/products/handmade/upcycled-products/mini-bag.jpg', description: 'Компактні сумки з перероблених матеріалів для повсякденного використання' },
           { name: 'Декор з бляшанок', imageUrl: '/images/products/handmade/upcycled-products/can-decor.jpg', description: 'Стильні та креативні предмети зі старих консервних банок' },
-          { name: 'Панно з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-panel.jpg', description: 'Декоративні панно з текстильних залишків' },
           { name: 'Килимки з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-rug.jpg', description: 'Яскраві килимки з перероблених джинсів' }
         ]
       },
