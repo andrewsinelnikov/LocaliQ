@@ -1206,7 +1206,7 @@ export const categories: ICategory[] = [
           { name: 'Подушки з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-pillow.jpg', description: 'М’які подушки з перероблених джинсів' },
           { name: 'Меблі з піддонів', imageUrl: '/images/products/handmade/upcycled-products/pallet-furniture.jpg', description: 'Стільці, столи та полиці з дерев’яних піддонів' },
           { name: 'Аксесуари зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-accessory.jpg', description: 'Біжутерія та дрібні предмети зі старого скла' },
-          { name: 'Ювелірка з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-jewelry.jpg', description: 'Браслети, кулони та сережки з переробленого металу' },
+          
           { name: 'Скриньки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-box.jpg', description: 'Маленькі скриньки та органайзери з вторинного дерева' },
           { name: 'Лампи зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-lamp.jpg', description: 'Світильники зі старих пляшок та банок' },
           { name: 'Підставки під чашки', imageUrl: '/images/products/handmade/upcycled-products/coaster.jpg', description: 'Еко-підставки з деревини та тканини' },
