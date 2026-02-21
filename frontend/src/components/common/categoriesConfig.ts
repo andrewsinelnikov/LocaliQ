@@ -1208,9 +1208,9 @@ export const categories: ICategory[] = [
           { name: 'Аксесуари зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-accessory.jpg', description: 'Біжутерія та дрібні предмети зі старого скла' },
           
           { name: 'Скриньки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-box.jpg', description: 'Маленькі скриньки та органайзери з вторинного дерева' },
-          { name: 'Лампи зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-lamp.jpg', description: 'Світильники зі старих пляшок та банок' },
           { name: 'Підставки під чашки', imageUrl: '/images/products/handmade/upcycled-products/coaster.jpg', description: 'Еко-підставки з деревини та тканини' },
           { name: 'Кошики з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-basket.jpg', description: 'Практичні та стильні кошики з залишків тканин' },
+          { name: 'Лампи зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-lamp.jpg', description: 'Світильники зі старих пляшок та банок' },
           { name: 'Подставки з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-stand.jpg', description: 'Функціональні та декоративні предмети з металу' },
           { name: 'Картини з журналів', imageUrl: '/images/products/handmade/upcycled-products/magazine-art.jpg', description: 'Колажі та панно зі старих журналів' },
           { name: 'Текстильні сумки', imageUrl: '/images/products/handmade/upcycled-products/textile-bag.jpg', description: 'Яскраві сумки з залишків тканин та крафт-матеріалів' },
