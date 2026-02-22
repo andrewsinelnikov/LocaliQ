@@ -1213,11 +1213,10 @@ export const categories: ICategory[] = [
           { name: 'Картини з журналів', imageUrl: '/images/products/handmade/upcycled-products/magazine-art.jpg', description: 'Колажі та панно зі старих журналів' },
           
           { name: 'Текстильні сумки', imageUrl: '/images/products/handmade/upcycled-products/textile-bag.jpg', description: 'Яскраві сумки з залишків тканин та крафт-матеріалів' },
-          { name: 'Набори для подарунків', imageUrl: '/images/products/handmade/upcycled-products/gift-set.jpg', description: 'Комплекти стильних речей з перероблених матеріалів' },
+          { name: 'Набори подарунків', imageUrl: '/images/products/handmade/upcycled-products/gift-set.jpg', description: 'Комплекти стильних речей з перероблених матеріалів' },
           { name: 'Аксесуари з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-accessory.jpg', description: 'Браслети, сумочки та дрібні предмети з джинсу' },
           { name: 'Декор зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-decor.jpg', description: 'Стильні декоративні елементи зі старих скляних предметів' },
           { name: 'Підставки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-stand.jpg', description: 'Практичні та красиві підставки для дому та офісу' },
-          { name: 'Магніти', imageUrl: '/images/products/handmade/upcycled-products/magnet.jpg', description: 'Невеликі магніти з вторинних матеріалів для прикрас холодильника' },
           { name: 'Сумки з парасольок', imageUrl: '/images/products/handmade/upcycled-products/umbrella-bag.jpg', description: 'Яскраві сумки з перероблених парасольок' },
           { name: 'Декор зі старих книг', imageUrl: '/images/products/handmade/upcycled-products/book-decor.jpg', description: 'Унікальні панно та предмети інтер’єру зі старих книг' },
           { name: 'Текстильні підставки', imageUrl: '/images/products/handmade/upcycled-products/textile-coaster.jpg', description: 'Підставки під чашки та дрібні предмети з тканини' },
