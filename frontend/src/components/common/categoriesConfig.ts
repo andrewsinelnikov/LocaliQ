@@ -1205,14 +1205,13 @@ export const categories: ICategory[] = [
           { name: 'Килимки з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-rug.jpg', description: 'Теплі та яскраві килимки зі залишків тканин' },
           { name: 'Подушки з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-pillow.jpg', description: 'М’які подушки з перероблених джинсів' },
           { name: 'Меблі з піддонів', imageUrl: '/images/products/handmade/upcycled-products/pallet-furniture.jpg', description: 'Стільці, столи та полиці з дерев’яних піддонів' },
-          { name: 'Аксесуари зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-accessory.jpg', description: 'Біжутерія та дрібні предмети зі старого скла' },
-          
+          { name: 'Аксесуари зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-accessory.jpg', description: 'Біжутерія та дрібні предмети зі старого скла' },        
           { name: 'Скриньки з дерева', imageUrl: '/images/products/handmade/upcycled-products/wood-box.jpg', description: 'Маленькі скриньки та органайзери з вторинного дерева' },
           { name: 'Підставки під чашки', imageUrl: '/images/products/handmade/upcycled-products/coaster.jpg', description: 'Еко-підставки з деревини та тканини' },
           { name: 'Кошики з тканини', imageUrl: '/images/products/handmade/upcycled-products/fabric-basket.jpg', description: 'Практичні та стильні кошики з залишків тканин' },
           { name: 'Лампи зі скла', imageUrl: '/images/products/handmade/upcycled-products/glass-lamp.jpg', description: 'Світильники зі старих пляшок та банок' },
           { name: 'Картини з журналів', imageUrl: '/images/products/handmade/upcycled-products/magazine-art.jpg', description: 'Колажі та панно зі старих журналів' },
-          { name: 'Подставки з металу', imageUrl: '/images/products/handmade/upcycled-products/metal-stand.jpg', description: 'Функціональні та декоративні предмети з металу' },
+          
           { name: 'Текстильні сумки', imageUrl: '/images/products/handmade/upcycled-products/textile-bag.jpg', description: 'Яскраві сумки з залишків тканин та крафт-матеріалів' },
           { name: 'Набори для подарунків', imageUrl: '/images/products/handmade/upcycled-products/gift-set.jpg', description: 'Комплекти стильних речей з перероблених матеріалів' },
           { name: 'Аксесуари з джинсу', imageUrl: '/images/products/handmade/upcycled-products/denim-accessory.jpg', description: 'Браслети, сумочки та дрібні предмети з джинсу' },
