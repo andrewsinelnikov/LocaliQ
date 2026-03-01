@@ -1267,7 +1267,7 @@ export const categories: ICategory[] = [
           { name: 'Засоби для гоління', imageUrl: '/images/products/wellness/natural-skincare-bodycare/aftershave.jpg', description: 'Заспокійливі формули без спирту' },
           { name: 'Скраби', imageUrl: '/images/products/wellness/natural-skincare-bodycare/body-scrub.jpg', description: 'Натуральне очищення та відлущування' },
           { name: 'Масла та олії', imageUrl: '/images/products/wellness/natural-skincare-bodycare/body-oil.jpg', description: 'Поживні олії для здорової шкіри' },
-          { name: 'Бальзами', imageUrl: '/images/products/wellness/natural-skincare-bodycare/lip-balm.jpg', description: 'Захист та догляд за губами на основі натуральних інгредієнтів' },
+          { name: 'Бальзами', imageUrl: '/images/products/wellness/natural-skincare-bodycare/balm.jpg', description: 'Захист та догляд на основі натуральних інгредієнтів' },
           { name: 'Тоніки та лосьйони', imageUrl: '/images/products/wellness/natural-skincare-bodycare/face-toner.jpg', description: 'Очищення та відновлення балансу шкіри' },
           { name: 'Маски', imageUrl: '/images/products/wellness/natural-skincare-bodycare/face-mask.jpg', description: 'Натуральне живлення для сяйва шкіри' },
           { name: 'Бомбочки для ванни', imageUrl: '/images/products/wellness/natural-skincare-bodycare/bath-bombs.jpg', description: 'Релакс і догляд під час прийняття ванни' },
