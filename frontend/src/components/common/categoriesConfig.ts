@@ -1271,7 +1271,7 @@ export const categories: ICategory[] = [
           { name: 'Тоніки та лосьйони', imageUrl: '/images/products/wellness/natural-skincare-bodycare/face-toner.jpg', description: 'Очищення та відновлення балансу шкіри' },
           { name: 'Маски', imageUrl: '/images/products/wellness/natural-skincare-bodycare/face-mask.jpg', description: 'Натуральне живлення для сяйва шкіри' },
           { name: 'Бомбочки для ванни', imageUrl: '/images/products/wellness/natural-skincare-bodycare/bath-bombs.jpg', description: 'Релакс і догляд під час прийняття ванни' },
-          { name: 'Натуральні парфуми', imageUrl: '/images/products/wellness/natural-skincare-bodycare/perfume-women.jpg', description: 'Квіткові, деревні, пряні та свіжі композиції без синтетики, на основі ефірних олій' },
+          { name: 'Натуральні парфуми', imageUrl: '/images/products/wellness/natural-skincare-bodycare/natural-perfume.jpg', description: 'Квіткові, деревні, пряні та свіжі композиції без синтетики, на основі ефірних олій' },
         ],
       },
       {
