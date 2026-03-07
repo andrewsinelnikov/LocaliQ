@@ -1321,6 +1321,7 @@ export const categories: ICategory[] = [
         items: [
           { name: 'Сесія з психологом', imageUrl: '/images/products/wellness/mental-wellness-coaching/psych-consultation.jpg', description: 'Професійна допомога для покращення настрою та  подолання життєвих труднощів' },
           { name: 'Стрес-менеджмент', imageUrl: '/images/products/wellness/mental-wellness-coaching/stress-coaching.jpg', description: 'Підтримка у знятті стресу та тривоги' },
+          { name: 'Тривога та депресія', imageUrl: '/images/products/wellness/mental-wellness-coaching/anxiety-depression.jpg', description: 'Психологічна підтримка при тривожних станах, депресії та емоційному виснаженні' },
           { name: 'Сімейна терапія', imageUrl: '/images/products/wellness/mental-wellness-coaching/family-therapy.jpg', description: 'Покращення взаєморозуміння та комунікації в родині' },
           { name: 'Для дітей і підлітків', imageUrl: '/images/products/wellness/mental-wellness-coaching/child-therapy.jpg', description: 'Делікатна допомога дітям у вирішенні емоційних питань' },
           { name: 'Групова терапія', imageUrl: '/images/products/wellness/mental-wellness-coaching/group-therapy.jpg', description: 'Спільна робота над емоціями в підтримуючому колі' },
