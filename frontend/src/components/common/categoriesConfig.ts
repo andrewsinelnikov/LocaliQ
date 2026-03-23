@@ -1326,11 +1326,11 @@ export const categories: ICategory[] = [
           { name: 'Для дітей і підлітків', imageUrl: '/images/products/wellness/mental-wellness-coaching/child-therapy.jpg', description: 'Делікатна допомога дітям у вирішенні емоційних питань' },
           { name: 'Групова терапія', imageUrl: '/images/products/wellness/mental-wellness-coaching/group-therapy.jpg', description: 'Спільна робота над емоціями в підтримуючому колі' },
           { name: 'Емоційний інтелект', imageUrl: '/images/products/wellness/mental-wellness-coaching/emotional-intelligence.jpg', description: 'Розвиток навичок розпізнавання та керування емоціями' },
+          { name: 'Кризова допомога', imageUrl: '/images/products/wellness/mental-wellness-coaching/crisis-support.jpg', description: 'Невідкладна підтримка у важких емоційних станах' },
           { name: 'Коучинг-сесії', imageUrl: '/images/products/wellness/mental-wellness-coaching/coaching-session.jpg', description: 'Допомога у досягненні цілей і розкритті потенціалу' },
           { name: 'Коучинг лідерства', imageUrl: '/images/products/wellness/mental-wellness-coaching/leadership-coaching.jpg', description: 'Розвиток управлінських навичок та впевненості' },
           { name: 'Кар’єрний коучинг', imageUrl: '/images/products/wellness/mental-wellness-coaching/career-coaching.jpg', description: 'Підтримка у виборі професійного шляху та розвитку кар’єри' },
           { name: 'Коучинг для бізнесу', imageUrl: '/images/products/wellness/mental-wellness-coaching/business-coaching.jpg', description: 'Підтримка підприємців у розвитку проектів та команд' },          
-          { name: 'Кризова допомога', imageUrl: '/images/products/wellness/mental-wellness-coaching/crisis-support.jpg', description: 'Невідкладна підтримка у важких емоційних станах' }
         ],
       },
       {
