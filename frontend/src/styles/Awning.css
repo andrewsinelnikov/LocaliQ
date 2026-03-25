@@ -12,14 +12,6 @@
   height: 100%;
 }
 
-/* .blue {
-  background-color: #0077cc; 
-}
-
-.white {
-  background-color: #eaf4fc; 
-} */
-
 /* Winter */
 .winter .stripe1 { background-color: var(--color-primary-winter); }
 .winter .stripe2 { background-color: var(--color-secondary-winter); }
