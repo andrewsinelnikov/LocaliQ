@@ -1,10 +1,4 @@
-const getSeason = () => {
-  const month = new Date().getMonth();
-  if (month <= 1 || month === 11) return "winter";
-  if (month <= 4) return "spring";
-  if (month <= 7) return "summer";
-  return "autumn";
-};
+import { getSeason } from '../../utils/getSeason';
 
 const Awning = () => {
   const season = getSeason();
@@ -12,7 +6,7 @@ const Awning = () => {
   return (
     <div className={`awning ${season}`}>
       {[...Array(20)].map((_, i) => (
-        <div key={i} className={`stripe stripe${i % 2 === 0 ? "1" : "2"}`} />
+        <div key={i} className={`stripe stripe${i % 2 === 0 ? '1' : '2'}`} />
       ))}
     </div>
   );

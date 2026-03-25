@@ -21,14 +21,7 @@ import NotFoundPage from './pages/notFound';
 
 import data from './data/producers.json';
 import categoriesData from './data/data.json';
-
-const getSeason = () => {
-  const month = new Date().getMonth();
-  if (month <= 1 || month === 11) return "winter";
-  if (month <= 4) return "spring";
-  if (month <= 7) return "summer";
-  return "autumn";
-};
+import { getSeason } from './utils/getSeason';
 
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
