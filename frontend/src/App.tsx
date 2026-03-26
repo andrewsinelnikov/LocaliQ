@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import type { IProducer } from './utils/types';
+import type { IProducer, UserRole } from './utils/types';
 
 import Navbar from './components/layout/Navbar';
 import HomePage from './pages';
@@ -26,7 +26,7 @@ import { getSeason } from './utils/getSeason';
 const AppContent = () => {
   const [selectedCategory, setSelectedCategory] = useState('Усі');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [userRole, setUserRole] = useState<'guest' | 'consumer' | 'producer' | 'ideator'>('guest');
+  const [userRole, setUserRole] = useState<UserRole>('guest');
 
   useEffect(() => {
     const season = getSeason();
