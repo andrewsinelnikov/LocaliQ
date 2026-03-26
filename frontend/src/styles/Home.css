@@ -1,6 +1,5 @@
 .home {
   background-color: var(--color-background-neutral);
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -16,6 +15,22 @@
 
 .storefront-wrapper {
   background: white;
+  /* Subtle kraft paper: tiny crosshatch of warm lines */
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 22px,
+      rgba(180, 155, 110, 0.045) 22px,
+      rgba(180, 155, 110, 0.045) 23px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 22px,
+      rgba(180, 155, 110, 0.045) 22px,
+      rgba(180, 155, 110, 0.045) 23px
+    );
   border-radius: 16px;
   box-shadow: 0 12px 28px var(--color-box-shadow);
   padding: 50px 40px;

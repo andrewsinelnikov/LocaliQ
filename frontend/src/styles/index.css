@@ -96,9 +96,13 @@ html, body, #root {
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
   background-color: var(--color-bg-light);
   color: var(--color-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', Georgia, serif;
 }
 
 body.spring {
