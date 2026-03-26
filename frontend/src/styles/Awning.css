@@ -1,40 +1,61 @@
 .awning {
-  display: flex;
-  overflow: hidden;
   height: 60px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 10;
 }
 
-.stripe {
-  flex: 1;
-  height: 100%;
+/* Stripes via repeating gradient — fully responsive, no DOM nodes */
+.winter {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-primary-winter)   0px,
+    var(--color-primary-winter)   40px,
+    var(--color-secondary-winter) 40px,
+    var(--color-secondary-winter) 80px
+  );
 }
 
-/* Winter */
-.winter .stripe1 { background-color: var(--color-primary-winter); }
-.winter .stripe2 { background-color: var(--color-secondary-winter); }
+.spring {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-primary-spring)   0px,
+    var(--color-primary-spring)   40px,
+    var(--color-secondary-spring) 40px,
+    var(--color-secondary-spring) 80px
+  );
+}
 
-/* Spring */
-.spring .stripe1 { background-color: var(--color-primary-spring); }
-.spring .stripe2 { background-color: var(--color-secondary-spring); } 
+.summer {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-primary-summer)   0px,
+    var(--color-primary-summer)   40px,
+    var(--color-secondary-summer) 40px,
+    var(--color-secondary-summer) 80px
+  );
+}
 
-/* Summer */
-.summer .stripe1 { background-color: var(--color-primary-summer); }
-.summer .stripe2 { background-color: var(--color-secondary-summer); }
+.autumn {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-primary-autumn)   0px,
+    var(--color-primary-autumn)   40px,
+    var(--color-secondary-autumn) 40px,
+    var(--color-secondary-autumn) 80px
+  );
+}
 
-/* Autumn */
-.autumn .stripe1 { background-color: var(--color-primary-autumn); }
-.autumn .stripe2 { background-color: var(--color-secondary-autumn); }
-
+/* Scallop fringe below the awning */
 .awning::after {
   content: "";
   position: absolute;
   /* bottom: -10px; */
+  left: 0;
   width: 100%;
   height: 20px;
   background: radial-gradient(circle at 50% 0, #fff 10px, transparent 11px);
   background-size: 20px 100%;
   background-repeat: repeat-x;
+  pointer-events: none;
 }
