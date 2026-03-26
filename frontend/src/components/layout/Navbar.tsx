@@ -1,10 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router'; 
 import { useTranslation } from 'react-i18next';
+import type { UserRole } from '../../utils/types';
 
 interface INavbarProps {
   isAuthenticated: boolean;
-  userRole: 'guest' | 'consumer' | 'producer' | 'ideator' | 'hybrid';
+  userRole: UserRole;
   onLogout: () => void;
 }
 
