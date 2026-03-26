@@ -1,3 +1,5 @@
+export type UserRole = 'guest' | 'consumer' | 'producer' | 'ideator';
+
 export interface IProducer {
   id: number;
   name: string;
