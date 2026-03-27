@@ -99,11 +99,12 @@
   padding: 20px 24px;
   gap: 20px;
   position: relative;
+   /* max-height: 520px; overflow-y: auto; */
 }
 
 .popup-close-button {
   position: absolute;
-  top: 5px;
+  top: 55px;
   right: -30px;
   background: none;
   border: none;
@@ -137,8 +138,9 @@
 /* Left scrollable column */
 .subcategory-scroll-container {
   width: 240px;
-  max-height: 500px;
-  overflow-y: auto;
+  /* max-height: 500px;
+  overflow-y: auto; */
+  /* position: sticky; top: 0; align-self: flex-start; */
   padding-right: 16px;
   border-right: 1px solid var(--color-border);
   scrollbar-width: none; /* Firefox */
