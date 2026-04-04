@@ -16,7 +16,7 @@ interface MapProps {
 }
 
 const Map = ({ producers }: MapProps) => {
-  const center: LatLngExpression = [48.3794, 31.1656]; // Default center (Lviv)
+  const center: LatLngExpression = [48.3794, 31.1656];
 
   return (
     <div className="map-page">

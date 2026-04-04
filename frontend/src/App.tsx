@@ -9,6 +9,7 @@ import StartProducer from './pages/start';
 import IdeaStart from './pages/idea';
 import AddProducerPage from './pages/addProducer';
 import CategoriesPage from './pages/categories';
+import CategoryProducts from './pages/categoryProducts';
 import LoginPage from './pages/login';
 import ForgotPasswordPage from './pages/forgotPassword';
 import RegisterPage from './pages/register';
@@ -126,6 +127,7 @@ const AppContent = () => {
         <Route path="/idea-start" element={<IdeaStart />} />
         <Route path="/add-producer" element={<AddProducerPage />} />
         <Route path="/categories" element={<CategoriesPage categories={categoriesData} />} />
+        <Route path="/category/:categoryName" element={<CategoryProducts />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
         <Route path="/cookies" element={<CookiesPolicyPage />} />
